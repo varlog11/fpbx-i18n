@@ -1,0 +1,160 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for callforward
+# Copyright (C) 2008, 2009, 2010, 2015 PostMet Corp
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-20 23:02-0400\n"
+"PO-Revision-Date: 2020-05-08 12:57+0500\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Language-Team: Russian <https://weblate.postmet.com/projects/freepbx13/"
+"callforward/ru_RU/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 2.3\n"
+
+#: ucp/views/settings.php:35
+msgid "Busy"
+msgstr "Занято"
+
+#: install.php:6
+msgid "Call Forward"
+msgstr "Перенаправление вызова"
+
+#: install.php:7
+msgid "Call Forward All Activate"
+msgstr "Включить перенаправление всех вызовов"
+
+#: install.php:8
+msgid "Call Forward All Deactivate"
+msgstr "Отключить перенаправление всех вызовов"
+
+#: install.php:9
+msgid "Call Forward All Prompting Activate"
+msgstr "Включить перенаправление всех входящих вызовов"
+
+#: install.php:10
+msgid "Call Forward All Prompting Deactivate"
+msgstr "Отключить перенаправление всех вызовов"
+
+#: install.php:11
+msgid "Call Forward Busy Activate"
+msgstr "Задать перенаправление по занятости"
+
+#: install.php:12
+msgid "Call Forward Busy Deactivate"
+msgstr "Снять перенаправление по занятости"
+
+#: install.php:13
+msgid "Call Forward Busy Prompting Activate"
+msgstr "Задать предлагаемые перенаправление по занятости"
+
+#: install.php:14
+msgid "Call Forward Busy Prompting Deactivate"
+msgstr "Снять перенаправление по занятости"
+
+#: install.php:15
+msgid "Call Forward No Answer/Unavailable Activate"
+msgstr "Задать перенаправление по неответу или недоступности"
+
+#: install.php:16
+msgid "Call Forward No Answer/Unavailable Deactivate"
+msgstr "Снять перенаправление по неответу или недоступности"
+
+#: install.php:17
+msgid "Call Forward No Answer/Unavailable Prompting Activate"
+msgstr ""
+"Задать предлагаемое перенаправление вызовов по неответу и недоступности"
+
+#: install.php:18
+msgid "Call Forward Toggle"
+msgstr "Переключить перенаправление"
+
+#: ucp/Callforward.class.php:47
+msgid "Call Forwarding"
+msgstr "Переадресация вызова"
+
+#: ucp/Callforward.class.php:98
+msgid "Call Forwarding Has Been Updated!"
+msgstr "Переадресация вызовов обновлена!"
+
+#: ucp/views/settings.php:4
+msgid "CallForward Ringtimer"
+msgstr "Таймер переадресации вызовов"
+
+#: ucp/views/settings.php:22
+msgid "Forward immediately regardless of current state of line/PBX"
+msgstr "Перевести немедленно, независимо от текущего состояния линии/АТС"
+
+#: ucp/views/settings.php:12
+msgid ""
+"Number of seconds to ring prior to going to voicemail or other fail over "
+"destinations that may be setup by an administrator on this account. The "
+"Always setting will ring the call forward destinaiton until answered or the "
+"caller hangs up. The Default setting will use the value set in Ring Time. "
+"Your setting here will be forced to Always if there is no Voicemail or "
+"alternartive fail over destination for a call to go to."
+msgstr ""
+"Количество секунд вызова до перехода на голосовую почту или другие "
+"назначения при сбое, которые могут быть установлены администратором на этот "
+"аккаунт. При установке «Всегда» будет звонить номер переадресации, пока "
+"вызываемый не ответит или абонент не повесит трубку. Значение по умолчанию "
+"будет использовать значение, установленное во «Время Вызова». Ваши настройки "
+"здесь будут установлены на «Всегда», если здесь нет Голосовой почты или "
+"альтернативного назначения при сбое вызова."
+
+#: ucp/views/settings.php:32
+msgid ""
+"Preconfigured number to which calls are forwarded if the customer endpoint "
+"becomes unresponsive due to an Internet outage or software/configuration "
+"failure of endpoint"
+msgstr ""
+"Предварительно настроенный номер, на который будут переадресованы вызовы, "
+"если конечная точка клиента перестает отвечать на запросы из-за сбоя сети "
+"или отказа программного обеспечения/конфигурации конечной точки"
+
+#: ucp/views/settings.php:42
+msgid ""
+"Preconfigured number to which calls are forwarded if the customer endpoint "
+"is busy, usually due to being on an active call"
+msgstr ""
+"Предварительно настроенный номер, на который будут переадресованы вызовы, "
+"если конечная точка клиента занята, как правило, из-за активного вызова"
+
+#: ucp/views/settings.php:9
+msgid "Seconds"
+msgstr "Секунды"
+
+#: ucp/views/settings.php:25
+msgid "Unavailable"
+msgstr "Недоступен"
+
+#: ucp/views/settings.php:15
+msgid "Unconditional"
+msgstr "Безусловный"
+
+#~ msgid "Applications"
+#~ msgstr "Приложения"
+
+#~ msgid "Provides callforward featurecodes"
+#~ msgstr "Организует коды определения перенаправлений"

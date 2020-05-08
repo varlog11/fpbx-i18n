@@ -1,0 +1,285 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for cel
+# Copyright (C) 2008-2016 PostMet-Netzwerk GmbH.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-11 11:02-0800\n"
+"PO-Revision-Date: 2020-05-08 13:10+0500\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Language-Team: Russian <https://weblate.postmet.com/projects/freepbx13/cel/"
+"ru_RU/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 2.3\n"
+
+#: ucp/assets/js/global.js:42
+#, perl-format
+msgid "%s seconds"
+msgstr "%s секунд"
+
+#: views/ucp_config.php:7
+msgid "Allow CEL"
+msgstr "Разрешить CEL"
+
+#: views/ucp_config.php:95
+msgid "Allow CEL Downloads"
+msgstr "Разрешить загрузки CEL"
+
+#: views/ucp_config.php:64
+msgid "Allow CEL Playback"
+msgstr "Разрешить проигрывание CEL"
+
+#: views/ucp_config.php:85
+msgid "Allow this user to playback recordings in UCP"
+msgstr "Разрешить этому пользователю воспроизводить записи в UCP"
+
+#: views/ucp_config.php:116
+msgid "Allow users to download recordings in UCP"
+msgstr "Разрешить пользователю скачивать записи в UCP"
+
+#: views/ucp_config.php:38
+msgid "Allowed CEL"
+msgstr "Допустимые CEL"
+
+#: views/search.php:106
+msgid "Application"
+msgstr "Приложение"
+
+#: views/search.php:120
+msgid "Application executed by a call participant"
+msgstr "Приложение запущено участником вызова"
+
+#: ucp/views/table.php:46
+msgid "Call Detail"
+msgstr "Детализация вызова"
+
+#: Cel.class.php:182 /usr/src/freepbx/cel/cel.i18n.php:4 cel.i18n.php:8
+#: /usr/src/freepbx/cel/cel.i18n.php:10 page.cel.php:10
+msgid "Call Event Logging"
+msgstr "Логирование событий при вызове"
+
+#: ucp/Cel.class.php:37
+msgid "Call Event Logs"
+msgstr "Журналы событий вызова"
+
+#: ucp/views/table.php:30
+msgid "Caller"
+msgstr "Вызывающий"
+
+#: views/search.php:58
+msgid "Caller ID"
+msgstr "Caller ID"
+
+#: views/search.php:70
+msgid "Caller ID of a call participant"
+msgstr "Caller ID участника вызова"
+
+#: ucp/views/table.php:71
+msgid "Close"
+msgstr "Закрыть"
+
+#: views/search.php:4
+msgid "Conference"
+msgstr "Конференция"
+
+#: ucp/views/table.php:36
+msgid "Controls"
+msgstr "Управление"
+
+#: ucp/views/table.php:28
+msgid "Date"
+msgstr "Дата"
+
+#: views/search.php:27
+msgid "Date Range"
+msgstr "Диапазон дат"
+
+#: views/search.php:46
+msgid "Date range of calls in the format of mm/dd/yyyy"
+msgstr "Диапазон дат вызовов в формате мм/дд/гггг"
+
+#: ucp/views/table.php:66
+msgid "Detail"
+msgstr "Детально"
+
+#: ucp/views/table.php:31
+msgid "Dialed"
+msgstr "Набранный"
+
+#: views/search.php:82
+msgid "Dialed Number"
+msgstr "Набранный номер"
+
+#: ucp/assets/js/global.js:56
+msgid "Download"
+msgstr "Загрузить"
+
+#: ucp/views/table.php:32 ucp/views/table.php:65
+msgid "Duration"
+msgstr "Длительность"
+
+#: install.php:109
+msgid "ERROR failed to add context index"
+msgstr "Ошибка добавления индекса контекста"
+
+#: install.php:80
+msgid "ERROR failed to update extra field"
+msgstr "Ошибка обновления дополнительного поля"
+
+#: install.php:94
+msgid "ERROR failed to update userfield field"
+msgstr "Ошибка обновления поля пользователя"
+
+#: views/ucp_config.php:28
+msgid "Enable CEL (Call Event Logging) in UCP for this user"
+msgstr ""
+"Включить CEL(логирование событий вызова) в панели управления для этого "
+"пользователя"
+
+#: views/search.php:94
+msgid "Extension or DID dialed"
+msgstr "Набранный внутренний номер или DID"
+
+#: ucp/Cel.class.php:119 ucp/Cel.class.php:122
+msgid "File does not exist"
+msgstr "Файл не существует"
+
+#: ucp/Cel.class.php:216 ucp/Cel.class.php:227
+msgid "Forbidden"
+msgstr "Запрещено"
+
+#: views/search.php:33
+msgid "From"
+msgstr "От"
+
+#: views/ucp_config.php:18 views/ucp_config.php:75 views/ucp_config.php:106
+msgid "Inherit"
+msgstr "Наследовать"
+
+#: views/ucp_config.php:15 views/ucp_config.php:72 views/ucp_config.php:103
+msgid "No"
+msgstr "Нет"
+
+#: ucp/Cel.class.php:62
+msgid "Not Authorized"
+msgstr "Не авторизован"
+
+#: ucp/Cel.class.php:221
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: install.php:71 /usr/src/freepbx/cel/install.php:82 install.php:96
+#: /usr/src/freepbx/cel/install.php:111
+msgid "OK"
+msgstr "Ок"
+
+#: ucp/views/table.php:34
+msgid "Playback"
+msgstr "Воспроизведение"
+
+#: views/search.php:5
+msgid "Queue"
+msgstr "Очередь"
+
+#: cel.i18n.php:6 /usr/src/freepbx/cel/cel.i18n.php:12
+msgid "Reports"
+msgstr "Отчёты"
+
+#: Cel.class.php:210
+msgid "Reset"
+msgstr "Сброс"
+
+#: Cel.class.php:215 views/search.php:16
+msgid "Search"
+msgstr "Поиск"
+
+#: Cel.class.php:231
+msgid "The CEL module requires an Asterisk version of 12.0 or higher."
+msgstr "Для работы модуля CEL требуется Asterisk версии 12.0 или выше."
+
+#: views/ucp_config.php:54
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit in UCP"
+msgstr ""
+"Эти назначенные и активные внутренние номера будут отображаться для этого "
+"пользователя, чтобы управлять и редактировать в UCP"
+
+#: ucp/views/table.php:64
+msgid "Time"
+msgstr "Время"
+
+#: views/search.php:36
+msgid "To"
+msgstr "До"
+
+#: Cel.class.php:173
+msgid "User Primary Extension"
+msgstr "Основной внутренний номер пользователя"
+
+#: views/search.php:6
+msgid "Voicemail"
+msgstr "Голосовая почта"
+
+#: views/search.php:7
+msgid "Voicemail Main"
+msgstr "Основная голосовая почта"
+
+#: views/ucp_config.php:13 views/ucp_config.php:70 views/ucp_config.php:101
+msgid "Yes"
+msgstr "Да"
+
+#: ucp/assets/js/global.js:95
+#, perl-format
+msgid ""
+"You are missing support for playback in this browser. To fully support HTML5 "
+"browser playback you will need to install programs that can not be "
+"distributed with the PBX. If you'd like to install the binaries needed for "
+"these conversions click <a href='%s'>here</a>"
+msgstr ""
+"Этот браузер не поддерживает воспроизведение. Для полной поддержки "
+"воспроизведения HTML5 необходимо установить программы, которые не "
+"распространяюься вместе с FreePBX. Если Вы желаете установить бинарные файлы "
+"для перекодирования, то нажмите <a href='%s'>здесь</a>"
+
+#: page.cel.php:12
+msgid ""
+"You may search by any or all of the fields below. The more fields you fill "
+"in the more refined the report."
+msgstr ""
+"Вы можете искать по любому из нижеуказанных полей. Чем больше полей Вы "
+"заполните, тем более подробным будет отчёт."
+
+#: install.php:99
+msgid "already deleted"
+msgstr "уже удалено"
+
+#: install.php:85
+msgid "already exists"
+msgstr "уже существует"
+
+#: install.php:114
+msgid "already indexed"
+msgstr "уже проиндексировано"
+
+#: install.php:102
+msgid "checking for context index.."
+msgstr "проверка контекста индекса.."
+
+#: install.php:74
+msgid "checking for extra field.."
+msgstr "проверка дополнительного поля.."
+
+#: install.php:88
+msgid "checking for userfield field.."
+msgstr "проверка поля пользователя.."

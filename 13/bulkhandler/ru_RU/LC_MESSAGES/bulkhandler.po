@@ -1,0 +1,215 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for bulkhandler
+# Copyright (C) 2018 PostMet-Netzwerg GmbH.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-08 20:27-0800\n"
+"PO-Revision-Date: 2020-05-08 12:56+0500\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Language-Team: Russian <https://weblate.postmet.com/projects/freepbx13/"
+"bulkhandler/ru_RU/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 2.3\n"
+
+#: Bulkhandler.class.php:110
+msgid "A PHP extension stopped the file upload"
+msgstr "Расширение PHP остановило загрузку файла"
+
+#: views/validate.php:35
+msgid "Actions"
+msgstr "Действия"
+
+#: bulkhandler.i18n.php:6 bulkhandler.i18n.php:10
+msgid "Admin"
+msgstr "Админ"
+
+#: views/import.php:47
+msgid "Browse"
+msgstr "Просмотр"
+
+#: bulkhandler.i18n.php:4 bulkhandler.i18n.php:8 views/export.php:4
+#: views/import.php:4
+msgid "Bulk Handler"
+msgstr "Массовый Обработчик"
+
+#: views/export.php:37 views/import.php:43
+msgid "CSV File"
+msgstr "CSV файл"
+
+#: Bulkhandler.class.php:113
+msgid "Can Not Find Uploaded Files"
+msgstr "Загружаемые файлы не обнаружены"
+
+#: Bulkhandler.class.php:338
+msgid "Cancel"
+msgstr "Отмена"
+
+#: Bulkhandler.class.php:68
+#, php-format
+msgid "Cant Create Temp Directory: %s"
+msgstr "Невозможно создать временный каталог: %s"
+
+#: Bulkhandler.class.php:83
+msgid "Cant find uploaded file"
+msgstr "Загружаемый файл не обнаружен"
+
+#: views/validate.php:69
+msgid "Close"
+msgstr "Закрыть"
+
+#: views/validate.php:2
+msgid "Data Validation"
+msgstr "Проверка данных"
+
+#: views/validate.php:62
+msgid "Edit"
+msgstr "Редактировать"
+
+#: views/export.php:6 views/export.php:40 views/import.php:6
+msgid "Export"
+msgstr "Экспорт"
+
+#: views/export.php:47
+msgid "Export to CSV"
+msgstr "Экспорт в CSV"
+
+#: Bulkhandler.class.php:107
+msgid "Failed to write file to disk"
+msgstr "Не удалось записать файл на диск"
+
+#: views/import.php:56
+msgid "File to Import"
+msgstr "Файл для импорта"
+
+#: assets/js/global.js:68
+msgid "Finished"
+msgstr "Завершено"
+
+#: Bulkhandler.class.php:132
+msgid "Header row and data row count do not match"
+msgstr "Строка заголовка и количество строк данных не совпадают"
+
+#: views/validate.php:28
+msgid "ID"
+msgstr "ID"
+
+#: Bulkhandler.class.php:333 views/export.php:7 views/import.php:7
+msgid "Import"
+msgstr "Импорт"
+
+#: assets/js/global.js:102
+msgid "Loading"
+msgstr "Загрузка"
+
+#: Bulkhandler.class.php:104
+msgid "Missing a temporary folder"
+msgstr "Отсутствует временная папка"
+
+#: views/validate.php:15
+msgid "No"
+msgstr "Нет"
+
+#: views/export.php:10
+msgid "No Bulk Exporters have been defined"
+msgstr "Массовые экспортеры не определены"
+
+#: views/import.php:10
+msgid "No Bulk Importers have been defined"
+msgstr "Массовые импортеры не определены"
+
+#: Bulkhandler.class.php:101
+msgid "No file was uploaded"
+msgstr "Файл не загружен"
+
+#: assets/js/global.js:6
+msgid "Not file specified"
+msgstr "Файл не указан"
+
+#: assets/js/global.js:11
+msgid "Only CSV files are supported"
+msgstr "Поддерживаются только файлы CSV"
+
+#: assets/js/global.js:67
+msgid "Reimport"
+msgstr "Повторный импорт"
+
+#: views/validate.php:10
+msgid "Replace/Update existing data"
+msgstr "Заменить/обновить существующие данные"
+
+#: views/import.php:66
+msgid "Required/Recommended Headers"
+msgstr "Требуемые/рекомендуемые заголовки"
+
+#: views/import.php:82
+msgid ""
+"Required/Recommended headers are the minimum headers you must supply to be "
+"able to import. For a full list of all supported headers export out a CSV "
+"file from the export display"
+msgstr ""
+"Обязательные/рекомендуемые заголовки - это минимальные заголовки, которые вы "
+"должны указать для возможности импорта. Для получения полного списка всех "
+"поддерживаемых заголовков экспортируйте файл CSV из окна экспорта"
+
+#: views/validate.php:70
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: views/import.php:92
+msgid "Submit"
+msgstr "Подтвердить"
+
+#: Bulkhandler.class.php:95
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"Размер загружаемого файла превышает значение MAX_FILE_SIZE, указанное в HTML-"
+"форме"
+
+#: Bulkhandler.class.php:92
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+"Размер загружаемого файла превышает значение upload_max_filesize, указанное "
+"в php.ini"
+
+#: Bulkhandler.class.php:98
+msgid "The uploaded file was only partially uploaded"
+msgstr "Файл был загружен частично"
+
+#: assets/js/global.js:40
+msgid "There is nothing to import!"
+msgstr "Нечего импортировать!"
+
+#: assets/js/global.js:51
+#, perl-format
+msgid "There was an error importing row %s: %s"
+msgstr "Ошибка при импорте строки %s: %s"
+
+#: Bulkhandler.class.php:142
+msgid "Unable to parse file"
+msgstr "Невозможно проанализировать файл"
+
+#: Bulkhandler.class.php:87 Bulkhandler.class.php:138
+msgid "Unsupported file format"
+msgstr "Неподдерживаемый формат файла"
+
+#: views/export.php:24 views/import.php:27
+#, php-format
+msgid "What are \"%s\"?"
+msgstr "Что означает \"%s\"?"
+
+#: views/validate.php:13
+msgid "Yes"
+msgstr "Да"

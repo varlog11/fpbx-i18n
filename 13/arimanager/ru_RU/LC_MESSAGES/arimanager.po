@@ -1,0 +1,199 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for arimanager
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-20 21:02-0400\n"
+"PO-Revision-Date: 2020-05-08 12:52+0500\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Language-Team: Russian <https://weblate.postmet.com/projects/freepbx13/"
+"arimanager/ru_RU/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 2.3\n"
+
+#: views/grid.php:14
+msgid "Actions"
+msgstr "Действия"
+
+#: views/form.php:12
+msgid "Add Asterisk REST Interface User"
+msgstr "Добавить пользователя Asterisk REST интерфейса"
+
+#: views/grid.php:6 views/main.php:24
+msgid "Add User"
+msgstr "Добавить пользователя"
+
+#: Arimanager.class.php:223
+msgid ""
+"Asterisk 12 introduces the Asterisk REST Interface, a set of RESTful API's "
+"for building Asterisk based applications. This will enable the ARI server as "
+"long as the HTTP server is enabled as well."
+msgstr ""
+"Asterisk 12 представляет интерфейс Asterisk REST, набор API RESTful для "
+"построения приложений, основанных на взаимодействии с Asterisk. Это позволит "
+"использовать прослойку - сервер ARI так же, как будто используется локальный "
+"HTTP сервер."
+
+#: views/form.php:60
+msgid "Asterisk REST Inferface Password."
+msgstr "Пароль для интерфейса Asterisk REST."
+
+#: Arimanager.class.php:220 Arimanager.class.php:234
+msgid "Asterisk REST Interface"
+msgstr "Интерфейс Asterisk REST (ARI)"
+
+#: views/form.php:36
+msgid "Asterisk REST Interface User Name"
+msgstr "Имя пользователя для интерфейса Asterisk REST"
+
+#: views/main.php:10
+msgid "Asterisk Rest Interface Users"
+msgstr "Пользователи интерфейса Asterisk REST"
+
+#: Arimanager.class.php:210
+msgid "Creating ARI Manager Table"
+msgstr "Создание таблицы ARI Менеджер"
+
+#: views/form.php:77
+msgid "Crypt"
+msgstr "Шифрование"
+
+#: Arimanager.class.php:28
+msgid "Delete"
+msgstr "Удалить"
+
+#: Arimanager.class.php:245
+msgid "Dropping ARI Manager Table"
+msgstr "Сброс таблицы ARI Менеджер"
+
+#: views/form.php:12
+msgid "Edit Asterisk REST Interface User"
+msgstr "Редактировать пользователя интерфейса Asterisk REST"
+
+#: Arimanager.class.php:237
+msgid "Enable pretty-printing of the JSON responses from Asterisk"
+msgstr "Включить структурную распечатку ответов JSON от Asterisk"
+
+#: Arimanager.class.php:222
+msgid "Enable the Asterisk REST Interface"
+msgstr "Включить интерфейс Asterisk REST"
+
+#: views/form.php:87
+msgid ""
+"For the security consious, you probably don't want to put plaintext "
+"passwords in the configuration file. ARI supports the use of crypt(3) for "
+"password storage."
+msgstr ""
+"Исходя из соображений безопасности возможно вы не хотите использовать "
+"текстовые пароли, видимые в конфигурационном файле. Поддержка ARI использует "
+"шифрование crypt(3) для хранения паролей."
+
+#: views/main.php:23
+msgid "List Users"
+msgstr "Список пользователей"
+
+#: views/form.php:106
+msgid "No"
+msgstr "Нет"
+
+#: views/form.php:72
+msgid "Password Type"
+msgstr "Тип пароля"
+
+#: views/form.php:79
+msgid "Plain Text"
+msgstr "Текстовый"
+
+#: Arimanager.class.php:236
+msgid "Pretty Print JSON Responses"
+msgstr "Cтруктурная распечатка ответов JSON"
+
+#: views/form.php:24
+msgid "REST Interface User Name"
+msgstr "Имя пользователя интерфейса REST"
+
+#: views/form.php:48
+msgid "REST Interface User Password"
+msgstr "Пароль пользователя интерфейса REST"
+
+#: views/form.php:99 views/grid.php:13
+msgid "Read Only"
+msgstr "Только чтение"
+
+#: Arimanager.class.php:249
+msgid "Remove FreePBX Advanced Settings"
+msgstr "Удалить расширенные настройки FreePBX"
+
+#: Arimanager.class.php:33
+msgid "Reset"
+msgstr "Сброс"
+
+#: views/form.php:114
+msgid "Set to Yes for read-only applications."
+msgstr "Установить в положение Да для приложений с доступом только для чтения."
+
+#: Arimanager.class.php:38
+msgid "Submit"
+msgstr "Подтвердить"
+
+#: Arimanager.class.php:95
+msgid "Sucessfully Added User"
+msgstr "Пользователь добавлен успешно"
+
+#: Arimanager.class.php:147
+msgid "Sucessfully Deleted User"
+msgstr "Поьзователь усппешно удалён"
+
+#: Arimanager.class.php:120
+msgid "Sucessfully Updated User"
+msgstr "Пользователь успешно обновлён"
+
+#: views/main.php:6
+msgid "The Asterisk REST Interface is Currently Disabled in Advanced Settings"
+msgstr ""
+"Интерфейс Asterisk REST в настроящее время отключен в расширенных настройках"
+
+#: views/main.php:4
+msgid ""
+"The Asterisk mini-HTTP Server is Currently Disabled in Advanced Settings"
+msgstr ""
+"Сервер Asterisk mini-HTTP в настоящее время отключен в расширенных настройках"
+
+#: Arimanager.class.php:82
+msgid "User Already Exists!"
+msgstr "Пользователь уже существует!"
+
+#: assets/js/main.js:5
+msgid "User Name Can Not Be Blank!"
+msgstr "Имя пользователя не может быть пустым!"
+
+#: assets/js/main.js:23
+msgid "User Name already exists!"
+msgstr "Имя пользователя уже существует!"
+
+#: assets/js/main.js:11
+msgid "User Password Can Not Be Blank!"
+msgstr "Пароль пользователя не может быть пустым!"
+
+#: views/grid.php:12
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: views/form.php:104
+msgid "Yes"
+msgstr "Да"
+
+#: assets/js/main.js:17
+msgid "You Cant Change Password Type Without Changing the Password"
+msgstr "Вы не можете изменить тип пароля без изменения самого пароля"
