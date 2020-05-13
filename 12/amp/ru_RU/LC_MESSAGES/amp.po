@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: 1.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-04 18:51-0400\n"
-"PO-Revision-Date: 2020-05-08 13:33+0500\n"
+"PO-Revision-Date: 2020-05-12 12:03+0500\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Language-Team: Russian <http://weblate.freepbx.org/projects/freepbx/"
 "framework/ru_RU/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #: ../core/page.did.php:71
 msgid " (toggle sort)"
@@ -31,7 +31,7 @@ msgid ""
 "supported by the %s team but may receive some level of support by the "
 "authors."
 msgstr ""
-"Модули в расширенном репозитории употребляются реже и могут получать более "
+" Модули в расширенном репозитории употребляются реже и могут получать более "
 "низкие уровни поддержки. Неподдерживаемый репозиторий содержит модули, "
 "которые не поддерживаются командой %s, но могут получать некоторую поддержку "
 "со стороны авторов."
@@ -51,12 +51,12 @@ msgstr " добавочный номер уже используется: "
 #: ../core/views/trunks/trunk_header.php:1
 #, php-format
 msgid "%s %s Trunk"
-msgstr ""
+msgstr "%s %s Транк"
 
 #: amp_conf/htdocs/admin/views/footer_content.php:26
 #, php-format
 msgid "%s %s is licensed under the %s"
-msgstr ""
+msgstr "%s %s лицензируется в соответствии с %s"
 
 #: amp_conf/htdocs/admin/page.modules.php:543
 #, php-format
@@ -113,7 +113,7 @@ msgstr ""
 #: amp_conf/htdocs/admin/page.modules.php:573
 #, php-format
 msgid "%s %s will be reinstalled"
-msgstr ""
+msgstr "%s %s будет переустановлен"
 
 #: amp_conf/htdocs/admin/page.modules.php:553
 #, php-format
@@ -159,29 +159,29 @@ msgstr "%s Новый модуль доступен"
 #: amp_conf/htdocs/admin/views/module_admin/main.php:103
 #, php-format
 msgid "%s Online %s upgrade available (%s)"
-msgstr ""
+msgstr "%s онлайн %s обновлений доступно (%s)"
 
 #: amp_conf/htdocs/admin/views/module_admin/main.php:105
 #, php-format
 msgid "%s Online upgrade available (%s)"
-msgstr ""
+msgstr "%s доступно онлайн-обновление (%s)"
 
 #: amp_conf/htdocs/admin/views/module_admin/main.php:106
 #: amp_conf/htdocs/admin/views/module_admin/main.php:112
 #: amp_conf/htdocs/admin/views/module_admin/main.php:114
 #, php-format
 msgid "%s Upgrade Available (%s)"
-msgstr ""
+msgstr "%s обновление доступно (%s)"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:2914
 #, php-format
 msgid "%s [not enabled]"
-msgstr ""
+msgstr "%s [не включен]"
 
 #: upgrades/2.9.0alpha1/migrate_ampconf.php:119
 #, php-format
 msgid "%s admins"
-msgstr ""
+msgstr "%s админы"
 
 #: upgrades/2.9.0alpha1/migrate_ampconf.php:171
 #, php-format
@@ -308,7 +308,7 @@ msgstr "%s подготовлено"
 #: amp_conf/htdocs/admin/page.modules.php:334
 #, php-format
 msgid "%s removed successfully"
-msgstr ""
+msgstr "%s успешно удален"
 
 #: amp_conf/htdocs/admin/views/module_admin/main.php:298
 #, php-format
@@ -334,7 +334,7 @@ msgstr "Требуется %s версии %s или выше, в наличии
 #: amp_conf/htdocs/admin/page.modules.php:563
 #, php-format
 msgid "%s will be removed from the hard disk"
-msgstr ""
+msgstr "%s будет удален с жесткого диска"
 
 #: amp_conf/bin/freepbx-cron-scheduler.php:122
 #, php-format
@@ -392,11 +392,11 @@ msgstr ".файлы htaccess не поддерживаются на этом в�
 
 #: upgrades/2.9.0alpha1/migrate_ampconf.php:175
 msgid "/etc/asterisk/freepbx.conf already exists"
-msgstr ""
+msgstr "/etc/asterisk/freepbx.conf уже существует"
 
 #: upgrades/2.9.0alpha1/migrate_ampconf.php:173
 msgid "/etc/freepbx.conf already exists"
-msgstr ""
+msgstr "/etc/freepbx.conf уже существует"
 
 #: upgrades/2.9.0alpha1/migrate_ampconf.php:112
 msgid "0 admins"
@@ -618,7 +618,7 @@ msgstr "Добавить канал"
 
 #: ../core/page.dahdichandids.php:63
 msgid "Add DAHDI Channel"
-msgstr ""
+msgstr "Добавить канал DAHDI"
 
 #: ../core/functions.inc.php:7314 ../core/page.ampusers.php:235
 msgid "Add Device"
@@ -677,7 +677,7 @@ msgstr "Добавить внутренний номер"
 #: amp_conf/htdocs/admin/helpers/freepbx_helpers.php:114
 #, php-format
 msgid "Add new %s &#133"
-msgstr ""
+msgstr "Добавить новый %s &#133"
 
 #: amp_conf/htdocs/admin/page.modules.php:83
 #, php-format
@@ -720,22 +720,22 @@ msgstr "Администратор"
 
 #: ../core/page.ampusers.php:203
 msgid "Admin Access"
-msgstr ""
+msgstr "Административный доступ"
 
 #: amp_conf/htdocs/admin/views/obe.php:54
 #: amp_conf/htdocs/admin/views/oobe.php:10
 msgid "Admin Email address"
-msgstr ""
+msgstr "E-mail-адрес администратора"
 
 #: amp_conf/htdocs/admin/views/obe.php:30
 #: amp_conf/htdocs/admin/views/oobe.php:9
 msgid "Admin password"
-msgstr ""
+msgstr "Пароль администратора"
 
 #: amp_conf/htdocs/admin/views/obe.php:20
 #: amp_conf/htdocs/admin/views/oobe.php:8
 msgid "Admin user name"
-msgstr ""
+msgstr "Имя пользователя администратора"
 
 #: amp.i18n.php:708
 msgid "Administrators"
@@ -990,7 +990,7 @@ msgstr ""
 
 #: amp.i18n.php:712 ../core/page.astmodules.php:4
 msgid "Asterisk Modules"
-msgstr ""
+msgstr "Модули Asterisk"
 
 #: amp.i18n.php:372
 msgid "Asterisk Modules Dir"
@@ -1583,7 +1583,7 @@ msgstr ""
 
 #: ../core/views/trunks/pjsip.php:88
 msgid "Client URI"
-msgstr ""
+msgstr "Клиентский URI"
 
 #: amp_conf/htdocs/admin/views/footer.php:81
 msgid "Close"
@@ -1591,7 +1591,7 @@ msgstr "Закрыть"
 
 #: ../core/views/trunks/pjsip.php:141
 msgid "Codecs"
-msgstr ""
+msgstr "Кодеки"
 
 #: amp_conf/htdocs/admin/libraries/BMO/LoadConfig.class.php:242
 #, php-format
@@ -1631,7 +1631,7 @@ msgstr "Подвердить"
 
 #: amp_conf/htdocs/admin/views/obe.php:65
 msgid "Confirm Email address"
-msgstr ""
+msgstr "Подтвердить e-mail-адрес"
 
 #: amp_conf/htdocs/admin/views/obe.php:42
 #: amp_conf/htdocs/admin/views/oobe.php:9
@@ -1672,7 +1672,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/views/footer.php:82
 msgid "Continue"
-msgstr "Перегрузка"
+msgstr "Продолжить"
 
 #: ../core/views/trunks/trunk_header.php:114
 msgid "Continue if Busy"
@@ -8861,6 +8861,8 @@ msgid ""
 "[WARNING] this is a security risk, you should create an admin user and "
 "disable this vulnerability."
 msgstr ""
+"[ВНИМАНИЕ] это угроза безопасности, вы должны создать пользователя - "
+"администратора и отключить эту уязвимость."
 
 #: amp_conf/htdocs/admin/views/menuitem_disabled.php:3
 #, php-format
@@ -9021,7 +9023,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/views/obe.php:70
 msgid "confirm email"
-msgstr ""
+msgstr "подтвердить e-mail"
 
 #: upgrades/2.8.0alpha2/tables.php:95
 msgid "continuing.."
