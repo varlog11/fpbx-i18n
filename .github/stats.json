@@ -8,8 +8,8 @@
     "Framework": "100%"
   },
   "FreePBX_14": {
-    "Bulk_Hanler": "100%",
-    "Certificate Manager": "100%",
+    "Bulk_Handler": "100%",
+    "Certificate_Manager": "100%",
     "Framework": "75%",
     "Sip_Settings": "100%"
   }

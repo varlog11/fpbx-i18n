@@ -1,6 +1,12 @@
 # fpbx-i18n
 Неофициальная локализация для FreePBX 13 (в основном) и 14
 
+FreePBX 12: ![Framework 12](https://img.shields.io/badge/dynamic/json?color=orange&label=Framework&query=%24.FreePBX_12.Framework&url=https%3A%2F%2Fraw.githubusercontent.com%2FTranslaster%2Ffpbx-i18n%2Fmaster%2F.github%2Fstats.json)
+
+FreePBX 13: ![Framework 13](https://img.shields.io/badge/dynamic/json?color=orange&label=Framework&query=%24.FreePBX_13.Framework&url=https%3A%2F%2Fraw.githubusercontent.com%2FTranslaster%2Ffpbx-i18n%2Fmaster%2F.github%2Fstats.json) ![Bulk Handler 13](https://img.shields.io/badge/dynamic/json?color=orange&label=Bulk_Handler&query=%24.FreePBX_13.Bulk_Handler&url=https%3A%2F%2Fraw.githubusercontent.com%2FTranslaster%2Ffpbx-i18n%2Fmaster%2F.github%2Fstats.json) ![Framework 13](https://img.shields.io/badge/dynamic/json?color=orange&label=Framework&query=%24.FreePBX_13.Framework&url=https%3A%2F%2Fraw.githubusercontent.com%2FTranslaster%2Ffpbx-i18n%2Fmaster%2F.github%2Fstats.json)
+
+FreePBX 14: ![Bulk Handler 14](https://img.shields.io/badge/dynamic/json?color=orange&label=Bulk_Handler&query=%24.FreePBX_14.Bulk_Handler&url=https%3A%2F%2Fraw.githubusercontent.com%2FTranslaster%2Ffpbx-i18n%2Fmaster%2F.github%2Fstats.json) ![Framework 14](https://img.shields.io/badge/dynamic/json?color=orange&label=Framework&query=%24.FreePBX_14.Framework&url=https%3A%2F%2Fraw.githubusercontent.com%2FTranslaster%2Ffpbx-i18n%2Fmaster%2F.github%2Fstats.json)
+
 Файлы локализации po и mo должны располагаться в веб-директории FreePBX, к примеру `/var/www/localhost/htdocs/pbx/admin/modules/disa/i18n/ru_RU/LC_MESSAGES/disa.po`
 
 По 13 версии прилагаю исходную информацию:
