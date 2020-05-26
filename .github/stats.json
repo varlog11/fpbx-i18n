@@ -10,6 +10,7 @@
   "FreePBX_14": {
     "Asterisk_REST_Interface_Users": "100%",
     "Bulk_Handler": "100%",
+    "Call_Event_Logging": "3%",
     "Certificate_Manager": "100%",
     "Framework": "75%",
     "Sip_Settings": "100%",
