@@ -12,7 +12,7 @@
     "Certificate_Manager": "100%",
     "Framework": "75%",
     "Sip_Settings": "100%",
-    "Asterisk_REST_Interface_Users": "7%",
+    "Asterisk_REST_Interface_Users": "100%",
     "Queues": "6%"
   }
 }
