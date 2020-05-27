@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-13 17:13+0530\n"
-"PO-Revision-Date: 2020-05-26 16:23+0500\n"
+"PO-Revision-Date: 2020-05-27 17:04+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,7 +67,7 @@ msgstr ""
 
 #: views/welcome.php:61 views/welcome.php:92 views/welcome.php:117
 msgid "Action"
-msgstr ""
+msgstr "Действие"
 
 #: views/welcome.php:114
 msgid "Active"
@@ -91,7 +91,7 @@ msgstr ""
 
 #: views/groups.php:6 views/rnav.php:24
 msgid "Add Group"
-msgstr ""
+msgstr "Добавить группу"
 
 #: functions.inc/auth/Auth.php:70
 msgid "Add Group is not defined"
@@ -99,7 +99,7 @@ msgstr ""
 
 #: views/rnav.php:7 views/users.php:5
 msgid "Add User"
-msgstr ""
+msgstr "Добавить пользователя"
 
 #: functions.inc/auth/Auth.php:62
 msgid "Add User is not defined"
@@ -112,15 +112,15 @@ msgstr ""
 
 #: userman.i18n.php:6
 msgid "Admin"
-msgstr ""
+msgstr "Администратор"
 
 #: views/groups.php:337 views/users.php:713
 msgid "Administration Access"
-msgstr ""
+msgstr "Административный доступ"
 
 #: views/groups.php:34 views/users.php:31
 msgid "Advanced"
-msgstr ""
+msgstr "Расширенный"
 
 #: views/welcome.php:44 views/welcome.php:78
 msgid "All Directories"
@@ -194,14 +194,14 @@ msgstr ""
 
 #: views/users.php:323
 msgid "Company"
-msgstr ""
+msgstr "Компания"
 
 #: functions.inc/auth/modules/Msad.php:156
 #: functions.inc/auth/modules/Msad2.php:175
 #: functions.inc/auth/modules/Openldap.php:168
 #: functions.inc/auth/modules/Openldap2.php:179
 msgid "Connected"
-msgstr ""
+msgstr "Подключаемый"
 
 #: views/voicemail.php:7
 msgid "Context"
@@ -217,7 +217,7 @@ msgstr ""
 
 #: functions.inc/guihooks.php:204 functions.inc/guihooks.php:253
 msgid "Create New User"
-msgstr ""
+msgstr "Создание нового пользователя"
 
 #: views/quickCreate.php:8
 msgid "Create User Manager User"
@@ -229,11 +229,11 @@ msgstr "Формат даты"
 
 #: views/groups.php:196 views/users.php:560
 msgid "Date and Time Format"
-msgstr ""
+msgstr "Формат даты и времени"
 
 #: views/welcome.php:116
 msgid "Default"
-msgstr ""
+msgstr "По-умолчанию"
 
 #: views/freepbx.php:7
 msgid "Default Groups"
@@ -254,7 +254,7 @@ msgstr "Удаление..."
 
 #: views/users.php:347
 msgid "Department"
-msgstr ""
+msgstr "Отдел"
 
 #: Userman.class.php:2888 Userman.class.php:2889 Userman.class.php:2914
 #: Userman.class.php:2915 views/rnav.php:14 views/rnav.php:31
@@ -268,23 +268,23 @@ msgstr ""
 
 #: views/welcome.php:27
 msgid "Directories"
-msgstr ""
+msgstr "Каталоги"
 
 #: views/welcome.php:54 views/welcome.php:88
 msgid "Directory"
-msgstr ""
+msgstr "Каталог"
 
 #: views/directories.php:47 views/rnav.php:45
 msgid "Directory Name"
-msgstr ""
+msgstr "Название каталога"
 
 #: views/directories.php:117
 msgid "Directory Settings"
-msgstr ""
+msgstr "Настройки каталога"
 
 #: views/directories.php:16
 msgid "Directory Type"
-msgstr ""
+msgstr "Тип каталога"
 
 #: Userman.class.php:1763 Userman.class.php:1793
 msgid "Directory is locked. Can not add group"
@@ -312,7 +312,7 @@ msgstr ""
 #: Userman.class.php:2900 Userman.class.php:2901 views/openldap.php:144
 #: views/users.php:275 views/welcome.php:56
 msgid "Display Name"
-msgstr ""
+msgstr "Отображаемое имя"
 
 #: views/users.php:287
 msgid ""
@@ -322,7 +322,7 @@ msgstr ""
 
 #: views/msad.php:95 views/msad2.php:121
 msgid "Domain"
-msgstr ""
+msgstr "Домен"
 
 #: views/msad2.php:194 views/openldap2.php:172
 msgid "Don't Create"
@@ -330,35 +330,35 @@ msgstr ""
 
 #: views/groups.php:3
 msgid "Edit Group"
-msgstr ""
+msgstr "Редактировать группу"
 
 #: views/users.php:3
 msgid "Edit User"
-msgstr ""
+msgstr "Редактировать пользователя"
 
 #: userman.i18n.php:12
 msgid "Email "
-msgstr ""
+msgstr "E-mail"
 
 #: views/users.php:435
 msgid "Email Address"
-msgstr ""
+msgstr "Адрес e-mail"
 
 #: views/general.php:128
 msgid "Email Body"
-msgstr ""
+msgstr "Тело e-mail"
 
 #: views/general.php:9 views/general.php:16
 msgid "Email Settings"
-msgstr ""
+msgstr "Настройки e-mail"
 
 #: views/general.php:104
 msgid "Email Subject"
-msgstr ""
+msgstr "Тема письма"
 
 #: views/directories.php:69
 msgid "Enable Directory"
-msgstr ""
+msgstr "Включить каталог"
 
 #: views/quickCreate.php:25
 msgid "Enable User Manager for this extension"
@@ -387,7 +387,7 @@ msgstr ""
 #: Userman.class.php:2892 Userman.class.php:2893 views/users.php:227
 #: views/welcome.php:57
 msgid "First Name"
-msgstr ""
+msgstr "Имя"
 
 #: Console/Userman.class.php:23
 msgid "Force syncronization"
@@ -427,11 +427,11 @@ msgstr ""
 
 #: views/groups.php:82
 msgid "Group Description"
-msgstr ""
+msgstr "Описание группы"
 
 #: views/groups.php:33
 msgid "Group Details"
-msgstr ""
+msgstr "Детали группы"
 
 #: functions.inc/auth/Auth.php:456
 msgid "Group Does Not Exist"
@@ -440,7 +440,7 @@ msgstr ""
 #: Userman.class.php:2910 Userman.class.php:2911 views/groups.php:60
 #: views/rnav.php:30 views/welcome.php:89
 msgid "Group Name"
-msgstr ""
+msgstr "Название группы"
 
 #: views/welcome.php:69
 msgid ""
@@ -489,7 +489,7 @@ msgstr ""
 #: functions.inc/auth/modules/Openldap.php:407
 #: functions.inc/auth/modules/Openldap2.php:448
 msgid "Group updated"
-msgstr ""
+msgstr "Группа обновлена"
 
 #: functions.inc/auth/Auth.php:563
 msgid "Groupname Can Not Be Blank!"
@@ -502,7 +502,7 @@ msgstr ""
 #: functions.inc/guihooks.php:235 functions.inc/guihooks.php:279
 #: views/users.php:159 views/welcome.php:26
 msgid "Groups"
-msgstr ""
+msgstr "Группы"
 
 #: functions.inc/guihooks.php:235 functions.inc/guihooks.php:279
 msgid ""
@@ -612,16 +612,16 @@ msgstr ""
 
 #: views/groups.php:105 views/users.php:371
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 #: views/groups.php:125 views/users.php:391
 msgid "Language for this user"
-msgstr ""
+msgstr "Язык для этого пользователя"
 
 #: Userman.class.php:2896 Userman.class.php:2897 views/users.php:251
 #: views/welcome.php:58
 msgid "Last Name"
-msgstr ""
+msgstr "Фамилия"
 
 #: views/quickCreate.php:74
 msgid "Link to User Manager User"
@@ -650,19 +650,19 @@ msgstr ""
 
 #: views/rnav.php:39
 msgid "List Directories"
-msgstr ""
+msgstr "Список каталогов"
 
 #: views/rnav.php:22
 msgid "List Groups"
-msgstr ""
+msgstr "Список групп"
 
 #: views/rnav.php:5
 msgid "List Users"
-msgstr ""
+msgstr "Список пользователей"
 
 #: Console/Userman.class.php:24
 msgid "List directories"
-msgstr ""
+msgstr "Список каталогов"
 
 #: views/users.php:29
 msgid "Login Details"
@@ -704,15 +704,15 @@ msgstr ""
 
 #: Console/Userman.class.php:33 views/welcome.php:113
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 #: assets/js/userman.js:17
 msgid "Name can not be blank!"
-msgstr ""
+msgstr "Название не может быть пустым!"
 
 #: views/directories.php:99
 msgid "Never"
-msgstr ""
+msgstr "Никогда"
 
 #: views/msad2.php:231 views/openldap2.php:209
 msgid ""
@@ -737,7 +737,7 @@ msgstr ""
 #: functions.inc/auth/modules/Openldap.php:159
 #: functions.inc/auth/modules/Openldap2.php:170
 msgid "Not Connected"
-msgstr ""
+msgstr "Не подключено"
 
 #: functions.inc/auth/modules/Msad.php:169
 #: functions.inc/auth/modules/Msad2.php:188
@@ -764,7 +764,7 @@ msgstr ""
 
 #: views/users.php:38
 msgid "Other Settings"
-msgstr ""
+msgstr "Прочие настройки"
 
 #: Userman.class.php:145 Userman.class.php:1401
 msgid "PBX Internal Directory"
@@ -774,7 +774,7 @@ msgstr ""
 #: views/openldap.php:100 views/openldap2.php:99 views/passwordmodal.php:16
 #: views/users.php:108
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: Userman.class.php:2880
 msgid "Password - plaintext"
@@ -803,7 +803,7 @@ msgstr ""
 #: views/msad.php:29 views/msad2.php:55 views/openldap.php:29
 #: views/openldap2.php:55
 msgid "Port"
-msgstr ""
+msgstr "Порт"
 
 #: Userman.class.php:1901
 msgid "Previous Groupname can not be blank"
@@ -1677,15 +1677,15 @@ msgstr ""
 
 #: assets/js/userman.js:12
 msgid "directories"
-msgstr ""
+msgstr "каталоги"
 
 #: assets/js/userman.js:11
 msgid "directory"
-msgstr ""
+msgstr "каталог"
 
 #: assets/js/userman.js:9
 msgid "group"
-msgstr ""
+msgstr "группа"
 
 #: functions.inc/auth/Auth.php:583
 msgid "group Successfully Added"
@@ -1697,7 +1697,7 @@ msgstr ""
 
 #: assets/js/userman.js:10
 msgid "groups"
-msgstr ""
+msgstr "группы"
 
 #: Userman.class.php:3013
 msgid "password is required."

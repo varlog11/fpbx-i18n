@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 14:34+0530\n"
-"PO-Revision-Date: 2020-05-27 16:10+0500\n"
+"PO-Revision-Date: 2020-05-27 16:29+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -117,6 +117,9 @@ msgid ""
 "When COUNT is used this slows down Calendar drastically. Please change your "
 "rule to another format"
 msgstr ""
+"Добавленный календарь содержит событие с повторяющимся правилом COUNT. Когда "
+"используется COUNT - это резко замедляет календарь. Пожалуйста, измените "
+"свое правило на другой формат"
 
 #: views/calendargroupgrid.php:38 views/grid.php:29
 msgid "Actions"
@@ -243,7 +246,7 @@ msgstr ""
 
 #: IcalParser/IcalRangedParser.php:118
 msgid "Calendar using COUNT"
-msgstr ""
+msgstr "Календарь использует COUNT"
 
 #: views/calendargroups.php:43
 msgid "Calendars"
@@ -267,7 +270,7 @@ msgstr "Закрыть"
 
 #: views/calendar.php:306
 msgid "Daily"
-msgstr ""
+msgstr "Ежедневно"
 
 #: views/calendar.php:417
 msgid "Date of the month (E.g. 16th)"
@@ -446,7 +449,7 @@ msgstr "Локальный календарь"
 
 #: views/calendar.php:311
 msgid "Monthly"
-msgstr ""
+msgstr "Ежемесячно"
 
 #: assets/js/calendar/calendar.js:397
 msgid "Months"
@@ -487,7 +490,7 @@ msgstr "Нет категорий для %s"
 #: Calendar.class.php:332
 #, php-format
 msgid "No Events for %s"
-msgstr ""
+msgstr "Нет событий для %s"
 
 #: drivers/Ews/Calendar.php:51
 msgid "No settings were discovered"
@@ -499,7 +502,7 @@ msgstr ""
 
 #: views/calendar.php:489
 msgid "Occurrences"
-msgstr ""
+msgstr "Вхождения"
 
 #: views/calendar.php:471
 msgid "On"
@@ -515,7 +518,7 @@ msgstr ""
 
 #: views/remote_caldav_settings.php:110 views/remote_ews_settings.php:113
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: assets/js/calendar/calendar.js:445
 msgid "Please define a valid url"
@@ -543,19 +546,19 @@ msgstr ""
 
 #: drivers/Caldav.php:17
 msgid "Remote CalDAV Calendar"
-msgstr ""
+msgstr "Удаленный календарь CalDAV"
 
 #: drivers/Ews.php:16
 msgid "Remote Outlook Calendar"
-msgstr ""
+msgstr "Удаленный календарь Outlook"
 
 #: views/remote_ical_settings.php:67
 msgid "Remote URL"
-msgstr ""
+msgstr "Удаленный URL"
 
 #: drivers/Ical.php:15
 msgid "Remote iCal Calendar"
-msgstr ""
+msgstr "Удаленный календарь iCal"
 
 #: views/calendar.php:277 views/calendar.php:282
 msgid "Reoccurring"
@@ -625,11 +628,11 @@ msgstr ""
 
 #: views/calendargroups.php:71
 msgid "Specific Categories"
-msgstr ""
+msgstr "Cпецифическая категория"
 
 #: views/calendargroups.php:96
 msgid "Specific Events"
-msgstr ""
+msgstr "Специфические события"
 
 #: Console/Calendar.class.php:79
 msgid "Start"
@@ -658,7 +661,7 @@ msgstr "Синхронизировать все календари"
 
 #: views/remote_caldav_settings.php:100
 msgid "The Userman for this calendar"
-msgstr ""
+msgstr "Менеджер пользователей для этого календаря"
 
 #: views/local_settings.php:56 views/remote_caldav_settings.php:56
 #: views/remote_ews_settings.php:59 views/remote_ical_settings.php:57
@@ -680,11 +683,11 @@ msgstr "Пароль для этого календаря"
 
 #: views/remote_ews_settings.php:125
 msgid "The password of this calendar's user"
-msgstr ""
+msgstr "Пароль пользователя этого календаря"
 
 #: views/remote_caldav_settings.php:78
 msgid "The principal url for this calendar"
-msgstr ""
+msgstr "Основной url-адрес для этого календаря"
 
 #: views/remote_ews_settings.php:152 views/remote_ews_settings.php:184
 #: views/remote_ical_settings.php:79
@@ -697,7 +700,7 @@ msgstr "Время для начала события"
 
 #: views/remote_ews_settings.php:103
 msgid "The username of this calendar's user"
-msgstr ""
+msgstr "Имя пользователя этого календаря"
 
 #: assets/js/calendar/calendar.js:193
 msgid "There was an error fetching the events"
@@ -727,15 +730,15 @@ msgstr "Время завершения этого события"
 #: Console/Calendar.class.php:79 views/calendar.php:253
 #: views/local_settings.php:67
 msgid "Timezone"
-msgstr "Временная зона"
+msgstr "Часовой пояс"
 
 #: views/local_settings.php:79
 msgid "Timezone for this Calendar"
-msgstr ""
+msgstr "Часовой пояс для этого календаря"
 
 #: views/calendar.php:265
 msgid "Timezone for this event"
-msgstr ""
+msgstr "Часовой пояс для этого события"
 
 #: views/grid.php:28 views/rnav.php:31
 msgid "Type"
@@ -771,7 +774,7 @@ msgstr "Использовать все события"
 
 #: views/calendar.php:257
 msgid "Use Calendar Timezone"
-msgstr ""
+msgstr "Используемый часовой пояс календаря"
 
 #: views/remote_caldav_settings.php:88 views/remote_ews_settings.php:91
 msgid "Username"
@@ -780,12 +783,16 @@ msgstr "Имя пользователя"
 #: views/calendar.php:14
 msgid "Utilizing the calendar timezone (You can change this in Edit Settings)"
 msgstr ""
+"Использование часового пояса календаря (это можно изменить в Редактировании "
+"настроек)"
 
 #: views/calendar.php:16
 msgid ""
 "Utilizing your timezone (You can change this in Advanced Settings or User "
 "Manager)"
 msgstr ""
+"Использование вашего часового пояса (вы можете изменить это в Расширенных "
+"настройках или Менеджере пользователей)"
 
 #: views/calendargroupgrid.php:18
 msgid "View Calendars"
@@ -794,12 +801,12 @@ msgstr "Просмотр календарей"
 #: views/calendar.php:7
 #, php-format
 msgid "Viewing Calendar '%s'"
-msgstr ""
+msgstr "Просмотр календаря '%s'"
 
 #: views/calendar.php:10
 #, php-format
 msgid "Viewing from timezone '%s'"
-msgstr ""
+msgstr "Просмотр для часового пояса '%s'"
 
 #: assets/js/calendar/calendar.js:135 assets/js/calendar/calendar.js:437
 msgid "Warning"
@@ -848,7 +855,7 @@ msgstr ""
 
 #: views/calendar.php:495 views/calendar.php:504
 msgid "occurrences"
-msgstr ""
+msgstr "вхождения"
 
 #: Calendar.class.php:354
 msgid "to"
