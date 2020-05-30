@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: 1.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-12 15:57+0530\n"
-"PO-Revision-Date: 2020-05-14 00:10+0500\n"
+"PO-Revision-Date: 2020-05-30 18:41+0500\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Language-Team: Russian <http://weblate.freepbx.org/projects/freepbx/"
 "framework/ru_RU/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.3\n"
 
 #: amp_conf/htdocs/admin/page.modules.php:1210
 #, php-format
@@ -2042,11 +2042,11 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Console/Job.class.php:23
 msgid "Centralized job management"
-msgstr ""
+msgstr "Централизованное управление работой"
 
 #: amp.i18n.php:454
 msgid "Certificate File Location"
-msgstr ""
+msgstr "Расположение файла сертификата"
 
 #: ../core/install.php:10
 msgid "ChanSpy"
@@ -2099,7 +2099,7 @@ msgstr "ID канала"
 
 #: ../core/Core.class.php:147
 msgid "Channel can not be blank!"
-msgstr ""
+msgstr "Канал не может быть пустым!"
 
 #: amp_conf/htdocs/admin/libraries/Builtin/SystemUpdates.php:588
 #: amp_conf/htdocs/admin/libraries/Builtin/SystemUpdates.php:615
@@ -2114,7 +2114,7 @@ msgstr "Проверять источники перенаправленных �
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:109
 #: amp_conf/htdocs/admin/views/oobe.php:204
 msgid "Check for Updates every"
-msgstr ""
+msgstr "Проверять наличие обновлений каждый"
 
 #: ../core/views/trunks/pjsip.php:1153
 msgid ""
@@ -2237,7 +2237,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Console/Job.class.php:83
 msgid "Class"
-msgstr ""
+msgstr "Класс"
 
 #: ../core/assets/js/trunks/trunks.js:239
 msgid "Click here to insert a new pattern before this pattern"
@@ -2256,7 +2256,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/BMO/View.class.php:769
 msgid "Click to Expand"
-msgstr ""
+msgstr "Нажмите чтобы развернуть"
 
 #: ../core/views/trunks/pjsip.php:587
 msgid ""
@@ -2287,7 +2287,7 @@ msgstr "Ошибка кодирования - не понятно %s из %s"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:60
 msgid "Colorize table based list"
-msgstr ""
+msgstr "Раскрасить таблицу на основе списка            "
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-modules.php:448
 msgid "Combined"
@@ -2330,15 +2330,15 @@ msgstr "Общие утилиты"
 
 #: install.php:266
 msgid "Compressing Framework CSS..."
-msgstr ""
+msgstr "Сжатие CSS фреймворка..."
 
 #: install.php:257
 msgid "Compressing Web Files"
-msgstr ""
+msgstr "Сжатие веб-файлов"
 
 #: amp.i18n.php:296
 msgid "Conference Room App"
-msgstr ""
+msgstr "Приложение конференц-зала"
 
 #: amp_conf/htdocs/admin/page.modules.php:616
 msgid "Confirm"
@@ -2359,7 +2359,7 @@ msgstr "Конфликтующие внутренние номера"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:169
 msgid "Confusing statement. Not sure what you want to do"
-msgstr ""
+msgstr "Сбивающее с толку заявление. Не знаю, что ты хочешь делать"
 
 #: ../core/functions.inc.php:852 ../core/functions.inc.php:4499
 msgid "Congestion"
@@ -2388,7 +2388,7 @@ msgstr "Контекст"
 
 #: ../core/views/trunks/pjsip.php:1144
 msgid "Context to route incoming MESSAGE requests to"
-msgstr ""
+msgstr "Контекст для маршрутизации входящих СООБЩЕНИЙ запросов в"
 
 #: ../core/views/trunks/pjsip.php:198
 msgid "Context to send the Inbound Call to."
@@ -2397,7 +2397,7 @@ msgstr "Контекст, куда попадает входящий вызов.
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:372
 #: amp_conf/htdocs/admin/views/footer.php:106
 msgid "Continue"
-msgstr "Перегрузка"
+msgstr "Продолжить"
 
 #: ../core/views/trunks/trunk_header.php:398
 msgid "Continue if Busy"
@@ -4820,7 +4820,7 @@ msgid ""
 "media streams when appropriate, even if a DTLS stream is present."
 msgstr ""
 "Принудительно использовать 'RTP/AVP', 'RTP/AVPF', 'RTP/SAVP' и  'RTP/SAVPF' "
-"для медиапотоков в соответсвующих случаях, даже если имеется  DTLS-поток"
+"для медиапотоков в соответсвующих случаях, даже если имеется  DTLS-поток."
 
 #: ../core/functions.inc/drivers/Sip.class.php:431
 msgid "Force AVP"
@@ -5959,7 +5959,7 @@ msgstr ""
 "Внутренний протокола обмена Asterisk(IAX)-это  встроенный коммуникационный "
 "протокол,поддерживаемый некоторыми софтсвитчами, системами PBX, и "
 "программными телефонами.Он используется для транспортировки VoIP-телефонных "
-"сессий между серверами и оконечными устройствами."
+"сессий между серверами и оконечными устройствами"
 
 #: amp_conf/htdocs/admin/libraries/Console/Motd.class.php:80
 msgid "Interface"
@@ -5989,7 +5989,7 @@ msgid ""
 "Internal Error. Function getVersion did not match the Framework version, "
 "even after it was suppose to be applied"
 msgstr ""
-"Внутренняя ошибка.Функция getVersion не соответствовала версии платформы."
+"Внутренняя ошибка.Функция getVersion не соответствовала версии платформы"
 
 #: install.php:286
 msgid ""
@@ -5997,7 +5997,7 @@ msgid ""
 "version, even after it was suppose to be applied"
 msgstr ""
 "Внутренняя ошибка.Функция  install_getversion  не соответствовала  версии "
-"платформы."
+"платформы"
 
 #: amp.i18n.php:538
 msgid "Internal Use"
@@ -6270,7 +6270,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/views/module_admin/upload.php:41
 msgid "Locally Choosen FreePBX module from your system"
-msgstr "Локально выбранный с вашей системы модуль FreePBX "
+msgstr "Локально выбранный с вашей системы модуль FreePBX"
 
 #: amp.i18n.php:464
 msgid "Location of the FreePBX command line scripts."
@@ -6324,7 +6324,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/views/noaccess.php:43
 msgid "Make sure the module is installed and enabled."
-msgstr "Убедитесь,что модуль установлен и активирован"
+msgstr "Убедитесь,что модуль установлен и активирован."
 
 #: amp_conf/htdocs/admin/views/noaccess.php:42
 msgid "Make sure you entered the address correctly."
@@ -6592,7 +6592,7 @@ msgstr "Модуль "
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:3255
 #, php-format
 msgid "Module \"%s\" is is missing its signature status."
-msgstr "Отсутствует статус сигнатуры модуля %s"
+msgstr "Отсутствует статус сигнатуры модуля %s."
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:3277
 #, php-format
@@ -7345,7 +7345,7 @@ msgstr ""
 "На каналах PRI удалённая сторона будет посылать сигнал переполюсовки в "
 "качестве начала тарификации. Если отмечено, этот маршрут будет отвергать "
 "вызовы где поддерживается переполюсовка в качестве индикации начала "
-"тарификации."
+"тарификации"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1236
 msgid "Online Version"
@@ -7889,7 +7889,7 @@ msgid ""
 "by the PBX if left blank"
 msgstr ""
 "Постоянные контакты,назначенные для AoR. Если не указано,то эти установки "
-"FreePBX создаёт автоматически."
+"FreePBX создаёт автоматически"
 
 #: amp_conf/htdocs/admin/libraries/BMO/GPG.class.php:813
 #, php-format
@@ -8045,7 +8045,8 @@ msgstr "Пожалуйста, введите пароль пользовател
 
 #: amp_conf/htdocs/admin/libraries/Console/Motd.class.php:98
 msgid "Please note most tasks should be handled through the GUI."
-msgstr "Пожалуйста имейте ввиду,что большинство задач следует решать через GUI"
+msgstr ""
+"Пожалуйста имейте ввиду,что большинство задач следует решать через GUI."
 
 #: amp_conf/htdocs/admin/views/obe.php:9
 msgid ""
@@ -8184,7 +8185,7 @@ msgstr "Приоритет"
 #: amp_conf/htdocs/admin/libraries/BMO/DialplanHooks.class.php:49
 msgid "Priority needs to be either 'true', 'false' or a number"
 msgstr ""
-"Приоритет должен  иметь значение 'истина', 'ложь' или числовое значение "
+"Приоритет должен  иметь значение 'истина', 'ложь' или числовое значение"
 
 #: ../core/views/did/advanced_form.php:69
 msgid "Privacy"
