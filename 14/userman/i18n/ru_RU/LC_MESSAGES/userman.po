@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-13 17:13+0530\n"
-"PO-Revision-Date: 2020-06-02 12:14+0500\n"
+"PO-Revision-Date: 2020-06-02 12:31+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +39,7 @@ msgid ""
 "iSymphony and RestAPI are examples of these type of modules. In %s 12, the "
 "new User Control Panel also uses User Manager."
 msgstr ""
-"%s Менеджер пользователей используется вместо нескольких модулей, которые "
+"Менеджер пользователей %s используется вместо нескольких модулей, которые "
 "создавали пользователей и управляли ими отдельно от внутренних номеров. "
 "Примерами таких модулей являются iSymphony и RestAPI. В %s 12 новая Панель "
 "управления пользователями также использует Менеджер пользователей."
@@ -178,7 +178,7 @@ msgstr "Автосгенерированный пользователь при �
 #: views/msad.php:117 views/msad2.php:143 views/openldap.php:188
 #: views/openldap2.php:121
 msgid "Base DN"
-msgstr "Базовое DN "
+msgstr "Базовое DN"
 
 #: views/openldap2.php:77
 msgid "Bind DN or Username"
@@ -504,7 +504,7 @@ msgstr "Имя группы не может быть пустым!"
 
 #: Userman.class.php:1758 Userman.class.php:1788
 msgid "Groupname can not be blank"
-msgstr "Имя группы не может быть пустым!"
+msgstr "Имя группы не может быть пустым"
 
 #: functions.inc/guihooks.php:235 functions.inc/guihooks.php:279
 #: views/users.php:159 views/welcome.php:26
@@ -744,7 +744,7 @@ msgstr "Нет"
 #: Userman.class.php:192 functions.inc/guihooks.php:174
 #: functions.inc/guihooks.php:241 views/msad2.php:12 views/openldap2.php:12
 msgid "None"
-msgstr ""
+msgstr "Отсутствует"
 
 #: functions.inc/auth/modules/Msad.php:147
 #: functions.inc/auth/modules/Msad2.php:166
@@ -812,7 +812,7 @@ msgstr ""
 
 #: Userman.class.php:2963 Userman.class.php:3046
 msgid "Please set a default directory in User Manager"
-msgstr ""
+msgstr "Пожалуйста установите каталог по умолчанию в Менеджере пользователей"
 
 #: views/msad.php:29 views/msad2.php:55 views/openldap.php:29
 #: views/openldap2.php:55
@@ -829,15 +829,15 @@ msgstr "Предыдущее имя пользователя не может б�
 
 #: Userman.class.php:2884
 msgid "Primary Extension"
-msgstr ""
+msgstr "Основной внутренний номер"
 
 #: views/users.php:132
 msgid "Primary Group"
-msgstr ""
+msgstr "Основная группа"
 
 #: Userman.class.php:2885 views/users.php:194
 msgid "Primary Linked Extension"
-msgstr ""
+msgstr "Основной связанный внутренний номер"
 
 #: views/welcome.php:91
 msgid "Priority"
@@ -866,7 +866,7 @@ msgstr ""
 
 #: Userman.class.php:480
 msgid "Saved"
-msgstr ""
+msgstr "Сохранено"
 
 #: views/msad2.php:7 views/openldap2.php:7
 msgid "Secure Connection Type"
@@ -1353,15 +1353,15 @@ msgstr ""
 
 #: views/groups.php:218 views/users.php:585
 msgid "Time Format"
-msgstr ""
+msgstr "Формат времени"
 
 #: views/groups.php:137 views/users.php:403
 msgid "Timezone"
-msgstr ""
+msgstr "Часовой пояс"
 
 #: views/groups.php:157 views/users.php:423
 msgid "Timezone for this user"
-msgstr ""
+msgstr "Часовой пояс для этого пользователя"
 
 #: views/users.php:299
 msgid "Title"
@@ -1369,15 +1369,15 @@ msgstr ""
 
 #: assets/js/userman.js:380
 msgid "True"
-msgstr ""
+msgstr "Правда"
 
 #: views/welcome.php:115
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #: Userman.class.php:1863
 msgid "UID was not numeric"
-msgstr ""
+msgstr "UID не числовой"
 
 #: Userman.class.php:1423
 msgid "Unable to create default group"
@@ -1423,7 +1423,7 @@ msgstr ""
 
 #: assets/js/userman.js:315
 msgid "Updating"
-msgstr ""
+msgstr "Обновление"
 
 #: views/groups.php:112 views/users.php:378
 msgid "Use Browser Language"
@@ -1602,29 +1602,29 @@ msgstr "Фильтр объектов пользователя"
 #: functions.inc/auth/modules/Openldap2.php:426
 #: functions.inc/auth/modules/Voicemail.php:208
 msgid "User updated"
-msgstr ""
+msgstr "Пользователь обновлен"
 
 #: functions.inc/guihooks.php:233 functions.inc/guihooks.php:277
 #: views/msad.php:51 views/msad2.php:77 views/openldap.php:78 views/rnav.php:13
 #: views/welcome.php:55
 msgid "Username"
-msgstr ""
+msgstr "Имя пользователя"
 
 #: functions.inc/auth/Auth.php:517
 msgid "Username Can Not Be Blank!"
-msgstr ""
+msgstr "Имя пользователя не может быть пустым"
 
 #: Userman.class.php:1669 Userman.class.php:1702
 msgid "Username can not be blank"
-msgstr ""
+msgstr "Имя пользователя не может быть пустым"
 
 #: functions.inc/auth/modules/Freepbx.php:102
 msgid "Username/Password Can Not Be Blank!"
-msgstr ""
+msgstr "Имя пользователя/пароль не могут быть пустыми"
 
 #: views/groups.php:168 views/welcome.php:25
 msgid "Users"
-msgstr ""
+msgstr "Пользователи"
 
 #: views/groups.php:315 views/users.php:691
 msgid "Visible Extension Range"
@@ -1640,7 +1640,7 @@ msgstr ""
 
 #: views/welcome.php:10
 msgid "What is User Manager"
-msgstr ""
+msgstr "Что такое Менеджер пользователей"
 
 #: views/general.php:70
 msgid "Whether Email Body will send as HTML or plain text to the user."
@@ -1725,8 +1725,8 @@ msgstr "пользователь"
 
 #: Userman.class.php:2968
 msgid "username is required."
-msgstr ""
+msgstr "Требуется имя пользователя."
 
 #: assets/js/userman.js:8
 msgid "users"
-msgstr ""
+msgstr "пользователи"
