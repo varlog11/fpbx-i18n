@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-13 17:13+0530\n"
-"PO-Revision-Date: 2020-06-02 12:31+0500\n"
+"PO-Revision-Date: 2020-06-02 12:39+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -350,7 +350,7 @@ msgstr "Адрес e-mail"
 
 #: views/general.php:128
 msgid "Email Body"
-msgstr "Тело e-mail"
+msgstr "Содержание письма"
 
 #: views/general.php:9 views/general.php:16
 msgid "Email Settings"
@@ -923,15 +923,15 @@ msgstr ""
 
 #: views/welcome.php:41
 msgid "Send Email"
-msgstr "Отправить e-mail"
+msgstr "Отправить письмо"
 
 #: views/general.php:53
 msgid "Send Email as HTML"
-msgstr "Отправить e-mail как HTML"
+msgstr "Отправить письмо как HTML"
 
 #: views/general.php:24
 msgid "Send Email on External New User Creation"
-msgstr "Отправить e-mail при создании нового внешнего пользователя"
+msgstr "Отправить письмо при создании нового внешнего пользователя"
 
 #: views/passwordmodal.php:7
 msgid "Set Password"
@@ -1612,7 +1612,7 @@ msgstr "Имя пользователя"
 
 #: functions.inc/auth/Auth.php:517
 msgid "Username Can Not Be Blank!"
-msgstr "Имя пользователя не может быть пустым"
+msgstr "Имя пользователя не может быть пустым!"
 
 #: Userman.class.php:1669 Userman.class.php:1702
 msgid "Username can not be blank"
@@ -1620,7 +1620,7 @@ msgstr "Имя пользователя не может быть пустым"
 
 #: functions.inc/auth/modules/Freepbx.php:102
 msgid "Username/Password Can Not Be Blank!"
-msgstr "Имя пользователя/пароль не могут быть пустыми"
+msgstr "Имя пользователя/пароль не могут быть пустыми!"
 
 #: views/groups.php:168 views/welcome.php:25
 msgid "Users"
@@ -1725,7 +1725,7 @@ msgstr "пользователь"
 
 #: Userman.class.php:2968
 msgid "username is required."
-msgstr "Требуется имя пользователя."
+msgstr "требуется имя пользователя."
 
 #: assets/js/userman.js:8
 msgid "users"
