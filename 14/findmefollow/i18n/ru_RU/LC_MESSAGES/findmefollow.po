@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-23 12:14+0530\n"
-"PO-Revision-Date: 2020-06-04 15:46+0500\n"
+"PO-Revision-Date: 2020-06-11 16:52+0500\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: functions.inc.php:692 ucp/views/settings.php:10 views/form.php:48
 msgid "*-prim"
-msgstr "*- прим"
+msgstr "*-перв"
 
 #: functions.inc.php:578 views/form.php:324
 msgid "--Not Calendar Controlled--"
@@ -31,7 +31,7 @@ msgstr "--Не управляется календарем--"
 
 #: functions.inc.php:605 views/form.php:353
 msgid "--Not Calendar Group Controlled--"
-msgstr ""
+msgstr "--Нет контролируемой календарной группы--"
 
 #: functions.inc.php:791 views/form.php:548
 msgid ""
@@ -91,6 +91,12 @@ msgid ""
 "where you want a call to ring the extension, and then only if the caller "
 "chooses to find you do you want it to come here."
 msgstr ""
+"По умолчанию (да) любой вызов этого внутр.номера будет идти к этому Следуйте-"
+"сюда вместо этого, в том числе каталог звонки по имени из IVR. Если нет - "
+"вызовы будут идти только к внутр.номеру.<BR>Тем не менее, направления, "
+"которые указывает Следуйте-сюда приведут сюда.<BR>Эта настройка часто "
+"используется в сочетании с VmX Locater, где вы хотите вызвать внутр.номер, и "
+"только если абонент выбирает найти вас вы хотите, чтобы он пришел сюда."
 
 #: functions.inc.php:780 views/form.php:512
 msgid "CID Name Prefix"
@@ -106,7 +112,7 @@ msgstr "Группа календаря"
 
 #: functions.inc.php:631 views/form.php:377
 msgid "Calendar Match Inverse"
-msgstr ""
+msgstr "Инверсия совпадения календаря"
 
 #: functions.inc.php:145 functions.inc.php:156
 msgid "Calendar Not found"
@@ -130,7 +136,7 @@ msgstr "Подтверждение вызовов"
 
 #: findmefollow.i18n.php:12
 msgid "Create Follow Me at Extension Creation Time"
-msgstr ""
+msgstr "Создавать Следуйте-сюда во время создания внутреннего номера"
 
 #: functions.inc.php:879 functions.inc.php:958 functions.inc.php:971
 #: views/form.php:120 views/form.php:155 views/form.php:220 views/form.php:612
@@ -139,15 +145,15 @@ msgstr "По умолчанию"
 
 #: findmefollow.i18n.php:26
 msgid "Default Follow Me Initial Ring Time"
-msgstr ""
+msgstr "Начальное время вызова Следуйте-сюда по-умолчанию"
 
 #: findmefollow.i18n.php:30
 msgid "Default Follow Me Ring Strategy"
-msgstr ""
+msgstr "Страгетия вызова Следуйте-сюда по-умолчанию"
 
 #: findmefollow.i18n.php:22
 msgid "Default Follow Me Ring Time"
-msgstr ""
+msgstr "Время вызова Следуйте-сюда по-умолчанию"
 
 #: views/form.php:680
 msgid "Destination if no answer"
@@ -163,7 +169,7 @@ msgstr "Выключить"
 
 #: findmefollow.i18n.php:18
 msgid "Disable Follow Me Upon Creation"
-msgstr ""
+msgstr "Отключить Следуйте-сюда при создании"
 
 #: ucp/views/widget.php:2
 msgid "Disabled"
@@ -175,7 +181,7 @@ msgstr "Включить"
 
 #: functions.inc.php:555 views/form.php:293
 msgid "Enable Calendar Matching"
-msgstr ""
+msgstr "Включить сопоставление календаря"
 
 #: views/quickCreate.php:5
 msgid "Enable Find Me/Follow Me"
@@ -183,7 +189,7 @@ msgstr "Включить Найди меня/Следуйте сюда"
 
 #: views/ucp_config.php:7
 msgid "Enable Findme Follow"
-msgstr ""
+msgstr "Включить Найди-меня Следуйте-сюда"
 
 #: views/form.php:267
 msgid "Enable Followme"
@@ -191,7 +197,7 @@ msgstr "Включить Следуйте-сюда"
 
 #: views/ucp_config.php:28
 msgid "Enable the Findmefollow access in UCP for this user"
-msgstr ""
+msgstr "Включить доступ Найдименяследуйсюда в UCP для этого пользователя"
 
 #: ucp/views/settings.php:62
 msgid ""
@@ -439,6 +445,14 @@ msgid ""
 "you wish the system to use another extension's FindMe/FollowMe append a # "
 "onto that extension, eg 105#"
 msgstr ""
+"Перечислите номера для вызова, по одному на строку или используйте быстрый "
+"выбор расширения ниже.<br><br>Вы можете добавить номер на удаленной системе "
+"или внешний номер, добавив суффиксом к номеру решетку (#).  напр:  2448089# "
+"наберет 2448089 через соответствующий транке (см. Исходящую маршрутизацию)."
+"<br><br>Примечание: любой добавленный локальный номер пропустит Найди-меня/"
+"Следуйте-сюда этого локального номера, если вы хотите, чтобы система "
+"использовала Найди-меня/Следуйте-сюда другого номера - добавьте # к этому "
+"номеру, например 105#"
 
 #: ucp/views/settings.php:29
 msgid ""
@@ -558,6 +572,10 @@ msgid ""
 "FollowMe, if you wish the system to use another extension's FindMe/FollowMe "
 "append a # onto that extension, eg 105#"
 msgstr ""
+"Примечание: любой добавленный локальный номер пропустит Найди-меня/Следуйте-"
+"сюда этого локального номера, если вы хотите, чтобы система использовала "
+"Найди-меня/Следуйте-сюда другого номера - добавьте # к этому номеру, "
+"например 105#"
 
 #: assets/js/findmefollow.js:113
 msgid ""
@@ -588,12 +606,16 @@ msgid ""
 "Override the ringer volume. Note: This is only valid for %s phones at this "
 "time"
 msgstr ""
+"Переопределите громкость звонка. Примечание: В настоящее время это правило "
+"действует только для телефонов %s"
 
 #: functions.inc.php:815
 msgid ""
 "Override the ringer volume. Note: This is only valid for Sangoma phones at "
 "this time"
 msgstr ""
+"Переопределите громкость звонка. Примечание: это действительно в настоящее "
+"время только для телефонов Sangoma"
 
 #: functions.inc.php:769 views/form.php:188
 msgid "Play Music On Hold"
@@ -647,7 +669,7 @@ msgstr "Время вызова (макс. 60 сек)"
 
 #: functions.inc.php:814 views/form.php:559
 msgid "Ringer Volume Override"
-msgstr ""
+msgstr "Переопределение громкости звонка"
 
 #: ucp/views/settings.php:45 ucp/views/settings.php:54
 msgid "Seconds"
@@ -662,18 +684,24 @@ msgid ""
 "The default Initial Ring Time for a Follow Me set upon creation and used if "
 "auto-created with a new extension."
 msgstr ""
+"Начальное время звонка Следуйте-сюда по умолчанию устанавливается при "
+"создании и используется если автоматически создается с новым номером."
 
 #: findmefollow.i18n.php:32
 msgid ""
 "The default Ring Strategy selected for a Follow Me set upon creation and "
 "used if auto-created with an extension."
 msgstr ""
+"Стратегия вызова по умолчанию, выбираемая для использовании в Следуйте-сюда "
+"при создании и используемая при автоматическом создании с внутр.номером."
 
 #: findmefollow.i18n.php:24
 msgid ""
 "The default Ring Time for a Follow Me set upon creation and used if auto-"
 "created with a new extension."
 msgstr ""
+"Время вызова Следуйте-сюда по умолчанию, устанавливается при создании и "
+"используемая если автоматически создается с новым внутр.номером."
 
 #: views/form.php:255
 msgid "The number users will dial to ring extensions in this Followme group"
@@ -691,11 +719,11 @@ msgstr ""
 
 #: views/form.php:466
 msgid "This is in addition to the Initial Ring Time"
-msgstr ""
+msgstr "Это в дополнение к Начальному времени вызова"
 
 #: findmefollow.i18n.php:20
 msgid "This is the default value for the Follow Me "
-msgstr ""
+msgstr "Это значение по умолчанию для параметра Следуйте-сюда "
 
 #: functions.inc.php:679 ucp/views/settings.php:48 views/form.php:416
 msgid ""
@@ -785,6 +813,8 @@ msgstr "Основной внутренний номер пользовател�
 #: views/ucp_config.php:87
 msgid "User will have the Option to select followme ring Strategy in UCP"
 msgstr ""
+"Пользователь будет иметь возможность выбрать ту стратегию вызова Следуйте-"
+"сюда в UCP"
 
 #: Findmefollow.class.php:93
 msgid "Warning! Extension"
@@ -800,6 +830,9 @@ msgid ""
 "automatically create a new Follow Me for that user using the default "
 "settings listed below"
 msgstr ""
+"При создании нового пользователя или внутр.номера установка этого значения в "
+"true автоматически создаст новый Следуйте-сюда для этого пользователя, "
+"используя параметры по умолчанию, перечисленные ниже"
 
 #: functions.inc.php:632 views/form.php:392
 msgid ""
@@ -807,6 +840,10 @@ msgid ""
 "event. When set to no followme will match (be enabled) whenever no event is "
 "present"
 msgstr ""
+"Если установлено значение да, то следуйте-сюда будет соответствовать (будет "
+"включено) всякий раз, когда происходит событие. Если задано значение no "
+"следуйте-сюда, то оно будет совпадать (будет включено) всякий раз, когда "
+"отсутствует какое-либо событие"
 
 #: views/form.php:692
 msgid "Where to send callers if there is no answer."
@@ -821,7 +858,7 @@ msgstr "Да"
 
 #: functions.inc.php:654
 msgid "You can not set both a group and a calendar"
-msgstr ""
+msgstr "Вы не можете установить как группу, так и календарь"
 
 #: functions.inc.php:781
 msgid ""
@@ -845,15 +882,15 @@ msgstr ""
 
 #: assets/js/findmefollow.js:88
 msgid "You cant set both a group and a calendar"
-msgstr ""
+msgstr "Вы не можете установить одновременно группу и календарь"
 
 #: functions.inc.php:156
 msgid "Your followme is linked to a non-existant calendar"
-msgstr ""
+msgstr "Ваш следуйте-сюда связан с несуществующим календарем"
 
 #: functions.inc.php:145
 msgid "Your followme is linked to a non-existant calendar group"
-msgstr ""
+msgstr "Ваш следуйте-сюда связан с несуществующей календарной группой"
 
 #: views/form.php:199
 msgid "default"
@@ -906,6 +943,10 @@ msgid ""
 "continuing call to extension (only if extension is in the Group List), ring "
 "Follow-Me List for duration set in Ring Time."
 msgstr ""
+"номер звонит в течении времени, указанного в Начальном времени вызова, а "
+"затем продолжается вызов добавочного номера (только если он находится в "
+"списке групп), вызывая список Следуйте-сюда по длительности, заданной во "
+"Времени вызова."
 
 #: functions.inc.php:688
 msgid ""
@@ -931,6 +972,9 @@ msgid ""
 "ring 1st 2nd and 3rd extension in the list.... etc. This strategy will work "
 "only when Confirm Calls is disabled."
 msgstr ""
+"звонит первый номер в списке, затем звонит 1-й и 2-й, затем звонит 1-й, 2-й "
+"и 3-й номера в списке.... и т.д. Эта стратегия будет работать только тогда, "
+"когда отключено Подтверждение вызовов."
 
 #: functions.inc.php:693 ucp/views/settings.php:12
 msgid "ring only the first available channel"
@@ -941,6 +985,8 @@ msgid ""
 "ring only the first available channel. This strategy will work only when "
 "Confirm Calls is disabled."
 msgstr ""
+"звоните только по первый доступный канал. Эта стратегия будет работать "
+"только тогда, когда отключено Подтверждение вызовов."
 
 #: functions.inc.php:694 ucp/views/settings.php:14
 msgid "ring only the first channel which is not off hook - ignore CW"
@@ -953,6 +999,8 @@ msgid ""
 "ring only the first channel which is not off hook - ignore CW. This strategy "
 "will work only when Confirm Calls is disabled."
 msgstr ""
+"звонит только первый незадействованный канал - игнорируя CW. Эта стратегия "
+"будет работать только тогда, когда отключено Подтверждение вызовов."
 
 #: functions.inc.php:689 ucp/views/settings.php:4 views/form.php:42
 msgid "ringall"
