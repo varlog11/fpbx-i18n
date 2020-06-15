@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 07:16+0000\n"
-"PO-Revision-Date: 2020-06-04 15:23+0500\n"
+"PO-Revision-Date: 2020-06-15 16:28+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -755,7 +755,7 @@ msgstr ""
 
 #: amp.i18n.php:586
 msgid "API Cache expiration"
-msgstr ""
+msgstr "Срок действия кэша API"
 
 #: amp.i18n.php:462
 msgid "Abort Config Gen on Bad Dest"
@@ -1276,6 +1276,8 @@ msgid ""
 "As this machine does not meet those requirements, system updates must be "
 "manually performed by the operator, using 'yum', 'apt', or equivalent."
 msgstr ""
+"Поскольку эта машина не соответствует этим требованиям - обновления системы "
+"должны выполняться оператором вручную, используя 'yum', 'apt' или эквивалент."
 
 #: amp_conf/htdocs/admin/libraries/BMO/LoadConfig.class.php:97
 msgid "Asked for raw contents of a file, but was never asked to read a file"
@@ -1422,7 +1424,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Console/Stop.class.php:190
 msgid "Asterisk is still running and we can't stop it!"
-msgstr ""
+msgstr "Asterisk все еще работает, и мы не можем ее остановить!"
 
 #: amp_conf/htdocs/admin/views/welcome_nomanager.php:7
 msgid "Asterisk may not be running."
@@ -1446,10 +1448,11 @@ msgstr "Попытка включить %s"
 #: amp_conf/htdocs/admin/libraries/Console/Util.class.php:71
 msgid "Attempting to optimize MySQL Tables (this may take some time)"
 msgstr ""
+"Попытка оптимизировать таблицы MySQL (это может занять некоторое время)"
 
 #: amp_conf/htdocs/admin/libraries/Console/Util.class.php:62
 msgid "Attempting to repair MySQL Tables (this may take some time)"
-msgstr ""
+msgstr "Попытка восстановить таблицы MySQL (это может занять некоторое время)"
 
 #: amp.i18n.php:250
 msgid "Attended Transfer Alert Info"
@@ -1564,17 +1567,17 @@ msgstr "Автоматически запустить rport - (%s)"
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:85
 #: amp_conf/htdocs/admin/views/oobe.php:174
 msgid "Automatic Module Security Updates"
-msgstr ""
+msgstr "Автоматическое обновление безопасности модулей"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:71
 #: amp_conf/htdocs/admin/views/oobe.php:157
 msgid "Automatic Module Updates"
-msgstr ""
+msgstr "Автоматическое обновление модулей"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:57
 #: amp_conf/htdocs/admin/views/oobe.php:139
 msgid "Automatic System Updates"
-msgstr ""
+msgstr "Автоматическое обновление системы"
 
 #: ../core/functions.inc/drivers/Sip.class.php:398
 #, php-format
@@ -1586,10 +1589,12 @@ msgid ""
 "Automatic updates are enabled!  These modules will be automatically updated "
 "in one hours time."
 msgstr ""
+"Автоматическое обновление включено! Эти модули будут автоматически обновлены "
+"в течение одного часа."
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:64
 msgid "Automatically enable disabled modules without prompting"
-msgstr ""
+msgstr "Автоматическое включение отключенных модулей без запроса"
 
 #: amp.i18n.php:168
 msgid ""
@@ -1615,32 +1620,32 @@ msgstr "Бета"
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:141
 #: amp_conf/htdocs/admin/views/oobe.php:237
 msgid "Between 12pm and 4pm"
-msgstr ""
+msgstr "Между 12 п.п и 4 п.п"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:139
 #: amp_conf/htdocs/admin/views/oobe.php:235
 msgid "Between 4am and 8am"
-msgstr ""
+msgstr "Между 4 д.п и 8 д.п"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:142
 #: amp_conf/htdocs/admin/views/oobe.php:238
 msgid "Between 4pm and 8pm"
-msgstr ""
+msgstr "Между 4 п.п и 8 п.п"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:140
 #: amp_conf/htdocs/admin/views/oobe.php:236
 msgid "Between 8am and 12pm"
-msgstr ""
+msgstr "Между 8 д.п и 12 п.п"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:143
 #: amp_conf/htdocs/admin/views/oobe.php:239
 msgid "Between 8pm and Midnight"
-msgstr ""
+msgstr "Между 8п.п и полночью"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:138
 #: amp_conf/htdocs/admin/views/oobe.php:234
 msgid "Between Midnight and 4am"
-msgstr ""
+msgstr "Между полночью и 4 д.п"
 
 #: amp.i18n.php:254
 msgid "Blind Transfer Alert Info"
@@ -1682,7 +1687,7 @@ msgstr "Статусы браузера"
 
 #: install.php:328
 msgid "Building Packaged Scripts..."
-msgstr ""
+msgstr "Создание сценариев упаковывания..."
 
 #: ../core/functions.inc.php:853 ../core/functions.inc.php:4569
 #: ../core/functions.inc.php:5845
@@ -1769,11 +1774,11 @@ msgstr "Срока жизни кэша"
 
 #: amp_conf/htdocs/admin/libraries/BMO/Cache.class.php:245
 msgid "Cache path is not writable!"
-msgstr ""
+msgstr "Путь к кэшу не доступен для записи!"
 
 #: ../core/views/routing/timecond.php:24
 msgid "Calendar Mode"
-msgstr ""
+msgstr "Режим календаря"
 
 #: ../core/functions.inc.php:5757
 msgid "Call Forward Ring Time"
@@ -2096,7 +2101,7 @@ msgstr "Изменения"
 #: amp_conf/htdocs/admin/libraries/Console/Updatemanager.class.php:168
 #, php-format
 msgid "Changing \"%s\" from [%s] to [%s]"
-msgstr ""
+msgstr "Изменение \"%s\" с [%s] на [%s]"
 
 #: ../core/functions.inc/drivers/Sip.class.php:302
 msgid "Changing SIP Driver unavailable"
@@ -2172,6 +2177,7 @@ msgstr "Проверка таблицы freepbx_settings."
 #: ../core/install.php:479
 msgid "Checking for possibly invalid emergency caller id fields.."
 msgstr ""
+"Проверка возможных недопустимых полей caller id для экстренных вызовов.."
 
 #: upgrades/2.9.0alpha1/tables.php:37
 msgid "Checking for schema changes for core's users table."
@@ -2233,6 +2239,9 @@ msgid ""
 "creating the different standard telephony tones such as ringing, busy, "
 "congetstion, etc."
 msgstr ""
+"Выберите зону индикации страны, которую вы хотите использовать в Asterisk "
+"при создании различных стандартных телефонных тонов, таких как звонок, "
+"занято, перегрузка и т. д."
 
 #: amp.i18n.php:280
 msgid ""
@@ -2475,7 +2484,7 @@ msgstr ""
 
 #: ../core/Core.class.php:4043
 msgid "Core FastAGI Server is not running"
-msgstr ""
+msgstr "Ядро сервера fastAGI не запущено"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:1292
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:1640
@@ -2521,7 +2530,7 @@ msgstr "Невозможно обнаружить подписанный мод�
 #: amp_conf/htdocs/admin/libraries/Console/Kvstore.class.php:33
 #, php-format
 msgid "Could not load a class for %s"
-msgstr ""
+msgstr "Не удалось загрузить класс для %s"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:1407
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:1607
@@ -2599,7 +2608,7 @@ msgstr "Создать сертификат для %s"
 
 #: amp_conf/htdocs/admin/libraries/Builtin/BMore.php:1217
 msgid "Creating database table "
-msgstr ""
+msgstr "Создание таблицы базы данных "
 
 #: amp_conf/htdocs/admin/libraries/BMO/PKCS.class.php:175
 #, php-format
@@ -2654,19 +2663,19 @@ msgstr "Текущая конфигурация сети"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-summary.php:19
 msgid "Current PBX Version:"
-msgstr ""
+msgstr "Текущая версия УАТС:"
 
 #: amp_conf/htdocs/admin/libraries/Builtin/SystemUpdates.php:535
 msgid "Current System Update Status:"
-msgstr ""
+msgstr "Текущий статус обновления системы:"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-summary.php:24
 msgid "Current System Version:"
-msgstr ""
+msgstr "Текущая версия системы:"
 
 #: amp_conf/htdocs/admin/libraries/Builtin/UpdateManager.php:356
 msgid "Current Version"
-msgstr ""
+msgstr "Текущая версия"
 
 #: amp_conf/htdocs/admin/views/footer_content.php:34
 #, php-format
@@ -2908,7 +2917,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Console/Doctrine.class.php:19
 msgid "Database name"
-msgstr ""
+msgstr "Название базы данных"
 
 #: amp_conf/htdocs/admin/views/module_admin/footer.php:21
 msgid "Date Fixed"
@@ -11594,7 +11603,7 @@ msgstr ""
 "Использовать экспериментальный диалплан dialparties. Когда эта функция "
 "включена - система больше не будет использовать dialparties.agi и будет "
 "использовать строго диалплан, это может повысить производительность в "
-"нагруженных системах."
+"нагруженных системах"
 
 #: ../core/page.advancedsettings.php:290
 msgid "Use extreme caution when making changes!"
