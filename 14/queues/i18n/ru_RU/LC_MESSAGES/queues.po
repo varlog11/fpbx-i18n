@@ -7,10 +7,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: Queues 14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-06 11:25+0530\n"
-"PO-Revision-Date: 2020-05-29 10:24+0500\n"
+"PO-Revision-Date: 2020-06-15 17:00+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +55,7 @@ msgstr ""
 
 #: views/form.php:719
 msgid "Advanced Options"
-msgstr ""
+msgstr "Дополнительные параметры"
 
 #: views/form.php:1430
 msgid ""
@@ -72,7 +72,7 @@ msgstr ""
 
 #: views/form.php:232
 msgid "Agent Announcement"
-msgstr ""
+msgstr "Объявление агента"
 
 #: queues.i18n.php:30
 msgid "Agent Called Events Default"
@@ -92,15 +92,15 @@ msgstr ""
 
 #: views/form.php:1334
 msgid "Agent Timeout"
-msgstr ""
+msgstr "Тайм-аут агента"
 
 #: views/form.php:1360
 msgid "Agent Timeout Restart"
-msgstr ""
+msgstr "Перезапуск тайм-аута агента"
 
 #: views/form.php:875
 msgid "Alert Info"
-msgstr ""
+msgstr "Информация о сигнале"
 
 #: install.php:15 queues.i18n.php:42
 msgid ""
@@ -122,7 +122,7 @@ msgstr ""
 
 #: views/form.php:1790
 msgid "Announce Position"
-msgstr ""
+msgstr "Объявление позиции"
 
 #: views/form.php:1807
 msgid "Announce position of caller in the queue?"
@@ -160,7 +160,7 @@ msgstr ""
 
 #: views/cron.php:63
 msgid "Annually"
-msgstr ""
+msgstr "Ежегодно"
 
 #: queues.i18n.php:6
 msgid "Applications"
@@ -191,7 +191,7 @@ msgstr ""
 
 #: views/form.php:1587
 msgid "Auto Pause Delay"
-msgstr ""
+msgstr "Задержка автопаузы"
 
 #: views/form.php:1517
 msgid ""
@@ -203,11 +203,11 @@ msgstr ""
 
 #: views/form.php:1529
 msgid "Auto Pause on Busy"
-msgstr ""
+msgstr "Автопауза при \"Занято\""
 
 #: views/form.php:1558
 msgid "Auto Pause on Unavailable"
-msgstr ""
+msgstr "Автопауза при \"Недоступен\""
 
 #: views/form.php:1036
 msgid "Autofill"
@@ -223,7 +223,7 @@ msgstr ""
 
 #: views/form.php:823
 msgid "CID Name Prefix"
-msgstr ""
+msgstr "Префикс CID"
 
 #: views/form.php:795
 msgid "Call Confirm"
@@ -235,7 +235,7 @@ msgstr ""
 
 #: views/form.php:1126
 msgid "Call Recording"
-msgstr ""
+msgstr "Запись вызова"
 
 #: views/form.php:986
 msgid "Call as Dialed"
@@ -288,7 +288,7 @@ msgstr "Ежедневно"
 
 #: views/form.php:154
 msgid "Default"
-msgstr ""
+msgstr "По умолчанию"
 
 #: queues.i18n.php:32
 msgid ""
@@ -327,7 +327,7 @@ msgstr ""
 
 #: views/form.php:19 views/form.php:1133
 msgid "Don't Care"
-msgstr ""
+msgstr "Несущественно"
 
 #: views/form.php:1243
 msgid "Dynamic Agents"
@@ -364,7 +364,7 @@ msgstr ""
 
 #: functions.inc/hook_core.php:59
 msgid "Extension Options"
-msgstr ""
+msgstr "Опции внутреннего номера"
 
 #: views/form.php:990
 msgid "Extensions Only"
@@ -376,7 +376,7 @@ msgstr ""
 
 #: views/form.php:19 views/form.php:1131
 msgid "Force"
-msgstr ""
+msgstr "Принудительно"
 
 #: views/form.php:1740
 msgid "Frequency"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: views/form.php:694
 msgid "General Settings"
-msgstr ""
+msgstr "Основные настройки"
 
 #: views/form.php:781
 msgid "Give this queue a brief name to help you identify it."
@@ -406,7 +406,7 @@ msgstr ""
 
 #: views/cron.php:59
 msgid "Hourly"
-msgstr ""
+msgstr "Каждый час"
 
 #: views/form.php:601
 msgid ""
@@ -579,7 +579,7 @@ msgstr "Только музыка на удержание"
 
 #: views/cron.php:62
 msgid "Monthly"
-msgstr ""
+msgstr "Ежемесячно"
 
 #: views/form.php:323
 msgid ""
@@ -595,11 +595,11 @@ msgstr ""
 
 #: views/form.php:291
 msgid "Music on Hold Class"
-msgstr ""
+msgstr "Класс музыки в ожидании"
 
 #: views/form.php:19 views/form.php:1135
 msgid "Never"
-msgstr ""
+msgstr "Никогда"
 
 #: views/form.php:404
 msgid ""
@@ -627,7 +627,7 @@ msgstr ""
 #: views/form.php:190 views/form.php:218 views/form.php:512 views/form.php:553
 #: views/form.php:903
 msgid "None"
-msgstr ""
+msgstr "Отсутствует"
 
 #: views/form.php:1830
 msgid "Once"
@@ -643,6 +643,8 @@ msgid ""
 "Override the ringer volume. Note: This is only valid for %s phones at this "
 "time"
 msgstr ""
+"Переопределите громкость звонка. Примечание: В настоящее время это правило "
+"действует только для телефонов %s"
 
 #: views/form.php:1707
 msgid "Penalty Members Limit"
@@ -835,7 +837,7 @@ msgstr ""
 
 #: views/form.php:1390
 msgid "Retry"
-msgstr ""
+msgstr "Повторить"
 
 #: views/form.php:314
 msgid "Ring Only"
@@ -843,11 +845,11 @@ msgstr "Только звонок"
 
 #: views/form.php:1010
 msgid "Ring Strategy"
-msgstr ""
+msgstr "Стратегия вызова"
 
 #: views/form.php:898
 msgid "Ringer Volume Override"
-msgstr ""
+msgstr "Переопределение громкости звонка"
 
 #: views/form.php:926
 msgid "Ringer Volume Override Mode"
@@ -956,7 +958,7 @@ msgstr ""
 
 #: Queues.class.php:211
 msgid "Submit"
-msgstr ""
+msgstr "Принять"
 
 #: views/form.php:1778
 msgid ""
@@ -1045,7 +1047,7 @@ msgstr ""
 
 #: Queues.class.php:145
 msgid "Warning! Extension"
-msgstr ""
+msgstr "Осторожно! Внутренний номер"
 
 #: functions.inc/queue_conf.php:212
 msgid ""
@@ -1056,7 +1058,7 @@ msgstr ""
 
 #: views/cron.php:61
 msgid "Weekly"
-msgstr ""
+msgstr "Еженедельно"
 
 #: views/form.php:199
 msgid "When No Free Agents"
@@ -1219,7 +1221,7 @@ msgstr "день"
 
 #: views/form.php:306
 msgid "default"
-msgstr ""
+msgstr "по умолчанию"
 
 #: views/form.php:268
 msgid "fewestcalls"
@@ -1227,19 +1229,19 @@ msgstr ""
 
 #: functions.inc.php:32
 msgid "hour"
-msgstr ""
+msgstr "час"
 
 #: functions.inc.php:32
 msgid "hours"
-msgstr ""
+msgstr "часов"
 
 #: views/form.php:304
 msgid "inherit"
-msgstr ""
+msgstr "наследованый"
 
 #: Queues.class.php:145
 msgid "is not allowed for your account."
-msgstr ""
+msgstr "не разрешён к использованию для этого аккаунта."
 
 #: views/form.php:267
 msgid "leastrecent"
@@ -1251,15 +1253,15 @@ msgstr "линейная"
 
 #: functions.inc.php:33
 msgid "minute"
-msgstr ""
+msgstr "минута"
 
 #: functions.inc.php:33
 msgid "minutes"
-msgstr ""
+msgstr "минут"
 
 #: views/form.php:305
 msgid "none"
-msgstr ""
+msgstr "нет"
 
 #: views/form.php:269
 msgid "random"
@@ -1289,7 +1291,7 @@ msgstr ""
 
 #: views/form.php:266
 msgid "ringall"
-msgstr ""
+msgstr "звонят-все"
 
 #: views/form.php:272
 msgid ""
@@ -1316,12 +1318,12 @@ msgstr ""
 
 #: functions.inc.php:34
 msgid "second"
-msgstr ""
+msgstr "секунда"
 
 #: functions.inc.php:17 functions.inc.php:34 views/form.php:347
 #: views/form.php:350 views/form.php:371 views/form.php:377 views/form.php:386
 msgid "seconds"
-msgstr ""
+msgstr "секунд"
 
 #: views/form.php:273
 msgid "wrandom"
