@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 07:16+0000\n"
-"PO-Revision-Date: 2020-06-15 16:28+0500\n"
+"PO-Revision-Date: 2020-06-18 12:23+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2699,7 +2699,7 @@ msgstr ""
 
 #: upgrades/2.8.0/custom-context.php:53 upgrades/2.8.0rc1/custom-context.php:53
 msgid "Custom Context Migration aborted"
-msgstr "Перенос специализированного контекста прерван"
+msgstr "Перенос пользовательского контекста прерван"
 
 #: ../core/functions.inc/drivers/Custom.class.php:11
 msgid "Custom Device"
@@ -3504,7 +3504,7 @@ msgstr "Выключить"
 
 #: amp.i18n.php:286
 msgid "Disable -custom Context Includes"
-msgstr "Отключить кастомные включения в контексты"
+msgstr "Отключить пользовательские включения в контексты"
 
 #: amp.i18n.php:596
 msgid "Disable CRM Logging"
@@ -4605,7 +4605,7 @@ msgstr "НЕ УДАЛОСЬ"
 
 #: upgrades/2.8.0/custom-context.php:85 upgrades/2.8.0rc1/custom-context.php:86
 msgid "FAILED to migrating Custom Context route "
-msgstr "НЕ УДАЛОСЬ перенести маршрут "
+msgstr "НЕ УДАЛОСЬ перенести маршрут пользовательского контекста "
 
 #: upgrades/2.9.0alpha1/migrate_ampconf.php:188
 #, php-format
@@ -7309,11 +7309,11 @@ msgid ""
 "includes, you can set this to true. If you comment it out FreePBX will "
 "revert to legacy behavior and include the contexts."
 msgstr ""
-"Обычным образом FreePBX автоматически генерирует кастомные контексты которые "
-"могут использоваться для добавления пользовательских диал-планов чтобы "
-"изменить стандартное поведение FreePBX. Это требует хорошего понимания как "
-"Астериск обрабатывает инклюды в контекстах в большинстве случаев если нет "
-"соответствующих приложений. Все вложения такого рода вызывают обычно "
+"Обычным образом FreePBX автоматически генерирует пользовательские контексты "
+"которые могут использоваться для добавления пользовательских диалпланов "
+"чтобы изменить стандартное поведение FreePBX. Это требует хорошего понимания "
+"как Asterisk обрабатывает инклюды в контекстах, в большинстве случаев если "
+"нет соответствующих приложений. Все вложения такого рода вызывают обычно "
 "сообщения ПРЕДУПРЕЖДЕНИЕ! в журнале если не найден контекст на который "
 "ссылается инклюд, но это не является ошибкой. Если вы уверены, что вам "
 "понадобятся вложения можно установить этот параметр в true. В противном "
@@ -11352,8 +11352,8 @@ msgstr "Непонятный режим SQL-запроса %s"
 #: upgrades/2.8.0/custom-context.php:52 upgrades/2.8.0rc1/custom-context.php:52
 msgid "Unknown error fetching Custom Context table data or no data to migrate"
 msgstr ""
-"Неизвестная ошибка при запросе данных таблицы Особый контекст или нет данных "
-"для переноса"
+"Неизвестная ошибка при запросе данных из таблицы пользовательского контекста "
+"или нет данных для переноса"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:1845
 #, php-format
@@ -12935,7 +12935,7 @@ msgstr "проверка  freepbx.conf.."
 
 #: upgrades/2.8.0/custom-context.php:40 upgrades/2.8.0rc1/custom-context.php:33
 msgid "checking if Custom Context migration is required..."
-msgstr "проверяем,требуется ли перенос  пользовательского контекста..."
+msgstr "проверяем,требуется ли перенос пользовательского контекста..."
 
 #: upgrades/2.10.0beta3/migration.php:68
 msgid "checking if did file field needed in cdr.."
@@ -13000,8 +13000,8 @@ msgstr "готово"
 #: upgrades/2.8.0rc1/custom-context.php:105
 msgid "done! Reload FreePBX to update all Custom Context settings."
 msgstr ""
-"завершено! Перезагрузите FreePBX для обновления всех установок  "
-"Пользовательских Контекстов."
+"завершено! Перезагрузите FreePBX для обновления всех установок "
+"Пользовательских контекстов."
 
 #: install.php:187 install.php:198 install.php:209
 msgid "done, see errors below"

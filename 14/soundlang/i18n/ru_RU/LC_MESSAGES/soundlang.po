@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-16 17:39+0530\n"
-"PO-Revision-Date: 2020-06-15 16:45+0500\n"
+"PO-Revision-Date: 2020-06-18 12:32+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -455,7 +455,7 @@ msgstr "Звуковые подсказки"
 
 #: soundlang.i18n.php:4 soundlang.i18n.php:10
 msgid "Sound Languages"
-msgstr "Языки звуков"
+msgstr "Языки подсказок"
 
 #: views/oobe.php:15
 msgid "Sound Prompts Language"
