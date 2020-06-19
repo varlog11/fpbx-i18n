@@ -11,7 +11,7 @@
     "Asterisk_REST_Interface_Users": "100%",
     "Bulk_Handler": "100%",
     "Calendar": "100%",
-    "Call_Event_Logging": "3%",
+    "Call_Event_Logging": "100%",
     "Certificate_Manager": "100%",
     "Custom_Contexts": "100%",
     "Framework": "85%",
