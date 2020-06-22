@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Queues 14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-06 11:25+0530\n"
-"PO-Revision-Date: 2020-06-15 17:00+0500\n"
+"PO-Revision-Date: 2020-06-22 17:43+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,6 +38,12 @@ msgid ""
 "that is not from a compound sound file. The IVR itself can play such files, "
 "but the Queue subsystem can not"
 msgstr ""
+"< b>ОШИБКА</b>: вы выбрали IVR, использующий объявления, созданные из "
+"составных звуковых файлов. Очередь не может воспроизводить подобные "
+"объявления. Эта запись IVR будет усечена, чтобы использовать только первый "
+"звуковой файл. Вы можете исправить эту проблему, выбрав другое объявление "
+"для этого IVR, не являющееся составным. IVR сам может воспроизводить такие "
+"файлы, но подсистема очереди - нет"
 
 #: views/qgrid.php:16
 msgid "Actions"
@@ -65,6 +71,10 @@ msgid ""
 "setting (Asterisk: shared_lastcall) on the Advanced Settings page so that "
 "this is honored across queues for members logged on to multiple queues."
 msgstr ""
+"Если вы используете Asterisk 1.6+, то вы также можете установить параметр "
+"\"Honor Wrapup Time Across Queues\" (Asterisk: shared_lastcall) на странице "
+"расширенных настроек, чтобы он выполнялся в разных очередях для участников, "
+"вошедших в несколько очередей."
 
 #: functions.inc.php:65
 msgid "Agent Announce Msg"
@@ -107,6 +117,9 @@ msgid ""
 "Allow Dynamic Members of a Queue to login or logout. See the Queues Module "
 "for how to assign a Dynamic Member to a Queue."
 msgstr ""
+"Разрешить динамическим участникам очереди входить в систему или выходить из "
+"нее. См. модуль очереди для того, чтобы назначить динамического агента "
+"очереди."
 
 #: views/form.php:198
 msgid "Always"
@@ -114,7 +127,7 @@ msgstr "Всегда"
 
 #: views/form.php:391
 msgid "Always allows the caller to join the Queue."
-msgstr ""
+msgstr "Позволяет вызывающему абоненту всегда присоединяться к очереди."
 
 #: views/form.php:1819
 msgid "Announce Hold Time"
@@ -126,7 +139,7 @@ msgstr "Объявление позиции"
 
 #: views/form.php:1807
 msgid "Announce position of caller in the queue?"
-msgstr ""
+msgstr "Объявить позицию абонента в очереди?"
 
 #: views/form.php:209
 msgid ""
@@ -187,7 +200,7 @@ msgstr ""
 
 #: views/form.php:1498
 msgid "Auto Pause"
-msgstr ""
+msgstr "Автопауза"
 
 #: views/form.php:1587
 msgid "Auto Pause Delay"
@@ -215,7 +228,7 @@ msgstr "Автозаполнение"
 
 #: functions.inc/geters_seters.php:39
 msgid "Bad Queue Number, can not be blank"
-msgstr ""
+msgstr "Плохой номер очереди - не может быть пустым"
 
 #: views/form.php:439
 msgid "Break Out Type"
@@ -251,7 +264,7 @@ msgstr ""
 
 #: views/form.php:1730
 msgid "Caller Position"
-msgstr ""
+msgstr "Позиция абонента"
 
 #: views/form.php:400
 msgid ""
@@ -259,6 +272,10 @@ msgid ""
 "device or have penalty values less than QUEUE_MAX_PENALTY (not currently set "
 "in FreePBX dialplan)."
 msgstr ""
+"Абоненты будут отключены, если все агенты приостановлены, отображают "
+"недопустимое состояние для своего устройства или имеют значения пенальти "
+"меньше, чем QUEUE_MAX_PENALTY (в настоящее время не заданные в диалплане "
+"FreePBX)."
 
 #: views/form.php:394
 msgid ""
@@ -266,6 +283,10 @@ msgid ""
 "for their device, or have penalty values less than QUEUE_MAX_PENALTY (not "
 "currently set in FreePBX dialplan)."
 msgstr ""
+"Абоненты не будут допущены, если все агенты приостановлены, отображают "
+"недопустимое состояние для своего устройства или имеют значения пенальти, "
+"меньшие, чем QUEUE_MAX_PENALTY (в настоящее время не установлено в диалплане "
+"FreePBX)."
 
 #: views/form.php:709
 msgid "Capacity Options"
