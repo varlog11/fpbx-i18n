@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Ring Groups\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-12 11:41+0530\n"
-"PO-Revision-Date: 2020-06-23 14:04+0500\n"
+"PO-Revision-Date: 2020-06-23 15:18+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +56,6 @@ msgid "Alert Info"
 msgstr "Информация о сигнале"
 
 #: views/form.php:247
-#, fuzzy
 msgid "Always transmit the Fixed CID Value below."
 msgstr "Всегда передавать фиксированное значение CID, указанное ниже."
 
@@ -69,22 +68,18 @@ msgid "Applications"
 msgstr "Приложения"
 
 #: views/advanced_form.php:142
-#, fuzzy
 msgid "CID Name Prefix"
-msgstr "Префикс CID"
+msgstr "Префикс CID имени"
 
 #: views/advanced_form.php:431
-#, fuzzy
 msgid "Call Recording"
 msgstr "Запись вызова"
 
 #: views/advanced_form.php:381
-#, fuzzy
 msgid "Change External CID Configuration"
 msgstr "Изменить конфигурацию внешнего CID"
 
 #: views/advanced_form.php:352
-#, fuzzy
 msgid "Confirm Calls"
 msgstr "Подтверждение вызовов"
 
@@ -115,15 +110,15 @@ msgstr "Назначение при неответе"
 
 #: ringgroups.i18n.php:12
 msgid "Display Extension Ring Group Members"
-msgstr ""
+msgstr "Отображение внутренних номеров участников групп вызова"
 
 #: views/advanced_form.php:438
 msgid "Dont Care"
-msgstr ""
+msgstr "Неважно"
 
 #: views/advanced_form.php:325
 msgid "Enable Call Pickup"
-msgstr ""
+msgstr "Включить перехват вызова"
 
 #: views/advanced_form.php:367
 #, fuzzy
@@ -141,7 +136,7 @@ msgstr ""
 
 #: views/advanced_form.php:58 views/simple_form.php:32
 msgid "Extension List"
-msgstr ""
+msgstr "Список внутренних номеров"
 
 #: views/advanced_form.php:407 views/form.php:247 views/form.php:258
 msgid "Fixed CID Value"
@@ -185,7 +180,7 @@ msgstr ""
 
 #: views/advanced_form.php:271
 msgid "Ignore CF Settings"
-msgstr ""
+msgstr "Игнорировать настройки CF"
 
 #: views/form.php:219
 msgid "Inherit"
@@ -193,20 +188,19 @@ msgstr "Наследовать"
 
 #: assets/js/ringgroups.js:60
 msgid "Invalid CID"
-msgstr ""
+msgstr "Неверный CID"
 
 #: assets/js/ringgroups.js:54
 msgid "Invalid Group Number specified"
 msgstr ""
 
 #: assets/js/ringgroups.js:56
-#, fuzzy
 msgid "Invalid time specified"
 msgstr "Указано неверное время"
 
 #: views/bootnav.php:3
 msgid "List Ring Groups"
-msgstr ""
+msgstr "Список групп вызова"
 
 #: views/advanced_form.php:78
 msgid ""
@@ -282,7 +276,7 @@ msgstr "Никогда"
 #: views/advanced_form.php:278 views/advanced_form.php:305
 #: views/advanced_form.php:332 views/advanced_form.php:359
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: views/advanced_form.php:194 views/form.php:108
 msgid "None"
@@ -298,7 +292,6 @@ msgstr ""
 "варианты поддерживаются когда выбрано подтверждение"
 
 #: views/form.php:249 views/form.php:259
-#, fuzzy
 msgid "Outside Calls Fixed CID Value"
 msgstr "Фиксированное значение CID для внешних звонков"
 
@@ -312,16 +305,14 @@ msgstr ""
 "действует только для телефонов %s"
 
 #: views/form.php:211
-#, fuzzy
 msgid "Play Music On Hold"
-msgstr "Воспроизводить мелодию ожидания"
+msgstr "Воспроизводить музыку в ожидании"
 
 #: assets/js/ringgroups.js:58
 msgid "Please enter a valid Group Description"
 msgstr ""
 
 #: assets/js/ringgroups.js:55
-#, fuzzy
 msgid "Please enter an extension list."
 msgstr "Введите список внутр. номеров."
 
@@ -334,72 +325,67 @@ msgid "Provide a name for this Ring Group."
 msgstr ""
 
 #: views/form.php:136
-#, fuzzy
 msgid "Remote Announce"
 msgstr "Удаленное приветствие"
 
 #: Ringgroups.class.php:159
-#, fuzzy
 msgid "Reset"
 msgstr "Сброс"
 
 #: views/form.php:218
-#, fuzzy
 msgid "Ring"
 msgstr "Звонок"
 
 #: views/bootnav.php:13 views/rggrid.php:16
 msgid "Ring Group"
-msgstr ""
+msgstr "Группа вызова"
 
 #: functions.inc.php:37
 #, php-format
 msgid "Ring Group %s: "
-msgstr ""
+msgstr "Группа вызова %s: "
 
 #: functions.inc.php:458
 msgid "Ring Group Membership"
-msgstr ""
+msgstr "Участники группы вызова"
 
 #: ringgroups.i18n.php:14
 msgid "Ring Group Module"
-msgstr ""
+msgstr "Модуль Группы вызова"
 
 #: views/simple_form.php:8
 msgid "Ring Group Name"
-msgstr ""
+msgstr "Название группы вызова"
 
 #: functions.inc.php:57 functions.inc.php:333
 #, php-format
 msgid "Ring Group: %s"
-msgstr ""
+msgstr "Группа вызова: %s"
 
 #: functions.inc.php:360
 #, php-format
 msgid "Ring Group: %s (%s)"
-msgstr ""
+msgstr "Группа вызова: %s (%s)"
 
 #: page.ringgroups.php:10 ringgroups.i18n.php:4 ringgroups.i18n.php:10
 msgid "Ring Groups"
-msgstr ""
+msgstr "Группы вызова"
 
 #: views/advanced_form.php:90 views/simple_form.php:64
-#, fuzzy
 msgid "Ring Strategy"
 msgstr "Стратегия вызова"
 
 #: views/simple_form.php:91
-#, fuzzy
 msgid "Ring Time"
-msgstr "Время звонка"
+msgstr "Время вызова"
 
 #: views/advanced_form.php:116
 msgid "Ring Time (max 300 sec)"
-msgstr ""
+msgstr "Время вызова (макс 300 сек)"
 
 #: views/simple_form.php:118
 msgid "Ring Tone"
-msgstr ""
+msgstr "Рингтон"
 
 #: views/form.php:54
 msgid "Ring all available channels until one answers (default)"
@@ -411,17 +397,19 @@ msgid ""
 "ring 1st 2nd and 3rd extension in the list.... etc. This strategy will work "
 "only when Confirm Calls is disabled."
 msgstr ""
+"Звонит первый номер в списке, затем 1-й и 2-й номера, затем 1-й, 2-й и 3-й "
+"номера в списке.... и т.д. Эта стратегия будет работать только при "
+"отключенном подтверждении вызовов."
 
 #: views/advanced_form.php:9
 msgid "Ring-Group Number"
-msgstr ""
+msgstr "Номер группы вызова"
 
 #: Ringgroups.class.php:129
 msgid "RingGroup"
-msgstr ""
+msgstr "ГруппаВызова"
 
 #: views/advanced_form.php:189
-#, fuzzy
 msgid "Ringer Volume Override"
 msgstr "Переопределение громкости звонка"
 
@@ -433,11 +421,11 @@ msgstr ""
 
 #: views/advanced_form.php:217
 msgid "Send Progress"
-msgstr ""
+msgstr "Отправлять прогресс"
 
 #: views/simple_form.php:70
 msgid "Sequential"
-msgstr ""
+msgstr "Последовательно"
 
 #: views/advanced_form.php:259
 msgid "Should calls indicate answered elsewhere when a user answers."
@@ -455,10 +443,9 @@ msgstr ""
 
 #: views/advanced_form.php:298
 msgid "Skip Busy Agent"
-msgstr ""
+msgstr "Пропускать занятых операторов"
 
 #: Ringgroups.class.php:154
-#, fuzzy
 msgid "Submit"
 msgstr "Принять"
 
@@ -484,7 +471,7 @@ msgstr ""
 
 #: Ringgroups.class.php:249
 msgid "This ringgroup"
-msgstr ""
+msgstr "Эта группа вызова"
 
 #: views/advanced_form.php:128
 #, fuzzy
@@ -506,7 +493,6 @@ msgid "Time must be between 1 and 300 seconds"
 msgstr ""
 
 #: views/form.php:171
-#, fuzzy
 msgid "Too-Late Announce"
 msgstr "Объявление для Слишком-поздно"
 
@@ -548,17 +534,14 @@ msgstr ""
 "БЛОКИРОВАТЬСЯ на транках, где блокируются чужие (внешние) Caller ID"
 
 #: views/form.php:245
-#, fuzzy
 msgid "Transmits the Callers CID if allowed by the trunk."
-msgstr "Передавать Callers ID, если разрешено транком."
+msgstr "Передавать CID абонента если разрешено транком."
 
 #: views/form.php:251 views/form.php:260
-#, fuzzy
 msgid "Use Dialed Number"
 msgstr "Использовать набранный номер"
 
 #: Ringgroups.class.php:79
-#, fuzzy
 msgid "Warning! Extension"
 msgstr "Осторожно! Внутренний номер"
 
@@ -592,16 +575,17 @@ msgid ""
 "When set to true extensions that belong to one or more Ring Groups will have "
 "a Ring Group section and link back to each group they are a member of."
 msgstr ""
+"Если включено - номера, принадлежащие к одной или нескольким группам вызова, "
+"будут иметь раздел \"Группы вызова\" и ссылаться на каждую группу, "
+"участником которой они являются."
 
 #: views/advanced_form.php:477 views/simple_form.php:153
-#, fuzzy
 msgid "Where to send callers if there is no answer."
-msgstr "Куда отправлять вызывающих, если нет ответа."
+msgstr "Куда отправлять абонентов если нет ответа."
 
 #: views/advanced_form.php:222 views/advanced_form.php:249
 #: views/advanced_form.php:276 views/advanced_form.php:303
 #: views/advanced_form.php:330 views/advanced_form.php:357
-#, fuzzy
 msgid "Yes"
 msgstr "Да"
 
@@ -659,16 +643,15 @@ msgstr "нет"
 
 #: views/form.php:66
 msgid "random"
-msgstr ""
+msgstr "случайный"
 
 #: views/form.php:62
-#, fuzzy
 msgid ""
 "ring only the first available channel. This strategy will work only when "
 "Confirm Calls is disabled."
 msgstr ""
-"звоните только по первый доступный канал. Эта стратегия будет работать "
-"только тогда, когда отключено Подтверждение вызовов."
+"звоните только первый доступный канал. Эта стратегия будет работать только "
+"тогда, когда подтверждение вызовов отключено."
 
 #: views/form.php:64
 msgid ""
@@ -677,6 +660,5 @@ msgid ""
 msgstr ""
 
 #: views/form.php:54
-#, fuzzy
 msgid "ringall"
 msgstr "звонят-все"

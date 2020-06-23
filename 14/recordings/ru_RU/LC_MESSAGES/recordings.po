@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: System Recordings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 16:20+0530\n"
-"PO-Revision-Date: 2020-06-23 13:55+0500\n"
+"PO-Revision-Date: 2020-06-23 15:02+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,6 @@ msgstr ""
 "Language: ru_RU\n"
 
 #: Recordings.class.php:457
-#, fuzzy
 msgid "A PHP extension stopped the file upload"
 msgstr "Расширение PHP остановило загрузку файла"
 
@@ -31,6 +30,8 @@ msgid ""
 "A recording with this name already exists for this language. Do you want to "
 "overwrite it?"
 msgstr ""
+"Запись с этим именем уже существует для этого языка. Вы хотите перезаписать "
+"её?"
 
 #: views/grid.php:30
 msgid "Actions"
@@ -38,21 +39,22 @@ msgstr "Действия"
 
 #: views/form.php:4
 msgid "Add New System Recording"
-msgstr ""
+msgstr "Добавить новую системную запись"
 
 #: views/bnav.php:5 views/grid.php:9
 msgid "Add Recording"
-msgstr ""
+msgstr "Добавить запись"
 
 #: views/form.php:230
 msgid "Add System Recording"
-msgstr ""
+msgstr "Добавить системную запись"
 
 #: views/form.php:245
 msgid ""
 "Add any previously created system recording or a recording that was added "
 "previously"
 msgstr ""
+"Добавить ранее созданную системную запись или запись, добавленную ранее"
 
 #: recordings.i18n.php:6
 msgid "Admin"
@@ -63,10 +65,12 @@ msgid ""
 "Are you sure you do not want to convert these files? They may not work "
 "correctly in Asterisk without being converted"
 msgstr ""
+"Вы уверены, что не хотите конвертировать эти файлы? Они не смогут работать "
+"правильно в Asterisk без конвертирования"
 
 #: assets/js/recordings.js:497
 msgid "Are you sure you wish to discard this recordings?"
-msgstr ""
+msgstr "Вы уверены, что хотите отказаться от этих записей?"
 
 #: views/form.php:96
 msgid "Browse"
@@ -74,11 +78,11 @@ msgstr "Обзор"
 
 #: views/form.php:200
 msgid "Call"
-msgstr ""
+msgstr "Вызов"
 
 #: assets/js/recordings.js:542
 msgid "Call!"
-msgstr ""
+msgstr "Вызов!"
 
 #: Recordings.class.php:461
 msgid "Can Not Find Uploaded Files"
@@ -86,7 +90,7 @@ msgstr "Загружаемые файлы не обнаружены"
 
 #: Recordings.class.php:302
 msgid "Can not find suitable file in this language"
-msgstr ""
+msgstr "Невозможно найти подходящий файл на этом языке"
 
 #: views/form.php:169 views/form.php:208
 msgid "Cancel"
@@ -94,10 +98,9 @@ msgstr "Отмена"
 
 #: install.php:7
 msgid "Check Recording"
-msgstr ""
+msgstr "Проверить запись"
 
 #: views/form.php:350
-#, fuzzy
 msgid ""
 "Check all file formats you would like this system recording to be encoded "
 "into"
@@ -110,10 +113,12 @@ msgid ""
 "Check this box to create an options feature code that will allow this "
 "recording to be changed directly."
 msgstr ""
+"Установите этот флажок чтобы создать параметры сервисного кода, позволяющий "
+"напрямую изменять эту запись."
 
 #: views/form.php:258
 msgid "Combine Files"
-msgstr ""
+msgstr "Объединить файлы"
 
 #: views/form.php:334
 msgid "Convert To"
@@ -135,7 +140,7 @@ msgstr "Удалить"
 
 #: assets/js/recordings.js:318
 msgid "Delete Recording"
-msgstr ""
+msgstr "Удалить запись"
 
 #: views/form.php:45
 msgid "Describe this recording"
@@ -155,7 +160,7 @@ msgstr "Поместите сюда несколько файлов или ар�
 
 #: views/form.php:4
 msgid "Edit Recording"
-msgstr ""
+msgstr "Редактировать запись"
 
 #: views/form.php:198
 msgid "Enter Extension"
@@ -167,12 +172,12 @@ msgstr "Ошибка записи файла на диск"
 
 #: views/form.php:314
 msgid "Feature Code Password"
-msgstr ""
+msgstr "Пароль сервисного кода"
 
 #: views/form.php:57
 #, php-format
 msgid "File List for %s"
-msgstr ""
+msgstr "Список файлов для %s"
 
 #: Recordings.class.php:238 Recordings.class.php:403
 msgid "File does not exist"
@@ -198,11 +203,11 @@ msgstr ""
 
 #: views/form.php:286
 msgid "Link to Feature Code"
-msgstr ""
+msgstr "Ссылка на сервисный код"
 
 #: views/bnav.php:6
 msgid "List Recordings"
-msgstr ""
+msgstr "Список записей"
 
 #: Recordings.class.php:451
 msgid "Missing a temporary folder"
@@ -214,15 +219,15 @@ msgstr "Название"
 
 #: views/form.php:206
 msgid "Name this file"
-msgstr ""
+msgstr "Название этого файла"
 
 #: views/form.php:266 views/form.php:294
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: assets/js/recordings.js:619
 msgid "No Recordings Found"
-msgstr ""
+msgstr "Записей не найдено"
 
 #: Recordings.class.php:448
 msgid "No file was uploaded"
@@ -231,11 +236,11 @@ msgstr "Файл не загружен"
 #: views/form.php:66
 #, php-format
 msgid "No files for %s"
-msgstr ""
+msgstr "Нет файлов для %s"
 
 #: assets/js/recordings.js:41
 msgid "No files have been added to this recording"
-msgstr ""
+msgstr "Никакие файлы не были добавлены к этой записи"
 
 #: assets/js/recordings.js:30
 msgid ""
@@ -269,7 +274,7 @@ msgstr ""
 #: functions.inc.php:253
 #, php-format
 msgid "Play Recording: %s"
-msgstr ""
+msgstr "Воспроизвести запись: %s"
 
 #: assets/js/recordings.js:853
 msgid "Please add at least one Sound Package in the Sound Languages Module"
@@ -277,7 +282,7 @@ msgstr ""
 
 #: assets/js/recordings.js:488 assets/js/recordings.js:511
 msgid "Please enter a valid name and save"
-msgstr ""
+msgstr "Пожалуйста, введите действительное имя и сохраните"
 
 #: assets/js/recordings.js:106
 #, perl-format
@@ -286,7 +291,7 @@ msgstr ""
 
 #: views/form.php:122
 msgid "Record In Browser"
-msgstr ""
+msgstr "Запись в браузере"
 
 #: views/form.php:191
 msgid "Record Over Extension"
@@ -294,7 +299,7 @@ msgstr ""
 
 #: install.php:5 recordings.i18n.php:4
 msgid "Recordings"
-msgstr ""
+msgstr "Записи"
 
 #: Recordings.class.php:89
 msgid "Reset"
@@ -306,11 +311,11 @@ msgstr "Сохранить"
 
 #: install.php:6 assets/js/recordings.js:318
 msgid "Save Recording"
-msgstr ""
+msgstr "Сохранить запись"
 
 #: assets/js/recordings.js:619
 msgid "Select a system recording"
-msgstr ""
+msgstr "Выбрать системную запись"
 
 #: views/form.php:5
 #, php-format
@@ -330,7 +335,6 @@ msgid ""
 msgstr ""
 
 #: views/form.php:5 views/grid.php:2
-#, fuzzy
 msgid "Sound Languages"
 msgstr "Языки подсказок"
 
@@ -340,11 +344,11 @@ msgstr "Принять"
 
 #: views/bnav.php:22 views/grid.php:29
 msgid "Supported Languages"
-msgstr ""
+msgstr "Поддерживаемые языки"
 
 #: Recordings.class.php:370 recordings.i18n.php:10
 msgid "System Recordings"
-msgstr ""
+msgstr "Системные записи"
 
 #: assets/js/recordings.js:25
 msgid "The Name '"
@@ -363,23 +367,17 @@ msgid ""
 msgstr ""
 
 #: Recordings.class.php:442
-#, fuzzy
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form"
 msgstr ""
-"Размер загруженного файла превысил  значение директивы MAX_FILE_SIZE,"
-"указанной в HTML-форме"
+"Загружаемый файл превышает директиву MAX_FILE_SIZE, указанную в HTML-форме"
 
 #: Recordings.class.php:439
-#, fuzzy
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
-msgstr ""
-"Размер загруженного файла превысил  значение директивы upload_max_filesize , "
-"указанной в php.ini"
+msgstr "Загружаемый файл превышает директиву upload_max_filesize в php.ini"
 
 #: Recordings.class.php:445
-#, fuzzy
 msgid "The uploaded file was only partially uploaded"
 msgstr "Файлы загружены частично"
 
@@ -406,17 +404,14 @@ msgid ""
 msgstr ""
 
 #: Recordings.class.php:349
-#, fuzzy
 msgid "Unknown Error"
 msgstr "Неизвестная ошибка"
 
 #: Recordings.class.php:434
-#, fuzzy
 msgid "Unsupported file format"
 msgstr "Неподдерживаемый формат файла"
 
 #: assets/js/recordings.js:569
-#, fuzzy
 msgid "Unsupported file type"
 msgstr "Неподдерживаемый тип файла"
 
