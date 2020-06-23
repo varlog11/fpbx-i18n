@@ -14,11 +14,14 @@
     "Call_Event_Logging": "100%",
     "Certificate_Manager": "100%",
     "Custom_Contexts": "100%",
+    "Custom_Destination": "100%",
     "Framework": "85%",
     "Follow_Me": "100%",
+    "Process_Management": "100%",
     "Sip_Settings": "100%",
+    "Sound_Languages": "100%",
     "Queues": "31%",
-    "User_Management": "54%",
-    "Sound_Languages": "100%"
+    "User_Management": "54%"
+
   }
 }

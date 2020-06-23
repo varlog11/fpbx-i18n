@@ -1,0 +1,350 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for dashboard
+# Copyright (C) 2008-2020 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-13 18:45+0530\n"
+"PO-Revision-Date: 2020-06-23 12:35+0500\n"
+"Language-Team: TranslAster <https://github.com/translaster>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#: sections/Blogs.class.php:26 sections/Blogs.class.php:34
+#, php-format
+msgid "%s Feed"
+msgstr "%s Лента"
+
+#: sections/Statistics.class.php:17
+#, php-format
+msgid "%s Statistics"
+msgstr "%s статистик"
+
+#: views/sections/overview.php:66 views/sections/uptime.php:6
+#, php-format
+msgid "%s ago"
+msgstr "%s назад"
+
+#: sections/Overview.class.php:229
+#, php-format
+msgid "%s messages are queued on this machine, and have not been delivered"
+msgstr "%s сообщений стоят в очереди на этом компьютере и не были доставлены"
+
+#: classes/TimeUtils.class.php:23
+msgid "0 seconds"
+msgstr "0 секунд"
+
+#: views/sections/uptime.php:16
+msgid "1 Minute"
+msgstr "1 минута"
+
+#: sections/Overview.class.php:227
+msgid "1 message is queued on this machine, and has not been delivered"
+msgstr ""
+"1 сообщение поставлено в очередь на этом компьютере и не было доставлено"
+
+#: views/sections/uptime.php:22
+msgid "15 Minutes"
+msgstr "15 минут"
+
+#: views/sections/uptime.php:19
+msgid "5 Minutes"
+msgstr "5 минут"
+
+#: sections/Overview.class.php:33
+#, php-format
+msgid "<strong>'%s'</strong>"
+msgstr "<strong>'%s'</strong>"
+
+#: sections/Overview.class.php:35
+#, php-format
+msgid ""
+"<strong>'%s'</strong><br><i>(You can change this name in Advanced Settings)</"
+"i>"
+msgstr ""
+"<strong>'%s'</strong><br><i>(Вы можете изменить это название в \"Расширенных "
+"настройках\")</i>"
+
+#: sections/Overview.class.php:135
+msgid "Asterisk"
+msgstr "Asterisk"
+
+#: sections/Blogs.class.php:27 sections/Blogs.class.php:35
+msgid "Blogs"
+msgstr "Блоги"
+
+#: sections/Overview.class.php:124
+msgid "Critical Errors found"
+msgstr "Найденные критические ошибки"
+
+#: dashboard.i18n.php:6 dashboard.i18n.php:10
+msgid "Dashboard"
+msgstr "Приборная панель"
+
+#: dashboard.i18n.php:14
+msgid "Dashboard Module"
+msgstr "Модуль Приборная панель"
+
+#: views/sections/statistics.php:10 views/sections/statistics.php:21
+#: views/sections/statistics.php:32 views/sections/statistics.php:43
+#: views/sections/statistics.php:54 views/sections/statistics.php:65
+msgid "Day"
+msgstr "День"
+
+#: views/sections/overview.php:54
+msgid "Delete This"
+msgstr "Удалить это"
+
+#: dashboard.i18n.php:12
+msgid "Disable collection of system statistics"
+msgstr "Отключить сбор статистики системных данных"
+
+#: views/sections/statistics.php:50
+msgid "Disk"
+msgstr "Диск"
+
+#: dashboard.i18n.php:18
+msgid "Expiry time for system statistics"
+msgstr "Время истечения срока действия для статистики системы"
+
+#: views/main.php:6
+msgid "Frobulating"
+msgstr "Перемещение"
+
+#: views/sections/statistics.php:9 views/sections/statistics.php:20
+#: views/sections/statistics.php:31 views/sections/statistics.php:42
+#: views/sections/statistics.php:53 views/sections/statistics.php:64
+msgid "Hour"
+msgstr "Час"
+
+#: views/sections/overview.php:53
+msgid "Ignore This"
+msgstr "Игнорировать"
+
+#: classes/Statistics.class.php:13
+msgid "Invalid Selection"
+msgstr "Неверный выбор"
+
+#: classes/Statistics.class.php:25
+msgid "Invalid period"
+msgstr "Неверный период"
+
+#: sections/Statistics.class.php:24
+msgid "Live Network Usage"
+msgstr "Использование живой сети"
+
+#: views/sections/uptime.php:13
+msgid "Load Averages"
+msgstr "Ср. нагрузка"
+
+#: views/sections/netmon.php:48
+#, php-format
+msgid "Loading Interface %s..."
+msgstr "Загрузка интерфейса %s..."
+
+#: sections/Overview.class.php:138
+msgid "Mail Queue"
+msgstr "Очередь сообщений"
+
+#: views/sections/statistics.php:39
+msgid "Memory"
+msgstr "Память"
+
+#: views/sections/statistics.php:12 views/sections/statistics.php:23
+#: views/sections/statistics.php:34 views/sections/statistics.php:45
+#: views/sections/statistics.php:56 views/sections/statistics.php:67
+msgid "Month"
+msgstr "Месяц"
+
+#: sections/Overview.class.php:136
+msgid "MySQL"
+msgstr "MySQL"
+
+#: views/sections/statistics.php:61
+msgid "Network"
+msgstr "Сеть"
+
+#: sections/Overview.class.php:96
+msgid "No critical issues found"
+msgstr "Критических проблем не найдено"
+
+#: sections/Overview.class.php:16
+msgid "Overview"
+msgstr "Обзор"
+
+#: sections/Overview.class.php:123 sections/Overview.class.php:127
+msgid "Please check for errors in the notification section"
+msgstr "Пожалуйста, проверьте наличие ошибок в разделе уведомлений"
+
+#: dashboard.i18n.php:8
+msgid ""
+"Provides a system information dashboard, showing information about Calls, "
+"CPU, Memory, Disks, Network, and processes."
+msgstr ""
+"Предоставляет приброную панель мониторинга системной информации, "
+"отображающую информацию о вызовах, загрузке процессора, памяти, дисков, сети "
+"и процессах."
+
+#: views/sections/overview.php:64
+msgid "Resolve"
+msgstr "Разрешить"
+
+#: sections/Overview.class.php:105
+msgid "Security Issue"
+msgstr "Проблемы безопасности"
+
+#: dashboard.i18n.php:20
+msgid ""
+"Set the maximum age in seconds before system statistics are refreshed. The "
+"minimum value is 50 seconds."
+msgstr ""
+"Установите максимальный возраст в секундах до обновления статистики системы. "
+"Минимальное значение - 50 секунд."
+
+#: dashboard.i18n.php:16
+msgid ""
+"Set this to true to prevent persistent collection of system statistics such "
+"as CPU, memory, and channel usage."
+msgstr ""
+"Установите это значение в true, чтобы предотвратить постоянный сбор "
+"системных данных, таких как использование процессора, памяти и каналов."
+
+#: views/sections/overview.php:75
+msgid "Show All"
+msgstr "Показать все"
+
+#: views/sections/overview.php:77
+msgid "Show New"
+msgstr "Показать новые"
+
+#: classes/Statistics.class.php:79
+msgid "Since Reload"
+msgstr "После перезагрузки"
+
+#: sections/Statistics.class.php:18 sections/Statistics.class.php:25
+#: sections/Uptime.class.php:16
+msgid "Statistics"
+msgstr "Статистика"
+
+#: views/sections/overview.php:23
+msgid "Summary"
+msgstr "Краткая сводка"
+
+#: views/sections/overview.php:36
+#, php-format
+msgid "SysInfo updated %s seconds ago"
+msgstr "Информация о системе обновлена %s секунд назад"
+
+#: classes/Statistics.class.php:61
+msgid "System"
+msgstr "Система"
+
+#: sections/Overview.class.php:94
+msgid "System Alerts"
+msgstr "Системные уведомления"
+
+#: dashboard.i18n.php:4
+msgid "System Dashboard"
+msgstr "Системная приборная панель"
+
+#: views/sections/uptime.php:5
+msgid "System Last Rebooted"
+msgstr "Последняя перезагрузка системы"
+
+#: sections/Overview.class.php:15
+msgid "System Overview"
+msgstr "Обзор системы"
+
+#: sections/Overview.class.php:106
+msgid "This is a critical issue and should be resolved urgently"
+msgstr "Это критическая проблема и ее необходимо срочно решить"
+
+#: sections/Uptime.class.php:15 views/sections/statistics.php:17
+msgid "Uptime"
+msgstr "Время работы системы"
+
+#: sections/Overview.class.php:128
+msgid "Warnings Found"
+msgstr "Найдено предупреждений"
+
+#: sections/Overview.class.php:137
+msgid "Web Server"
+msgstr "Веб-сервер"
+
+#: views/sections/statistics.php:11 views/sections/statistics.php:22
+#: views/sections/statistics.php:33 views/sections/statistics.php:44
+#: views/sections/statistics.php:55 views/sections/statistics.php:66
+msgid "Week"
+msgstr "Неделя"
+
+#: views/main.php:3 views/sections/overview.php:6
+#, php-format
+msgid "Welcome to %s"
+msgstr "Добро пожаловать в %s"
+
+#: classes/TimeUtils.class.php:15
+msgid "day"
+msgstr "день"
+
+#: classes/TimeUtils.class.php:16
+msgid "days"
+msgstr "дней"
+
+#: classes/TimeUtils.class.php:17
+msgid "hour"
+msgstr "час"
+
+#: classes/TimeUtils.class.php:18
+msgid "hours"
+msgstr "часов"
+
+#: classes/TimeUtils.class.php:19
+msgid "minute"
+msgstr "минута"
+
+#: classes/TimeUtils.class.php:20
+msgid "minutes"
+msgstr "минут"
+
+#: classes/TimeUtils.class.php:11
+msgid "month"
+msgstr "месяц"
+
+#: classes/TimeUtils.class.php:12
+msgid "months"
+msgstr "месяцев"
+
+#: classes/TimeUtils.class.php:21
+msgid "second"
+msgstr "секунда"
+
+#: classes/TimeUtils.class.php:22
+msgid "seconds"
+msgstr "секунд"
+
+#: classes/TimeUtils.class.php:13
+msgid "week"
+msgstr "неделя"
+
+#: classes/TimeUtils.class.php:14
+msgid "weeks"
+msgstr "недель"
+
+#: classes/TimeUtils.class.php:9
+msgid "year"
+msgstr "год"
+
+#: classes/TimeUtils.class.php:10
+msgid "years"
+msgstr "лет"
