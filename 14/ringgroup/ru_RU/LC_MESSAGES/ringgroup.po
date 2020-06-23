@@ -1,0 +1,682 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for ringgroups
+# Copyright (C) 2008-2020 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Ring Groups\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-12 11:41+0530\n"
+"PO-Revision-Date: 2020-06-23 14:04+0500\n"
+"Language-Team: TranslAster <https://github.com/translaster>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#: views/form.php:60
+msgid "*-prim"
+msgstr "*-перв"
+
+#: views/simple_form.php:79
+msgid ""
+"<strong>Simultaneous:</strong> Rings all extensions at once.</"
+"br><strong>Sequential:</strong> Rings each extension separately in the order "
+"defined in the list"
+msgstr ""
+
+#: views/advanced_form.php:178
+#, fuzzy
+msgid ""
+"ALERT_INFO can be used for distinctive ring with SIP devices.<br>If you are "
+"having issues, see the \"Enforce RFC7462\" option found in Settings-"
+">Advanced Settings."
+msgstr ""
+"ALERT_INFO можно использовать для особого звонка на SIP-устройствах.<br>Если "
+"у вас возникли проблемы - обратитесь к опции \"Соблюдение RFC 7462\", "
+"найденной в разделе Настройки->Дополнительные настройки."
+
+#: views/rggrid.php:18
+msgid "Actions"
+msgstr "Действия"
+
+#: views/bootnav.php:2 views/rggrid.php:2
+msgid "Add Ring Group"
+msgstr "Добавить группу вызова"
+
+#: views/advanced_form.php:166
+msgid "Alert Info"
+msgstr "Информация о сигнале"
+
+#: views/form.php:247
+#, fuzzy
+msgid "Always transmit the Fixed CID Value below."
+msgstr "Всегда передавать фиксированное значение CID, указанное ниже."
+
+#: views/form.php:101
+msgid "Announcement"
+msgstr "Объявление"
+
+#: ringgroups.i18n.php:6
+msgid "Applications"
+msgstr "Приложения"
+
+#: views/advanced_form.php:142
+#, fuzzy
+msgid "CID Name Prefix"
+msgstr "Префикс CID"
+
+#: views/advanced_form.php:431
+#, fuzzy
+msgid "Call Recording"
+msgstr "Запись вызова"
+
+#: views/advanced_form.php:381
+#, fuzzy
+msgid "Change External CID Configuration"
+msgstr "Изменить конфигурацию внешнего CID"
+
+#: views/advanced_form.php:352
+#, fuzzy
+msgid "Confirm Calls"
+msgstr "Подтверждение вызовов"
+
+#: ringgroups.i18n.php:8
+msgid ""
+"Creates a group of extensions that all ring together. Extensions can be rung "
+"all at once, or in various 'hunt' configurations. Additionally, external "
+"numbers are supported, and there is a call confirmation option where the "
+"callee has to confirm if they actually want to take the call before the "
+"caller is transferred."
+msgstr ""
+
+#: views/form.php:143 views/form.php:178 views/form.php:245 views/form.php:257
+msgid "Default"
+msgstr "По-умолчанию"
+
+#: Ringgroups.class.php:149
+msgid "Delete"
+msgstr "Удалить"
+
+#: views/bootnav.php:14 views/rggrid.php:17
+msgid "Description"
+msgstr "Описание"
+
+#: views/advanced_form.php:465 views/simple_form.php:141
+msgid "Destination if no answer"
+msgstr "Назначение при неответе"
+
+#: ringgroups.i18n.php:12
+msgid "Display Extension Ring Group Members"
+msgstr ""
+
+#: views/advanced_form.php:438
+msgid "Dont Care"
+msgstr ""
+
+#: views/advanced_form.php:325
+msgid "Enable Call Pickup"
+msgstr ""
+
+#: views/advanced_form.php:367
+#, fuzzy
+msgid ""
+"Enable this if you're calling external numbers that need confirmation - eg, "
+"a mobile phone may go to voicemail which will pick up the call. Enabling "
+"this requires the remote side push 1 on their phone before the call is put "
+"through. This feature only works with the ringall ring strategy"
+msgstr ""
+"Включить это если вызов идёт на внешние номера и тебуется подтверждение - "
+"например, когда мобильный телефон может быть переадресован на номер "
+"голосовой почты. Включение этой опции требует чтобы на удалённой стороне "
+"нажали \"1\" прежде чем вызов пойдёт далее. Эта функция работает только если "
+"стратегия вызова в группе вызова установлена в \"Звонят все\""
+
+#: views/advanced_form.php:58 views/simple_form.php:32
+msgid "Extension List"
+msgstr ""
+
+#: views/advanced_form.php:407 views/form.php:247 views/form.php:258
+msgid "Fixed CID Value"
+msgstr "Фиксированное значение CallerID"
+
+#: views/advanced_form.php:419
+#, fuzzy
+msgid ""
+"Fixed value to replace the CID with used with some of the modes above. "
+"Should be in a format of digits only with an option of E164 format using a "
+"leading '+'."
+msgstr ""
+"Фикcированное значение для замены CID в некоторых режимах. Должен быть "
+"только в цифровом формате с опцией стандарта Е164 с использованием знака \"+"
+"\" вначале."
+
+#: views/advanced_form.php:436
+msgid "Force"
+msgstr "Принудительно"
+
+#: views/form.php:253 views/form.php:261
+msgid "Force Dialed Number"
+msgstr "Использовать набранный номер"
+
+#: views/advanced_form.php:34
+msgid "Group Description"
+msgstr "Описание группы"
+
+#: functions.inc.php:334
+msgid "INUSE"
+msgstr ""
+
+#: views/form.php:236
+#, fuzzy
+msgid ""
+"If you select a Music on Hold class to play, instead of 'Ring', they will "
+"hear that instead of Ringing while they are waiting for someone to pick up."
+msgstr ""
+"Если выбран класс Музыки в ожидании вместо сигнала вызова (Звонок), то "
+"позвонивший будет слушать музыку, пока кто-то не поднимет трубку."
+
+#: views/advanced_form.php:271
+msgid "Ignore CF Settings"
+msgstr ""
+
+#: views/form.php:219
+msgid "Inherit"
+msgstr "Наследовать"
+
+#: assets/js/ringgroups.js:60
+msgid "Invalid CID"
+msgstr ""
+
+#: assets/js/ringgroups.js:54
+msgid "Invalid Group Number specified"
+msgstr ""
+
+#: assets/js/ringgroups.js:56
+#, fuzzy
+msgid "Invalid time specified"
+msgstr "Указано неверное время"
+
+#: views/bootnav.php:3
+msgid "List Ring Groups"
+msgstr ""
+
+#: views/advanced_form.php:78
+msgid ""
+"List extensions to ring, one per line, or use the Extension Quick Select "
+"insert them here.<br><br>You can include an extension on a remote system, or "
+"an external number by suffixing a number with a '#'.  ex:  2448089# would "
+"dial 2448089 on the appropriate trunk (see Outbound "
+"Routing)<br><br>Extensions without a '#' will not ring a user's Follow-Me. "
+"To dial Follow-Me, Queues and other numbers that are not extensions, put a "
+"'#' at the end."
+msgstr ""
+
+#: views/simple_form.php:52
+msgid ""
+"List extensions to ring, one per line, or use the Extension Quick Select to "
+"insert them here.<br><br>You can include an extension on a remote system, or "
+"an external number by suffixing a number with a '#'.  ex:  2448089# would "
+"dial 2448089"
+msgstr ""
+
+#: views/form.php:66
+msgid ""
+"Makes a call could hop between the included extensions without a predefined "
+"priority to ensure that calls in the groups are (almost) evenly spread. "
+"Simulates a Queue when a Queue can not otherwise be used."
+msgstr ""
+
+#: views/advanced_form.php:244
+msgid "Mark Answered Elsewhere"
+msgstr ""
+
+#: views/form.php:122
+#, fuzzy
+msgid ""
+"Message to be played to the caller before dialing this group.<br><br>To add "
+"additional recordings please use the \"System Recordings\" MENU above"
+msgstr ""
+"Сообщение для воспроизведения вызывающей стороне перед набором номера этой "
+"группы.<br><br>Для добавления дополнительных записей пожалуйста используйте "
+"пункт меню «Системные записи» выше"
+
+#: views/form.php:157
+#, fuzzy
+msgid ""
+"Message to be played to the person RECEIVING the call, if 'Confirm Calls' is "
+"enabled.<br><br>To add additional recordings use the \"System Recordings\" "
+"MENU above"
+msgstr ""
+"Сообщение для воспроизведения стороне ПРИНИМАЮЩЕЙ звонок, если включено "
+"«Подтвердить вызовы».<br><br> Для добавления дополнительных записей "
+"используйте пункт меню «Системные записи» выше"
+
+#: views/form.php:192
+#, fuzzy
+msgid ""
+"Message to be played to the person RECEIVING the call, if the call has "
+"already been accepted before they push 1.<br><br>To add additional "
+"recordings use the \"System Recordings\" MENU above"
+msgstr ""
+"Сообщение для воспроизведения стороне ПРИНИМАЮЩЕЙ звонок, если вызов уже "
+"принят перед нажатием 1.<br><br>Для добавления дополнительных записей "
+"используйте пункт меню «Системные записи» выше"
+
+#: views/form.php:243
+msgid "Mode"
+msgstr "Режим"
+
+#: views/advanced_form.php:440
+msgid "Never"
+msgstr "Никогда"
+
+#: views/advanced_form.php:224 views/advanced_form.php:251
+#: views/advanced_form.php:278 views/advanced_form.php:305
+#: views/advanced_form.php:332 views/advanced_form.php:359
+msgid "No"
+msgstr ""
+
+#: views/advanced_form.php:194 views/form.php:108
+msgid "None"
+msgstr "Отсутствует"
+
+#: assets/js/ringgroups.js:59
+#, fuzzy
+msgid ""
+"Only ringall, ringallv2, hunt and the respective -prim versions are "
+"supported when confirmation is checked"
+msgstr ""
+"Только звонят-все, звонят-все-v2, серийное-искание, и сответствующие -перв "
+"варианты поддерживаются когда выбрано подтверждение"
+
+#: views/form.php:249 views/form.php:259
+#, fuzzy
+msgid "Outside Calls Fixed CID Value"
+msgstr "Фиксированное значение CID для внешних звонков"
+
+#: views/advanced_form.php:206
+#, fuzzy, php-format
+msgid ""
+"Override the ringer volume. Note: This is only valid for %s phones at this "
+"time"
+msgstr ""
+"Переопределите громкость звонка. Примечание: В настоящее время это правило "
+"действует только для телефонов %s"
+
+#: views/form.php:211
+#, fuzzy
+msgid "Play Music On Hold"
+msgstr "Воспроизводить мелодию ожидания"
+
+#: assets/js/ringgroups.js:58
+msgid "Please enter a valid Group Description"
+msgstr ""
+
+#: assets/js/ringgroups.js:55
+#, fuzzy
+msgid "Please enter an extension list."
+msgstr "Введите список внутр. номеров."
+
+#: views/advanced_form.php:46
+msgid "Provide a descriptive title for this Ring Group."
+msgstr ""
+
+#: views/simple_form.php:20
+msgid "Provide a name for this Ring Group."
+msgstr ""
+
+#: views/form.php:136
+#, fuzzy
+msgid "Remote Announce"
+msgstr "Удаленное приветствие"
+
+#: Ringgroups.class.php:159
+#, fuzzy
+msgid "Reset"
+msgstr "Сброс"
+
+#: views/form.php:218
+#, fuzzy
+msgid "Ring"
+msgstr "Звонок"
+
+#: views/bootnav.php:13 views/rggrid.php:16
+msgid "Ring Group"
+msgstr ""
+
+#: functions.inc.php:37
+#, php-format
+msgid "Ring Group %s: "
+msgstr ""
+
+#: functions.inc.php:458
+msgid "Ring Group Membership"
+msgstr ""
+
+#: ringgroups.i18n.php:14
+msgid "Ring Group Module"
+msgstr ""
+
+#: views/simple_form.php:8
+msgid "Ring Group Name"
+msgstr ""
+
+#: functions.inc.php:57 functions.inc.php:333
+#, php-format
+msgid "Ring Group: %s"
+msgstr ""
+
+#: functions.inc.php:360
+#, php-format
+msgid "Ring Group: %s (%s)"
+msgstr ""
+
+#: page.ringgroups.php:10 ringgroups.i18n.php:4 ringgroups.i18n.php:10
+msgid "Ring Groups"
+msgstr ""
+
+#: views/advanced_form.php:90 views/simple_form.php:64
+#, fuzzy
+msgid "Ring Strategy"
+msgstr "Стратегия вызова"
+
+#: views/simple_form.php:91
+#, fuzzy
+msgid "Ring Time"
+msgstr "Время звонка"
+
+#: views/advanced_form.php:116
+msgid "Ring Time (max 300 sec)"
+msgstr ""
+
+#: views/simple_form.php:118
+msgid "Ring Tone"
+msgstr ""
+
+#: views/form.php:54
+msgid "Ring all available channels until one answers (default)"
+msgstr ""
+
+#: views/form.php:58
+msgid ""
+"Ring first extension in the list, then ring the 1st and 2nd extension, then "
+"ring 1st 2nd and 3rd extension in the list.... etc. This strategy will work "
+"only when Confirm Calls is disabled."
+msgstr ""
+
+#: views/advanced_form.php:9
+msgid "Ring-Group Number"
+msgstr ""
+
+#: Ringgroups.class.php:129
+msgid "RingGroup"
+msgstr ""
+
+#: views/advanced_form.php:189
+#, fuzzy
+msgid "Ringer Volume Override"
+msgstr "Переопределение громкости звонка"
+
+#: views/simple_form.php:130
+msgid ""
+"Select a Ring Tone from the list of options above. This will determine how "
+"your phone sounds when it is rung from this group."
+msgstr ""
+
+#: views/advanced_form.php:217
+msgid "Send Progress"
+msgstr ""
+
+#: views/simple_form.php:70
+msgid "Sequential"
+msgstr ""
+
+#: views/advanced_form.php:259
+msgid "Should calls indicate answered elsewhere when a user answers."
+msgstr ""
+
+#: views/advanced_form.php:232
+msgid ""
+"Should this ringgroup indicate call progress to digital channels where "
+"supported."
+msgstr ""
+
+#: views/simple_form.php:69
+msgid "Simultaneous"
+msgstr ""
+
+#: views/advanced_form.php:298
+msgid "Skip Busy Agent"
+msgstr ""
+
+#: Ringgroups.class.php:154
+#, fuzzy
+msgid "Submit"
+msgstr "Принять"
+
+#: views/form.php:56
+msgid "Take turns ringing each available extension"
+msgstr ""
+
+#: assets/js/ringgroups.js:80
+msgid "The group list can only contain a maximum of 255 characters."
+msgstr ""
+
+#: views/advanced_form.php:21
+msgid "The number users will dial to ring extensions in this ring group"
+msgstr ""
+
+#: views/form.php:60
+msgid ""
+"These modes act as described above. However, if the primary extension (first "
+"in list) is occupied, the other extensions will not be rung. If the primary "
+"is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
+"unconditional, then all will be rung"
+msgstr ""
+
+#: Ringgroups.class.php:249
+msgid "This ringgroup"
+msgstr ""
+
+#: views/advanced_form.php:128
+#, fuzzy
+msgid ""
+"Time in seconds that the phones will ring. For all hunt style ring "
+"strategies, this is the time for each iteration of phone(s) that are rung"
+msgstr ""
+"Время в секундах, в течение которого телефоны будут звонить. Для всех "
+"стратегий вызова - это время повторяется для всех номеров в списке"
+
+#: views/simple_form.php:108
+msgid ""
+"Time in seconds that the phones will ring. For sequential ring strategies, "
+"this is the time for each iteration of phone(s) that are rung"
+msgstr ""
+
+#: assets/js/ringgroups.js:57
+msgid "Time must be between 1 and 300 seconds"
+msgstr ""
+
+#: views/form.php:171
+#, fuzzy
+msgid "Too-Late Announce"
+msgstr "Объявление для Слишком-поздно"
+
+#: views/form.php:249
+#, fuzzy
+msgid ""
+"Transmit the Fixed CID Value below on calls that come in from outside only. "
+"Internal extension to extension calls will continue to operate in default "
+"mode."
+msgstr ""
+"Передавать фиксированное значение Caller ID, указанное ниже, только в случае "
+"внешних звонков. Внутренние вызовы будут продолжать работать в режиме по "
+"умолчанию."
+
+#: views/form.php:253
+#, fuzzy
+msgid ""
+"Transmit the number that was dialed as the CID for calls coming from "
+"outside. Internal extension to extension calls will continue to operate in "
+"default mode. There must be a DID on the inbound route for this. This WILL "
+"be transmitted on trunks that block foreign CallerID"
+msgstr ""
+"Передавать номер, который был набран в качестве CID, для входящих внешних "
+"вызовов. Внутренние соединения будут продолжать работать в режиме по "
+"умолчанию. Для этого на входящем маршруте должен быть DID. Он будет "
+"ПЕРЕДАВАТЬСЯ через транки, где блокируются чужие (внешние) Caller ID"
+
+#: views/form.php:251
+#, fuzzy
+msgid ""
+"Transmit the number that was dialed as the CID for calls coming from "
+"outside. Internal extension to extension calls will continue to operate in "
+"default mode. There must be a DID on the inbound route for this. This will "
+"be BLOCKED on trunks that block foreign CallerID"
+msgstr ""
+"Передавать номер, который был набран в качестве CID, для входящих внешних "
+"вызовов. Внутренние соединения будут продолжать работать в режиме по "
+"умолчанию. Для этого на входящем маршруте должен быть DID. Он будет "
+"БЛОКИРОВАТЬСЯ на транках, где блокируются чужие (внешние) Caller ID"
+
+#: views/form.php:245
+#, fuzzy
+msgid "Transmits the Callers CID if allowed by the trunk."
+msgstr "Передавать Callers ID, если разрешено транком."
+
+#: views/form.php:251 views/form.php:260
+#, fuzzy
+msgid "Use Dialed Number"
+msgstr "Использовать набранный номер"
+
+#: Ringgroups.class.php:79
+#, fuzzy
+msgid "Warning! Extension"
+msgstr "Осторожно! Внутренний номер"
+
+#: views/advanced_form.php:313
+msgid ""
+"When enabled, agents who are on an occupied phone will be skipped as if the "
+"line were returning busy. This means that Call Waiting or multi-line phones "
+"will not be presented with the call and in the various hunt style ring "
+"strategies, the next agent will be attempted."
+msgstr ""
+
+#: views/advanced_form.php:340
+msgid ""
+"When enabled, this will allow calls to the Ring Group to be picked up with "
+"the directed call pickup feature using the group number from any extension. "
+"When not checked, individual extensions that are part of the group can still "
+"be picked up by doing a directed call pickup by dialing the group number. "
+"Any extensions can still be picked up by doing a directed call pickup to the "
+"ringing extension , which works whether or not this is checked."
+msgstr ""
+
+#: views/advanced_form.php:286
+msgid ""
+"When set to Yes, agents who attempt to Call Forward will be ignored, this "
+"applies to CF, CFU and CFB. Extensions entered with '#' at the end, for "
+"example to access the extension's Follow-Me, might not honor this setting ."
+msgstr ""
+
+#: ringgroups.i18n.php:16
+msgid ""
+"When set to true extensions that belong to one or more Ring Groups will have "
+"a Ring Group section and link back to each group they are a member of."
+msgstr ""
+
+#: views/advanced_form.php:477 views/simple_form.php:153
+#, fuzzy
+msgid "Where to send callers if there is no answer."
+msgstr "Куда отправлять вызывающих, если нет ответа."
+
+#: views/advanced_form.php:222 views/advanced_form.php:249
+#: views/advanced_form.php:276 views/advanced_form.php:303
+#: views/advanced_form.php:330 views/advanced_form.php:357
+#, fuzzy
+msgid "Yes"
+msgstr "Да"
+
+#: views/advanced_form.php:448
+msgid ""
+"You can always record calls that come into this ring group (Force), never "
+"record them (Never), or allow the extension that answers to do on-demand "
+"recording (Dont Care). If recording is denied then one-touch on demand "
+"recording will be blocked, unless they have the \"Override\" call recording "
+"setting."
+msgstr ""
+
+#: views/advanced_form.php:154
+#, fuzzy
+msgid ""
+"You can optionally prefix the CallerID name when ringing extensions in this "
+"group. ie: If you prefix with \"Sales:\", a call from John Doe would display "
+"as \"Sales:John Doe\" on the extensions that ring."
+msgstr ""
+"Вы можете использовать префикс для «Имя CallerID» при вызове этой группы. "
+"Например, префикс \"Sales:\", звонок от John Doe, на дисплее номеров группы "
+"будет отображаться «Sales:John Doe»."
+
+#: views/form.php:223
+msgid "default"
+msgstr "по умолчанию"
+
+#: views/form.php:62
+msgid "firstavailable"
+msgstr "первый-доступный"
+
+#: views/form.php:64
+msgid "firstnotonphone"
+msgstr "первый-не-на-телефоне"
+
+#: views/form.php:56
+msgid "hunt"
+msgstr "поиск"
+
+#: Ringgroups.class.php:249
+msgid "is already in use"
+msgstr ""
+
+#: Ringgroups.class.php:79
+msgid "is not allowed for your account"
+msgstr "не разрешено для вашего профиля"
+
+#: views/form.php:58
+msgid "memoryhunt"
+msgstr "поиск-перебором"
+
+#: views/form.php:222
+msgid "none"
+msgstr "нет"
+
+#: views/form.php:66
+msgid "random"
+msgstr ""
+
+#: views/form.php:62
+#, fuzzy
+msgid ""
+"ring only the first available channel. This strategy will work only when "
+"Confirm Calls is disabled."
+msgstr ""
+"звоните только по первый доступный канал. Эта стратегия будет работать "
+"только тогда, когда отключено Подтверждение вызовов."
+
+#: views/form.php:64
+msgid ""
+"ring only the first channel which is not offhook - ignore CW. This strategy "
+"will work only when Confirm Calls is disabled."
+msgstr ""
+
+#: views/form.php:54
+#, fuzzy
+msgid "ringall"
+msgstr "звонят-все"

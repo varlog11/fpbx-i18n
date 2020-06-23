@@ -23,10 +23,14 @@
     "Logfiles": "34%",
     "Music_on_Hold": "1%",
     "Process_Management": "100%",
+    "Ring_Groups": "21%",
     "Sip_Settings": "100%",
     "Sound_Languages": "100%",
+    "System_Recordings": "24%",
+    "Time_Conditions": "1%",
     "Queues": "31%",
-    "User_Management": "54%"
+    "User_Management": "54%",
+    "Voicemail": "9%"
 
   }
 }
