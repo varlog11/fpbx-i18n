@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Time Conditions\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-17 12:25+0530\n"
-"PO-Revision-Date: 2020-06-23 14:10+0500\n"
+"PO-Revision-Date: 2020-06-25 11:23+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +35,6 @@ msgstr ""
 
 #: views/timeconditions/bootnav.php:9 views/timeconditions/grid.php:29
 #: views/timegroups/bootnav.php:9 views/timegroups/grid.php:28
-#, fuzzy
 msgid "Actions"
 msgstr "Действия"
 
@@ -66,24 +65,20 @@ msgid "Already exists Time Conditions Name:"
 msgstr ""
 
 #: functions.inc.php:650
-#, fuzzy
 msgid "April"
 msgstr "Апрель"
 
 #: functions.inc.php:654
-#, fuzzy
 msgid "August"
 msgstr "Август"
 
 #: views/timeconditions/advanced_form.php:231
 #: assets/js/timeconditions/timeconditions.js:64
-#, fuzzy
 msgid "Calendar"
 msgstr "Календарь"
 
 #: views/timeconditions/advanced_form.php:258
 #: assets/js/timeconditions/timeconditions.js:66
-#, fuzzy
 msgid "Calendar Group"
 msgstr "Группа календаря"
 

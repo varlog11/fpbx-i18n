@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Endpoint Manager\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-14 15:22-0500\n"
-"PO-Revision-Date: 2020-06-23 12:48+0500\n"
+"PO-Revision-Date: 2020-06-25 11:25+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +25,7 @@ msgstr ""
 #: views/epm_advanced_settings.page.php:128
 #: views/epm_templates/editor.views.dialog.cfg.global.php:76
 msgid " - Point your phones to: "
-msgstr "- Направьте свои телефоны на:"
+msgstr "- Направьте свои телефоны на: "
 
 #: views/epm_devices_main.page.php:32 views/epm_templates_editor.page.php:17
 #: views/epm_templates_manager.page.php:18
