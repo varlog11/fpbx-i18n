@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: System Recordings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 16:20+0530\n"
-"PO-Revision-Date: 2020-06-25 11:22+0500\n"
+"PO-Revision-Date: 2020-06-25 11:51+0500\n"
 "Language-Team: TranslAster  <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -133,6 +133,8 @@ msgstr "Копирование %s в %s"
 msgid ""
 "Creates and manages system recordings, used by many other modules (eg, IVR)."
 msgstr ""
+"Создание и управление системными записями, используемыми многими другими "
+"модулями (например, IVR)."
 
 #: Recordings.class.php:84
 msgid "Delete"
@@ -200,6 +202,11 @@ msgid ""
 "but you will be able to add files to the end of or the beginning of this "
 "file. This will not destroy any previously existing files listed above."
 msgstr ""
+"Вместо того, чтобы связывать файлы вместе (воспроизведение которых не "
+"поддерживают некоторые приложения) - объедините файлы выше в один. После "
+"этого вы не сможете использовать или удалить файлы из приведенного выше "
+"списка, но вы сможете добавить файлы в конец или начало этого файла. Это не "
+"приведет к уничтожению ранее существовавших файлов, перечисленных выше."
 
 #: views/form.php:286
 msgid "Link to Feature Code"
@@ -247,14 +254,16 @@ msgid ""
 "No languages are defined! You must define at least one in the Sound "
 "Languages module!"
 msgstr ""
+"Никакие языки не определены! Вы должны определить хотя бы один из них в "
+"модуле Языки подсказок!"
 
 #: views/form.php:296
 msgid "Not supported on compounded or Non-Existent recordings"
-msgstr ""
+msgstr "Не поддерживается на составных или несуществующих записях"
 
 #: assets/js/recordings.js:913
 msgid "Not supported on compounded recordings"
-msgstr ""
+msgstr "Не поддерживается на составных записях"
 
 #: install.php:51 install.php:65 install.php:80
 msgid "OK"
@@ -270,6 +279,8 @@ msgid ""
 "Optional password to protect access to this feature code which allows a user "
 "to re-record it."
 msgstr ""
+"Дополнительный пароль для защиты доступа к этому сервисному коду, "
+"позволяющему пользователю перезаписать ее."
 
 #: functions.inc.php:253
 #, php-format
@@ -279,6 +290,7 @@ msgstr "Воспроизвести запись: %s"
 #: assets/js/recordings.js:853
 msgid "Please add at least one Sound Package in the Sound Languages Module"
 msgstr ""
+"Пожалуйста, добавьте хотя бы один звуковой пакет в модуль Языки подсказок"
 
 #: assets/js/recordings.js:488 assets/js/recordings.js:511
 msgid "Please enter a valid name and save"
@@ -287,7 +299,7 @@ msgstr "Пожалуйста, введите действительное имя
 #: assets/js/recordings.js:106
 #, perl-format
 msgid "Processing %s for %s in format %s"
-msgstr ""
+msgstr "Обработка %s для %s в формат %s"
 
 #: views/form.php:122
 msgid "Record In Browser"
@@ -324,6 +336,9 @@ msgid ""
 "without them installed could have unknown results. Please install them "
 "through the %s module"
 msgstr ""
+"Некоторые языки не установлены в этой системе [%s], сохранение этой записи "
+"без их установки может привести к неизвестным результатам. Пожалуйста, "
+"установите их через модуль %s"
 
 #: views/form.php:79
 msgid ""
@@ -333,6 +348,12 @@ msgid ""
 "by clicking them once (which will turn them green) placing them into replace "
 "mode. Anything you upload will then replace this file on save"
 msgstr ""
+"Сортируемый список файлов/порядок воспроизведения. Воспроизведение будет "
+"осуществляться начиная с самого верха и до самого низа. Вы можете нажать на "
+"значок воспроизведения, чтобы прослушать файлы. Если файл красный, то он "
+"отсутствует для выбранного языка. Файлы можно заменить, щелкнув по ним один "
+"раз (что сделает их зелеными), поместив их в режим замены. Все, что вы "
+"загружаете, затем заменит этот файл на сохраненный"
 
 #: views/form.php:5 views/grid.php:2
 msgid "Sound Languages"
@@ -352,19 +373,23 @@ msgstr "Системные записи"
 
 #: assets/js/recordings.js:25
 msgid "The Name '"
-msgstr ""
+msgstr "Имя '"
 
 #: views/form.php:25
 msgid ""
 "The name of the system recording on the file system. If it conflicts with "
 "another file then this will overwrite it."
 msgstr ""
+"Имя системной записи в файловой системе. Если оно конфликтует с другим "
+"файлом, то это приведет к его перезаписи."
 
 #: views/form.php:218
 msgid ""
 "The system will call the extension you specify to the left. Upon hangup you "
 "will be able to name the file and it will be placed in the list above"
 msgstr ""
+"Система вызовет номер, указанный вами слева. После завершения вызова - вы "
+"сможете назвать файл и он будет помещен в список выше"
 
 #: Recordings.class.php:442
 msgid ""
@@ -384,17 +409,19 @@ msgstr "Файлы загружены частично"
 #: Recordings.class.php:144
 #, php-format
 msgid "There was an error reading system recordings (%s)"
-msgstr ""
+msgstr "Ошибка чтения системной записи (%s)"
 
 #: assets/js/recordings.js:635
 msgid "This system recording doesnt exist in this language. Continue?"
-msgstr ""
+msgstr "Эта системная запись не существует на этом языке. Продолжить?"
 
 #: views/form.php:179
 msgid ""
 "This will initate a WebRTC request so that you will be able to record from "
 "you computer in your browser"
 msgstr ""
+"Это инициирует запрос WebRTC так что вы сможете записывать с Вашего "
+"компьютера через браузер"
 
 #: views/form.php:156
 #, php-format
@@ -402,6 +429,8 @@ msgid ""
 "To play the media you will need to either update your browser to a recent "
 "version or update your %s"
 msgstr ""
+"Чтобы воспроизвести медиа - вам нужно будет либо обновить браузер до "
+"последней версии, либо обновить ваш %s"
 
 #: Recordings.class.php:349
 msgid "Unknown Error"
@@ -429,6 +458,8 @@ msgid ""
 "Upload files from your local system. Supported upload formats are: %s. This "
 "includes archives (that include multiple files) and multiple files"
 msgstr ""
+"Загрузите файлы из вашей локальной системы. Поддерживаемые форматы загрузки: "
+"%s. Сюда входят архивы (включающие несколько файлов) и несколько файлов"
 
 #: views/form.php:264 views/form.php:292
 msgid "Yes"
@@ -440,18 +471,25 @@ msgid ""
 "replace this system file when you save this recording. Are you sure you want "
 "to do that?"
 msgstr ""
+"Вы входите в режим замены системного файла. Следующий добавленный файл "
+"заменит этот системный файл при сохранении этой записи. Вы уверены что "
+"хотите этого?"
 
 #: assets/js/recordings.js:697
 msgid ""
 "You are entering replace mode. The next file you add will replace this one "
 "when you save this recording. Are you sure you want to do that?"
 msgstr ""
+"Вы входите в режим замены. Следующий файл, который вы добавите, заменит этот "
+"когда вы сохраните эту запись. Вы уверены что хотите этого?"
 
 #: views/form.php:73
 msgid ""
 "You can click any file above to replace it with a recording option below. "
 "Clicking a file will turn it green putting it into replace mode"
 msgstr ""
+"Вы можете щелкнуть любой файл выше чтобы заменить его опцией записи ниже. "
+"Щелчок по файлу окрасит его в зеленый цвет переведя в режим замены"
 
 #: views/form.php:72
 msgid ""
@@ -459,6 +497,9 @@ msgid ""
 "replace it with a recording/upload below. It will then turn green. Once you "
 "have finished uploading/recording the recording will turn grey"
 msgstr ""
+"У вас есть отсутствующий файл для этого языка. Нажмите на любую красную "
+"запись выше, чтобы заменить ее записью/загрузкой ниже. Затем она станет "
+"зеленой. Как только вы закончите загрузку/запись - она станет серой"
 
 #: views/grid.php:2
 #, php-format
@@ -466,6 +507,8 @@ msgid ""
 "You have no sound packages installed in the %s module. Please install at "
 "least one language to use System Recordings"
 msgstr ""
+"У вас нет звуковых пакетов, установленных в модуле %s. Пожалуйста, "
+"установите хотя бы один язык для использования системных записей"
 
 #: assets/js/recordings.js:22
 msgid "You must set a valid name for this recording"
