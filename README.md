@@ -1,5 +1,5 @@
 # fpbx-i18n
-Неофициальная локализация для FreePBX 13 (в основном) и 14
+Неофициальная локализация для FreePBX 14 (в основном), частично 13 и для 12 лишь Framework.
 
 FreePBX 12: ![Framework 12](https://img.shields.io/badge/dynamic/json?color=orange&label=Framework&query=%24.FreePBX_12.Framework&url=https%3A%2F%2Fraw.githubusercontent.com%2FTranslaster%2Ffpbx-i18n%2Fmaster%2F.github%2Fstats.json)
 
