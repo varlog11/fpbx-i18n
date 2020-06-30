@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Time Conditions\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-17 12:25+0530\n"
-"PO-Revision-Date: 2020-06-25 11:23+0500\n"
+"PO-Revision-Date: 2020-06-30 17:57+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +31,7 @@ msgstr "--Выбор группы--"
 
 #: Timeconditions.class.php:557 Timeconditions.class.php:592
 msgid ": Time Condition Override"
-msgstr ""
+msgstr ": Переопределение правил по времени"
 
 #: views/timeconditions/bootnav.php:9 views/timeconditions/grid.php:29
 #: views/timegroups/bootnav.php:9 views/timegroups/grid.php:28
@@ -40,29 +40,29 @@ msgstr "Действия"
 
 #: functions.inc.php:567 assets/js/timeconditions/timeconditions.js:166
 msgid "Add New Time Group..."
-msgstr ""
+msgstr "Добавить новую временную группу..."
 
 #: views/timegroups/form.php:74 assets/js/timegroups/timegroups.js:81
 msgid "Add Time"
-msgstr ""
+msgstr "Добавить время"
 
 #: views/timeconditions/advanced_form.php:6
 #: views/timeconditions/basic_form.php:6 views/timeconditions/bootnav.php:14
 #: views/timeconditions/grid.php:9
 msgid "Add Time Condition"
-msgstr ""
+msgstr "Добавить правило по времени"
 
 #: views/timegroups/bootnav.php:14 views/timegroups/grid.php:10
 msgid "Add Time Group"
-msgstr ""
+msgstr "Добавить временную группу"
 
 #: views/timegroups/form.php:82
 msgid "Add a time for this time condition"
-msgstr ""
+msgstr "Добавить время для этого правила по времени"
 
 #: assets/js/timeconditions/timeconditions.js:33
 msgid "Already exists Time Conditions Name:"
-msgstr ""
+msgstr "Такое название правила по времени уже существует:"
 
 #: functions.inc.php:650
 msgid "April"
@@ -84,101 +84,93 @@ msgstr "Группа календаря"
 
 #: views/timeconditions/advanced_form.php:275
 msgid "Calendar Group to check for timeconditions"
-msgstr ""
+msgstr "Группа календаря для проверки правил по времени"
 
 #: views/timeconditions/advanced_form.php:212
-#, fuzzy
 msgid "Calendar Mode"
 msgstr "Режим календаря"
 
 #: functions.inc.php:102 functions.inc.php:113
-#, fuzzy
 msgid "Calendar Not found"
 msgstr "Календарь не найден"
 
 #: views/timeconditions/advanced_form.php:248
 msgid "Calendar to check for time condition"
-msgstr ""
+msgstr "Календарь для проверки правила по времени"
 
 #: assets/js/timegroups/timegroups.js:90
 msgid "Cannot remove the only rule. At least 1 rule is required."
-msgstr ""
+msgstr "Не удается удалить единственное правило. Требуется не менее 1 правила."
 
 #: views/timeconditions/advanced_form.php:143
 #: views/timeconditions/basic_form.php:252
 msgid "Change Override"
-msgstr ""
+msgstr "Переопределение изменений"
 
 #: Timeconditions.class.php:79
 msgid "Could not delete time group as it is in use"
-msgstr ""
+msgstr "Невозможно удалить временную группу, т.к. она используется"
 
 #: views/timeconditions/advanced_form.php:156
 #: views/timeconditions/basic_form.php:265
 msgid "Current"
-msgstr ""
+msgstr "Текущий"
 
 #: functions.inc.php:658
-#, fuzzy
 msgid "December"
 msgstr "Декабрь"
 
 #: Timeconditions.class.php:180
-#, fuzzy
 msgid "Delete"
 msgstr "Удалить"
 
 #: views/timegroups/form.php:45
-#, fuzzy
 msgid "Description"
 msgstr "Описание"
 
 #: views/timeconditions/advanced_form.php:363
 #: views/timeconditions/basic_form.php:186
 msgid "Destination if time does not matche"
-msgstr ""
+msgstr "Назначение при несовпадении времени"
 
 #: views/timeconditions/advanced_form.php:333
 #: views/timeconditions/basic_form.php:156
 msgid "Destination if time matches"
-msgstr ""
+msgstr "Назначение если время совпадает"
 
 #: views/timeconditions/advanced_form.php:315
 #: views/timeconditions/basic_form.php:138
 msgid "Destination matches"
-msgstr ""
+msgstr "Назначение при совпадении"
 
 #: views/timeconditions/advanced_form.php:345
 #: views/timeconditions/basic_form.php:168
 msgid "Destination non-matches"
-msgstr ""
+msgstr "Назначение при несовпадении"
 
 #: Timeconditions.class.php:190
-#, fuzzy
 msgid "Duplicate"
 msgstr "Скопировать"
 
 #: assets/js/timeconditions/timeconditions.js:29
 msgid "Duplicate Time Conditions Name"
-msgstr ""
+msgstr "Такое название правила по времени уже существует"
 
 #: views/timeconditions/advanced_form.php:18
 #: views/timeconditions/basic_form.php:18
 #, php-format
 msgid "Edit Time Condition: %s (%s)"
-msgstr ""
+msgstr "Редактировать правило по времени: %s (%s)"
 
 #: timeconditions.i18n.php:4
 msgid "Enable Maintenance Polling"
 msgstr ""
 
 #: functions.inc.php:648
-#, fuzzy
 msgid "February"
 msgstr "Февраль"
 
 #: functions.inc.php:626
-#, fuzzy
 msgid "Friday"
 msgstr "Пятница"
 
@@ -186,6 +178,8 @@ msgstr "Пятница"
 #: views/timeconditions/basic_form.php:73
 msgid "Give this Time Condition a brief name to help you identify it."
 msgstr ""
+"Дайте этому правилу по времени краткое название, чтобы помочь вам "
+"идентифицировать его."
 
 #: views/timeconditions/advanced_form.php:102
 #: views/timeconditions/basic_form.php:211
@@ -193,6 +187,8 @@ msgid ""
 "If set dialing the feature code will require a pin to change the override "
 "state"
 msgstr ""
+"Если установлен набор сервисного кода - потребуется pin-код для изменения "
+"состояния переопределения"
 
 #: views/timeconditions/advanced_form.php:131
 #: views/timeconditions/basic_form.php:240
@@ -215,81 +211,74 @@ msgstr ""
 #: views/timeconditions/advanced_form.php:114
 #: views/timeconditions/basic_form.php:223
 msgid "Invert BLF Hint"
-msgstr ""
+msgstr "Инвертировать хинт BLF"
 
 #: functions.inc.php:647
-#, fuzzy
 msgid "January"
 msgstr "Январь"
 
 #: functions.inc.php:653
-#, fuzzy
 msgid "July"
 msgstr "Июль"
 
 #: functions.inc.php:652
-#, fuzzy
 msgid "June"
 msgstr "Июнь"
 
 #: views/timeconditions/grid.php:28
 msgid "Linked Item"
-msgstr ""
+msgstr "Связанный элемент"
 
 #: views/timeconditions/bootnav.php:12 views/timegroups/bootnav.php:13
 #: views/timegroups/grid.php:9
 msgid "List Time Conditions"
-msgstr ""
+msgstr "Список правил по времени"
 
 #: views/timeconditions/bootnav.php:13 views/timeconditions/grid.php:8
 #: views/timegroups/bootnav.php:12
 msgid "List Time Groups"
-msgstr ""
+msgstr "Список временных групп"
 
 #: timeconditions.i18n.php:10
 msgid "Maintenance Polling Interval"
 msgstr ""
 
 #: functions.inc.php:649
-#, fuzzy
 msgid "March"
 msgstr "Март"
 
 #: functions.inc.php:651
-#, fuzzy
 msgid "May"
 msgstr "Май"
 
 #: views/timeconditions/advanced_form.php:204
-#, fuzzy
 msgid "Mode"
 msgstr "Режим"
 
 #: functions.inc.php:622
-#, fuzzy
 msgid "Monday"
 msgstr "Понедельник"
 
 #: functions.inc.php:821
 msgid "Month Day finish"
-msgstr ""
+msgstr "Число месяца для окончания"
 
 #: functions.inc.php:812
 msgid "Month Day start"
-msgstr ""
+msgstr "Число месяца для начала"
 
 #: functions.inc.php:839
 msgid "Month finish"
-msgstr ""
+msgstr "Месяц окончания"
 
 #: functions.inc.php:830
 msgid "Month start"
-msgstr ""
+msgstr "Месяц начала"
 
 #: views/timeconditions/advanced_form.php:122
 #: views/timeconditions/basic_form.php:231
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: views/timeconditions/advanced_form.php:26
 #: views/timeconditions/basic_form.php:24
@@ -300,20 +289,18 @@ msgstr ""
 #: assets/js/timeconditions/timeconditions.js:68
 #: assets/js/timeconditions/timeconditions.js:73
 msgid "Not Set"
-msgstr ""
+msgstr "Не установлено"
 
 #: views/timeconditions/bootnav.php:18 views/timeconditions/grid.php:11
 #: views/timegroups/bootnav.php:18 views/timegroups/grid.php:12
 msgid "Not received"
-msgstr ""
+msgstr "Неполученный"
 
 #: functions.inc.php:657
-#, fuzzy
 msgid "November"
 msgstr "Ноябрь"
 
 #: functions.inc.php:656
-#, fuzzy
 msgid "October"
 msgstr "Октябрь"
 
@@ -324,7 +311,7 @@ msgstr ""
 
 #: views/timeconditions/grid.php:27
 msgid "Override State"
-msgstr ""
+msgstr "Переопределить состояние"
 
 #: views/timeconditions/advanced_form.php:32
 #: views/timeconditions/basic_form.php:30
@@ -367,23 +354,21 @@ msgid "Please select a time group to associate with this timecondition."
 msgstr ""
 
 #: Timeconditions.class.php:185
-#, fuzzy
 msgid "Reset"
 msgstr "Сброс"
 
 #: views/timeconditions/advanced_form.php:149
 #: views/timeconditions/basic_form.php:258
 msgid "Reset Override"
-msgstr ""
+msgstr "Сброс переопределения"
 
 #: functions.inc.php:627
-#, fuzzy
 msgid "Saturday"
 msgstr "Суббота"
 
 #: assets/js/timeconditions/timeconditions.js:162
 msgid "Select a Group"
-msgstr ""
+msgstr "Выбор группы"
 
 #: views/timeconditions/advanced_form.php:298
 #: views/timeconditions/basic_form.php:126
@@ -398,14 +383,13 @@ msgid "Select the Mode for checking time conditions"
 msgstr ""
 
 #: functions.inc.php:655
-#, fuzzy
 msgid "September"
 msgstr "Сентябрь"
 
 #: views/timeconditions/bootnav.php:18 views/timeconditions/grid.php:11
 #: views/timegroups/bootnav.php:18 views/timegroups/grid.php:12
 msgid "Server time:"
-msgstr ""
+msgstr "Время сервера:"
 
 #: views/timeconditions/advanced_form.php:193
 #: views/timeconditions/basic_form.php:102
@@ -421,7 +405,6 @@ msgid "Submit"
 msgstr "Принять"
 
 #: functions.inc.php:621
-#, fuzzy
 msgid "Sunday"
 msgstr "Воскресенье"
 
@@ -492,102 +475,96 @@ msgstr "Четверг"
 
 #: views/timeconditions/bootnav.php:30 views/timeconditions/grid.php:26
 msgid "Time Condition"
-msgstr ""
+msgstr "Правило по времени"
 
 #: timeconditions.i18n.php:6
 msgid "Time Condition Module"
-msgstr ""
+msgstr "Модуль правило по времени"
 
 #: views/timeconditions/advanced_form.php:66
 #: views/timeconditions/basic_form.php:61
 msgid "Time Condition name"
-msgstr ""
+msgstr "Название правила по времени"
 
 #: functions.inc.php:21 functions.inc.php:251
 #, php-format
 msgid "Time Condition: %s"
-msgstr ""
+msgstr "Правило по времени: %s"
 
 #: page.timeconditions.php:7
 msgid "Time Conditions"
-msgstr ""
+msgstr "Правила по времени"
 
 #: views/timeconditions/advanced_form.php:286
 #: views/timeconditions/basic_form.php:114 views/timegroups/bootnav.php:30
 #: views/timegroups/grid.php:27 assets/js/timeconditions/timeconditions.js:71
-#, fuzzy
 msgid "Time Group"
 msgstr "Временная Группа"
 
 #: views/timeconditions/advanced_form.php:210
 msgid "Time Group Mode"
-msgstr ""
+msgstr "Режим временной группы"
 
 #: page.timegroups.php:7
 msgid "Time Groups"
-msgstr ""
+msgstr "Временные группы"
 
 #: views/timeconditions/advanced_form.php:176
 #: views/timeconditions/basic_form.php:85
 msgid "Time Zone:"
-msgstr ""
+msgstr "Часовой пояс:"
 
 #: functions.inc.php:768
 msgid "Time to Start"
-msgstr ""
+msgstr "Время начала"
 
 #: functions.inc.php:781
 msgid "Time to finish"
-msgstr ""
+msgstr "Время окончания"
 
 #: views/timegroups/form.php:69
 msgid "Time(s)"
-msgstr ""
+msgstr "Время"
 
 #: functions.inc.php:623
-#, fuzzy
 msgid "Tuesday"
 msgstr "Вторник"
 
 #: views/timeconditions/advanced_form.php:148
 #: views/timeconditions/basic_form.php:257
 msgid "Unchanged"
-msgstr ""
+msgstr "Не выбрано"
 
 #: views/timeconditions/advanced_form.php:41
 #: views/timeconditions/advanced_form.php:45
 #: views/timeconditions/basic_form.php:39
 #: views/timeconditions/basic_form.php:43
 msgid "Unknown State"
-msgstr ""
+msgstr "Неизвестное состояние"
 
 #: views/timeconditions/advanced_form.php:181
 #: views/timeconditions/basic_form.php:90
-#, fuzzy
 msgid "Use System Timezone"
 msgstr "Использовать системный часовой пояс"
 
 #: functions.inc.php:624
-#, fuzzy
 msgid "Wednesday"
 msgstr "Среда"
 
 #: functions.inc.php:794
 msgid "Week Day Start"
-msgstr ""
+msgstr "День недели начала"
 
 #: functions.inc.php:803
 msgid "Week Day finish"
-msgstr ""
+msgstr "День недели окончания"
 
 #: views/timeconditions/advanced_form.php:120
 #: views/timeconditions/basic_form.php:229
-#, fuzzy
 msgid "Yes"
 msgstr "Да"
 
 #: assets/js/timeconditions/timeconditions.js:187
-#, fuzzy
 msgid "You cant set both a group and a calendar"
 msgstr "Вы не можете установить одновременно группу и календарь"
 
@@ -601,7 +578,7 @@ msgstr ""
 
 #: functions.inc.php:264
 msgid "false goto"
-msgstr ""
+msgstr "переход при лжи"
 
 #: functions.inc.php:256
 msgid "true goto"
