@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: FOP2 Manager russian translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-16 22:30+0100\n"
-"PO-Revision-Date: 2020-09-24 12:05+0500\n"
+"PO-Revision-Date: 2020-09-24 12:49+0500\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 msgid "Field %s added to table %s"
-msgstr ""
+msgstr "Поле %s добавлено в таблицу %s"
 
 msgid "Add User"
 msgstr "Добавить пользователя"
@@ -54,7 +54,7 @@ msgid "(pick template)"
 msgstr "(выбор шаблона)"
 
 msgid "Restricted Permissions"
-msgstr ""
+msgstr "Ограниченные разрешения"
 
 msgid "Permissions"
 msgstr "Разрешения"
@@ -168,7 +168,7 @@ msgid "If you changed any extension names and want to reread them from the regul
 msgstr ""
 
 msgid "Show/Hide advanced fields for buttons."
-msgstr ""
+msgstr "Показать/скрыть расширенные поля для кнопок."
 
 msgid "%d buttons removed from system update"
 msgstr "%d кнопок удалены при обновлении системы"
@@ -195,7 +195,7 @@ msgid "You can set an email for every button to enable the option to email the u
 msgstr ""
 
 msgid "Channel to use as originator when performing a dial from FOP2. You can use a Local type channel and use sip headers for setting the phone to auto answer."
-msgstr ""
+msgstr "Канал для использования в качестве составителя при выполнении набора от FOP2. Вы можете использовать локальный тип канала и использовать sip-заголовки для настройки телефона для автоматического ответа."
 
 msgid "number@context for external/mobile transfers. If @context is omited it will use the default one for the extension."
 msgstr "number@context для внешних/мобильных переводов. Если @context опущен - для расширения будет использоваться значение по умолчанию."
@@ -222,7 +222,7 @@ msgid "You might want to specify an additional device name or put the correct de
 msgstr ""
 
 msgid "Channel to use as queue member when adding/removing/pausing this button into a queue."
-msgstr ""
+msgstr "Канал для использования в качестве участника очереди при добавлении/удалении/приостановке этой кнопки в очередь."
 
 msgid "Voicemail mailbox to query for new voicemail."
 msgstr ""
@@ -234,7 +234,7 @@ msgid "Label"
 msgstr "Метка"
 
 msgid "Synchronize Labels"
-msgstr ""
+msgstr "Синхронизация меток"
 
 msgid "No"
 msgstr "Нет"
@@ -288,13 +288,13 @@ msgid "Check All"
 msgstr "Выбрать всё"
 
 msgid "Delete Group %s"
-msgstr ""
+msgstr "Удалить группу %s"
 
 msgid "Edit User %s"
-msgstr ""
+msgstr "Редактировать пользователя %s"
 
 msgid "Edit Group %s"
-msgstr ""
+msgstr "Редактировать группу %s"
 
 msgid "Please enter a group name."
 msgstr "Пожалуйста, введите название группы."
@@ -309,7 +309,7 @@ msgid "Add Template"
 msgstr "Добавить шаблон"
 
 msgid "Edit Template %s"
-msgstr ""
+msgstr "Редактировать шаблон %s"
 
 msgid "Template Details"
 msgstr "Детали шаблона"
@@ -339,7 +339,7 @@ msgid "Restricted Permission %s inserted!"
 msgstr ""
 
 msgid "Delete Template %s"
-msgstr ""
+msgstr "Удалить шаблон %s"
 
 msgid "Delete Restricted Permission %s"
 msgstr ""
@@ -363,7 +363,7 @@ msgid "Choose the permission you wish to include in this template."
 msgstr ""
 
 msgid "The name for this group."
-msgstr ""
+msgstr "Название для этой группы."
 
 msgid "Add Restricted Permission"
 msgstr ""
@@ -405,7 +405,7 @@ msgid "Plugin installed successfully. You need to enable it globally or assign i
 msgstr ""
 
 msgid "FOP2 Repository - Available Plugins"
-msgstr ""
+msgstr "Репозиторий FOP2 - Доступные плагины"
 
 msgid "Globally Enabled"
 msgstr ""
@@ -438,7 +438,7 @@ msgid "You can upload a tar gzip file containing a FOP2 plugin from your local s
 msgstr ""
 
 msgid "Available Version"
-msgstr ""
+msgstr "Доступная версия"
 
 msgid "Installed Version"
 msgstr ""
@@ -489,7 +489,7 @@ msgid "Error finding uploaded file. Did you select one? Check your PHP and/or we
 msgstr ""
 
 msgid "File must be in tar+gzip (.tgz or .tar.gz) format"
-msgstr ""
+msgstr "Файл может быть в формате tar+gzip (.tgz или .tar.gz)"
 
 msgid "Filename does not have the correct format: it must be pluginname-version.tar.gz (eg. customplugin-0.1.tar.gz)"
 msgstr ""
@@ -531,22 +531,22 @@ msgid "Reload FOP2"
 msgstr "Перезагрузка FOP2"
 
 msgid "Asterisk Reloaded"
-msgstr ""
+msgstr "Asterisk перезагружена"
 
 msgid "Reload Asterisk"
 msgstr "Перезагрузка Asterisk"
 
 msgid "Show Changelog"
-msgstr ""
+msgstr "Показать изменения"
 
 msgid "Hide Changelog"
 msgstr ""
 
 msgid "File extracted successfully!"
-msgstr ""
+msgstr "Файл успешно извлечен!"
 
 msgid "Cannot read file %s for extraction"
-msgstr ""
+msgstr "Невозможно прочесть файл %s для извлечения"
 
 msgid "Extraction directory %s does not exists!"
 msgstr ""
@@ -615,16 +615,16 @@ msgid "Originate Variables"
 msgstr ""
 
 msgid "AutoAnswer Header"
-msgstr ""
+msgstr "Header автоответа"
 
 msgid "Could not remove file %s!"
 msgstr ""
 
 msgid "File %s removed successfully"
-msgstr ""
+msgstr "Файл %s успешно удален"
 
 msgid "Edit Setting"
-msgstr ""
+msgstr "Редактировать настройки"
 
 msgid "Enable javascript debugging on the browser."
 msgstr ""
