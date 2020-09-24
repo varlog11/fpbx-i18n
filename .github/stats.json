@@ -31,9 +31,11 @@
     "Queues": "31%",
     "User_Management": "54%",
     "Voicemail": "9%"
-
+  },
+  "FreePBX_15": {
+    "Framework": "81%"
   },
   "FOP2": {
-    "FOP2_admin": "31%"
-  },
+  "FOP2_admin": "31%"
+  }
 }
