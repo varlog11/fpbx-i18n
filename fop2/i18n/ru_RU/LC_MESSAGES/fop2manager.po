@@ -1,0 +1,699 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FOP2 Manager russian translation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-16 22:30+0100\n"
+"PO-Revision-Date: 2020-09-24 12:05+0500\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Language-Team: TranslAster <https://github.com/translaster>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: ru\n"
+"X-Generator: Poedit 2.4.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "Field %s added to table %s"
+msgstr ""
+
+msgid "Add User"
+msgstr "Добавить пользователя"
+
+msgid "From here you can manage FOP2 users and permissions, and also mark the groups the user will be able to view or the plugins it will have enabled."
+msgstr ""
+
+msgid "From here you can install, uninstall, upload and configure FOP2 plugins. You can get plugins from FOP2 repositories, or upload and manage local plugins."
+msgstr ""
+
+msgid "Login Details"
+msgstr ""
+
+msgid "Group Details"
+msgstr "Детали группы"
+
+msgid "Restricted Permission Details"
+msgstr ""
+
+msgid "The extension number for this user."
+msgstr ""
+
+msgid "Extension"
+msgstr "Расширение"
+
+msgid "The secret to login to fop2. If the user was autocreated on install time, the password will be the voicemail pin, if it has no voicemail enabled, it will be the same extension number."
+msgstr ""
+
+msgid "Secret"
+msgstr "Пароль"
+
+msgid "Choose a template to quickly set or change permissions, groups and plugins."
+msgstr ""
+
+msgid "(pick template)"
+msgstr "(выбор шаблона)"
+
+msgid "Restricted Permissions"
+msgstr ""
+
+msgid "Permissions"
+msgstr "Разрешения"
+
+msgid "Permissions let you specify what actions the user will be able to perform inside FOP2. For example, if you do not want to give the users the ability to listen to ongoing calls, do not select the spy permission."
+msgstr "Разрешения позволяют указать какие действия пользователь сможет выполнять внутри FOP2. Например, если вы не хотите предоставлять пользователям возможность прослушивать текущие вызовы - не выбирайте разрешение spy."
+
+msgid "Template"
+msgstr "Шаблон"
+
+msgid "Choose the permission you want to grant to the user."
+msgstr ""
+
+msgid "(pick permission)"
+msgstr "(выбор расширения)"
+
+msgid "Groups"
+msgstr "Группы"
+
+msgid "Group"
+msgstr "Группа"
+
+msgid "Select the groups you want the user to see in the panel. If no groups are selected the user will be able to see all buttons."
+msgstr ""
+
+msgid "All Buttons"
+msgstr "Все кнопки"
+
+msgid "All Extensions"
+msgstr "Все расширения"
+
+msgid "All Queues"
+msgstr "Все очереди"
+
+msgid "All Conferences"
+msgstr "Все конференции"
+
+msgid "All Trunks"
+msgstr "Все транки"
+
+msgid "Plugins"
+msgstr "Плагины"
+
+msgid "Select the plugins you want to load for this user."
+msgstr ""
+
+msgid "Submit Changes"
+msgstr "Применить изменения"
+
+msgid "Delete User %s"
+msgstr "Удалить пользователя %s"
+
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+msgid "Please insert an extension number."
+msgstr "Пожалуйста, введите добавочный номер."
+
+msgid "The extension must be numeric."
+msgstr ""
+
+msgid "That extension already exists."
+msgstr "Этот номер уже существует."
+
+msgid "Changes saved successfully"
+msgstr ""
+
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "Buttons"
+msgstr "Кнопки"
+
+msgid "Templates"
+msgstr "Шаблоны"
+
+msgid "Extensions"
+msgstr "Расширения"
+
+msgid "Queues"
+msgstr "Очереди"
+
+msgid "Trunks"
+msgstr "Транки"
+
+msgid "Parks"
+msgstr ""
+
+msgid "Conferences"
+msgstr "Конференции"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Upload"
+msgstr "Загрузить"
+
+msgid "Edit button options"
+msgstr ""
+
+msgid "You can change button labels and privacy options -to prevent the button to be monitored and/or hide the CallerID- among other things. You can also sort the list by dragging elements up and down or using the Sort options in the Actions menu."
+msgstr ""
+
+msgid "Sort by Name"
+msgstr "Сортировка по имени"
+
+msgid "Sort by Number"
+msgstr "Сортировка по номеру"
+
+msgid "If you changed any extension names and want to reread them from the regular FreePBX config and update the FOP2 config, click this button."
+msgstr ""
+
+msgid "Show/Hide advanced fields for buttons."
+msgstr ""
+
+msgid "%d buttons removed from system update"
+msgstr "%d кнопок удалены при обновлении системы"
+
+msgid "%d buttons added from system update"
+msgstr "%d кнопок добавлены при обновлении системы"
+
+msgid "Enable or disable this button from the FOP2 panel view."
+msgstr ""
+
+msgid "You can change the button label to be displayed on FOP2 panel."
+msgstr ""
+
+msgid "You can group extensions visually on FOP2 page. If no group is specified all the extensions are going to be displayed on the Extensions box. If you type another name, a new box will be added with the name you choose. Any buttons with the same group name will be displayed on that box."
+msgstr ""
+
+msgid "This option can be used to disable monitoring or CallerID display on the button."
+msgstr ""
+
+msgid "ASTDB key to search for custom states. Default configuration is for displaying Call Forward Unconditional states."
+msgstr ""
+
+msgid "You can set an email for every button to enable the option to email the user directly from the FOP2 panel."
+msgstr ""
+
+msgid "Channel to use as originator when performing a dial from FOP2. You can use a Local type channel and use sip headers for setting the phone to auto answer."
+msgstr ""
+
+msgid "number@context for external/mobile transfers. If @context is omited it will use the default one for the extension."
+msgstr "number@context для внешних/мобильных переводов. Если @context опущен - для расширения будет использоваться значение по умолчанию."
+
+msgid "Options to pass to chanspy. Can be used to restrict spying to certain groups (option g, SPYGROUP) or silence the beep (option q). Example: qg(SALES)"
+msgstr ""
+
+msgid "Extra Channel. You can use it to add extra channels to affect the status of this button."
+msgstr ""
+
+msgid "Comma separated lists of tags. They will be searched/matched when you use the Filter input box on the panel."
+msgstr ""
+
+msgid "Zap/Dahdi Channels (Eg: 1-24)"
+msgstr "Каналы Zap/Dahdi (Напр: 1-24)"
+
+msgid "You must specify the channel number range for zap/dahdi trunks in this field."
+msgstr ""
+
+msgid "Extra Channel"
+msgstr ""
+
+msgid "You might want to specify an additional device name or put the correct device name in case you are using custom trunks."
+msgstr ""
+
+msgid "Channel to use as queue member when adding/removing/pausing this button into a queue."
+msgstr ""
+
+msgid "Voicemail mailbox to query for new voicemail."
+msgstr ""
+
+msgid "Saving..."
+msgstr "Сохранение..."
+
+msgid "Label"
+msgstr "Метка"
+
+msgid "Synchronize Labels"
+msgstr ""
+
+msgid "No"
+msgstr "Нет"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Enabled"
+msgstr "Включено"
+
+msgid "Privacy"
+msgstr "Конфиденциальность"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "External Transfer"
+msgstr ""
+
+msgid "Channel"
+msgstr "Канал"
+
+msgid "Originate Channel"
+msgstr ""
+
+msgid "Tags"
+msgstr "Теги"
+
+msgid "Custom ASTDB"
+msgstr ""
+
+msgid "ChanSpy Options"
+msgstr ""
+
+msgid "Add Group"
+msgstr "Добавить группу"
+
+msgid "Groups can be used to restrict the buttons a user should see in his panel. You can create a group with only 5 extensions and assign it to a user in the Users tab, so he can only see those extensions."
+msgstr ""
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Included Buttons"
+msgstr ""
+
+msgid "Select the buttons you want to include in this group."
+msgstr ""
+
+msgid "Check All"
+msgstr "Выбрать всё"
+
+msgid "Delete Group %s"
+msgstr ""
+
+msgid "Edit User %s"
+msgstr ""
+
+msgid "Edit Group %s"
+msgstr ""
+
+msgid "Please enter a group name."
+msgstr "Пожалуйста, введите название группы."
+
+msgid "Ringgroups"
+msgstr ""
+
+msgid "A template is a set of permissions, groups and plugins that you can assign to users in one step inside the Users menu for easy and quick management."
+msgstr "Шаблон - это набор разрешений, групп и плагинов, которые вы можете назначить пользователям за один шаг в меню \"Пользователи\" для легкого и быстрого управления."
+
+msgid "Add Template"
+msgstr "Добавить шаблон"
+
+msgid "Edit Template %s"
+msgstr ""
+
+msgid "Template Details"
+msgstr "Детали шаблона"
+
+msgid "Template %s deleted!"
+msgstr "Шаблон %s удален!"
+
+msgid "Template %s inserted!"
+msgstr "Шаблон %s вставлен!"
+
+msgid "User %s deleted!"
+msgstr "Пользователь %s удален!"
+
+msgid "User %s inserted!"
+msgstr "Пользователь %s вставлен!"
+
+msgid "Group %s deleted!"
+msgstr "Группа %s удалена!"
+
+msgid "Group %s inserted!"
+msgstr "Group %s вставлена!"
+
+msgid "Restricted Permission %s deleted!"
+msgstr ""
+
+msgid "Restricted Permission %s inserted!"
+msgstr ""
+
+msgid "Delete Template %s"
+msgstr ""
+
+msgid "Delete Restricted Permission %s"
+msgstr ""
+
+msgid "Select the groups you want to add to this template. If no groups are selected the user will be able to see all buttons."
+msgstr ""
+
+msgid "Select the plugins you want to enable in this template."
+msgstr ""
+
+msgid "Make Default"
+msgstr ""
+
+msgid "Assign this template by default when adding new users."
+msgstr ""
+
+msgid "The name for this template."
+msgstr ""
+
+msgid "Choose the permission you wish to include in this template."
+msgstr ""
+
+msgid "The name for this group."
+msgstr ""
+
+msgid "Add Restricted Permission"
+msgstr ""
+
+msgid "Restricted permissions lets you limit actions to a specific set of extensions/groups. They are only used for restricting actions. If you want a quick way to assign permissions, then you should use Templates as restricted permissions will limit user actions."
+msgstr ""
+
+msgid "Edit Restricted Permission %s"
+msgstr ""
+
+msgid "The name for this permission."
+msgstr ""
+
+msgid "Choose the permission you want to include in this advanced permission."
+msgstr ""
+
+msgid "Restrict to Groups"
+msgstr ""
+
+msgid "Select the groups you want to restrict this permission to. You will be able to perform the actions only to the extension/buttons that are part of the selected groups. If no groups are selected, the permission will be allowed to every button on the panel."
+msgstr ""
+
+msgid "Please insert a permission name."
+msgstr "Пожалуйста, введите название разрешения."
+
+msgid "That name is reserved for stock permissions, choose another one."
+msgstr ""
+
+msgid "Accept"
+msgstr "Принять"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "The following error(s) occurred processing the uploaded file: %s"
+msgstr "Следующая ошибка(-и) произошла при загрузке файла: %s"
+
+msgid "Plugin installed successfully. You need to enable it globally or assign it to some users to make it available."
+msgstr ""
+
+msgid "FOP2 Repository - Available Plugins"
+msgstr ""
+
+msgid "Globally Enabled"
+msgstr ""
+
+msgid "Uninstall"
+msgstr "Деинсталлировать"
+
+msgid "Install"
+msgstr "Установка"
+
+msgid "Buy"
+msgstr "Купить"
+
+msgid "Update"
+msgstr "Обновление"
+
+msgid "Free"
+msgstr ""
+
+msgid "Online Repository not reachable/accessible"
+msgstr "Онлайн-репозиторий недоступен/доступен"
+
+msgid "Locally Available Plugins"
+msgstr ""
+
+msgid "Upload Plugin"
+msgstr ""
+
+msgid "You can upload a tar gzip file containing a FOP2 plugin from your local system. If a plugin with the same name already exists, it will be overwritten."
+msgstr ""
+
+msgid "Available Version"
+msgstr ""
+
+msgid "Installed Version"
+msgstr ""
+
+msgid "Browse"
+msgstr "Обзор"
+
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+msgid "Error extracting plugin archive"
+msgstr ""
+
+msgid "Hide/Show Plugin Settings"
+msgstr ""
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Add Section"
+msgstr "Добавить раздел"
+
+msgid "Remove Section"
+msgstr "Удалить раздел"
+
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+msgid "Enter Section"
+msgstr ""
+
+msgid "That section already exists!"
+msgstr "Этот раздел уже существует!"
+
+msgid "Section cannot be empty!"
+msgstr "Раздел не может быть пустым!"
+
+msgid "%s users added"
+msgstr "%s пользователей добавлено"
+
+msgid "%s buttons added"
+msgstr "%s кнопок добавлено"
+
+msgid "Configuration saved"
+msgstr ""
+
+msgid "Error finding uploaded file. Did you select one? Check your PHP and/or web server configuration."
+msgstr ""
+
+msgid "File must be in tar+gzip (.tgz or .tar.gz) format"
+msgstr ""
+
+msgid "Filename does not have the correct format: it must be pluginname-version.tar.gz (eg. customplugin-0.1.tar.gz)"
+msgstr ""
+
+msgid "FOP2 Server is not responding. Be sure the service is running!"
+msgstr ""
+
+msgid "Licensed Plugins"
+msgstr ""
+
+msgid "There are no licensed plugins"
+msgstr ""
+
+msgid "FOP2 Server Status: OK"
+msgstr ""
+
+msgid "The FOP2 Manager lets you configure users, permissions, button details and options. It will also let you install, uninstall and configure FOP2 plugins. It will read data from your configuration backend (FreePBX, Thirdlane, etc) and populate its own tables with your preferences."
+msgstr "Менеджер FOP2 позволяет настраивать пользователей, разрешения, сведения о кнопках и параметры. Он также позволит вам устанавливать, удалять и настраивать плагины FOP2. Он будет считывать данные из вашего бэкенда конфигурации (FreePBX, Thirdlane и т. д.) и заполнять свои таблицы вашими предпочтениями."
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Upgrade Available"
+msgstr ""
+
+msgid "Upgrade"
+msgstr "Обновить"
+
+msgid "New %s version %s available for download"
+msgstr "Новый %s версии %s доступен для загрузки"
+
+msgid "(Your current version is %s)"
+msgstr "(Ваша текущая версия - %s)"
+
+msgid "FOP2 Reloaded"
+msgstr "FOP2 перезагружена"
+
+msgid "Reload FOP2"
+msgstr "Перезагрузка FOP2"
+
+msgid "Asterisk Reloaded"
+msgstr ""
+
+msgid "Reload Asterisk"
+msgstr "Перезагрузка Asterisk"
+
+msgid "Show Changelog"
+msgstr ""
+
+msgid "Hide Changelog"
+msgstr ""
+
+msgid "File extracted successfully!"
+msgstr ""
+
+msgid "Cannot read file %s for extraction"
+msgstr ""
+
+msgid "Extraction directory %s does not exists!"
+msgstr ""
+
+msgid "Error while extracting file %s into directory %s"
+msgstr ""
+
+msgid "Problem trying to find the extracted upgrade files. There is no %s directory."
+msgstr ""
+
+msgid "The permission name is already in use."
+msgstr ""
+
+msgid "The template name is already in use."
+msgstr ""
+
+msgid "The name cannot be empty!"
+msgstr ""
+
+msgid "The user number is already in use."
+msgstr ""
+
+msgid "Create option"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Backend Engine: %s"
+msgstr ""
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Log in"
+msgstr "Войти"
+
+msgid "Invalid Credentials"
+msgstr ""
+
+msgid "Actions"
+msgstr "Действия"
+
+msgid "That name is reserved for default groups, choose another one."
+msgstr ""
+
+msgid "Logout"
+msgstr "Выйти"
+
+msgid "Recreate Users"
+msgstr "Пересоздать пользователей"
+
+msgid "Variable to send to the Asterisk Manager when issuing Originate commands specific for setting a phone to auto answer via sip headers or similar. This will be used if the user toggles auto answer in its own FOP2 Preferences setting"
+msgstr ""
+
+msgid "Variables to send to the Asterisk Manager when issuing Originate commands (performing a dial from FOP2)."
+msgstr ""
+
+msgid "Originate Variables"
+msgstr ""
+
+msgid "AutoAnswer Header"
+msgstr ""
+
+msgid "Could not remove file %s!"
+msgstr ""
+
+msgid "File %s removed successfully"
+msgstr ""
+
+msgid "Edit Setting"
+msgstr ""
+
+msgid "Enable javascript debugging on the browser."
+msgstr ""
+
+msgid "To enable or disable desktop notifications (notification boxes that popup outside the browser, so you can see them with the browser minimized). This does not work with all browsers."
+msgstr ""
+
+msgid "Dial prefix to use on click to call from phonebook or when using the dial box."
+msgstr ""
+
+msgid "To enable or disable the 'Other' option on the FOP2 Presence selection, that lets users chose the reason for their state besides the predefined ones."
+msgstr ""
+
+msgid "When you click on a queue button, the extension display will hide all extensions but the ones matching their names with its queue members. If this is enabled, then queue filtering won't be active."
+msgstr ""
+
+msgid "Lets you control if you want to enable or disable the Voicemail Explorer feature. Requires a voicemail license to be effective."
+msgstr ""
+
+msgid "Lets you disable the use of HTML5 Websocket as the communications protocol. If disable FOP2 will use Adobe Flash instead."
+msgstr ""
+
+msgid "Mode in which you want queue buttons to be displayed by default. The summary view will show only the number of logged in agents and number of waiting calls, while the full view will show every queue member and all waiting calls in detail."
+msgstr ""
+
+msgid "When enabled, extension buttons won't show any inactive lines, making them shorter. But also the display will be irregular as some buttons will be taller than others depending on the number of active lines."
+msgstr ""
+
+msgid "This setting lets you control if you want drag&drop transfers to be enabled in FOP2."
+msgstr ""
+
+msgid "When enabled, this option will hide all extension buttons that are lagged or unregistered."
+msgstr ""
+
+msgid "Main Language"
+msgstr ""
+
+msgid "URL to use when the logout button is clicked in the FOP2 UI. Useful if you are embedding FOP2 into some other web application and want to control what to show on logout."
+msgstr ""
+
+msgid "If you do not want to show the extension number in a button label, then enable this setting."
+msgstr ""
+
+msgid "Duration in seconds you want notifications to be displayed."
+msgstr ""
+
+msgid "Date format to use on Chat events."
+msgstr ""
+
+msgid "Number of lines to show per button."
+msgstr ""
+
+msgid "To control if you want sounds for chat events."
+msgstr ""
+
+msgid "To control if you want sounds for queue events."
+msgstr ""
+
+msgid "To enable or disable the RING sound when your extension receives a call."
+msgstr ""
+
+msgid "With this setting, all extension buttons will start in unregistered state (greyed out)."
+msgstr ""
+
+msgid "Format in which voicemail files are stored, this must be the same as configured in /etc/asterisk/voicemail.conf"
+msgstr ""
+
+msgid "To control if you want a warning when the FOP2 page is about to be closed."
+msgstr ""
+
+msgid "To control if you want a confirmation when a hangup action is performed from FOP2."
+msgstr ""
