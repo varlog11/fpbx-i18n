@@ -10,12 +10,12 @@ msgstr ""
 "Project-Id-Version: Queues 14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-06 11:25+0530\n"
-"PO-Revision-Date: 2020-06-22 17:43+0500\n"
+"PO-Revision-Date: 2020-10-26 16:29+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.1\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -58,6 +58,8 @@ msgid ""
 "Add an Alert-Info Header like Snom and other Phones need for Ring or "
 "Ringtone informations"
 msgstr ""
+"Добавляет заголовок Alert-Info для телефонов Snom или других информации, "
+"необходимой для звонка или рингтона"
 
 #: views/form.php:719
 msgid "Advanced Options"
@@ -94,7 +96,7 @@ msgstr ""
 
 #: views/form.php:978
 msgid "Agent Restrictions"
-msgstr ""
+msgstr "Ограничения агента"
 
 #: views/form.php:313
 msgid "Agent Ringing"
@@ -131,7 +133,7 @@ msgstr "Позволяет вызывающему абоненту всегда 
 
 #: views/form.php:1819
 msgid "Announce Hold Time"
-msgstr ""
+msgstr "Уведомление о времени ожидания"
 
 #: views/form.php:1790
 msgid "Announce Position"
@@ -240,11 +242,11 @@ msgstr "Префикс CID"
 
 #: views/form.php:795
 msgid "Call Confirm"
-msgstr ""
+msgstr "Подтверждение вызова"
 
 #: views/form.php:146
 msgid "Call Confirm Announce"
-msgstr ""
+msgstr "Уведомление о подтверждении вызова"
 
 #: views/form.php:1126
 msgid "Call Recording"
@@ -260,7 +262,7 @@ msgstr ""
 
 #: views/form.php:714
 msgid "Caller Announcements"
-msgstr ""
+msgstr "Объявления для вызывающих абонентов"
 
 #: views/form.php:1730
 msgid "Caller Position"
@@ -290,7 +292,7 @@ msgstr ""
 
 #: views/form.php:709
 msgid "Capacity Options"
-msgstr ""
+msgstr "Параметры емкости"
 
 #: functions.inc/queue_conf.php:219
 msgid "Compound Recordings in Queues Detected"
@@ -370,7 +372,7 @@ msgstr ""
 
 #: views/cron.php:37
 msgid "Enable this task"
-msgstr ""
+msgstr "Включить эту задачу"
 
 #: views/form.php:1171
 msgid ""
@@ -381,7 +383,7 @@ msgstr ""
 
 #: views/form.php:619
 msgid "Event When Called"
-msgstr ""
+msgstr "Событие при вызове"
 
 #: functions.inc/hook_core.php:59
 msgid "Extension Options"
@@ -389,11 +391,11 @@ msgstr "Опции внутреннего номера"
 
 #: views/form.php:990
 msgid "Extensions Only"
-msgstr ""
+msgstr "Только внутренний номер"
 
 #: views/form.php:1183
 msgid "Fail Over Destination"
-msgstr ""
+msgstr "Назначение при отказе"
 
 #: views/form.php:19 views/form.php:1131
 msgid "Force"
@@ -401,7 +403,7 @@ msgstr "Принудительно"
 
 #: views/form.php:1740
 msgid "Frequency"
-msgstr ""
+msgstr "Частота"
 
 #: views/form.php:694
 msgid "General Settings"
@@ -552,7 +554,7 @@ msgstr ""
 #: views/form.php:395 views/form.php:403 views/form.php:1314
 #: views/form.php:1653 views/form.php:1687
 msgid "Loose"
-msgstr ""
+msgstr "Свободно"
 
 #: views/form.php:1155
 msgid "Mark calls answered elsewhere"
@@ -560,15 +562,15 @@ msgstr ""
 
 #: views/form.php:1614
 msgid "Max Callers"
-msgstr ""
+msgstr "Максимально абонентов"
 
 #: views/form.php:1279
 msgid "Max Wait Time"
-msgstr ""
+msgstr "Максимальное время ожидания"
 
 #: views/form.php:1305
 msgid "Max Wait Time Mode"
-msgstr ""
+msgstr "Режим максимального времени ожидания"
 
 #: views/form.php:1627
 msgid "Maximum number of people waiting in the queue (0 for unlimited)"
@@ -635,7 +637,7 @@ msgstr ""
 #: views/form.php:1538 views/form.php:1567 views/form.php:1651
 #: views/form.php:1685 views/form.php:1799 views/form.php:1828
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: views/form.php:988
 msgid "No Follow-Me or Call Forward"
@@ -643,7 +645,7 @@ msgstr ""
 
 #: views/form.php:369
 msgid "No Retry"
-msgstr ""
+msgstr "Не повторять"
 
 #: views/form.php:190 views/form.php:218 views/form.php:512 views/form.php:553
 #: views/form.php:903
@@ -652,11 +654,11 @@ msgstr "Отсутствует"
 
 #: views/form.php:1830
 msgid "Once"
-msgstr ""
+msgstr "Единовременно"
 
 #: views/form.php:730
 msgid "Other Options"
-msgstr ""
+msgstr "Прочие параметры"
 
 #: views/form.php:915
 #, php-format
@@ -664,7 +666,7 @@ msgid ""
 "Override the ringer volume. Note: This is only valid for %s phones at this "
 "time"
 msgstr ""
-"Переопределите громкость звонка. Примечание: В настоящее время это правило "
+"Переопределить громкость звонка. Примечание: В настоящее время это правило "
 "действует только для телефонов %s"
 
 #: views/form.php:1707
@@ -673,7 +675,7 @@ msgstr ""
 
 #: views/form.php:1846
 msgid "Periodic Announcements"
-msgstr ""
+msgstr "Периодические уведомления"
 
 #: queues.i18n.php:12
 msgid "Persistent Members"
@@ -712,15 +714,15 @@ msgstr ""
 
 #: views/form.php:699
 msgid "Queue Agents"
-msgstr ""
+msgstr "Агенты очереди"
 
 #: views/form.php:445 views/form.php:548
 msgid "Queue Callback"
-msgstr ""
+msgstr "Обратный вызов очереди"
 
 #: install.php:10
 msgid "Queue Callers"
-msgstr ""
+msgstr "Абоненты очереди"
 
 #: views/form.php:769
 msgid "Queue Name"
@@ -756,7 +758,7 @@ msgstr ""
 
 #: views/form.php:1099
 msgid "Queue Weight"
-msgstr "Весь очереди"
+msgstr "Вес очереди"
 
 #: views/form.php:1073
 msgid "Queue calls only (ringinuse=no)"
@@ -827,11 +829,11 @@ msgstr ""
 
 #: views/cron.php:50
 msgid "Random"
-msgstr ""
+msgstr "Случайный"
 
 #: views/form.php:587
 msgid "Repeat Frequency"
-msgstr ""
+msgstr "Частота повторения"
 
 #: views/form.php:1469
 msgid "Report Hold Time"
@@ -847,7 +849,7 @@ msgstr "Сброс статистики очереди"
 
 #: views/form.php:951
 msgid "Restrict Dynamic Agents"
-msgstr ""
+msgstr "Ограничение динамическими агентами"
 
 #: views/form.php:966
 msgid ""
@@ -855,6 +857,9 @@ msgid ""
 "Members list above. When set to Yes, members not listed will be DENIED "
 "ACCESS to the queue."
 msgstr ""
+"Ограничьте подключение динамических участников очереди только теми, которые "
+"перечислены в списке динамических участников выше. Если задано значение Да, "
+"то участникам, не включенным в список, будет отказано в доступе к очереди."
 
 #: views/form.php:1390
 msgid "Retry"
@@ -874,7 +879,7 @@ msgstr "Переопределение громкости звонка"
 
 #: views/form.php:926
 msgid "Ringer Volume Override Mode"
-msgstr ""
+msgstr "Режим переопределения громкости звонка"
 
 #: views/form.php:395
 msgid ""
@@ -920,7 +925,7 @@ msgstr ""
 
 #: views/form.php:1865
 msgid "Service Level"
-msgstr ""
+msgstr "Уровень обслуживания"
 
 #: queues.i18n.php:22
 msgid "Set Agent Name in CDR dstchannel"
@@ -938,7 +943,7 @@ msgstr ""
 
 #: views/form.php:1063
 msgid "Skip Busy Agents"
-msgstr ""
+msgstr "Пропуск занятых агентов"
 
 #: views/form.php:274
 msgid ""
@@ -970,12 +975,12 @@ msgstr ""
 
 #: views/cron.php:20
 msgid "Stats Reset"
-msgstr ""
+msgstr "Сброс статистики"
 
 #: views/form.php:392 views/form.php:401 views/form.php:1312
 #: views/form.php:1647 views/form.php:1681
 msgid "Strict"
-msgstr ""
+msgstr "Строго"
 
 #: Queues.class.php:211
 msgid "Submit"
@@ -1025,7 +1030,7 @@ msgstr ""
 
 #: views/form.php:704
 msgid "Timing & Agent Options"
-msgstr ""
+msgstr "Синхронизация и параметры агента"
 
 #: views/form.php:393 views/form.php:402 views/form.php:1649
 #: views/form.php:1683
@@ -1034,15 +1039,15 @@ msgstr ""
 
 #: views/form.php:345 views/form.php:363
 msgid "Unlimited"
-msgstr ""
+msgstr "Неограничено"
 
 #: queues.i18n.php:26
 msgid "Use MixMonitor for Recordings"
-msgstr ""
+msgstr "Использовать MixMonitor для записей"
 
 #: functions.inc/hook_core.php:36
 msgid "Use State"
-msgstr ""
+msgstr "Использовать состояние"
 
 #: views/form.php:757
 msgid ""
@@ -1064,7 +1069,7 @@ msgstr ""
 
 #: views/form.php:847
 msgid "Wait Time Prefix"
-msgstr ""
+msgstr "Префикс времени ожидания"
 
 #: Queues.class.php:145
 msgid "Warning! Extension"
@@ -1083,11 +1088,11 @@ msgstr "Еженедельно"
 
 #: views/form.php:199
 msgid "When No Free Agents"
-msgstr ""
+msgstr "Когда нет свободных агентов"
 
 #: views/form.php:200
 msgid "When No Ready Agents"
-msgstr ""
+msgstr "Когда нет готовых агентов"
 
 #: views/form.php:998
 msgid ""
@@ -1172,7 +1177,7 @@ msgstr ""
 
 #: views/form.php:1195
 msgid "Where calls should fail to"
-msgstr ""
+msgstr "Где звонки не должны завершаться"
 
 #: views/form.php:454
 msgid ""
@@ -1191,7 +1196,7 @@ msgstr ""
 
 #: views/form.php:1416
 msgid "Wrap-Up-Time"
-msgstr ""
+msgstr "Время-подведения-итогов"
 
 #: views/cron.php:26 views/cron.php:55 views/form.php:19 views/form.php:116
 #: views/form.php:391 views/form.php:400 views/form.php:625 views/form.php:657
@@ -1205,15 +1210,15 @@ msgstr "Да"
 
 #: views/form.php:1072
 msgid "Yes + (ringinuse=no)"
-msgstr ""
+msgstr "Yes + (ringinuse=no)"
 
 #: views/form.php:1504
 msgid "Yes in all queues"
-msgstr ""
+msgstr "Да, во всех очередях"
 
 #: views/form.php:1504
 msgid "Yes in this queue only"
-msgstr ""
+msgstr "Да, только в этой очереди"
 
 #: views/form.php:835
 msgid ""
@@ -1246,7 +1251,7 @@ msgstr "по умолчанию"
 
 #: views/form.php:268
 msgid "fewestcalls"
-msgstr ""
+msgstr "менее-вызываемый"
 
 #: functions.inc.php:32
 msgid "hour"
@@ -1266,7 +1271,7 @@ msgstr "не разрешён к использованию для этого а
 
 #: views/form.php:267
 msgid "leastrecent"
-msgstr ""
+msgstr "недавний"
 
 #: views/form.php:272
 msgid "linear"
@@ -1286,29 +1291,34 @@ msgstr "нет"
 
 #: views/form.php:269
 msgid "random"
-msgstr ""
+msgstr "случайный"
 
 #: views/form.php:273
 msgid ""
 "random using the member's penalty as a weighting factor, see asterisk "
 "documentation for specifics"
 msgstr ""
+"случайным образом с использованием штрафа участника в качестве весового "
+"коэффициента, подробности см. в документации по Asterisk"
 
 #: views/form.php:267
 msgid "ring agent which was least recently called by this queue"
-msgstr ""
+msgstr "вызывать агента, который был последним вызван этой очередью"
 
 #: views/form.php:266
 msgid "ring all available agents until one answers (default)"
 msgstr ""
+"вызывать всех доступных агентов, пока один из них не ответит (по умолчанию)"
 
 #: views/form.php:269
 msgid "ring random agent"
-msgstr ""
+msgstr "вызвать случайного агента"
 
 #: views/form.php:268
 msgid "ring the agent with fewest completed calls from this queue"
 msgstr ""
+"вызывается агент с наименьшим количеством завершенных вызовов в данной "
+"очереди"
 
 #: views/form.php:266
 msgid "ringall"
@@ -1319,23 +1329,29 @@ msgid ""
 "rings agents in the order specified, for dynamic agents in the order they "
 "logged in"
 msgstr ""
+"вызывать агентов в указанном порядке, для динамических агентов в том "
+"порядке, в котором они вошли в систему"
 
 #: views/form.php:270
 msgid "round robin with memory, remember where we left off last ring pass"
 msgstr ""
+"круговой алгоритм с памятью, запоминает где мы остановились на последнем "
+"вызове"
 
 #: views/form.php:270
 msgid "rrmemory"
-msgstr ""
+msgstr "запоминающая"
 
 #: views/form.php:271
 msgid "rrordered"
-msgstr ""
+msgstr "упорядоченная"
 
 #: views/form.php:271
 msgid ""
 "same as rrmemory, except the queue member order from config file is preserved"
 msgstr ""
+"тоже самое, что и rrmemory, за исключением того, что порядок участников "
+"очереди из файла конфигурации сохраняется"
 
 #: functions.inc.php:34
 msgid "second"
@@ -1348,4 +1364,4 @@ msgstr "секунд"
 
 #: views/form.php:273
 msgid "wrandom"
-msgstr ""
+msgstr "весово-случайная"
