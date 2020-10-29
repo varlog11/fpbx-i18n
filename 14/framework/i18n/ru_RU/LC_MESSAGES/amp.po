@@ -10,12 +10,12 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 07:16+0000\n"
-"PO-Revision-Date: 2020-08-15 23:17+0500\n"
+"PO-Revision-Date: 2020-10-29 18:00+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4.1\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -1499,7 +1499,7 @@ msgstr "Атрибуты"
 
 #: ../core/views/trunks/pjsip.php:1009
 msgid "Auth Username"
-msgstr ""
+msgstr "Имя для аутентификации"
 
 #: ../core/views/trunks/pjsip.php:80
 msgid "Authentication"
@@ -2682,11 +2682,11 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Console/Job.class.php:74
 msgid "Cron"
-msgstr ""
+msgstr "Cron"
 
 #: amp.i18n.php:108
 msgid "Cron JOBS"
-msgstr ""
+msgstr "Задания Cron"
 
 #: ../core/functions.inc.php:5745
 msgid ""
@@ -3430,6 +3430,8 @@ msgstr ""
 #: ../core/views/trunks/pjsip.php:1074
 msgid "Determines whether media may flow directly between endpoints."
 msgstr ""
+"Определяет, может ли медиапоток передаваться напрямую между конечными "
+"точками."
 
 #: ../core/views/trunks/pjsip.php:1152
 #, php-format
@@ -3499,7 +3501,7 @@ msgstr "Установки устройства"
 
 #: ../core/functions.inc/drivers/PJSip.class.php:302
 msgid "Device State Busy at"
-msgstr ""
+msgstr "Состояние устройства в занято"
 
 #: ../core/Core.class.php:3431 ../core/Core.class.php:3432
 msgid "Device Technology"
@@ -3576,7 +3578,7 @@ msgstr ""
 #: ../core/functions.inc/drivers/PJSip.class.php:293
 #: ../core/views/trunks/pjsip.php:1059
 msgid "Direct Media"
-msgstr ""
+msgstr "Прямой медиапоток"
 
 #: ../core/install.php:12
 msgid "Directed Call Pickup"
@@ -3615,7 +3617,7 @@ msgstr "Отключить пользовательские включения �
 
 #: amp.i18n.php:596
 msgid "Disable CRM Logging"
-msgstr ""
+msgstr "Отключить логирование CRM"
 
 #: amp.i18n.php:690
 msgid "Disable FreePBX Log"
@@ -3636,10 +3638,11 @@ msgstr "Отключить кэширование раздела Управле�
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:177
 msgid "Disable Module Admin caching already enabled, ignoring option"
 msgstr ""
+"Отключение кеширования модуля администратора уже включено, игнорируем опцию"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:180
 msgid "Disable Module Admin caching temporarily enabled"
-msgstr ""
+msgstr "Отключение кеширования модуля администратора временно включено"
 
 #: ../core/views/trunks/trunk_header.php:425
 msgid "Disable Trunk"
@@ -3647,7 +3650,7 @@ msgstr "Выключить транк"
 
 #: amp_conf/htdocs/admin/libraries/Console/Job.class.php:26
 msgid "Disable a specific job"
-msgstr ""
+msgstr "Отключить конкретное задание"
 
 #: ../core/Console/Trunks.class.php:20
 msgid "Disable given trunk"
@@ -3666,11 +3669,11 @@ msgstr "Выключен"
 #: ../core/Console/Trunks.class.php:71
 #, php-format
 msgid "Disabled Trunk %s Run fwconsole reload"
-msgstr ""
+msgstr "Запуск отключенного транка %s перезагрузка fwconsole"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-summary.php:45
 msgid "Disabled:"
-msgstr ""
+msgstr "Отключено:"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-modules.php:87
 #, php-format
@@ -3701,12 +3704,12 @@ msgstr "Отключение %s"
 #: ../core/Console/Trunks.class.php:69
 #, php-format
 msgid "Disabling Trunk %s"
-msgstr ""
+msgstr "Отключение транка %s"
 
 #: ../core/Console/Trunks.class.php:36
 #, php-format
 msgid "Disabling Trunk %s Run fwconsole reload"
-msgstr ""
+msgstr "Запуск отключения транка %s перезагрузка fwconsole"
 
 #: amp.i18n.php:292
 msgid ""
@@ -3905,7 +3908,7 @@ msgstr ""
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:479
 #, php-format
 msgid "Download completed in %s seconds"
-msgstr ""
+msgstr "Загрузка завершится через %s секунд"
 
 #: ../core/views/routing/form.php:714 ../core/views/trunks/trunk_footer.php:42
 msgid "Download local prefixes"
@@ -3938,7 +3941,7 @@ msgstr "Скачивается %s"
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1035
 #, php-format
 msgid "Downloading & Installing '%s'"
-msgstr ""
+msgstr "Загрузка и установка '%s'"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:794
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:853
@@ -3955,17 +3958,17 @@ msgstr "Загрузка и установка %s"
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:458
 #, php-format
 msgid "Downloading module '%s'"
-msgstr ""
+msgstr "Загрузка модуля '%s'"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:469
 #, php-format
 msgid "Downloading module '%s' failed after %s seconds!"
-msgstr ""
+msgstr "Не удалось загрузить модуль '%s' через %s секунд!"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:2235
 #, php-format
 msgid "Dropping table %s..."
-msgstr ""
+msgstr "Удаление таблицы %s..."
 
 #: ../core/Core.class.php:396 ../core/Core.class.php:426
 msgid "Duplicate"
@@ -3977,7 +3980,7 @@ msgstr "Динамическая генерация хинтов"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-summary.php:13
 msgid "EDGE MODE"
-msgstr ""
+msgstr "РЕЖИМ EDGE"
 
 #: upgrades/2.8.0alpha2/tables.php:117
 msgid "ERROR - could not drop table"
@@ -4068,7 +4071,7 @@ msgstr "Адрес Email"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:14
 msgid "Email Address:"
-msgstr ""
+msgstr "Адрес e-mail:"
 
 #: ../core/views/routing/form.php:659
 msgid "Email Body"
@@ -4076,12 +4079,12 @@ msgstr "Содержание письма"
 
 #: ../core/views/routing/form.php:590
 msgid "Email From"
-msgstr ""
+msgstr "E-mail от"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:6
 #: amp_conf/htdocs/admin/views/oobe.php:6
 msgid "Email Only"
-msgstr ""
+msgstr "Только e-mail"
 
 #: ../core/views/routing/form.php:614
 msgid "Email Subject"
@@ -4089,7 +4092,7 @@ msgstr "Тема письма"
 
 #: ../core/views/routing/form.php:566
 msgid "Email To"
-msgstr ""
+msgstr "E-mail кому"
 
 #: ../core/views/quickCreate.php:125
 msgid ""
@@ -4186,7 +4189,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Console/Job.class.php:25
 msgid "Enable a specific job"
-msgstr ""
+msgstr "Включить конкретное задание"
 
 #: ../core/Console/Trunks.class.php:17
 msgid "Enable and disable trunks from the command line"
@@ -4729,7 +4732,7 @@ msgstr "FM/FM"
 
 #: ../core/page.extensions.php:164
 msgid "FMFM"
-msgstr "АЬАЬ"
+msgstr "СС"
 
 #: amp.i18n.php:456
 msgid "FOP Web Root Dir"
