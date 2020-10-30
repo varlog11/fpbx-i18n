@@ -1,0 +1,193 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for callrecording
+# Copyright (C) 2008-2019 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Call Recording 14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-27 10:36+0530\n"
+"PO-Revision-Date: 2020-10-30 12:29+0500\n"
+"Language-Team: TranslAster\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#: assets/js/callrecording.js:21
+#, perl-format
+msgid "%s already used, please use a different description."
+msgstr "%s уже используется, пожалуйста, используйте другое описание."
+
+#: page.callrecording.php:14
+msgid ": Add"
+msgstr ": Добавить"
+
+#: page.callrecording.php:12
+msgid ": Edit"
+msgstr ": Редактировать"
+
+#: views/grid.php:23
+msgid "Actions"
+msgstr "Действия"
+
+#: views/bootnav.php:7 views/grid.php:17
+msgid "Add Call Recording"
+msgstr "Добавить запись вызова"
+
+#: callrecording.i18n.php:6
+msgid "Applications"
+msgstr "Приложения"
+
+#: callrecording.i18n.php:16
+msgid ""
+"Asterisk 13.2 and higher supports the ability to play a regular 'beep' when "
+"a call is being recorded. If you set this to a positive number value, when a "
+"call is being actively recorded, both parties will hear a 'beep' every "
+"period that you select. If you are not running Asterisk 13.2 or higher, this "
+"setting will have no effect. To disable simply clear the value of this box "
+"or set the value to 0 and save. This is typically set arround 15seconds"
+msgstr ""
+"Asterisk 13.2 и выше поддерживает возможность воспроизведения обычного "
+"звукового сигнала при записи вызова. Если вы установите это значение в "
+"положительное число, то при активной записи вызова обе стороны будут слышать "
+"\"звуковой сигнал\" через каждый выбранный вами период. Если вы не "
+"используете Asterisk 13.2 или выше - этот параметр не будет иметь никакого "
+"эффекта. Чтобы отключить его - просто снимите значение этого поля или "
+"установите значение 0 и сохраните его. Он, как правило, устанавливается на "
+"15 секунд"
+
+#: callrecording.i18n.php:12
+msgid "Beep every n seconds"
+msgstr "Гудок каждые n секунд"
+
+#: callrecording.i18n.php:18
+msgid "Call Record Option"
+msgstr "Вариант записи вызова"
+
+#: callrecording.i18n.php:4 callrecording.i18n.php:10 callrecording.i18n.php:14
+#: functions.inc.php:583 page.callrecording.php:7
+msgid "Call Recording"
+msgstr "Запись вызова"
+
+#: views/form.php:102
+msgid "Call Recording Mode"
+msgstr "Режим записи вызовов"
+
+#: Callrecording.class.php:161 functions.inc.php:56 functions.inc.php:763
+#, php-format
+msgid "Call Recording: %s"
+msgstr "Запись вызова: %s"
+
+#: Callrecording.class.php:78
+msgid "Delete"
+msgstr "Удалить"
+
+#: views/form.php:73 views/grid.php:22
+msgid "Description"
+msgstr "Описание"
+
+#: assets/js/callrecording.js:3
+msgid "Description name already exists "
+msgstr "Описание уже существует"
+
+#: views/form.php:126
+msgid "Destination"
+msgstr "Назначение"
+
+#: functions.inc.php:594 views/form.php:40
+msgid "Don't Care"
+msgstr "Неважно"
+
+#: callrecording.i18n.php:20
+msgid "Don’t begin recording unless a call is bridged to another channel"
+msgstr "Не начинать запись пока вызов не будет соединен с другим каналом"
+
+#: functions.inc.php:594 views/form.php:40
+msgid "Force"
+msgstr "Принудительно"
+
+#: assets/js/callrecording.js:2
+msgid "Invalid description specified"
+msgstr "Использовано неправильное описание"
+
+#: views/bootnav.php:6
+msgid "List Call Recordings"
+msgstr "Список записанных вызовов"
+
+#: functions.inc.php:594 views/form.php:40
+msgid "Never"
+msgstr "Никогда"
+
+#: functions.inc.php:594 views/form.php:40
+msgid "No"
+msgstr "Нет"
+
+#: functions.inc.php:575 views/form.php:92
+msgid "Note that the meaning of these options has changed."
+msgstr "Обратите внимание, что значение этих параметров изменилось."
+
+#: functions.inc.php:575 views/form.php:114
+msgid "Please read the wiki for futher information on these changes."
+msgstr ""
+"Пожалуйста, прочтите Wiki для получения дополнительной информации об этих "
+"изменениях."
+
+#: callrecording.i18n.php:8
+msgid "Provides much of the call recording functionality."
+msgstr "Обеспечивает большую часть функций записи вызовов."
+
+#: Callrecording.class.php:83
+msgid "Reset"
+msgstr "Сброс"
+
+#: views/bootnav.php:19
+msgid "Rule"
+msgstr "Правило"
+
+#: Callrecording.class.php:88
+msgid "Submit"
+msgstr "Принять"
+
+#: views/form.php:85
+msgid ""
+"The descriptive name of this call recording instance. For example \"French "
+"Main IVR\""
+msgstr "Описание этой записи. Например \"Главное русское IVR\""
+
+#: functions.inc.php:554
+msgid ""
+"This sets the call recording behavior for calls coming into this DID. Please "
+"read the wiki for information on what these settings mean."
+msgstr ""
+"Задает поведение записи вызовов для вызовов, поступающих в этот DID. "
+"Пожалуйста, прочтите wiki для получения информации о том, что означают эти "
+"настройки."
+
+#: functions.inc.php:566
+msgid ""
+"This sets the call recording behavior for calls going out this route. Please "
+"read the wiki for information on what these settings mean."
+msgstr ""
+"Задает поведение записи вызовов для вызовов, исходящих по этому маршруту. "
+"Пожалуйста, прочтите wiki для получения информации о том, что означают эти "
+"настройки."
+
+#: bin/one_touch_record.php:258
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: views/form.php:138
+msgid "Where should the call be sent."
+msgstr "Куда следует направить вызов."
+
+#: functions.inc.php:594 views/form.php:40
+msgid "Yes"
+msgstr "Да"
