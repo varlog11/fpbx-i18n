@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 07:16+0000\n"
-"PO-Revision-Date: 2020-10-30 10:54+0500\n"
+"PO-Revision-Date: 2020-10-30 11:34+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1751,17 +1751,17 @@ msgstr "Ключ СА уже существует, повторное испол
 #: ../core/page.extensions.php:137 ../core/page.extensions.php:165
 #: ../core/page.users.php:62
 msgid "CF"
-msgstr "Перевод вызова"
+msgstr "Перенаправление вызова"
 
 #: ../core/page.extensions.php:138 ../core/page.extensions.php:166
 #: ../core/page.users.php:63
 msgid "CFB"
-msgstr "\"Слепой\" перевод вызова"
+msgstr "Перенаправление вызова при занятости"
 
 #: ../core/page.extensions.php:139 ../core/page.extensions.php:167
 #: ../core/page.users.php:64
 msgid "CFU"
-msgstr "Несопровождаемый перевод вызова"
+msgstr "Перенаправление вызова при недоступности"
 
 #: amp.i18n.php:432
 msgid "CGI Dir"
@@ -1819,31 +1819,31 @@ msgstr "Время вызова при перенаправлении"
 
 #: amp.i18n.php:262
 msgid "Call Forward Ringtimer Default"
-msgstr "Значение по умолчанию таймера вызова при перенапралении звонка"
+msgstr "Таймера вызова по умолчанию при перенаправлении вызова"
 
 #: ../core/page.users.php:87
 msgid "Call Forwarding Busy is disabled"
-msgstr "Перевод вызова по Занято отключен"
+msgstr "Перенаправление вызова по занятости отключено"
 
 #: ../core/page.users.php:87
 msgid "Call Forwarding Busy is enabled"
-msgstr "Перевод вызова по Занято включен"
+msgstr "Перенаправление вызова по занятости включено"
 
 #: ../core/page.users.php:90
 msgid "Call Forwarding Unconditional is disabled"
-msgstr "Несопровождаемый перевод вызова отключен"
+msgstr "Безусловное перенаправление вызова отключено"
 
 #: ../core/page.users.php:90
 msgid "Call Forwarding Unconditional is enabled"
-msgstr "Несопровождаемый перевод вызова включен"
+msgstr "Безусловное перенаправление вызова включено"
 
 #: ../core/page.users.php:84
 msgid "Call Forwarding is disabled"
-msgstr "Перевод вызова  отключен"
+msgstr "Перенаправление вызова отключено"
 
 #: ../core/page.users.php:84
 msgid "Call Forwarding is enabled"
-msgstr "Перевод вызова  включен"
+msgstr "Перенаправление вызова включено"
 
 #: ../core/functions.inc/drivers/Sip.class.php:483
 msgid "Call Groups"
@@ -12326,8 +12326,8 @@ msgid ""
 "and FindMeFollow."
 msgstr ""
 "Если установлено в true то вместо подтверждающих голосовых сообщений при "
-"активации и деактивации режимов Перенаправление, Второй вызов,День/Ночь, Не "
-"беспокоить, Следуйте сюда будет воспроизводиться просто звуковой сигнал."
+"активации и деактивации режимов Перенаправление, Ожидание вызова, День/Ночь, "
+"Не беспокоить, Следуйте сюда будет воспроизводиться просто звуковой сигнал."
 
 #: amp.i18n.php:504
 msgid ""
