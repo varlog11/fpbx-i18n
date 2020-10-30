@@ -10,12 +10,12 @@ msgstr ""
 "Project-Id-Version: IVR\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-24 05:33+0530\n"
-"PO-Revision-Date: 2020-06-25 11:22+0500\n"
+"PO-Revision-Date: 2020-10-30 16:21+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.1\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -30,10 +30,12 @@ msgid ""
 "A connection to Asterisk Manager could not be made. This module requires "
 "Asterisk to be running and have proper credentials"
 msgstr ""
+"Не удалось установить соединение с Asterisk Manager. Этот модуль требует "
+"чтобы Asterisk был запущен и имел соответствующие учетные данные"
 
 #: views/advanced_form.php:164
 msgid "A value of 0 disables the timeout"
-msgstr ""
+msgstr "Значение 0 отключает тайм-аут"
 
 #: views/advanced_form.php:188
 msgid ""
@@ -45,6 +47,14 @@ msgid ""
 "is to be in accordance with RFC7462. Disaling this enforcement will remove "
 "the prefix entirely"
 msgstr ""
+"ALERT_INFO можно использовать для отличительного звонка с SIP-устройствами."
+"<br>Если у вас возникли проблемы, обратитесь к опции \"Принудительное "
+"применение RFC7462\", найденной в разделе Настройки -> Дополнительные "
+"настройки. <br><br>Следует ли применять RFC7462 для Alert-Info. При "
+"включении этой функции вся информация о предупреждениях будет иметь префикс "
+"\"<lt&>http://127.0.0.1<gt&>;info=\" если он не был определен ранее. Он "
+"должен быть в соответствии с RFC 7462. Отключение этого принудительного "
+"исполнения приведет к полному удалению префикса"
 
 #: page.ivr.php:47
 msgid "Actions"
@@ -52,7 +62,7 @@ msgstr "Действия"
 
 #: views/entries.php:70
 msgid "Add Another Entry"
-msgstr ""
+msgstr "Добавить еще одну запись"
 
 #: page.ivr.php:30 /dev/shm/freepbx/ivr/views/form.php:10 views/rnav.php:3
 msgid "Add IVR"
@@ -63,12 +73,16 @@ msgid ""
 "After playing the Invalid Retry Recording the system will replay the main "
 "IVR Announcement"
 msgstr ""
+"После воспроизведения записи о недопустимой попытке система повторно "
+"воспроизведет основное объявление IVR"
 
 #: views/advanced_form.php:450
 msgid ""
 "After playing the Timeout Retry Recording the system will replay the main "
 "IVR Announcement"
 msgstr ""
+"После воспроизведения записи о тайм-ауте попытки система повторно "
+"воспроизведет основное объявление IVR"
 
 #: views/advanced_form.php:176
 msgid "Alert Info"
@@ -76,7 +90,7 @@ msgstr "Информация о сигнале"
 
 #: views/advanced_form.php:164
 msgid "Amount of time to be considered a timeout."
-msgstr ""
+msgstr "Количество времени, которое следует считать таймаутом."
 
 #: views/advanced_form.php:70 views/simple_form.php:33
 msgid "Announcement"
@@ -84,15 +98,15 @@ msgstr "Объявление"
 
 #: views/advanced_form.php:435
 msgid "Append Announcement on Timeout"
-msgstr ""
+msgstr "Добавить объявление о таймауте"
 
 #: views/advanced_form.php:277
 msgid "Append Announcement to Invalid"
-msgstr ""
+msgstr "Добавьте объявление о неверном вводе"
 
 #: assets/js/ivr.js:91
 msgid "Are you sure you don't want a recording for this announcement?"
-msgstr ""
+msgstr "Вы уверены, что вам не нужна запись для этого объявления?"
 
 #: views/simple_form.php:73
 msgid "Browse"
@@ -110,10 +124,15 @@ msgid ""
 "which could lead to strange results if there was an IVR called in the call "
 "path but not immediately before this"
 msgstr ""
+"Установите этот флажок, чтобы эта опция возвращалась к родительскому IVR, "
+"если она была вызвана из родительского IVR. Если нет, то он отправится в "
+"выбранное место назначения.<br><br>Обратный путь будет к любому IVR, который "
+"был в пути вызова до этого IVR, что может привести к странным результатам, "
+"если в пути вызова был вызван IVR, но не непосредственно перед этим"
 
 #: functions.inc.php:512
 msgid "Choose a destination to route the call to"
-msgstr ""
+msgstr "Выберите пункт назначения для маршрутизации вызова"
 
 #: views/advanced_form.php:319
 msgid ""
@@ -123,10 +142,15 @@ msgid ""
 "which could lead to strange results if there was an IVR called in the call "
 "path but not immediately before this"
 msgstr ""
+"Выберите Да, чтобы эта опция возвращалась к родительскому IVR, если она была "
+"вызвана из родительского IVR. Если нет, то он отправится в выбранное место "
+"назначения.<br><br>Обратный путь будет к любому IVR, который был в пути "
+"вызова до этого IVR, что может привести к странным результатам, если в пути "
+"вызова был вызван IVR, но не непосредственно перед этим"
 
 #: page.ivr.php:16
 msgid "Connection Error"
-msgstr ""
+msgstr "Ошибка соединения"
 
 #: views/form.php:55 views/form.php:61 views/form.php:67 views/form.php:73
 msgid "Default"
@@ -138,15 +162,17 @@ msgstr "Удалить"
 
 #: assets/js/ivr.js:498
 msgid "Delete Recording"
-msgstr ""
+msgstr "Удалить запись"
 
 #: views/entries.php:49
 msgid "Delete this entry. Dont forget to click Submit to save changes!"
 msgstr ""
+"Удалите эту запись. Не забудьте нажать кнопку Принять чтобы сохранить "
+"изменения!"
 
 #: views/advanced_form.php:53
 msgid "Description of this IVR"
-msgstr ""
+msgstr "Описание для этого IVR"
 
 #: functions.inc.php:512
 msgid "Destination"
@@ -155,28 +181,33 @@ msgstr "Назначение"
 #: views/advanced_form.php:373
 msgid "Destination to send the call to after Invalid Recording is played"
 msgstr ""
+"Назначение для отправки вызова после воспроизведения записи о недопустимом "
+"вводе"
 
 #: views/advanced_form.php:531
 msgid "Destination to send the call to after Timeout Recording is played."
 msgstr ""
+"Назначение для отправки вызова после воспроизведения записи о таймауте."
 
 #: functions.inc.php:512
 msgid "Digits"
-msgstr ""
+msgstr "Цифры"
 
 #: assets/js/ivr.js:113
 msgid "Digits are limited to 10 digits."
-msgstr ""
+msgstr "Количество цифр ограничено 10."
 
 #: functions.inc.php:512
 msgid ""
 "Digits the caller needs to dial to access said destination. Digits are "
 "limited to 10 digits."
 msgstr ""
+"Цифры, которые абонент должен набрать, чтобы получить доступ к указанному "
+"месту назначения. Количество цифр ограничено 10 цифрами."
 
 #: views/simple_form.php:80
 msgid "Drop Annoucement Recording Here"
-msgstr ""
+msgstr "Перетащите запись объявления сюда"
 
 #: Ivr.class.php:90
 msgid "Duplicate"
@@ -184,7 +215,7 @@ msgstr "Скопировать"
 
 #: views/form.php:44
 msgid "Edit IVR: "
-msgstr ""
+msgstr "Редактировать IVR: "
 
 #: assets/js/ivr.js:238
 msgid "Edit:"
@@ -192,7 +223,7 @@ msgstr "Редактировать:"
 
 #: views/advanced_form.php:96
 msgid "Enable Direct Dial"
-msgstr ""
+msgstr "Разрешить прямой набор"
 
 #: Ivr.class.php:175
 msgid "Failed to write file to disk"
@@ -200,72 +231,74 @@ msgstr "Ошибка записи файла на диск"
 
 #: views/advanced_form.php:123
 msgid "Force Strict Dial Timeout"
-msgstr ""
+msgstr "Принудительный строгий тайм-аут набора"
 
 #: views/simple_form.php:131
 msgid "Greeting to be played on entry to the IVR."
-msgstr ""
+msgstr "Приветствие, воспроизводимое при попадании в IVR."
 
 #: views/simple_form.php:110
 msgid "Hit the red record button to start recording from your browser"
-msgstr ""
+msgstr "Нажмите красную кнопку записи, чтобы начать запись из Вашего браузера"
 
 #: Ivr.class.php:28 /dev/shm/freepbx/ivr/page.ivr.php:24
 msgid "IVR"
-msgstr ""
+msgstr "IVR"
 
 #: views/advanced_form.php:60
 msgid "IVR DTMF Options"
-msgstr ""
+msgstr "Параметры DTMF IVR"
 
 #: page.ivr.php:46 views/advanced_form.php:41
 msgid "IVR Description"
-msgstr ""
+msgstr "Описание IVR"
 
 #: views/advanced_form.php:565
 msgid "IVR Entries"
-msgstr ""
+msgstr "Записи IVR"
 
 #: views/advanced_form.php:7
 msgid "IVR General Options"
-msgstr ""
+msgstr "Общие параметры IVR"
 
 #: views/rnav.php:14
 msgid "IVR List"
-msgstr ""
+msgstr "Список IVR"
 
 #: page.ivr.php:45 views/advanced_form.php:17 views/simple_form.php:8
 msgid "IVR Name"
-msgstr ""
+msgstr "Название IVR"
 
 #: functions.inc.php:649 functions.inc.php:671
 #, php-format
 msgid "IVR: %s"
-msgstr ""
+msgstr "IVR: %s"
 
 #: functions.inc.php:594 functions.inc.php:613
 #, php-format
 msgid "IVR: %s (%s)"
-msgstr ""
+msgstr "IVR: %s (%s)"
 
 #: functions.inc.php:576
 #, php-format
 msgid "IVR: %s / Option: %s"
-msgstr ""
+msgstr "IVR: %s / Параметр: %s"
 
 #: assets/js/ivr.js:85
 msgid "IVRs name already exist"
-msgstr ""
+msgstr "Название IVR уже существует"
 
 #: assets/js/ivr.js:82
 msgid "IVRs require a valid name"
-msgstr ""
+msgstr "IVR требуют действительного имени"
 
 #: views/advanced_form.php:558
 msgid ""
 "If Yes, upon exiting voicemail a caller will be returned to this IVR if they "
 "got a users voicemail"
 msgstr ""
+"Если да, то при выходе из голосовой почты вызывающий абонент будет возвращен "
+"в это IVR, если он получил голосовую почту пользователя"
 
 #: views/advanced_form.php:140
 msgid ""
@@ -279,26 +312,37 @@ msgid ""
 "possibly be undesired results, however this is the typical default setting "
 "for the PBX. Default is 'No - Legacy'"
 msgstr ""
+"Если установлено значение 'Нет', то IVR будет совпадать с первой цифрой(-"
+"ами), которые соответствуют записям IVR, таким образом, если у вас есть "
+"записи 1 и 123, когда вызывающий абонент нажимает 1 - он вызывает запись 1, "
+"когда нажимают 123 - будет совпадать с первой записью, поэтому наберет 1. "
+"Если установлено значение 'Да', то IVR будет ждать полного таймаута для "
+"записи, так что 123 будет соответствовать 123. Если установлено значение "
+"\"Нет - Наследовать\", то IVR будет работать так же, как и в предыдущих "
+"версиях УАТС, используя функциональность extenswait, если коды ivr "
+"конфликтуют с сопоставленными расширениями, то могут быть нежелательные "
+"результаты, однако это типичная настройка по умолчанию для УАТС. По "
+"умолчанию используется \"Нет - Наследовать\""
 
 #: views/advanced_form.php:361
 msgid "Invalid Destination"
-msgstr ""
+msgstr "Неверное назначение"
 
 #: views/advanced_form.php:335
 msgid "Invalid Recording"
-msgstr ""
+msgstr "Неверная запись"
 
 #: views/advanced_form.php:227
 msgid "Invalid Retries"
-msgstr ""
+msgstr "Неверная попытка"
 
 #: views/advanced_form.php:251
 msgid "Invalid Retry Recording"
-msgstr ""
+msgstr "Неверная запись о повторе"
 
 #: views/rnav.php:2
 msgid "List IVRs"
-msgstr ""
+msgstr "Список IVR"
 
 #: Ivr.class.php:172
 msgid "Missing a temporary folder"
@@ -306,26 +350,26 @@ msgstr "Неверная временная папка"
 
 #: views/advanced_form.php:29 views/simple_form.php:20
 msgid "Name of this IVR"
-msgstr ""
+msgstr "Название этого IVR"
 
 #: views/advanced_form.php:103 views/advanced_form.php:130
 #: views/advanced_form.php:284 views/advanced_form.php:311
 #: views/advanced_form.php:442 views/advanced_form.php:469
 #: views/advanced_form.php:550 views/entries.php:43
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: views/advanced_form.php:132
 msgid "No - Legacy"
-msgstr ""
+msgstr "Нет - Наследовать"
 
 #: page.ivr.php:15
 msgid "No Astman, Not loading IVR"
-msgstr ""
+msgstr "Нет Astman, не загружается IVR"
 
 #: assets/js/ivr.js:342
 msgid "No file to load!"
-msgstr ""
+msgstr "Нет файла для загрузки!"
 
 #: Ivr.class.php:169
 msgid "No file was uploaded"
@@ -342,29 +386,33 @@ msgstr "Отсутствует"
 msgid ""
 "Number of times to retry when no DTMF is heard and the IVR choice times out."
 msgstr ""
+"Количество повторных попыток, когда DTMF не слышен и время ожидания IVR "
+"истекло."
 
 #: views/advanced_form.php:239
 msgid ""
 "Number of times to retry when receiving an invalid/unmatched response from "
 "the caller"
 msgstr ""
+"Количество повторных попыток при получении недопустимого/несогласованного "
+"ответа от абонента"
 
 #: views/advanced_form.php:216 views/simple_form.php:183
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Override the ringer volume. Note: This is only valid for %s phones at this "
 "time"
 msgstr ""
-"Переопределите громкость звонка. Примечание: В настоящее время это правило "
-"действует только для телефонов %s"
+"Переопределение громкости звонка. Примечание: В настоящее время это "
+"действительно только для телефонов %s"
 
 #: views/simple_form.php:62
 msgid "Play Previous Recording"
-msgstr ""
+msgstr "Воспроизвести предыдущую запись"
 
 #: assets/js/ivr.js:109
 msgid "Please enter a valid value for Digits Pressed"
-msgstr ""
+msgstr "Пожалуйста, введите допустимое значение для нажатых цифр"
 
 #: views/advanced_form.php:349 views/advanced_form.php:507
 msgid ""
@@ -372,31 +420,39 @@ msgid ""
 "due to the caller pressing 0 or receiving the maximum amount of invalid/"
 "unmatched responses (as determined by Invalid Retries)"
 msgstr ""
+"Приглашение должно быть воспроизведено перед отправкой вызывающего абонента "
+"в альтернативный пункт назначения из-за нажатия абонентом кнопки 0 или при "
+"получении максимального количества недопустимых/несогласованных ответов (как "
+"определено Неверными попытками)"
 
 #: views/advanced_form.php:423
 msgid ""
 "Prompt to be played when a timeout occurs, before prompting the caller to "
 "try again"
 msgstr ""
+"Приглашение, воспроизводимое при наступлении тайм-аута, прежде чем "
+"предложить абоненту повторить попытку"
 
 #: views/advanced_form.php:265
 msgid ""
 "Prompt to be played when an invalid/unmatched response is received, before "
 "prompting the caller to try again"
 msgstr ""
+"Приглашение, воспроизводимое при получении недопустимого/несогласованного "
+"ответа, прежде чем предложить абоненту повторить попытку"
 
 #: views/advanced_form.php:111
 msgid "Provides options for callers to direct dial an extension."
-msgstr ""
+msgstr "Предоставляет абонентам возможность прямого набора добавочного номера."
 
 #: functions.inc.php:424
 #, php-format
 msgid "Recording created for IVR named '%s'"
-msgstr ""
+msgstr "Запись, созданная для IVR с именем '%s'"
 
 #: assets/js/ivr.js:576
 msgid "Recording..."
-msgstr ""
+msgstr "Запись..."
 
 #: Ivr.class.php:85
 msgid "Reset"
@@ -408,23 +464,23 @@ msgstr "Возврат"
 
 #: views/advanced_form.php:304
 msgid "Return on Invalid"
-msgstr ""
+msgstr "Возврат при неверном вводе"
 
 #: views/advanced_form.php:462
 msgid "Return on Timeout"
-msgstr ""
+msgstr "Возврат при тайм-ауте"
 
 #: views/advanced_form.php:543
 msgid "Return to IVR after VM"
-msgstr ""
+msgstr "Возврат к IVR после VM"
 
 #: functions.inc.php:512
 msgid "Return to this IVR when finished"
-msgstr ""
+msgstr "Возврат к этому IVR по завершению"
 
 #: views/simple_form.php:143
 msgid "Ring Tone"
-msgstr ""
+msgstr "Рингтон"
 
 #: views/advanced_form.php:199 views/simple_form.php:166
 msgid "Ringer Volume Override"
@@ -432,43 +488,41 @@ msgstr "Переопределение громкости звонка"
 
 #: assets/js/ivr.js:498
 msgid "Save Recording"
-msgstr ""
+msgstr "Сохранить запись"
 
 #: views/advanced_form.php:84
 msgid ""
 "Select a 'System Recording' here that will be played on entry to the IVR."
 msgstr ""
+"Выберите здесь \"Системную запись\", которая будет воспроизводиться при "
+"входе в IVR."
 
 #: views/simple_form.php:155
 msgid ""
 "Select a Ring Tone from the list of options above. This will determine how "
 "your phone sounds when it is rung from this group."
 msgstr ""
+"Выберите рингтон из списка опций выше. Это определит как будет звучать ваш "
+"телефон когда будет вызван из этой группы."
 
 #: Ivr.class.php:95
 msgid "Submit"
 msgstr "Принять"
 
 #: Ivr.class.php:163
-#, fuzzy
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form"
 msgstr ""
-"Размер загруженного файла превысил  значение директивы MAX_FILE_SIZE,"
-"указанной в HTML-форме"
+"Загруженный файл превышает директиву MAX_FILE_SIZE, указанную в HTML-форме"
 
 #: Ivr.class.php:160
-#, fuzzy
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
-msgstr ""
-"Размер загруженного файла превысил  значение директивы upload_max_filesize , "
-"указанной в php.ini"
+msgstr "Загруженный файл превышает директиву upload_max_filesize в php.ini"
 
 #: Ivr.class.php:166
-#, fuzzy
 msgid "The uploaded file was only partially uploaded"
-msgstr "Файлы загружены частично"
+msgstr "Загруженный файл был загружен только частично"
 
 #: views/advanced_form.php:152
 msgid "Timeout"
@@ -476,19 +530,19 @@ msgstr "Тайм-аут"
 
 #: views/advanced_form.php:519
 msgid "Timeout Destination"
-msgstr ""
+msgstr "Назначение при тайм-ауте"
 
 #: views/advanced_form.php:493
 msgid "Timeout Recording"
-msgstr ""
+msgstr "Запись при тайм-ауте"
 
 #: views/advanced_form.php:385
 msgid "Timeout Retries"
-msgstr ""
+msgstr "Повторные попытки при тайм-ауте"
 
 #: views/advanced_form.php:409
 msgid "Timeout Retry Recording"
-msgstr ""
+msgstr "Запись при повторных попытках при тайм-ауте"
 
 #: views/simple_form.php:66 views/simple_form.php:114
 #, php-format
@@ -496,14 +550,17 @@ msgid ""
 "To play the media you will need to either update your browser to a recent "
 "version or update your %s"
 msgstr ""
+"Чтобы воспроизвести медианоситель - вам нужно будет либо обновить браузер до "
+"последней версии, либо обновить ваш %s"
 
 #: assets/js/ivr.js:166
 msgid "Unable to delete the first entry. Please edit instead"
 msgstr ""
+"Невозможно удалить первую запись. Пожалуйста, вместо этого отредактируйте"
 
 #: assets/js/ivr.js:162
 msgid "Unable to delete the last entry"
-msgstr ""
+msgstr "Невозможно удалить последнюю запись"
 
 #: Ivr.class.php:135
 msgid "Unknown Error"
@@ -527,6 +584,9 @@ msgid ""
 "Upload files from your local system. Supported upload formats are: %s. This "
 "includes archives (that include multiple files) and multiple files"
 msgstr ""
+"Загружайте файлы из локальной системы. Поддерживаемые форматы загрузки: %s. "
+"Это включает в себя архивы (которые включают в себя несколько файлов) и "
+"несколько файлов"
 
 #: views/advanced_form.php:101 views/advanced_form.php:128
 #: views/advanced_form.php:282 views/advanced_form.php:309
@@ -537,8 +597,8 @@ msgstr "Да"
 
 #: assets/js/ivr.js:580
 msgid "Your Browser Blocked The Recording, Please check your settings"
-msgstr ""
+msgstr "Ваш браузер заблокировал запись, пожалуйста, проверьте свои настройки"
 
 #: views/entries.php:20
 msgid "digits pressed"
-msgstr ""
+msgstr "набранные цифры"
