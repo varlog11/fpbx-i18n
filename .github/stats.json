@@ -15,6 +15,8 @@
     "Certificate_Manager": "100%",
     "Conferences": "100%",
     "Dashboard": "100%",
+    "Call_Forward": "100%",
+    "Call_Waiting": "100%",
     "Custom_Contexts": "100%",
     "Custom_Destination": "100%",
     "Endpoint_Manager": "6%",
