@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Queues 14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-06 11:25+0530\n"
-"PO-Revision-Date: 2020-10-26 16:29+0500\n"
+"PO-Revision-Date: 2020-11-02 15:10+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -151,6 +151,11 @@ msgid ""
 "call right now. To add additional recordings please use the \"System "
 "Recordings\" MENU."
 msgstr ""
+"Объявление воспроизводится для абонентов до попадания в очередь. Его можно "
+"пропустить если есть агенты, готовые ответить на вызов (то есть они все еще "
+"могут завершать предыдущий вызов) или свободные для ответа на вызов прямо "
+"сейчас. Для добавления дополнительных записей воспользуйтесь меню "
+"\"Системные записи\"."
 
 #: views/form.php:246
 msgid ""
@@ -161,6 +166,12 @@ msgid ""
 "or more sound files are not displayed as options since this feature can not "
 "accept such recordings."
 msgstr ""
+"Объявление, воспроизводимое агенту перед соединением с вызывающим абонентом "
+"<br><br> Пример: \"следующий звонок из очереди продаж\" или \"этот звонок из "
+"очереди технической поддержки\".<br><br>Чтобы добавить дополнительные "
+"записи, пожалуйста, используйте меню \"Системные записи\". Составные записи, "
+"состоящие из 2 или более звуковых файлов, не отображаются в качестве опций, "
+"так как данная функция не может принимать такие записи."
 
 #: views/form.php:169
 msgid ""
@@ -172,6 +183,14 @@ msgid ""
 "<br><br>To add additional recordings please use the \"System Recordings\" "
 "MENU."
 msgstr ""
+"Объявление воспроизводится для участника очереди, объявляющего вызов очереди "
+"и запрашивающего подтверждение перед ответом. Если установлено значение по "
+"умолчанию, стандартное сообщение подтверждения вызова по умолчанию будет "
+"воспроизводиться до тех пор, пока участник не будет достигнут через Follow-"
+"Me и в Follow-Me не будет предоставлено альтернативное сообщение. Это "
+"сообщение будет переопределять любое другое указанное сообщение.."
+"<br><br>Чтобы добавить дополнительные записи, пожалуйста, используйте меню "
+"\"Системные записи\"."
 
 #: views/cron.php:63
 msgid "Annually"
@@ -191,6 +210,14 @@ msgid ""
 "This means that the 'Max Wait Time' could be as long as 'Max Wait Time' + "
 "'Agent Timeout' combined."
 msgstr ""
+"Asterisk: timeoutpriority. В \"Строгом\" режиме, когда \"Максимальное время "
+"ожидания\" вызывающего абонента истечет - он будет немедленно извлечен из "
+"очереди. В \"Свободном\" режиме - если участник очереди в данный момент "
+"вызывается этим вызовом, то мы будем ждать, пока очередь не прекратит "
+"звонить этому участнику очереди или иным образом вызов не будет отклонен "
+"участником очереди, прежде чем вывести вызывающего абонента из очереди. Это "
+"означает, что \"Максимальное время ожидания\" может быть таким же длинным, "
+"как \"Максимальное время ожидания\" + \"Тайм-аут агента\" вместе взятые."
 
 #: views/form.php:1721
 msgid ""
@@ -199,6 +226,10 @@ msgid ""
 "members.  No penalty will be weighed in if there are only X or fewer queue "
 "members."
 msgstr ""
+"Asterisk: penaltymemberslimit. Можно установить ограничение на игнорирование "
+"параметров пенальти, позволяя пробовать всех участников, когда в очереди "
+"слишком мало участников. Пенальти не будет взвешиваться, если в очереди "
+"будет только X или меньше участников."
 
 #: views/form.php:1498
 msgid "Auto Pause"
@@ -215,6 +246,11 @@ msgid ""
 "Pause Delay as well as Auto Pause Busy/Unavailable settings if supported on "
 "this version of Asterisk."
 msgstr ""
+"Автоматическая пауза оператора в этой очереди (или во всех очередях, "
+"участником которых он является), если он не отвечает на вызов. Конкретное "
+"поведение может быть изменено с помощью параметров задержки автопаузы, а "
+"также параметров автопаузы при занятости/недоступности, если это "
+"поддерживается данной версией Asterisk."
 
 #: views/form.php:1529
 msgid "Auto Pause on Busy"
@@ -304,6 +340,10 @@ msgid ""
 "first-out basis. Many options are available, including ring strategy for "
 "agents, caller announcements, max wait times, etc."
 msgstr ""
+"Создает очередь, в которой вызовы помещаются в режим ожидания и на них "
+"отвечают по принципу «первым пришел - первым вышел». Доступно множество "
+"опций, включая стратегию звонка для агентов, объявления вызывающих "
+"абонентов, максимальное время ожидания и т.д."
 
 #: views/cron.php:60
 msgid "Daily"
@@ -445,7 +485,7 @@ msgstr ""
 
 #: functions.inc/destination_registry.php:98
 msgid "INUSE"
-msgstr ""
+msgstr "В ИСПОЛЬЗОВАНИИ"
 
 #: functions.inc.php:75
 #, php-format
@@ -929,11 +969,11 @@ msgstr "Уровень обслуживания"
 
 #: queues.i18n.php:22
 msgid "Set Agent Name in CDR dstchannel"
-msgstr ""
+msgstr "Установите имя агента в CDR dstchannel"
 
 #: views/cron.php:72
 msgid "Set this task to happen at random"
-msgstr ""
+msgstr "Поставить эту задачу выполняться случайно"
 
 #: views/form.php:1838
 msgid ""
@@ -1026,7 +1066,7 @@ msgstr ""
 
 #: views/form.php:1754
 msgid "This value is ignored if the caller's position changes"
-msgstr ""
+msgstr "Это значение игнорируется, если позиция абонента изменяется"
 
 #: views/form.php:704
 msgid "Timing & Agent Options"
@@ -1169,6 +1209,9 @@ msgid ""
 "When this option is set to YES, the following manager events will be "
 "generated: AgentCalled, AgentDump, AgentConnect and AgentComplete."
 msgstr ""
+"Если этот параметр установлен в значение ДА, то будут сгенерированы "
+"следующие события диспетчера: AgentCalled, AgentDump, AgentConnect и "
+"AgentComplete."
 
 #: views/cron.php:96
 msgid ""
