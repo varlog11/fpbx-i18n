@@ -20,7 +20,7 @@
     "Call_Waiting": "100%",
     "Custom_Contexts": "100%",
     "Custom_Destination": "100%",
-    "Endpoint_Manager": "6%",
+    "Endpoint_Manager": "30%",
     "Framework": "90%",
     "Follow_Me": "100%",
     "IVR": "100%",
@@ -34,7 +34,7 @@
     "Time_Conditions": "100%",
     "Queues": "60%",
     "User_Management": "54%",
-    "Voicemail": "9%"
+    "Voicemail": "15%"
   },
   "FreePBX_15": {
     "Framework": "86%"

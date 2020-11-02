@@ -10,12 +10,12 @@ msgstr ""
 "Project-Id-Version: Endpoint Manager\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-14 15:22-0500\n"
-"PO-Revision-Date: 2020-06-25 11:25+0500\n"
+"PO-Revision-Date: 2020-11-02 17:03+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.1\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -25,266 +25,268 @@ msgstr ""
 #: views/epm_advanced_settings.page.php:128
 #: views/epm_templates/editor.views.dialog.cfg.global.php:76
 msgid " - Point your phones to: "
-msgstr "- Направьте свои телефоны на: "
+msgstr " - Направьте свои телефоны на: "
 
 #: views/epm_devices_main.page.php:32 views/epm_templates_editor.page.php:17
 #: views/epm_templates_manager.page.php:18
 msgid " to install some"
-msgstr ""
+msgstr " чтобы установить некоторые"
 
 #: views/epm_templates_editor.page.php:23
 #: views/epm_templates_manager.page.php:24
 msgid " to setup and install phone configurations"
-msgstr ""
+msgstr " настройка и установка конфигураций телефонов"
 
 #: views/epm_devices_main.page.php:39
 msgid " to setup your configuration"
-msgstr ""
+msgstr " чтобы настроить вашу конфигурацию"
 
 #: page.epm_placeholders.php:264
 msgid "$accXallowedcodec"
-msgstr ""
+msgstr "$accXallowedcodec"
 
 #: page.epm_placeholders.php:252
 msgid "$accXauthname"
-msgstr ""
+msgstr "$accXauthname"
 
 #: page.epm_placeholders.php:300
 msgid "$accXcallerid"
-msgstr ""
+msgstr "$accXcallerid"
 
 #: page.epm_placeholders.php:234
 msgid "$accXdisplayname"
-msgstr ""
+msgstr "$accXdisplayname"
 
 #: page.epm_placeholders.php:306
 msgid "$accXencryption"
-msgstr ""
+msgstr "$accXencryption"
 
 #: page.epm_placeholders.php:258
 msgid "$accXextension"
-msgstr ""
+msgstr "$accXextension"
 
 #: page.epm_placeholders.php:270
 msgid "$accXforcerport"
-msgstr ""
+msgstr "$accXforcerport"
 
 #: page.epm_placeholders.php:318
 msgid "$accXgsSRTP"
-msgstr ""
+msgstr "$accXgsSRTP"
 
 #: page.epm_placeholders.php:324
 msgid "$accXgsproto"
-msgstr ""
+msgstr "$accXgsproto"
 
 #: page.epm_placeholders.php:276
 msgid "$accXmedia_encryption"
-msgstr ""
+msgstr "$accXmedia_encryption"
 
 #: page.epm_placeholders.php:228
 msgid "$accXsecret"
-msgstr ""
+msgstr "$accXsecret"
 
 #: page.epm_placeholders.php:312
 msgid "$accXserver_port"
-msgstr ""
+msgstr "$accXserver_port"
 
 #: page.epm_placeholders.php:282
 msgid "$accXsipdriver"
-msgstr ""
+msgstr "$accXsipdriver"
 
 #: page.epm_placeholders.php:288
 msgid "$accXtransport"
-msgstr ""
+msgstr "$accXtransport"
 
 #: page.epm_placeholders.php:294
 msgid "$accXtrustrpid"
-msgstr ""
+msgstr "$accXtrustrpid"
 
 #: page.epm_placeholders.php:240
 msgid "$accXuser_extension"
-msgstr ""
+msgstr "$accXuser_extension"
 
 #: page.epm_placeholders.php:246
 msgid "$accXusername"
-msgstr ""
+msgstr "$accXusername"
 
 #: page.epm_placeholders.php:126
 msgid "$accXyealinksrtp"
-msgstr ""
+msgstr "$accXyealinksrtp"
 
 #: page.epm_placeholders.php:114
 msgid "$accXyealinktransport"
-msgstr ""
+msgstr "$accXyealinktransport"
 
 #: page.epm_placeholders.php:174
 msgid "$allowedcodec"
-msgstr ""
+msgstr "$allowedcodec"
 
 #: page.epm_placeholders.php:102
 msgid "$authname"
-msgstr ""
+msgstr "$authname"
 
 #: page.epm_placeholders.php:210
 msgid "$callerid"
-msgstr ""
+msgstr "$callerid"
 
 #: page.epm_placeholders.php:138
 msgid "$displayname"
-msgstr ""
+msgstr "$displayname"
 
 #: page.epm_placeholders.php:216
 msgid "$encryption"
-msgstr ""
+msgstr "$encryption"
 
 #: page.epm_placeholders.php:168
 msgid "$extension"
-msgstr ""
+msgstr "$extension"
 
 #: page.epm_placeholders.php:180
 msgid "$forcerport"
-msgstr ""
+msgstr "$forcerport"
 
 #: page.epm_placeholders.php:18 page.epm_placeholders.php:24
 msgid "$globaladminpassword"
-msgstr ""
+msgstr "$globaladminpassword"
 
 #: page.epm_placeholders.php:30 page.epm_placeholders.php:36
 msgid "$globaluserpassword"
-msgstr ""
+msgstr "$globaluserpassword"
 
 #: page.epm_placeholders.php:330
 msgid "$gsSRTP"
-msgstr ""
+msgstr "$gsSRTP"
 
 #: page.epm_placeholders.php:336
 msgid "$gsproto"
-msgstr ""
+msgstr "$gsproto"
 
 #: page.epm_placeholders.php:78 page.epm_placeholders.php:84
 msgid "$hpro"
-msgstr ""
+msgstr "$hpro"
 
 #: page.epm_placeholders.php:90
 msgid "$line"
-msgstr ""
+msgstr "$line"
 
 #: page.epm_placeholders.php:186
 msgid "$media_encryption"
-msgstr ""
+msgstr "$media_encryption"
 
 #: page.epm_placeholders.php:354 page.epm_placeholders.php:360
 msgid "$myvoicemail"
-msgstr ""
+msgstr "$myvoicemail"
 
 #: page.epm_placeholders.php:342 page.epm_placeholders.php:348
 msgid "$primtimeserver"
-msgstr ""
+msgstr "$primtimeserver"
 
 #: page.epm_placeholders.php:156
 msgid "$proto"
-msgstr ""
+msgstr "$proto"
 
 #: page.epm_placeholders.php:54 page.epm_placeholders.php:60
 msgid "$provispass"
-msgstr ""
+msgstr "$provispass"
 
 #: page.epm_placeholders.php:42 page.epm_placeholders.php:48
 msgid "$provisuser"
-msgstr ""
+msgstr "$provisuser"
 
 #: page.epm_placeholders.php:132
 msgid "$secret"
-msgstr ""
+msgstr "$secret"
 
 #: page.epm_placeholders.php:144
 msgid "$server_host"
-msgstr ""
+msgstr "$server_host"
 
 #: page.epm_placeholders.php:150
 msgid "$server_port"
-msgstr ""
+msgstr "$server_port"
 
 #: page.epm_placeholders.php:192
 msgid "$sipdriver"
-msgstr ""
+msgstr "$sipdriver"
 
 #: page.epm_placeholders.php:66 page.epm_placeholders.php:72
 msgid "$sslhpro"
-msgstr ""
+msgstr "$sslhpro"
 
 #: page.epm_placeholders.php:222
 msgid "$tech"
-msgstr ""
+msgstr "$tech"
 
 #: page.epm_placeholders.php:198
 msgid "$transport"
-msgstr ""
+msgstr "$transport"
 
 #: page.epm_placeholders.php:204
 msgid "$trustrpid"
-msgstr ""
+msgstr "$trustrpid"
 
 #: page.epm_placeholders.php:162
 msgid "$user_extension"
-msgstr ""
+msgstr "$user_extension"
 
 #: page.epm_placeholders.php:96
 msgid "$username"
-msgstr ""
+msgstr "$username"
 
 #: page.epm_placeholders.php:120
 msgid "$yealinksrtp"
-msgstr ""
+msgstr "$yealinksrtp"
 
 #: page.epm_placeholders.php:108
 msgid "$yealinktransport"
-msgstr ""
+msgstr "$yealinktransport"
 
 #: ari/js/jquery-1.3.2.min.js:19
 msgid "+E:"
-msgstr ""
+msgstr "+E:"
 
 #: Endpointman_Config.class.php:1438
 #, php-format
 msgid "- Copied %s to %s."
-msgstr ""
+msgstr "- Копирование %s в %s."
 
 #: Endpointman_Config.class.php:1084
 #, php-format
 msgid "- Error Moving %s!"
-msgstr ""
+msgstr "- Ошибка перемещения %s!"
 
 #: Endpointman_Config.class.php:1435
 #, php-format
 msgid "- Failed To Copy %s!"
-msgstr ""
+msgstr "- Ошибка копирования %s!"
 
 #: Endpointman_Config.class.php:1142
 msgid "-- Updating Model Lines ... "
-msgstr ""
+msgstr "-- Обновление модельных линий ... "
 
 #: Endpointman_Config.class.php:1153
 msgid "----Old Data Detected! Migrating ... "
-msgstr ""
+msgstr "---- Обнаружены старые данные! Перенос… "
 
 #: Endpointman_Config.class.php:1248
 msgid "---Inserting Model %_NAMEMOD_%"
-msgstr ""
+msgstr "---Добавление модели %_NAMEMOD_%"
 
 #: Endpointman_Config.class.php:1244
 msgid "---Updating Model %_NAMEMOD_%"
-msgstr ""
+msgstr "---Обновление модели %_NAMEMOD_%"
 
 #: page.epm_devices.php:36
 msgid "/tftpboot is not writable"
-msgstr ""
+msgstr "/tftpboot недоступен для записи"
 
 #: Endpointman_Advanced.class.php:1215
 msgid ""
 "<font color='#FF0000'><b>Please reboot & rebuild all imported phones</b></"
 "font>"
 msgstr ""
+"<font color='#FF0000'><b>Пожалуйста, перезагрузите и перенастройте все "
+"импортированные телефоны</b></font>"
 
 #: views/epm_advanced_settings.page.php:330
 msgid "ARP Executable Path"
@@ -292,11 +294,11 @@ msgstr ""
 
 #: views/rnav.php:3
 msgid "About OSS Endpoint Manager"
-msgstr ""
+msgstr "Об OSS Endpoint Manager"
 
 #: provisioning/p.php:34 provisioning/p.php:129
 msgid "Access denied!"
-msgstr ""
+msgstr "Доступ запрещен!"
 
 #: views/epm_templates/manager.views.grid.php:29
 msgid "Action"
@@ -316,20 +318,20 @@ msgstr ""
 
 #: views/epm_advanced/oui_manager.views.new.modal.php:62
 msgid "Add New"
-msgstr ""
+msgstr "Добавить новый"
 
 #: views/epm_templates/manager.views.grid.php:5
 #: views/epm_templates/manager.views.new.modal.php:5
 msgid "Add New Template"
-msgstr ""
+msgstr "Добавить новый шаблон"
 
 #: Endpointman_Templates.class.php:374
 msgid "Add New Template OK!"
-msgstr ""
+msgstr "Добавление нового шаблона успешно!"
 
 #: views/epm_devices_main.page.php:438
 msgid "Add Selected Phones"
-msgstr ""
+msgstr "Добавить выбранные телефоны"
 
 #: views/rnav.php:57
 msgid "Advanced"
@@ -343,11 +345,11 @@ msgstr "Расширенные настройки"
 #: Endpointman_Config.class.php:1091 Endpointman_Config.class.php:1285
 #: Endpointman_Config.class.php:1343
 msgid "All Done!"
-msgstr ""
+msgstr "Всё завершено!"
 
 #: views/epm_advanced_settings.page.php:549
 msgid "Allow Duplicate Extensions"
-msgstr ""
+msgstr "Разрешить дублирование внутренних номеров"
 
 #: views/epm_advanced_settings.page.php:578
 msgid "Allow Saving Over Default Configuration Files"
@@ -377,7 +379,7 @@ msgstr ""
 #: views/epm_devices_main.page.php:245 views/epm_devices_main.page.php:468
 #: views/epm_devices_main.page.php:519
 msgid "Brand"
-msgstr ""
+msgstr "Бренд"
 
 #: views/epm_templates_editor.page.php:23
 #: views/epm_templates_manager.page.php:24
@@ -395,15 +397,15 @@ msgstr ""
 
 #: views/epm_advanced_manual_upload.page.php:90
 msgid "Brand's Available"
-msgstr ""
+msgstr "Доступные бренды"
 
 #: views/rnav.php:49
 msgid "Brands"
-msgstr ""
+msgstr "Бренды"
 
 #: views/epm_config_editor.page.php:7
 msgid "Brands/Modules"
-msgstr ""
+msgstr "Бренды/Модули"
 
 #: views/epm_advanced_iedl.page.php:78
 msgid "CSV File Format"
@@ -417,7 +419,7 @@ msgstr "Отмена"
 
 #: Endpointman_Config.class.php:1606
 msgid "Cant find file:"
-msgstr ""
+msgstr "Невозможно найти файл:"
 
 #: views/epm_devices_main.page.php:518
 msgid "Change Selected Phones to"
@@ -425,23 +427,23 @@ msgstr ""
 
 #: Endpointman_Config.class.php:75
 msgid "Check Online "
-msgstr ""
+msgstr "Проверка онлайн"
 
 #: views/epm_config/manager.barra.top.php:12
 msgid "Check for Update"
-msgstr ""
+msgstr "Проверка наличия обновлений"
 
 #: Endpointman_Config.class.php:74
 msgid "Check for Update "
-msgstr ""
+msgstr "Проверка наличия обновлений"
 
 #: Endpointman_Config.class.php:92
 msgid "Check for Updates..."
-msgstr ""
+msgstr "Проверка наличия обновлений..."
 
 #: Endpointman_Config.class.php:93
 msgid "Check for Updates... Ok!"
-msgstr ""
+msgstr "Проверка наличия обновлений... ОК!"
 
 #: Endpointman_Config.class.php:1418
 msgid "Checking MD5sum of Package... "
@@ -453,7 +455,7 @@ msgstr ""
 
 #: Endpointman_Config.class.php:753 Endpointman_Config.class.php:777
 msgid "Click Here!"
-msgstr ""
+msgstr "Кликните здесь!"
 
 #: Endpointman_Advanced.class.php:1110
 msgid "Click this link to download:"
@@ -477,11 +479,11 @@ msgstr ""
 #: Endpointman_Devices.class.php:52 Endpointman_Templates.class.php:75
 #: Endpointman_Templates.class.php:106
 msgid "Command not found!"
-msgstr ""
+msgstr "Команда не найдена!"
 
 #: lib/epm_system.class.php:170 lib/epm_system.class.php:180
 msgid "Complete"
-msgstr ""
+msgstr "Завершено"
 
 #: page.epm_placeholders.php:373
 msgid "Config File Placeholder Values"
@@ -685,7 +687,6 @@ msgid "Edit Global Settings Overrides"
 msgstr ""
 
 #: Endpointman_Config.class.php:82
-#, fuzzy
 msgid "Enable"
 msgstr "Включить"
 
@@ -698,7 +699,6 @@ msgid "Enable FreePBX ARI Module"
 msgstr ""
 
 #: views/epm_templates/manager.views.grid.php:28
-#, fuzzy
 msgid "Enabled"
 msgstr "Включен"
 
@@ -929,7 +929,6 @@ msgstr ""
 
 #: views/epm_advanced_iedl.page.php:20
 #: views/epm_advanced_manual_upload.page.php:109
-#, fuzzy
 msgid "Export"
 msgstr "Экспорт"
 
@@ -955,7 +954,6 @@ msgid "Exporting %s ... "
 msgstr ""
 
 #: views/epm_advanced_iedl.page.php:90 views/epm_advanced_iedl.page.php:95
-#, fuzzy
 msgid "Extension"
 msgstr "Внутренний номер"
 
@@ -964,7 +962,6 @@ msgid "Extension Mapping"
 msgstr ""
 
 #: views/epm_devices_main.page.php:248 views/epm_devices_main.page.php:471
-#, fuzzy
 msgid "Extension Number"
 msgstr "Внутренний номер"
 
@@ -1002,7 +999,6 @@ msgid "Failed to install "
 msgstr ""
 
 #: Endpointman_Advanced.class.php:1320
-#, fuzzy
 msgid "Failed to write file to disk"
 msgstr "Ошибка записи файла на диск"
 
@@ -1025,9 +1021,8 @@ msgid "File not readable, check the permission! "
 msgstr ""
 
 #: Endpointman_Advanced.class.php:1322
-#, fuzzy
 msgid "File upload stopped by extension"
-msgstr "Загрузка файла приостановлено  внутренним номером"
+msgstr "Загрузка файла приостановлена расширением"
 
 #: Endpointman_Config.class.php:1458
 msgid "Firmware MD5 didn't match!"
@@ -1125,7 +1120,6 @@ msgid "Hidden Packages"
 msgstr ""
 
 #: Endpointman_Config.class.php:85
-#, fuzzy
 msgid "Hide"
 msgstr "Скрыть"
 
@@ -1256,7 +1250,6 @@ msgid "Inserting %s brand data ..."
 msgstr ""
 
 #: Endpointman_Config.class.php:76
-#, fuzzy
 msgid "Install"
 msgstr "Установить"
 
@@ -1412,7 +1405,6 @@ msgid "Maximum stack depth exceeded"
 msgstr ""
 
 #: Endpointman_Advanced.class.php:1318
-#, fuzzy
 msgid "Missing a temporary folder"
 msgstr "Неверная временная папка"
 
@@ -1549,7 +1541,6 @@ msgid "No command was sent!"
 msgstr ""
 
 #: Endpointman_Advanced.class.php:1316
-#, fuzzy
 msgid "No file was uploaded"
 msgstr "Файл не загружен"
 
@@ -1666,7 +1657,6 @@ msgid "Or run this command on SSH:"
 msgstr ""
 
 #: views/epm_advanced_settings.page.php:409
-#, fuzzy
 msgid "Other Settings"
 msgstr "Прочие настройки"
 
@@ -1860,7 +1850,7 @@ msgstr ""
 
 #: Endpointman_Config.class.php:1304
 msgid "Removing Temporary Files... "
-msgstr ""
+msgstr "Удаление временных файлов... "
 
 #: Endpointman.class.php:459
 msgid "Removing symlink to web provisioner"
@@ -1897,11 +1887,11 @@ msgstr "Сохранено"
 
 #: Endpointman_Advanced.class.php:90 Endpointman_Config.class.php:89
 msgid "Saving Changes..."
-msgstr ""
+msgstr "Сохранение изменений..."
 
 #: Endpointman_Advanced.class.php:91 Endpointman_Config.class.php:90
 msgid "Saving Changes... Ok!"
-msgstr ""
+msgstr "Сохранение изменений... Ок!"
 
 #: views/epm_config/manager.list.hide.php:17
 #: views/epm_devices_main.page.php:536
@@ -1910,20 +1900,20 @@ msgstr "Поиск"
 
 #: views/epm_config/manager.barra.top.php:16
 msgid "Search Model..."
-msgstr ""
+msgstr "Поиск модели..."
 
 #: views/epm_devices_main.page.php:537
 msgid "Search for new devices in netmask"
-msgstr ""
+msgstr "Поиск новых устройств по маске"
 
 #: views/epm_advanced/oui_manager.views.new.modal.php:41
 #: views/epm_advanced_manual_upload.page.php:101
 msgid "Select Brand:"
-msgstr ""
+msgstr "Выбор бренда:"
 
 #: views/epm_templates/manager.views.new.modal.php:43
 msgid "Select Product:"
-msgstr ""
+msgstr "Выбор продукта:"
 
 #: views/epm_config_editor.page.php:4
 msgid ""
@@ -1946,7 +1936,7 @@ msgstr ""
 
 #: views/epm_templates/editor.views.template.php:188
 msgid "Server IP For Line 1"
-msgstr ""
+msgstr "IP сервера для 1 линии"
 
 #: views/epm_advanced_settings.page.php:288
 msgid "Server NTP use the configuration terminals."
@@ -1962,7 +1952,7 @@ msgstr ""
 
 #: views/epm_templates/editor.views.template.php:189
 msgid "Server Port For Line 1"
-msgstr ""
+msgstr "Порт сервера для 1 линии"
 
 #: page.epm_placeholders.php:337
 msgid ""
@@ -2118,7 +2108,7 @@ msgstr ""
 #: Endpointman_Templates.class.php:171 Endpointman_Templates.class.php:215
 #: Endpointman_Templates.class.php:286
 msgid "TID is not number!"
-msgstr ""
+msgstr "TID - это не номер!"
 
 #: Endpointman_Advanced.class.php:193
 msgid "Tab is not valid!"
@@ -2134,11 +2124,11 @@ msgstr "Шаблон"
 
 #: Endpointman_Templates.class.php:32
 msgid "Template Editor"
-msgstr ""
+msgstr "Редактор шаблонов"
 
 #: endpointman.i18n.php:12 views/rnav.php:7
 msgid "Template Manager"
-msgstr ""
+msgstr "Менеджер шаблонов"
 
 #: views/epm_templates/editor.views.rnav.php:17
 #: views/epm_templates/manager.views.grid.php:25
@@ -2149,7 +2139,7 @@ msgstr "Имя шаблона"
 
 #: views/epm_templates/editor.views.template.php:22
 msgid "Template Name:"
-msgstr ""
+msgstr "Название шаблона:"
 
 #: views/epm_templates/manager.views.new.modal.php:27
 #: views/epm_templates/manager.views.new.modal.php:61
@@ -2197,25 +2187,19 @@ msgid "The project is maintained at"
 msgstr ""
 
 #: Endpointman_Advanced.class.php:1312
-#, fuzzy
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form"
 msgstr ""
-"Размер загруженного файла превысил  значение директивы MAX_FILE_SIZE,"
-"указанной в HTML-форме"
+"Загруженный файл превышает директиву MAX_FILE_SIZE, указанную в HTML-форме"
 
 #: Endpointman_Advanced.class.php:1310
-#, fuzzy
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
-msgstr ""
-"Размер загруженного файла превысил  значение директивы upload_max_filesize , "
-"указанной в php.ini"
+msgstr "Загруженный файл превышает директиву upload_max_filesize в php.ini"
 
 #: Endpointman_Advanced.class.php:1314
-#, fuzzy
 msgid "The uploaded file was only partially uploaded"
-msgstr "Файлы загружены частично"
+msgstr "Загружаемый файл был загружен только частично"
 
 #: Endpointman_Config.class.php:1035
 msgid "Then Use Manual Upload in Advanced Settings."
@@ -2257,25 +2241,25 @@ msgstr "Время"
 #: views/epm_advanced_settings.page.php:270
 #: views/epm_templates/editor.views.dialog.cfg.global.php:165
 msgid "Time Server (NTP Server)"
-msgstr ""
+msgstr "Сервер времени (NTP-сервер)"
 
 #: views/epm_advanced_settings.page.php:233
 #: views/epm_templates/editor.views.dialog.cfg.global.php:129
 msgid "Time Zone"
-msgstr ""
+msgstr "Часовой пояс"
 
 #: views/epm_advanced_settings.page.php:248
 #: views/epm_templates/editor.views.dialog.cfg.global.php:143
 msgid "TimeZone PBX"
-msgstr ""
+msgstr "Часовой пояс АТС"
 
 #: views/epm_advanced_settings.page.php:258
 msgid "TimeZone configuration terminasl. Like England/London"
-msgstr ""
+msgstr "Терминал конфигурации часового пояса. Как England/London"
 
 #: page.epm_placeholders.php:109 page.epm_placeholders.php:115
 msgid "Transport protocoll for Yealink (UDP,TCP,TLS)"
-msgstr ""
+msgstr "Транспортный протокол для Yealink (UDP,TCP,TLS)"
 
 #: page.epm_placeholders.php:205
 msgid "Trustrpid?"
@@ -2344,10 +2328,9 @@ msgstr "Неизвестно"
 
 #: Endpointman_Config.class.php:1597
 msgid "Unknown error"
-msgstr ""
+msgstr "Неизвестная ошибка"
 
 #: Endpointman_Advanced.class.php:1324
-#, fuzzy
 msgid "Unknown upload error"
 msgstr "Неизвестная ошибка при загрузке"
 
@@ -2416,7 +2399,7 @@ msgstr ""
 
 #: views/epm_devices_main.page.php:539
 msgid "Use NMAP"
-msgstr ""
+msgstr "Использовать NMAP"
 
 #: views/epm_advanced_settings.page.php:56
 #: views/epm_advanced_settings.page.php:85
@@ -2424,11 +2407,11 @@ msgstr ""
 #: views/epm_templates/editor.views.dialog.cfg.global.php:44
 #: views/epm_templates/editor.views.dialog.cfg.global.php:172
 msgid "Use me!"
-msgstr ""
+msgstr "Используй меня!"
 
 #: views/epm_advanced/poce.views.button.up.files.php:31
 msgid "User File Configs"
-msgstr ""
+msgstr "Конфигурации пользовательских файлов"
 
 #: page.epm_placeholders.php:247
 msgid ""
@@ -2441,11 +2424,11 @@ msgstr ""
 
 #: Endpointman_Config.class.php:340 Endpointman_Templates.class.php:349
 msgid "Value send is not number!"
-msgstr ""
+msgstr "Отправляемое значение - нечисловое!"
 
 #: page.epm_warning.php:6
 msgid "Warning - Commercial Endpoint Manager detected!"
-msgstr ""
+msgstr "Предупреждение - обнаружен Commercial Endpoint Manager!"
 
 #: views/epm_devices_main.page.php:32 views/epm_devices_main.page.php:39
 #: views/epm_templates_editor.page.php:17
@@ -2454,7 +2437,7 @@ msgstr ""
 #: views/epm_templates_manager.page.php:18
 #: views/epm_templates_manager.page.php:24
 msgid "Warning!"
-msgstr ""
+msgstr "ПРЕДУПРЕЖДЕНИЕ!"
 
 #: views/epm_advanced_iedl.page.php:67
 msgid ""
@@ -2464,21 +2447,21 @@ msgstr ""
 #: views/epm_advanced_settings.page.php:116
 #: views/epm_templates/editor.views.dialog.cfg.global.php:72
 msgid "Web (HTTP)"
-msgstr ""
+msgstr "Web (HTTP)"
 
 #: views/epm_advanced_settings.page.php:117
 #: views/epm_templates/editor.views.dialog.cfg.global.php:73
 msgid "Web (HTTPS)"
-msgstr ""
+msgstr "Web (HTTPS)"
 
 #: views/epm_advanced_settings.page.php:374
 msgid "Web Directories"
-msgstr ""
+msgstr "Web-директории"
 
 #: page.epm_placeholders.php:107 page.epm_placeholders.php:113
 #: page.epm_placeholders.php:119 page.epm_placeholders.php:125
 msgid "Yealink"
-msgstr ""
+msgstr "Yealink"
 
 #: views/epm_advanced_settings.page.php:424
 #: views/epm_advanced_settings.page.php:459
@@ -2521,12 +2504,12 @@ msgstr ""
 #: views/epm_advanced_iedl.page.php:93 views/epm_advanced_iedl.page.php:94
 #: views/epm_advanced_iedl.page.php:95 views/epm_advanced_iedl.page.php:96
 msgid "can be blank"
-msgstr ""
+msgstr "может быть пустым"
 
 #: views/epm_devices_main.page.php:32 views/epm_templates_editor.page.php:17
 #: views/epm_templates_manager.page.php:18
 msgid "here"
-msgstr ""
+msgstr "здесь"
 
 #: views/epm_advanced_iedl.page.php:92
 msgid "is required"
@@ -2534,4 +2517,4 @@ msgstr ""
 
 #: views/epm_devices_main.page.php:554 views/epm_devices_main.page.php:561
 msgid "with"
-msgstr ""
+msgstr "c"
