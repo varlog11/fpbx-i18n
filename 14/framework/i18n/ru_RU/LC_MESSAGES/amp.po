@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Framework 14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 07:16+0000\n"
-"PO-Revision-Date: 2020-10-30 12:30+0500\n"
+"PO-Revision-Date: 2020-11-03 17:09+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3397,6 +3397,20 @@ msgid ""
 "if part of any EMERGENCY Route with an EMERGENCY CID defined for the "
 "extension/device."
 msgstr ""
+"Определяет, какие CID будут допустимы из этого транка. ВАЖНО: ЭКСТРЕННЫЕ "
+"CID, определенные на внутреннем номере/устройстве, ВСЕГДА будут "
+"использоваться, если этот транк является частью ЭКСТРЕННОГО маршрута, "
+"независимо от этих настроек.<br />Разрешить любой CID: будут переданы все "
+"CID, включая внешние CID из переадресованных внешних вызовов.<br /"
+">Блокировать внешние CID: переустанавливает любой CID, являющийся "
+"результатом переадресации вызова из вне системы, на Исходящий CallerID, "
+"определенный для транка. Если исходящий CallerID не определен для транка, то "
+"внешний CID будет отправлен без изменений. CID, определенные для расширения/"
+"пользователя передаются.<br />Удалить CNAM: это позволит удалить CNAM от "
+"любого CID в транке<br />Использовать транковый CID: всегда использовать "
+"CID, определенный для этого транка, за исключением случаев, если "
+"присутствует какой-либо ЭКСТРЕННЫЙ маршрут с ЭКСТРЕННЫМ CID, определенным "
+"для внутреннего номера/устройства."
 
 #: ../core/functions.inc/drivers/Sip.class.php:358
 #: ../core/views/trunks/pjsip.php:523
@@ -3404,6 +3418,8 @@ msgid ""
 "Determines whether a user=phone parameter is placed into the request URI if "
 "the user is determined to be a phone number."
 msgstr ""
+"Определяет, будет ли параметр user=phone помещаться в запрос URI, если "
+"пользователь определяется как номер телефона."
 
 #: ../core/views/trunks/pjsip.php:1047
 msgid ""
@@ -3418,6 +3434,9 @@ msgid ""
 "terminate the session if not achieved. This option only applies if Media "
 "Encryption is not set to None."
 msgstr ""
+"Определяет, следует ли использовать шифрование, если это возможно, но не "
+"завершает сеанс, если оно не достигнуто. Эта опция применяется только в том "
+"случае, если Шифрование медиапотока не установлено на None."
 
 #: ../core/views/trunks/pjsip.php:313
 msgid ""
@@ -3716,6 +3735,8 @@ msgid ""
 "Disallow transfer features (Normally ## and *2) for callers who passthrough "
 "inbound routes (Such as external callers)"
 msgstr ""
+"Запретить функции трансфера (обычно ## и *2) для абонентов, которые проходят "
+"через входящие маршруты (например, внешние абоненты)"
 
 #: amp.i18n.php:290
 msgid "Disallow transfer features for inbound callers"
@@ -4064,6 +4085,9 @@ msgid ""
 "unsupported. Modifying devices and users seperately may cause things to not "
 "work as expected."
 msgstr ""
+"Редактирование устройств и пользователей отдельно не тестируется и считается "
+"неподдерживаемым. Изменение устройств и пользователей по отдельности может "
+"привести к тому, что все будет работать не так, как ожидалось."
 
 #: amp_conf/htdocs/admin/views/oobe.php:45 ../core/views/quickCreate.php:117
 msgid "Email Address"
@@ -4161,7 +4185,7 @@ msgstr "Включить журналирование производитель
 
 #: ../core/functions.inc/drivers/PJSip.class.php:258
 msgid "Enable RTP bundling"
-msgstr ""
+msgstr "Включить пакетирование RTP"
 
 #: amp.i18n.php:782
 msgid "Enable Remote Unlocking"
@@ -4181,7 +4205,7 @@ msgstr "Включить текстовые области шаблонов на
 
 #: amp.i18n.php:520
 msgid "Enable Token Based Security"
-msgstr ""
+msgstr "Включить защиту на основе токенов"
 
 #: ../core/functions.inc/drivers/PJSip.class.php:270
 msgid "Enable WebRTC defaults"
@@ -4231,16 +4255,23 @@ msgid ""
 "recorded by 'Force' or 'Never', they can not be paused unless 'Override' is "
 "selected."
 msgstr ""
+"Включить или отключить возможность делать запись по требованию (в одно "
+"касание). Общие правила политики вызовов по-прежнему применяются, и если "
+"вызовы уже записываются с помощью \"Принудительно\" или \"Никогда\" - они не "
+"могут быть приостановлены, если не выбрано \"Переопределение\"."
 
 #: ../core/functions.inc/drivers/Sip.class.php:478
 msgid ""
 "Enable or disable video support for this extension. If set to inherit it "
 "will use the global value from SIP Settings. Default is inherit"
 msgstr ""
+"Включите или отключите поддержку видео для этого внутреннего номера. Если "
+"установлено наследование, то он будет использовать глобальное значение из "
+"настроек SIP. Значение по умолчанию - наследовать"
 
 #: ../core/functions.inc/drivers/Sip.class.php:464
 msgid "Enable rtcp Mux"
-msgstr ""
+msgstr "Включить rtcp Mux"
 
 #: amp.i18n.php:30
 msgid "Enable the mini-HTTP Server"
@@ -4265,7 +4296,7 @@ msgstr "Включен"
 #: ../core/Console/Trunks.class.php:79
 #, php-format
 msgid "Enabled Trunk %s Run fwconsole reload"
-msgstr ""
+msgstr "Включен транк %s запуск fwconsole reload"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1145
 #: amp_conf/htdocs/admin/views/module_admin/tab-modules.php:122
@@ -4303,7 +4334,7 @@ msgstr "Включение %s"
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:402
 #, php-format
 msgid "Enabling %s because autoenable was passed at the command line"
-msgstr ""
+msgstr "Включение %s, поскольку автовключение было передано в командной строке"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:834
 #, php-format
@@ -4315,6 +4346,8 @@ msgid ""
 "Enabling Pinless Dialing will allow this extension to bypass any pin codes "
 "set under routes password required on outbound calls."
 msgstr ""
+"Включение пин-кода позволит этому добавочному номеру обойти любые пин-коды, "
+"установленные в разделе пароль на маршрут, необходимые для исходящих вызовов."
 
 #: ../core/Console/Trunks.class.php:77
 msgid "Enabling Trunk "
@@ -4323,7 +4356,7 @@ msgstr "Включение транка "
 #: ../core/Console/Trunks.class.php:42
 #, php-format
 msgid "Enabling Trunk %s Run fwconsole reload"
-msgstr ""
+msgstr "Включение транка %s запуск fwconsole reload"
 
 #: amp.i18n.php:784
 msgid ""
@@ -4366,6 +4399,8 @@ msgstr ""
 #: ../core/views/trunks/pjsip.php:1125
 msgid "Enforce that RTP must be symmetric. This should almost always be on."
 msgstr ""
+"Убедиться, что RTP должен быть симметричным. Почти всегда должно быть "
+"включено."
 
 #: amp_conf/htdocs/admin/config.php:775
 msgid "English"
@@ -4971,6 +5006,12 @@ msgid ""
 "Unsolicited means only Notify 200. No need to Subscribe. Auto is the default "
 "and should only be changed if you see errors in the Asterisk logs"
 msgstr ""
+"Для индикаторов ожидания сообщений существует три типа: авто, запрошенные и "
+"незапрошенные. Авто означает, что АТС попытается автоматически определить "
+"тип MWI, который использует телефон. Запрошенный означает Subscribe 200, а "
+"затем Notify 200. Незапрошенный означает только Notify 200. Нет "
+"необходимости в Subscribe. Авто используется по умолчанию и должно быть "
+"изменено только в том случае, если вы видите ошибки в журналах Asterisk"
 
 #: ../core/functions.inc/drivers/PJSip.class.php:237
 msgid ""
@@ -5826,6 +5867,11 @@ msgid ""
 "indicate support for rtcp-mux. As a result the following must be enabled to "
 "use WebRTC"
 msgstr ""
+"Если он включен, то Asterisk попытается использовать rtcp-mux с тем, с чем "
+"он взаимодействует. Asterisk следует правилам, изложенным в RFC5761, в "
+"отношении возврата к стандартному поведению TCP, если дальний конец не "
+"указывает на поддержку rtcp-mux. В результате необходимо включить для "
+"использования WebRTC"
 
 #: amp.i18n.php:484
 msgid ""
