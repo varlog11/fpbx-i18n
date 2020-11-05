@@ -7,16 +7,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: BulkHandler 14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-08 19:14+0530\n"
-"PO-Revision-Date: 2020-04-11 23:54+0500\n"
-"Language-Team: TranslAster\n"
+"POT-Creation-Date: 2020-08-14 07:15+0000\n"
+"PO-Revision-Date: 2020-11-05 10:40+0500\n"
+"Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
-"Last-Translator: Dmitriy Q <dmitry@atsip.ru\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "Language: ru_RU\n"
@@ -31,26 +31,41 @@ msgstr "Действия"
 
 #: bulkhandler.i18n.php:6
 msgid "Admin"
-msgstr "Админ"
+msgstr "Администратор"
 
 #: views/import.php:107
 msgid "Browse"
-msgstr "Обзор"
+msgstr "Просмотр"
 
 #: bulkhandler.i18n.php:4 bulkhandler.i18n.php:10 views/export.php:4
 #: views/import.php:4
 msgid "Bulk Handler"
-msgstr "Массовый обработчик"
+msgstr "Массовый Обработчик"
+
+#: bulkhandler.i18n.php:8
+msgid ""
+"Bulk Handler manages the bulk export or import of extensions, DIDs, user "
+"manager users, user manager groups, and contacts. You can export any of "
+"these as a CSV file. You can also upload a CSV file to save time versus "
+"having to enter each item individually. The module provides required/"
+"recommended headers for your CSV files."
+msgstr ""
+"Массовый обработчик управляет массовым экспортом или импортом внутренних "
+"номеров, DID'ов, пользователей Менеджера пользователей, групп Менеджера "
+"пользователей и контактов. Вы можете экспортировать любой из них в виде CSV-"
+"файла. Вы также можете загрузить CSV-файл, чтобы сэкономить время и не "
+"вводить каждый элемент по отдельности. Модуль предоставляет необходимые/"
+"рекомендуемые заголовки для ваших CSV-файлов."
 
 #: views/export.php:91 views/import.php:103
 msgid "CSV File"
-msgstr "Файл CSV"
+msgstr "CSV файл"
 
 #: Bulkhandler.class.php:150
 msgid "Can Not Find Uploaded Files"
-msgstr "Не удается найти загруженные файлы"
+msgstr "Загружаемые файлы не обнаружены"
 
-#: Bulkhandler.class.php:462
+#: Bulkhandler.class.php:509
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -61,7 +76,7 @@ msgstr "Невозможно создать временный каталог: %
 
 #: Bulkhandler.class.php:120
 msgid "Cant find uploaded file"
-msgstr "Не могу найти загруженный файл"
+msgstr "Загружаемый файл не обнаружен"
 
 #: views/validate.php:72
 msgid "Close"
@@ -77,7 +92,7 @@ msgstr "Проверка данных"
 
 #: views/validate.php:65
 msgid "Edit"
-msgstr "Редактирование"
+msgstr "Редактировать"
 
 #: views/export.php:6 views/export.php:94 views/import.php:6
 msgid "Export"
@@ -89,7 +104,7 @@ msgstr "Экспорт в CSV"
 
 #: Bulkhandler.class.php:144
 msgid "Failed to write file to disk"
-msgstr "Не удалось записать файл на диск"
+msgstr "Ошибка записи файла на диск"
 
 #: views/import.php:116
 msgid "File to Import"
@@ -107,13 +122,13 @@ msgstr "Строка заголовка и количество строк да�
 msgid "ID"
 msgstr "ID"
 
-#: Bulkhandler.class.php:457 views/export.php:7 views/import.php:7
+#: Bulkhandler.class.php:504 views/export.php:7 views/import.php:7
 msgid "Import"
 msgstr "Импорт"
 
 #: Bulkhandler.class.php:141
 msgid "Missing a temporary folder"
-msgstr "Отсутствует временная папка"
+msgstr "Неверная временная папка"
 
 #: views/validate.php:15
 msgid "No"
@@ -121,27 +136,27 @@ msgstr "Нет"
 
 #: views/export.php:10
 msgid "No Bulk Exporters have been defined"
-msgstr "Массовых экспортеров пока не определили"
+msgstr "Массовые экспортеры не определены"
 
 #: views/import.php:10
 msgid "No Bulk Importers have been defined"
-msgstr "Массовых импортеров пока не определили"
+msgstr "Массовые импортеры не определены"
 
 #: Bulkhandler.class.php:138
 msgid "No file was uploaded"
-msgstr "Ни один файл не был загружен"
+msgstr "Файл не загружен"
 
 #: assets/js/global.js:23
 msgid "Not file specified"
-msgstr "Не указан файл"
+msgstr "Файл не указан"
 
 #: assets/js/global.js:28
 msgid "Only CSV files are supported"
-msgstr "Поддерживаются только CSV-файлы"
+msgstr "Поддерживаются только файлы CSV"
 
 #: views/validate.php:10
 msgid "Replace/Update existing data"
-msgstr "Замена/обновление существующих данных"
+msgstr "Заменить/обновить существующие данные"
 
 #: views/import.php:146
 msgid ""
@@ -149,10 +164,9 @@ msgid ""
 "import. For a full list of all supported headers export out a CSV file from "
 "the export display"
 msgstr ""
-"Обязательные заголовки(*) - это минимально необходимые заголовки, которые "
-"вы должны предоставить для возможности импорта. Для получения полного "
-"списка всех поддерживаемых заголовков экспортируйте CSV файл с экрана "
-"экспорта"
+"Обязательные заголовки(*) - это минимальные заголовки, которые вы должны "
+"предоставить для импорта. Для получения полного списка всех поддерживаемых "
+"заголовков экспортируйте CSV файл с экрана экспорта"
 
 #: views/import.php:126
 msgid "Required(*)/Recommended Headers"
@@ -164,38 +178,40 @@ msgstr "Сохранить изменения"
 
 #: views/import.php:156
 msgid "Submit"
-msgstr "Принять"
+msgstr "Сохранить"
 
 #: Bulkhandler.class.php:132
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form"
 msgstr ""
-"Загруженный файл превышает директиву MAX_FILE_SIZE, которая указана в HTML-"
-"форме"
+"Размер загруженного файла превысил  значение директивы MAX_FILE_SIZE,"
+"указанной в HTML-форме"
 
 #: Bulkhandler.class.php:129
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
-msgstr "Загруженный файл превышает директиву upload_max_filesize в php.ini"
+msgstr ""
+"Размер загруженного файла превысил  значение директивы "
+"upload_max_filesize , указанной в php.ini"
 
 #: Bulkhandler.class.php:135
 msgid "The uploaded file was only partially uploaded"
-msgstr "Загруженный файл был загружен только частично"
+msgstr "Файлы загружены частично"
 
 #: assets/js/global.js:58
 msgid "There is nothing to import!"
-msgstr "Здесь нечего импортировать!"
+msgstr "Нечего импортировать!"
 
-#: Bulkhandler.class.php:187
+#: Bulkhandler.class.php:192
 #, php-format
 msgid "Too many extensions to import. The limit is: %d physical extensions."
 msgstr ""
-"Слишком много расширений для импорта. Ограничение составляет: %d физических "
-"расширений."
+"Слишком много номеров для импорта. Ограничение составляет: %d физических "
+"номеров."
 
-#: Bulkhandler.class.php:190
+#: Bulkhandler.class.php:197
 msgid "Unable to parse file"
-msgstr "Невозможно разобрать файл"
+msgstr "Невозможно проанализировать файл"
 
 #: Bulkhandler.class.php:124 Bulkhandler.class.php:178
 msgid "Unsupported file format"
@@ -204,7 +220,7 @@ msgstr "Неподдерживаемый формат файла"
 #: views/export.php:24 views/import.php:27
 #, php-format
 msgid "What are \"%s\"?"
-msgstr "Что такое \"%s\"?"
+msgstr "Что означает \"%s\"?"
 
 #: views/validate.php:13
 msgid "Yes"
