@@ -7,15 +7,15 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: User Management\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-13 17:13+0530\n"
-"PO-Revision-Date: 2020-06-02 12:39+0500\n"
+"POT-Creation-Date: 2020-09-01 04:20+0000\n"
+"PO-Revision-Date: 2020-11-05 11:02+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.1\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -51,19 +51,19 @@ msgstr "%s записей не удалось проверить"
 
 #: views/directories.php:103
 msgid "1 Day"
-msgstr "1 День"
+msgstr "1 день"
 
 #: views/directories.php:101
 msgid "1 Hour"
-msgstr "1 Час"
+msgstr "1 час"
 
 #: views/directories.php:100
 msgid "30 Minutes"
-msgstr "30 Минут"
+msgstr "30 минут"
 
 #: views/directories.php:102
 msgid "6 Hours"
-msgstr "6 Часов"
+msgstr "6 часов"
 
 #: views/users.php:95
 msgid "A brief description for this user."
@@ -75,7 +75,7 @@ msgstr "Действие"
 
 #: views/welcome.php:114
 msgid "Active"
-msgstr "Активно"
+msgstr "Активный"
 
 #: views/welcome.php:35 views/welcome.php:72 views/welcome.php:103
 msgid "Add"
@@ -91,7 +91,7 @@ msgstr "Добавить каталог"
 
 #: Userman.class.php:886
 msgid "Add Extension"
-msgstr "Добавить расширение"
+msgstr "Добавить внутренний номер"
 
 #: views/groups.php:6 views/rnav.php:24
 msgid "Add Group"
@@ -146,7 +146,7 @@ msgstr ""
 
 #: Userman.class.php:887
 msgid "Apply Changes Bar"
-msgstr "Панель Применить изменения"
+msgstr "Панель \"Применить изменения\""
 
 #: assets/js/userman.js:152
 msgid "Are you sure you want to make this directory the system default?"
@@ -160,7 +160,7 @@ msgstr ""
 #: assets/js/userman.js:135
 #, perl-format
 msgid "Are you sure you wish to delete this %s?"
-msgstr ""
+msgstr "Вы точно хотите удалить элемент %s?"
 
 #: functions.inc/auth/modules/Voicemail.php:34
 msgid "Asterisk Voicemail"
@@ -237,7 +237,7 @@ msgstr "Формат даты и времени"
 
 #: views/welcome.php:116
 msgid "Default"
-msgstr "По-умолчанию"
+msgstr "По умолчанию"
 
 #: views/freepbx.php:7
 msgid "Default Groups"
@@ -338,7 +338,7 @@ msgstr "Редактировать группу"
 
 #: views/users.php:3
 msgid "Edit User"
-msgstr "Редактировать пользователя"
+msgstr "Изменить пользователя"
 
 #: userman.i18n.php:12
 msgid "Email "
@@ -346,7 +346,7 @@ msgstr "E-mail "
 
 #: views/users.php:435
 msgid "Email Address"
-msgstr "Адрес e-mail"
+msgstr "Адрес Email"
 
 #: views/general.php:128
 msgid "Email Body"
@@ -374,7 +374,7 @@ msgstr ""
 
 #: Userman.class.php:1085
 msgid "Error: You should never see this"
-msgstr ""
+msgstr "Ошибка: Вы никогда не должны видеть это"
 
 #: views/msad.php:139 views/openldap.php:210
 msgid "Extension Link Attribute"
@@ -382,7 +382,7 @@ msgstr ""
 
 #: assets/js/userman.js:380
 msgid "False"
-msgstr "Ложь"
+msgstr "Нет"
 
 #: views/users.php:531
 msgid "Fax Phone Number"
@@ -588,7 +588,7 @@ msgstr ""
 #: Userman.class.php:124
 #, php-format
 msgid "Imported %s directory"
-msgstr ""
+msgstr "Импортирован каталог %s"
 
 #: views/welcome.php:16
 #, php-format
@@ -607,7 +607,7 @@ msgstr ""
 #: views/users.php:376 views/users.php:408 views/users.php:646
 #: views/users.php:673
 msgid "Inherit"
-msgstr ""
+msgstr "Наследовать"
 
 #: Userman.class.php:1041
 msgid "Invalid User"
@@ -643,7 +643,7 @@ msgstr ""
 
 #: functions.inc/guihooks.php:229 functions.inc/guihooks.php:276
 msgid "Link to a Default User"
-msgstr ""
+msgstr "Ссылка на пользователя по умолчанию"
 
 #: functions.inc/guihooks.php:224
 msgid "Link to a Different Default User:"
@@ -718,7 +718,7 @@ msgstr ""
 
 #: Console/Userman.class.php:33 views/welcome.php:113
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
 #: assets/js/userman.js:17
 msgid "Name can not be blank!"
@@ -792,7 +792,7 @@ msgstr "Пароль"
 
 #: Userman.class.php:2880
 msgid "Password - plaintext"
-msgstr "Пароль - открытый текст"
+msgstr "Пароль - простой текст"
 
 #: functions.inc/guihooks.php:234 functions.inc/guihooks.php:278
 msgid "Password For New User"
@@ -943,7 +943,7 @@ msgstr ""
 
 #: views/welcome.php:28
 msgid "Settings"
-msgstr "Настройки"
+msgstr "Общие настройки"
 
 #: views/msad.php:161 views/msad2.php:165 views/openldap.php:232
 #: views/openldap2.php:143
@@ -952,7 +952,7 @@ msgstr "Состояние"
 
 #: Userman.class.php:536
 msgid "Submit"
-msgstr "Принять"
+msgstr "Сохранить"
 
 #: Userman.class.php:530
 msgid "Submit & Send Email to User"
@@ -960,7 +960,7 @@ msgstr "Принять и отправить e-mail пользователю"
 
 #: views/directories.php:94
 msgid "Synchronize"
-msgstr ""
+msgstr "Синхронизировать"
 
 #: Console/Userman.class.php:22
 msgid "Syncronize a single directory by id (obtained from --list)"
@@ -1365,11 +1365,11 @@ msgstr "Часовой пояс для этого пользователя"
 
 #: views/users.php:299
 msgid "Title"
-msgstr ""
+msgstr "Заголовок"
 
 #: assets/js/userman.js:380
 msgid "True"
-msgstr "Правда"
+msgstr "Да"
 
 #: views/welcome.php:115
 msgid "Type"
@@ -1451,7 +1451,7 @@ msgstr "Использовать язык системы"
 
 #: views/groups.php:142
 msgid "Use System Timezone"
-msgstr "Использовать часовой пояс системы"
+msgstr "Использовать системный часовой пояс"
 
 #: views/openldap.php:51 views/openldap.php:68
 msgid "Use TLS"
@@ -1586,7 +1586,7 @@ msgstr ""
 
 #: views/msad2.php:376 views/openldap2.php:354
 msgid "User name attribute"
-msgstr "Аттрибуты имени пользователя"
+msgstr "Атрибуты имени пользователя"
 
 #: views/msad2.php:332 views/openldap2.php:310
 msgid "User object class"
@@ -1636,7 +1636,7 @@ msgstr ""
 
 #: Userman.class.php:819
 msgid "Warning"
-msgstr ""
+msgstr "Предупреждение"
 
 #: views/welcome.php:10
 msgid "What is User Manager"
