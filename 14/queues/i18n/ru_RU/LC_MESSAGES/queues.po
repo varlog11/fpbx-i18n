@@ -10,12 +10,12 @@ msgstr ""
 "Project-Id-Version: Queues 14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-06 11:25+0530\n"
-"PO-Revision-Date: 2020-11-02 15:10+0500\n"
+"PO-Revision-Date: 2020-11-11 14:50+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -74,13 +74,13 @@ msgid ""
 "this is honored across queues for members logged on to multiple queues."
 msgstr ""
 "Если вы используете Asterisk 1.6+, то вы также можете установить параметр "
-"\"Honor Wrapup Time Across Queues\" (Asterisk: shared_lastcall) на странице "
-"расширенных настроек, чтобы он выполнялся в разных очередях для участников, "
-"вошедших в несколько очередей."
+"\"Соблюдать время подведения итогов между очередями\" (Asterisk: "
+"shared_lastcall) на странице расширенных настроек, чтобы он выполнялся в "
+"разных очередях для участников, вошедших в несколько очередей."
 
 #: functions.inc.php:65
 msgid "Agent Announce Msg"
-msgstr ""
+msgstr "Сообщение объявления агента"
 
 #: views/form.php:232
 msgid "Agent Announcement"
@@ -88,11 +88,11 @@ msgstr "Объявление агента"
 
 #: queues.i18n.php:30
 msgid "Agent Called Events Default"
-msgstr ""
+msgstr "События по умолчанию, вызываемые агентом"
 
 #: views/form.php:1891
 msgid "Agent Regex Filter"
-msgstr ""
+msgstr "Фильтр регул.выражений агента"
 
 #: views/form.php:978
 msgid "Agent Restrictions"
@@ -100,7 +100,7 @@ msgstr "Ограничения агента"
 
 #: views/form.php:313
 msgid "Agent Ringing"
-msgstr ""
+msgstr "Вызов агента"
 
 #: views/form.php:1334
 msgid "Agent Timeout"
@@ -270,7 +270,7 @@ msgstr "Плохой номер очереди - не может быть пус
 
 #: views/form.php:439
 msgid "Break Out Type"
-msgstr ""
+msgstr "Тип прорыва"
 
 #: views/form.php:823
 msgid "CID Name Prefix"
@@ -294,7 +294,7 @@ msgstr "Вызывать как набрано"
 
 #: views/form.php:563
 msgid "Callback to use when caller presses 1."
-msgstr ""
+msgstr "Обратный вызов используется, когда вызывающий абонент нажимает 1."
 
 #: views/form.php:714
 msgid "Caller Announcements"
@@ -332,7 +332,7 @@ msgstr "Параметры емкости"
 
 #: functions.inc/queue_conf.php:219
 msgid "Compound Recordings in Queues Detected"
-msgstr ""
+msgstr "Обнаружены составные записи в очередях"
 
 #: queues.i18n.php:8
 msgid ""
@@ -359,6 +359,10 @@ msgid ""
 "will only affect the default for NEW queues, it won't change existing queues "
 "or enfore the option on in new ones."
 msgstr ""
+"Состояние по умолчанию для AMI выдает события, связанные с вызовом агента. "
+"Этот параметр повлияет только на значение по умолчанию для новых очередей, "
+"он не изменит существующие очереди и не применит этот параметр в новых "
+"очередях."
 
 #: queues.i18n.php:36
 msgid ""
@@ -366,6 +370,9 @@ msgid ""
 "only affect the default for NEW queues, it won't change existing queues or "
 "enfore the option on in new ones."
 msgstr ""
+"Состояние по умолчанию для AMI для выдачи QueueMemberStatusevent. Этот "
+"параметр повлияет только на значение по умолчанию для новых очередей - он не "
+"изменит существующие очереди и не применит этот параметр в новых очередях."
 
 #: Queues.class.php:206
 msgid "Delete"
@@ -381,12 +388,17 @@ msgid ""
 "situations where it appears no one is currently available to take the call. "
 "The options include:"
 msgstr ""
+"Определяет, следует ли преждевременно выводить абонентов из очереди в "
+"ситуациях, когда кажется что в данный момент никто не может принять вызов. "
+"Эти варианты включают в себя:"
 
 #: views/form.php:389
 msgid ""
 "Determines if new callers will be admitted to the Queue, if not, the "
 "failover destination will be immediately pursued. The options include:"
 msgstr ""
+"Определяет, будут ли новые абоненты допущены в очередь, если нет - то будет "
+"немедленно продолжено по назначению при отказе. Эти варианты включают в себя:"
 
 #: views/form.php:19 views/form.php:1133
 msgid "Don't Care"
@@ -403,12 +415,18 @@ msgid ""
 "will be as specified here. Extensions included here will NOT automatically "
 "be logged in to the queue."
 msgstr ""
+"Динамические участники - это добавочные номера или номера обратного вызова, "
+"которые могут входить и выходить из очереди. Когда участник входит в очередь "
+"- его пенальти в очереди будет таким, как указано здесь. Указанные здесь "
+"номера НЕ будут автоматически регистрироваться в очереди."
 
 #: views/form.php:495
 msgid ""
 "Earlier versions of this module allowed such queues to be chosen, once "
 "changing this setting, it will no longer appear as an option"
 msgstr ""
+"Более ранние версии этого модуля позволяли выбирать такие очереди, но после "
+"изменения этого параметра они больше не будут отображаться в качестве опции"
 
 #: views/cron.php:37
 msgid "Enable this task"
@@ -420,6 +438,9 @@ msgid ""
 "cancelled. The effect is that missed queue calls are *not* shown on the "
 "phone (if the phone supports it)"
 msgstr ""
+"При включении этой опции все вызовы помечаются как \"отвеченные в другом "
+"месте\" при отмене. Эффект заключается в том, что пропущенные вызовы очереди "
+"*не* отображаются на телефоне (если телефон поддерживает его)"
 
 #: views/form.php:619
 msgid "Event When Called"
@@ -451,21 +472,24 @@ msgstr "Основные настройки"
 
 #: views/form.php:781
 msgid "Give this queue a brief name to help you identify it."
-msgstr ""
+msgstr "Дайте этой очереди краткое имя чтобы помочь вам идентифицировать ее."
 
 #: views/form.php:1112
 msgid ""
 "Gives queues a 'weight' option, to ensure calls waiting in a higher priority "
 "queue will deliver its calls first if there are agents common to both queues."
 msgstr ""
+"Дает очередям опцию \"вес\" для гарантии что вызовы, ожидающие в очереди с "
+"более высоким приоритетом, будут доставлять свои вызовы первыми, если есть "
+"агенты, общие для обеих очередей."
 
 #: views/form.php:408
 msgid "Honor Penalties"
-msgstr ""
+msgstr "Почитание пенальти"
 
 #: queues.i18n.php:18
 msgid "Honor Wrapup Time Across Queues"
-msgstr ""
+msgstr "Соблюдать время подведения итогов между очередями"
 
 #: views/cron.php:59
 msgid "Hourly"
@@ -476,12 +500,16 @@ msgid ""
 "How often to announce a voice menu to the caller (0 to Disable "
 "Announcements)."
 msgstr ""
+"Как часто объявлять голосовое меню вызывающему абоненту (0 для отключения "
+"объявлений)."
 
 #: views/form.php:1754
 msgid ""
 "How often to announce queue position and estimated holdtime (0 to Disable "
 "Announcements)."
 msgstr ""
+"Как часто объявлять позицию в очереди и расчетное время удержания (0 для "
+"отключения объявлений)."
 
 #: functions.inc/destination_registry.php:98
 msgid "INUSE"
@@ -490,11 +518,11 @@ msgstr "В ИСПОЛЬЗОВАНИИ"
 #: functions.inc.php:75
 #, php-format
 msgid "IVR Announce: %s"
-msgstr ""
+msgstr "Объявление IVR: %s"
 
 #: views/form.php:444 views/form.php:507
 msgid "IVR Break Out Menu"
-msgstr ""
+msgstr "Меню прорыва IVR"
 
 #: views/form.php:810
 msgid ""
@@ -503,6 +531,11 @@ msgid ""
 "the PBX will be forced into Call Confirmation mode where the member must "
 "acknowledge the call before it is answered and delivered."
 msgstr ""
+"Если этот флажок установлен, то любой участник очереди, являющийся на самом "
+"деле внешним телефонным номером или любые добавочные номера Следуйте-сюда "
+"или Перенаправления вызовов, которые преследуются и покидают АТС, будут "
+"вынуждены перейти в режим подтверждения вызова, где участник должен "
+"подтвердить вызов, прежде чем он будет принят и доставлен."
 
 #: views/form.php:126
 msgid ""
@@ -567,7 +600,7 @@ msgstr ""
 
 #: functions.inc/hook_core.php:37
 msgid "Ignore State"
-msgstr ""
+msgstr "Игнорировать состояние"
 
 #: views/form.php:1143
 msgid ""
@@ -577,19 +610,19 @@ msgstr ""
 
 #: views/form.php:183
 msgid "Join Announcement"
-msgstr ""
+msgstr "Сообщение при входе"
 
 #: views/form.php:1639
 msgid "Join Empty"
-msgstr ""
+msgstr "Присоединяться к пустой"
 
 #: views/form.php:1673
 msgid "Leave Empty"
-msgstr ""
+msgstr "Покидать пустую"
 
 #: views/bootnav.php:2
 msgid "List Queues"
-msgstr ""
+msgstr "Список очередей"
 
 #: views/form.php:395 views/form.php:403 views/form.php:1314
 #: views/form.php:1653 views/form.php:1687
@@ -598,7 +631,7 @@ msgstr "Свободно"
 
 #: views/form.php:1155
 msgid "Mark calls answered elsewhere"
-msgstr ""
+msgstr "Помечать вызовы отвеченными в другом месте"
 
 #: views/form.php:1614
 msgid "Max Callers"

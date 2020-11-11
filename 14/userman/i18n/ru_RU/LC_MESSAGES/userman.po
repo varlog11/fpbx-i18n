@@ -10,12 +10,12 @@ msgstr ""
 "Project-Id-Version: User Management\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 04:20+0000\n"
-"PO-Revision-Date: 2020-11-05 11:02+0500\n"
+"PO-Revision-Date: 2020-11-11 15:02+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: views/groups.php:36 views/users.php:33
 #, php-format
 msgid "%s Administration GUI"
-msgstr ""
+msgstr "GUI администрирования %s"
 
 #: functions.inc/auth/modules/Freepbx.php:24
 #, php-format
@@ -137,12 +137,12 @@ msgstr "Все пользователи"
 #: views/groups.php:265 views/users.php:637
 #, php-format
 msgid "Allow %s Administration Login"
-msgstr ""
+msgstr "Разрешить вход администратора %s"
 
 #: functions.inc/auth/modules/Freepbx.php:189
 #: functions.inc/auth/modules/Freepbx.php:215
 msgid "An Unknown error occured while trying to update user data"
-msgstr ""
+msgstr "Неизвестная ошибка при попытке обновить данные пользователей"
 
 #: Userman.class.php:887
 msgid "Apply Changes Bar"
@@ -150,7 +150,7 @@ msgstr "Панель \"Применить изменения\""
 
 #: assets/js/userman.js:152
 msgid "Are you sure you want to make this directory the system default?"
-msgstr ""
+msgstr "Вы уверены что хотите сделать этот каталог системным по умолчанию?"
 
 #: assets/js/userman.js:95
 #, perl-format
@@ -245,7 +245,7 @@ msgstr "Группа по-умолчанию"
 
 #: views/groups.php:367 views/users.php:742
 msgid "Default Landing Page"
-msgstr ""
+msgstr "Целевая страница по умолчанию"
 
 #: Userman.class.php:542 views/welcome.php:38 views/welcome.php:75
 #: views/welcome.php:106 assets/js/userman.js:100 assets/js/userman.js:106
@@ -403,15 +403,15 @@ msgstr "GID не числовой"
 
 #: views/groups.php:94
 msgid "Give the group a description"
-msgstr ""
+msgstr "Дайте группе описание"
 
 #: views/groups.php:72
 msgid "Give the group a name"
-msgstr ""
+msgstr "Дайте группе название"
 
 #: views/groups.php:290 views/users.php:664
 msgid "Grant Full Administration Rights"
-msgstr ""
+msgstr "Предоставить полные административные права"
 
 #: views/groups.php:305 views/users.php:681
 msgid ""
@@ -1498,11 +1498,11 @@ msgstr ""
 
 #: views/msad2.php:598 views/openldap2.php:552
 msgid "User Home Phone attribute"
-msgstr ""
+msgstr "Атрибут домашнего телефона пользователя"
 
 #: views/openldap.php:122
 msgid "User Identity"
-msgstr ""
+msgstr "Идентификация пользователя"
 
 #: userman.i18n.php:4 userman.i18n.php:10
 msgid "User Management"
@@ -1574,7 +1574,7 @@ msgstr ""
 
 #: views/msad2.php:488 views/openldap2.php:442
 msgid "User group attribute"
-msgstr ""
+msgstr "Атрибут группы пользователей"
 
 #: views/msad2.php:444 views/openldap2.php:398
 msgid "User last name attribute"
@@ -1628,7 +1628,7 @@ msgstr "Пользователи"
 
 #: views/groups.php:315 views/users.php:691
 msgid "Visible Extension Range"
-msgstr ""
+msgstr "Видимый диапазон расширений"
 
 #: functions.inc/auth/modules/Voicemail.php:160
 msgid "Voicemail is in Read Only Mode. Addition denied"
@@ -1658,11 +1658,11 @@ msgstr ""
 
 #: views/quickCreate.php:52 views/users.php:148 views/users.php:183
 msgid "Which groups this user is in"
-msgstr ""
+msgstr "В какой группе находится этот пользователь"
 
 #: views/groups.php:184
 msgid "Which users are in this group"
-msgstr ""
+msgstr "Какие пользователи в этой группе"
 
 #: views/users.php:483
 msgid "Work Phone Number"
