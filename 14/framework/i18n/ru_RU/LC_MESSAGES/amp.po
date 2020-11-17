@@ -10,12 +10,12 @@ msgstr ""
 "Project-Id-Version: Framework 14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 07:16+0000\n"
-"PO-Revision-Date: 2020-11-03 17:09+0500\n"
+"PO-Revision-Date: 2020-11-17 11:58+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -5020,6 +5020,11 @@ msgid ""
 "means only Notify 200. No need to Subscribe. Unsolicited is the default and "
 "should only be changed if you see errors in the Asterisk logs"
 msgstr ""
+"Для индикатора ожидания сообщений существует два типа: запрошенные и "
+"незапрошенные. Запрошенный означает Subscribe 200, а затем Notify 200. "
+"Незапрошенный означает только Notify 200. Нет необходимости в Subscribe. "
+"Незапрошенный используется по умолчанию и должен быть изменен только в том "
+"случае, если вы видите ошибки в журналах Asterisk"
 
 #: amp_conf/htdocs/admin/views/module_admin/unable-to-sysupdate.php:14
 msgid ""
@@ -5105,6 +5110,9 @@ msgid ""
 "Basically always send SIP responses back to the same port we received SIP "
 "requests from."
 msgstr ""
+"Принудительное поведение, совместимое с RFC3581, даже если параметр rport "
+"отсутствует. В основном SIP-ответы всегда отправляются обратно на тот же "
+"порт, с которого получили SIP-запросы."
 
 #: ../core/views/trunks/trunk_header.php:324
 msgid "Force Trunk CID"
@@ -5118,6 +5126,8 @@ msgstr "Принудительный режим WebSocket"
 msgid ""
 "Force XML/PHP output even if there is an alter string after generation checks"
 msgstr ""
+"Принудительный вывод XML/PHP, даже если есть строка alter после проверки "
+"генерации"
 
 #: amp.i18n.php:332
 msgid ""
@@ -5154,19 +5164,19 @@ msgstr "Принудительный запуск даже если он отк�
 
 #: amp_conf/htdocs/admin/libraries/Console/Start.class.php:240
 msgid "Force run post-start asterisk hooks"
-msgstr ""
+msgstr "Форсировать запуск пост-стартовых хуков Asterisk"
 
 #: amp_conf/htdocs/admin/libraries/Console/Stop.class.php:257
 msgid "Force run post-stop asterisk hooks"
-msgstr ""
+msgstr "Форсировать запуск пост-стоповых хуков Asterisk"
 
 #: amp_conf/htdocs/admin/libraries/Console/Start.class.php:239
 msgid "Force run pre-start asterisk hooks"
-msgstr ""
+msgstr "Форсировать запуск пред-стартовых хуков Asterisk"
 
 #: amp_conf/htdocs/admin/libraries/Console/Stop.class.php:256
 msgid "Force run pre-stop asterisk hooks"
-msgstr ""
+msgstr "Форсировать запуск пред-стоповых хуков Asterisk"
 
 #: ../core/functions.inc/drivers/PJSip.class.php:231
 msgid "Force use of return port."
@@ -5215,7 +5225,7 @@ msgstr "Переслать"
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:814
 #, php-format
 msgid "Found local Dependency of: %s %s"
-msgstr ""
+msgstr "Найдена локальная зависимость: %s %s"
 
 #: ../core/install.php:488
 msgid "Found what appear to be invalid emergency callerid entries."
@@ -5236,7 +5246,7 @@ msgstr "Основа FreePBX"
 
 #: amp.i18n.php:106
 msgid "FreePBX JOBs Maximum Random sleep"
-msgstr ""
+msgstr "FreePBX максимальный случайный сон заданий"
 
 #: amp.i18n.php:710
 msgid "FreePBX Log File"
@@ -5249,7 +5259,7 @@ msgstr "Маршрутизировать журнал FreePBX"
 #: install.php:5
 #, php-format
 msgid "FreePBX Requires PHP Version 5.6 or Higher, you have: %s"
-msgstr ""
+msgstr "FreePBX требует PHP версии 5.6 или выше, у вас: %s"
 
 #: amp.i18n.php:896
 msgid "FreePBX Support"
@@ -5622,11 +5632,11 @@ msgstr "Переопределение hint'а"
 
 #: amp_conf/htdocs/admin/libraries/BMO/View.class.php:563
 msgid "Hit the play symbol to listen"
-msgstr ""
+msgstr "Нажмите на символ воспроизведения для прослушивания"
 
 #: amp_conf/htdocs/admin/libraries/BMO/View.class.php:561
 msgid "Hit the red record button to start recording from your browser"
-msgstr ""
+msgstr "Нажмите красную кнопку записи, для записи из вашего браузера"
 
 #: amp_conf/htdocs/admin/libraries/BMO/GPG.class.php:807
 #, php-format
@@ -5659,6 +5669,11 @@ msgid ""
 "over this one when a 403 is received. Also, if 'Permanent Auth Rejection' is "
 "enabled then a 401 and 407 become subject to this retry interval."
 msgstr ""
+"Как долго ждать, прежде чем повторить попытку при получении фатального "
+"ответа. Если также установлен \"Интервал повтора Forbidden\", то \"Интервал "
+"повтора Forbidden\" имеет приоритет над этим интервалом при получении 403. "
+"Кроме того, если включен \"Постоянный отказ от аутентификации\", то 401 и "
+"407 становятся объектом этого интервала повторных попыток."
 
 #: amp.i18n.php:376
 msgid ""
@@ -5677,6 +5692,8 @@ msgid ""
 "How many times Asterisk will attempt to re-attempt registration before "
 "permanently giving up. Maximum of 1000000."
 msgstr ""
+"Сколько раз Asterisk попытается повторить попытку регистрации, прежде чем "
+"окончательно сдастся. Максимум 1000000."
 
 #: ../core/functions.inc/drivers/Dahdi.class.php:142
 #: ../core/functions.inc/drivers/Iax2.class.php:145
@@ -5825,7 +5842,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Console/Remoteunlock.class.php:18
 msgid "If REMOTEUNLOCK is enabled, you will receive a value for KEY."
-msgstr ""
+msgstr "Если REMOTEUNLOCK включен - вы получите значение для KEY."
 
 #: ../core/views/routing/form.php:352
 msgid ""
@@ -5891,6 +5908,11 @@ msgid ""
 "the incoming caller will be prompted to say their name when the call reaches "
 "the user/extension."
 msgstr ""
+"Если CallerID не был получен - Менеджер конфиденциальности попросит "
+"вызывающего абонента ввести свой номер телефона. Если у пользователя/"
+"добавочного номера включена Проверка вызовов - входящему абоненту будет "
+"предложено назвать свое имя когда вызов достигнет пользователя/добавочного "
+"номера."
 
 #: ../core/views/routing/timecond.php:91 ../core/views/routing/timecond.php:118
 #, php-format
@@ -6085,7 +6107,7 @@ msgstr "Внутриполосный"
 
 #: ../core/views/trunks/pjsip.php:1032
 msgid "Inband Progress"
-msgstr ""
+msgstr "Внутриполосный прогресс"
 
 #: ../core/views/trunks/pjsip.php:87
 msgid "Inbound"
