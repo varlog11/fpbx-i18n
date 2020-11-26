@@ -10,12 +10,12 @@ msgstr ""
 "Project-Id-Version: Dashboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-13 18:45+0530\n"
-"PO-Revision-Date: 2020-06-25 11:21+0500\n"
+"PO-Revision-Date: 2020-11-26 09:34+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -24,12 +24,12 @@ msgstr ""
 #: sections/Blogs.class.php:26 sections/Blogs.class.php:34
 #, php-format
 msgid "%s Feed"
-msgstr "%s Лента"
+msgstr "Лента %s"
 
 #: sections/Statistics.class.php:17
 #, php-format
 msgid "%s Statistics"
-msgstr "%s статистик"
+msgstr "%s статистика"
 
 #: views/sections/overview.php:66 views/sections/uptime.php:6
 #, php-format
@@ -73,8 +73,8 @@ msgid ""
 "<strong>'%s'</strong><br><i>(You can change this name in Advanced Settings)</"
 "i>"
 msgstr ""
-"<strong>'%s'</strong><br><i>(Вы можете изменить это название в \"Расширенных "
-"настройках\")</i>"
+"<strong>'%s'</strong><br><i>(Вы можете изменить это название в "
+"\"Дополнительных настройках\")</i>"
 
 #: sections/Overview.class.php:135
 msgid "Asterisk"
@@ -142,7 +142,7 @@ msgstr "Неверный период"
 
 #: sections/Statistics.class.php:24
 msgid "Live Network Usage"
-msgstr "Использование живой сети"
+msgstr "Использование сети в реальном времени"
 
 #: views/sections/uptime.php:13
 msgid "Load Averages"
@@ -192,7 +192,7 @@ msgid ""
 "Provides a system information dashboard, showing information about Calls, "
 "CPU, Memory, Disks, Network, and processes."
 msgstr ""
-"Предоставляет приброную панель мониторинга системной информации, "
+"Предоставляет приборную панель мониторинга системной информации, "
 "отображающую информацию о вызовах, загрузке процессора, памяти, дисков, сети "
 "и процессах."
 
@@ -209,7 +209,7 @@ msgid ""
 "Set the maximum age in seconds before system statistics are refreshed. The "
 "minimum value is 50 seconds."
 msgstr ""
-"Установите максимальный возраст в секундах до обновления статистики системы. "
+"Установите максимальный период обновления статистики системы в секундах. "
 "Минимальное значение - 50 секунд."
 
 #: dashboard.i18n.php:16
@@ -217,8 +217,8 @@ msgid ""
 "Set this to true to prevent persistent collection of system statistics such "
 "as CPU, memory, and channel usage."
 msgstr ""
-"Установите это значение в true, чтобы предотвратить постоянный сбор "
-"системных данных, таких как использование процессора, памяти и каналов."
+"Установите это значение в true чтобы предотвратить постоянный сбор системных "
+"данных, таких как использование процессора, памяти и каналов."
 
 #: views/sections/overview.php:75
 msgid "Show All"
@@ -291,7 +291,7 @@ msgstr "Неделя"
 #: views/main.php:3 views/sections/overview.php:6
 #, php-format
 msgid "Welcome to %s"
-msgstr "Добро пожаловать в %s"
+msgstr "Добро пожаловать во %s"
 
 #: classes/TimeUtils.class.php:15
 msgid "day"
