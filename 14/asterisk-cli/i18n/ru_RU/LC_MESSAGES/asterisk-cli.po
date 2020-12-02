@@ -1,0 +1,54 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for asterisk-cli
+# Copyright (C) 2008-2016 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-08 02:26+0000\n"
+"PO-Revision-Date: 2020-12-02 13:32+0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#: asterisk-cli.i18n.php:6 asterisk-cli.i18n.php:12
+msgid "Admin"
+msgstr "Администратор"
+
+#: asterisk-cli.i18n.php:4 asterisk-cli.i18n.php:10 page.cli.php:15
+msgid "Asterisk CLI"
+msgstr "Командная строка Астериск"
+
+#: page.cli.php:25
+msgid "CLI Command"
+msgstr "Команда CLI"
+
+#: assets/js/asterisk-cli.js:10
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: Asteriskdashcli.class.php:51
+msgid "No Output Returned"
+msgstr "Не выведено никакой информации"
+
+#: asterisk-cli.i18n.php:8
+msgid ""
+"Provides an interface allowing you to run a command as if it was typed into "
+"Asterisk CLI"
+msgstr ""
+"Предоставляет интерфейс, позволяющий запускать команду так, как если бы она "
+"была введена в Asterisk CLI"
+
+#: page.cli.php:31
+msgid "Send Command"
+msgstr "Отправить команду"

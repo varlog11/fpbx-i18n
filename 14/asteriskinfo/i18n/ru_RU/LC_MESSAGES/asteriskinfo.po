@@ -1,0 +1,258 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for asteriskinfo
+# Copyright (C) 2008-2019 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 09:09+0530\n"
+"PO-Revision-Date: 2020-12-02 13:29+0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#: page.asteriskinfo.php:31
+msgid "Active Channel(s)"
+msgstr "Активных каналов"
+
+#: Asteriskinfo.class.php:46
+msgid "Active IAX2 Channel(s): "
+msgstr "Активных IAX2 каналов: "
+
+#: Asteriskinfo.class.php:42
+msgid "Active PJSIP Channel(s): "
+msgstr "Активных PJSIP каналов: "
+
+#: Asteriskinfo.class.php:38
+msgid "Active SIP Channel(s): "
+msgstr "Активных SIP каналов: "
+
+#: asteriskinfo.i18n.php:4 asteriskinfo.i18n.php:10 page.asteriskinfo.php:277
+msgid "Asterisk Info"
+msgstr "Информация об Asterisk"
+
+#: page.asteriskinfo.php:11
+msgid "Asterisk doesn't appear to be running"
+msgstr "Asterisk, кажется, сейчас не запущена"
+
+#: Asteriskinfo.class.php:150
+msgid "Available: "
+msgstr "Доступно: "
+
+#: page.asteriskinfo.php:33
+msgid "Chan_PJSip Channel(s)"
+msgstr "Chan_PJSip каналов"
+
+#: page.asteriskinfo.php:43
+msgid "Chan_PJSip Endpoints"
+msgstr "Chan_PJSip конечных точек"
+
+#: page.asteriskinfo.php:23
+msgid "Chan_PJSip Info"
+msgstr "Информация Chan_PJSip"
+
+#: page.asteriskinfo.php:37
+msgid "Chan_PJSip Registrations"
+msgstr "Chan_PJSip регистраций"
+
+#: page.asteriskinfo.php:38
+msgid "Chan_PJSip Transports"
+msgstr "Chan_PJSip транспортов"
+
+#: page.asteriskinfo.php:32
+msgid "Chan_Sip Channel(s)"
+msgstr "Chan_Sip каналов"
+
+#: page.asteriskinfo.php:22
+msgid "Chan_Sip Info"
+msgstr "Информация Chan_Sip"
+
+#: page.asteriskinfo.php:42
+msgid "Chan_Sip Peers"
+msgstr "Chan_Sip пиров"
+
+#: page.asteriskinfo.php:36
+msgid "Chan_Sip Registry"
+msgstr "Chan_Sip регистраций"
+
+#: page.asteriskinfo.php:20
+msgid "Channels"
+msgstr "Каналов"
+
+#: page.asteriskinfo.php:49
+msgid "Conference Bridge Info"
+msgstr "Информация о конференции ConfBridge"
+
+#: page.asteriskinfo.php:25
+msgid "Conferences"
+msgstr "Конференции"
+
+#: page.asteriskinfo.php:280
+msgid "Current Asterisk Version:"
+msgstr "Текущая версия Asterisk:"
+
+#: page.asteriskinfo.php:46
+msgid "DAHDi Channels"
+msgstr "Каналов DAHDi"
+
+#: page.asteriskinfo.php:28
+msgid "Dahdi"
+msgstr "DAHDI"
+
+#: page.asteriskinfo.php:47
+msgid "Dahdi PRI Spans"
+msgstr "Dahdi PRI-диапазоны"
+
+#: page.asteriskinfo.php:29
+msgid "Full Report"
+msgstr "Полный отчёт"
+
+#: page.asteriskinfo.php:52
+msgid "Google Talk Channels"
+msgstr "Каналы Google Talk"
+
+#: page.asteriskinfo.php:24
+msgid "IAX Info"
+msgstr "Информация IAX"
+
+#: page.asteriskinfo.php:34
+msgid "IAX2 Channel(s)"
+msgstr "IAX2 каналов"
+
+#: page.asteriskinfo.php:35
+msgid "IAX2 Peers"
+msgstr "IAX2 пиров"
+
+#: Asteriskinfo.class.php:48
+msgid "IAX2 Peers: "
+msgstr "IAX2 пиров: "
+
+#: page.asteriskinfo.php:44
+msgid "IAX2 Registry"
+msgstr "IAX2 регистраций"
+
+#: Asteriskinfo.class.php:47
+msgid "IAX2 Registry: "
+msgstr "IAX2 регистраций: "
+
+#: page.asteriskinfo.php:53
+msgid "Jabber Connections"
+msgstr "Подключения Jabber"
+
+#: page.asteriskinfo.php:48
+msgid "MeetMe Conference Info"
+msgstr "Информация о конференциях MeetMe"
+
+#: page.asteriskinfo.php:54
+msgid "Motif Connections"
+msgstr "Соединения Motif"
+
+#: Asteriskinfo.class.php:140
+msgid "Offline-Unmonitored: "
+msgstr "Офлайн без мониторинга: "
+
+#: Asteriskinfo.class.php:140 Asteriskinfo.class.php:162
+msgid "Offline: "
+msgstr "Офлайн: "
+
+#: Asteriskinfo.class.php:139
+msgid "Online-Unmonitored: "
+msgstr "Онлайн без мониторинга: "
+
+#: Asteriskinfo.class.php:139 Asteriskinfo.class.php:162
+msgid "Online: "
+msgstr "Онлайн: "
+
+#: Asteriskinfo.class.php:44
+msgid "PJSip Endpoints: "
+msgstr "Конечных точек PJSip: "
+
+#: Asteriskinfo.class.php:43
+msgid "PJSip Registrations: "
+msgstr "PJSip регистраций: "
+
+#: page.asteriskinfo.php:21
+msgid "Peers"
+msgstr "Пиров"
+
+#: asteriskinfo.i18n.php:8
+msgid "Provides a snapshot of the current Asterisk configuration"
+msgstr "Предоставляет снимок текущей конфигурации Asterisk"
+
+#: page.asteriskinfo.php:26
+msgid "Queues"
+msgstr "Очереди"
+
+#: page.asteriskinfo.php:50
+msgid "Queues Info"
+msgstr "Информация об очередях"
+
+#: page.asteriskinfo.php:19
+msgid "Registries"
+msgstr "Регистраций"
+
+#: asteriskinfo.i18n.php:6
+msgid "Reports"
+msgstr "Отчеты"
+
+#: Asteriskinfo.class.php:40
+msgid "Sip Peers: "
+msgstr "SIP пиров: "
+
+#: Asteriskinfo.class.php:39
+msgid "Sip Registry: "
+msgstr "SIP регистраций: "
+
+#: page.asteriskinfo.php:45
+msgid "Subscribe/Notify"
+msgstr "Подписки/Уведомления"
+
+#: page.asteriskinfo.php:27
+msgid "Subscriptions"
+msgstr "Подписок"
+
+#: page.asteriskinfo.php:18 page.asteriskinfo.php:289
+msgid "Summary"
+msgstr "Краткая сводка"
+
+#: page.asteriskinfo.php:186
+msgid ""
+"The module was unable to connect to the Asterisk manager.<br>Make sure "
+"Asterisk is running and your manager.conf settings are proper.<br><br>"
+msgstr ""
+"Модуль не смог соединиться с управлением Asterisk.<br>Убедитесь что "
+"Asterisk запущена и настройки manager.conf корректны.<br><br>"
+
+#: page.asteriskinfo.php:279
+msgid "This page supplies various information about Asterisk"
+msgstr "Эта страница содержит различную информацию об Asterisk"
+
+#: Asteriskinfo.class.php:151
+msgid "Unavailable: "
+msgstr "Недоступно: "
+
+#: Asteriskinfo.class.php:162
+msgid "Unmonitored: "
+msgstr "Без мониторинга: "
+
+#: page.asteriskinfo.php:30
+msgid "Uptime"
+msgstr "Время работы системы"
+
+#: Asteriskinfo.class.php:37
+msgid "Uptime: "
+msgstr "Время работы системы: "
+
+#: page.asteriskinfo.php:51
+msgid "Voicemail Users"
+msgstr "Пользователи голосовой почты"

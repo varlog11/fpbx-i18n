@@ -1,0 +1,451 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for cidlookup
+# Copyright (C) 2008-2019 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-26 22:59+0000\n"
+"PO-Revision-Date: 2020-12-02 14:05+0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#: views/form.php:22
+msgid ""
+" It executes an HTTP GET passing the caller number as argument to retrieve "
+"the correct name"
+msgstr ""
+" это выполняет HTTP GET запрос, передавая номер вызывающего в качестве "
+"аргумента, чтобы получить правильное имя"
+
+#: views/form.php:23
+msgid ""
+" It executes an HTTPS GET passing the caller number as argument to retrieve "
+"the correct name"
+msgstr ""
+" это выполняет HTTPS GET запрос, передавая номер вызывающего в качестве "
+"аргумента, чтобы получить правильное имя"
+
+#: views/form.php:21
+msgid ""
+" Use DNS to lookup caller names, it uses ENUM lookup zones as configured in "
+"enum.conf"
+msgstr ""
+" Использовать DNS для поиска имен абонентов, он использует ENUM зоны поиска, "
+"как настроено в enum.conf"
+
+#: views/form.php:19
+msgid " Use OpenCNAM [https://www.opencnam.com/]"
+msgstr " Использовать OpenCNAM [https://www.opencnam.com/]"
+
+#: views/form.php:20
+msgid " use astdb as lookup source, use phonebook module to populate it"
+msgstr ""
+" использовать astdb как источник поиска, воспользуйтесь модулем телефонной "
+"книги для заполнения"
+
+#: views/form.php:204
+msgid ""
+"<p>If you need to create an OpenCNAM account, you can visit their website: "
+"<a href=\"https://www.opencnam.com/register\" target=\"_blank\">https://www."
+"opencnam.com/register</a></p>"
+msgstr ""
+"<p>Если вам нужно создать учетную запись OpenCNAM - вы можете посетить их "
+"сайт: <a href=\"https://www.opencnam.com/register\" target=\"_blank"
+"\">https://www.opencnam.com/register</a></p>"
+
+#: page.cidlookup.php:8
+msgid ""
+"A Lookup Source let you specify a source for resolving numeric CallerIDs of "
+"incoming calls, you can then link an Inbound route to a specific CID source. "
+"This way you will have more detailed CDR reports with information taken "
+"directly from your CRM. You can also install the phonebook module to have a "
+"small number <-> name association. Pay attention, name lookup may slow down "
+"your PBX"
+msgstr ""
+"Источник поиска позволяет указать источник для определения числовых "
+"идентификаторов вызывающих абонентов входящих вызовов, затем вы можете "
+"связать входящий маршрут с определенным источником CID. Таким образом, у вас "
+"будут более подробные отчеты CDR с информацией, полученной непосредственно "
+"из вашего CRM. Вы также можете установить модуль телефонной книги, чтобы "
+"иметь короткий номер <-> имя ассоциации. Обратите внимание, поиск имени "
+"может замедлить работу вашей АТС"
+
+#: views/form.php:213
+msgid "Account SID:"
+msgstr "SID аккаунта:"
+
+#: views/grid.php:40
+msgid "Actions"
+msgstr "Действия"
+
+#: views/grid.php:26
+msgid "Add CIDLookup Source"
+msgstr "Добавить источник поиска CID"
+
+#: cidlookup.i18n.php:6
+msgid "Admin"
+msgstr "Администратор"
+
+#: cidlookup.i18n.php:8
+msgid ""
+"Allows CallerID Lookup of incoming calls against different sources "
+"(OpenCNAM, MySQL, HTTP, ENUM, Phonebook Module)"
+msgstr ""
+"Даёт возможность выполнить поиск номера при входящем вызове используя "
+"различные источники (OpenCNAM, MySQL, HTTP, ENUM или модуль Телефонной книги)"
+
+#: views/form.php:237
+msgid "Auth Token"
+msgstr "Авт. маркер"
+
+#: functions.inc.php:20
+msgid "CID Lookup Source"
+msgstr "Источник поиска CID"
+
+#: page.cidlookup.php:7
+msgid "CIDLookup"
+msgstr "Поиск CID"
+
+#: views/form.php:122
+msgid "Cache Results"
+msgstr "Результаты кеша"
+
+#: views/form.php:178
+msgid "Caller ID Format"
+msgstr "Формат CallerID"
+
+#: cidlookup.i18n.php:4
+msgid "CallerID Lookup"
+msgstr "Поиск Caller ID"
+
+#: cidlookup.i18n.php:10
+msgid "CallerID Lookup Sources"
+msgstr "Источники поиска Caller ID"
+
+#: views/form.php:533
+msgid "Character Set"
+msgstr "Набор символов"
+
+#: views/form.php:185
+msgid "Company"
+msgstr "Компания"
+
+#: views/form.php:97
+msgid "Contact Manager"
+msgstr "Диспетчер контактов"
+
+#: views/form.php:151
+msgid "Contact Manager Group(s)"
+msgstr "Группы менеджера контактов"
+
+#: views/form.php:42
+msgid "Contact Manager Not Installed"
+msgstr "Менеджер контактов не установлен"
+
+#: views/form.php:25
+msgid "Contact Manager:"
+msgstr "Менеджер контактов:"
+
+#: views/form.php:437
+msgid "Database"
+msgstr "База данных"
+
+#: views/form.php:449
+msgid "Database Name"
+msgstr "Название базы данных"
+
+#: views/form.php:137
+msgid ""
+"Decide whether or not cache the results to astDB; it will overwrite present "
+"values. It does not affect Internal source behavior"
+msgstr ""
+"Определитесь, нужно ли кешировать результаты запросов в astDB; текущие "
+"результаты будут перезаписаны. Не влияет на поведение внутреннего источника"
+
+#: Cidlookup.class.php:66
+msgid "Delete"
+msgstr "Удалить"
+
+#: views/grid.php:38
+msgid "Description"
+msgstr "Описание"
+
+#: views/form.php:186
+msgid "Display Name"
+msgstr "Отображаемое имя"
+
+#: views/form.php:21
+msgid "ENUM:"
+msgstr "ENUM:"
+
+#: views/form.php:78
+msgid "Enter a description for this source."
+msgstr "Введите описание этого источника."
+
+#: views/form.php:165
+msgid "Filter results to these contact manager groups"
+msgstr "Отфильтруйте результаты по этим группам менеджера контактов"
+
+#: views/form.php:183
+msgid "First Last"
+msgstr "Сперва последний"
+
+#: views/form.php:22
+msgid "HTTP:"
+msgstr "HTTP:"
+
+#: views/form.php:23
+msgid "HTTPS:"
+msgstr "HTTPS:"
+
+#: views/form.php:265 views/form.php:413
+msgid "Host"
+msgstr "Хост"
+
+#: views/form.php:277
+msgid "Host name or IP address"
+msgstr "Имя хоста или IP адрес"
+
+#: views/form.php:195
+msgid "How to format the returned data"
+msgstr "Как отформатировать возвращаемые данные"
+
+#: views/form.php:96
+msgid "Internal"
+msgstr "Внутренний"
+
+#: views/form.php:20
+msgid "Internal:"
+msgstr "Внутренний:"
+
+#: views/form.php:24
+msgid "It queries a MySQL database to retrieve caller name"
+msgstr ""
+"Делается запрос к базе данных MySQL для получения имени вызывающего абонента"
+
+#: views/form.php:184
+msgid "Last First"
+msgstr ""
+
+#: views/bootnav.php:6
+msgid "List Sources"
+msgstr "Список источников"
+
+#: views/form.php:545
+msgid "MySQL Character Set. Leave blank for MySQL default latin1"
+msgstr ""
+"Набор символов MySQL. Оставьте пустым для установки значения по умолчанию  "
+"latin1"
+
+#: views/form.php:425
+msgid "MySQL Host"
+msgstr "Хост MySQL"
+
+#: views/form.php:521
+msgid "MySQL Password"
+msgstr "Пароль MySQL"
+
+#: views/form.php:497
+msgid "MySQL Username"
+msgstr "Имя пользователя MySQL"
+
+#: views/form.php:24
+msgid "MySQL:"
+msgstr "MySQL:"
+
+#: views/form.php:129
+msgid "No"
+msgstr "Нет"
+
+#: Cidlookup.class.php:96
+msgid "None"
+msgstr "Отсутствует"
+
+#: views/form.php:554 views/form.php:559
+msgid "Not yet implemented"
+msgstr "Пока не обеспечивается"
+
+#: views/form.php:10 views/form.php:15
+msgid "OpenCNAM"
+msgstr "OpenCNAM"
+
+#: functions.inc.php:192
+msgid "OpenCNAM Requires Authentication"
+msgstr "OpenCNAM требует аутентификации"
+
+#: bin/opencnam-alert.php:22
+msgid "OpenCNAM Throttle Reached!"
+msgstr "Достигнут предел запросов к OpenCNAM!"
+
+#: views/form.php:19
+msgid "OpenCNAM:"
+msgstr "OpenCNAM:"
+
+#: views/form.php:337 views/form.php:509
+msgid "Password"
+msgstr "Пароль"
+
+#: views/form.php:349
+msgid "Password to use in HTTP authentication"
+msgstr "Пароль для аутентификации по HTTP"
+
+#: views/form.php:361
+msgid "Path"
+msgstr "Путь"
+
+#: views/form.php:373
+msgid ""
+"Path of the file to GET<br/>e.g.: /cidlookup.php<br>Special token '[NUMBER]' "
+"will be replaced with caller number<br/>e.g.: /cidlookup/[NUMBER]/<br/"
+">'[NAME]' will be replaced with existing caller id name<br/>'[LANGUAGE]' "
+"will be replaced with channel language"
+msgstr ""
+"Путь к файлу GET-запроса <br/>напр.: /cidlookup.php<br>Специальный токен "
+"'[Номер]' будет заменён номером вызывающего абонента<br/>напр.: /cidlookup/"
+"[NUMBER]/<br/>'[NAME]' будет заменен на существующее имя вызывающего "
+"абонента<br/>'[LANGUAGE]' будет заменен на язык канала"
+
+#: views/form.php:289
+msgid "Port"
+msgstr "Порт"
+
+#: views/form.php:301
+msgid "Port HTTP(s) server is listening at (default http 80, https 443)"
+msgstr "Порт HTTP(s) сервера (по умолчанию  http 80, https 443)"
+
+#: views/form.php:385 views/form.php:461
+msgid "Query"
+msgstr "Запрос"
+
+#: views/form.php:397
+msgid ""
+"Query string, special token '[NUMBER]' will be replaced with caller "
+"number<br/>e.g.: number=[NUMBER]&source=crm<br/>'[NAME]' will be replaced "
+"with existing caller id name<br/>'[LANGUAGE]' will be replaced with channel "
+"language"
+msgstr ""
+"Строка запроса, специальный токен '[Номер]' будет заменён номером "
+"вызывающего абонента<br/>напр.: number=[NUMBER]&source=crm<br/>'[NAME]' "
+"будет заменен на существующее имя вызывающего абонента<br/>'[LANGUAGE]' "
+"будет заменен на язык канала"
+
+#: views/form.php:473
+msgid ""
+"Query, special token '[NUMBER]' will be replaced with caller number<br/>e."
+"g.: SELECT name FROM phonebook WHERE number LIKE '%[NUMBER]%'"
+msgstr ""
+"Запрос, специальный токен '[NUMBER]' будет заменен номером вызывающего "
+"абонента<br/>напр.: ВЫБЕРИТЕ имя ДЛЯ телефонной книги ГДЕ номер ПОДОБЕН "
+"'%[NUMBER]%'"
+
+#: Cidlookup.class.php:76
+msgid "Reset"
+msgstr "Сброс"
+
+#: views/form.php:25
+msgid "Searches a contact manager group"
+msgstr "Поиск группы менеджеров контактов"
+
+#: views/form.php:17
+msgid "Select the source type, you can choose between:"
+msgstr "Выберите тип источника, вы можете выбрать между:"
+
+#: views/bootnav.php:16
+msgid "Source"
+msgstr "Источник"
+
+#: views/form.php:66
+msgid "Source Description"
+msgstr "Описание источника"
+
+#: views/form.php:90
+msgid "Source type"
+msgstr "Тип источника"
+
+#: functions.inc.php:40
+msgid "Sources can be added in Caller Name Lookup Sources section"
+msgstr ""
+"Источники могут быть добавлены в секцию Источники поиска имени вызывающего"
+
+#: Cidlookup.class.php:71
+msgid "Submit"
+msgstr "Сохранить"
+
+#: views/form.php:49
+#, php-format
+msgid ""
+"There are %s DIDs using this source that will no longer have lookups if "
+"deleted."
+msgstr ""
+"Следующие номера %s DID не смогут больше использовать этот источник, если он "
+"будет удалён."
+
+#: views/grid.php:39
+msgid "Type"
+msgstr "Тип"
+
+#: functions.inc.php:192
+msgid ""
+"Unauthenticated calls to the OpenCNAM API will soon fail. You will need an "
+"OpenCNAM account to continue using their API"
+msgstr ""
+"Неаутентифицированные вызовы API-интерфейса OpenCNAM скоро выйдут из строя. "
+"Вам понадобится учетная запись OpenCNAM чтобы продолжать использовать их API"
+
+#: views/form.php:313 views/form.php:485
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: views/form.php:325
+msgid "Username to use in HTTP authentication"
+msgstr "Имя пользователя для аутентификации по HTTP"
+
+#: views/form.php:127
+msgid "Yes"
+msgstr "Да"
+
+#: bin/opencnam-alert.php:22
+msgid ""
+"You have gone past the free OpenCNAM usage limits.<br/><br/>To continue "
+"getting caller ID name information, you need to create an OpenCNAM "
+"Professional Account.<br/><br/>You can create an OpenCNAM account at: <a "
+"href=\"https://www.opencnam.com/register\">https://www.opencnam.com/"
+"register</a>.<br/><br/>Once you have created an account, visit the CallerID "
+"Lookup Sources menu and enter your OpenCNAM Professional Tier credentials."
+"<br/>"
+msgstr ""
+"Окончен период свободного использования OpenCNAM.<br/><br/>Чтобы продолжать "
+"получать информацию о вызывающем абоненте, необходимо создать "
+"профессиональный аккаунт OpenCNAM .<br/><br/>Вы можете создать его, перейдя "
+"по ссылке <a href=\"https://www.opencnam.com/register\">https://www.opencnam."
+"com/register</a>.<br/><br/>Сразу после создания аккаунта, зайдите в меню "
+"источники поиска CallerID и введите данные OpenCNAM профессионального уровня."
+"<br/>"
+
+#: views/form.php:225
+msgid ""
+"Your OpenCNAM Account SID. This can be found on your OpenCNAM dashboard "
+"page: https://www.opencnam.com/dashboard"
+msgstr ""
+"SID вашего аккаунта OpenCNAM. Его можно посмотреть на странице: https://www."
+"opencnam.com/dashboard"
+
+#: views/form.php:249
+msgid ""
+"Your OpenCNAM Auth Token. This can be found on your OpenCNAM dashboard page: "
+"https://www.opencnam.com/dashboard"
+msgstr ""
+"Ваш авторизационный токен OpenCNAM. Его можно посмотреть на странице: "
+"https://www.opencnam.com/dashboard"
