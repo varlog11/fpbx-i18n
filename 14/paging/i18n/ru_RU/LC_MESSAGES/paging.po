@@ -7,11 +7,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: Paging\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-26 16:22+0530\n"
-"PO-Revision-Date: 2020-12-02 18:02+0500\n"
-"Language-Team: TranslAster\n"
+"PO-Revision-Date: 2020-12-03 09:10+0500\n"
+"Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: assets/js/paging.js:39
 msgid " Please set the event days."
-msgstr "Пожалуйста, установите дни события."
+msgstr " Пожалуйста, установите дни события."
 
 #: assets/js/paging.js:42
 msgid " Please set the event time."
-msgstr "Пожалуйста, установите время события."
+msgstr " Пожалуйста, установите время события."
 
 #: Paging.class.php:207
 msgid ""
@@ -48,6 +48,9 @@ msgid ""
 "<strong>Ring</strong><br> Treat the page as a normal call, and ring the "
 "extension (if Call Waiting is disabled, this will return BUSY"
 msgstr ""
+"<strong>Ring</strong><br> относиться к пейджингу как к обычному вызову и "
+"звонить по добавочному номеру (если ожидание вызова отключено, то будет "
+"возвращено ЗАНЯТО"
 
 #: views/form.php:222
 msgid ""
@@ -66,6 +69,20 @@ msgid ""
 "</li>\n"
 "</ul>"
 msgstr ""
+"<ul>\n"
+"<li><b>\"Пропустить\"</b> не будет пейджинговать любой занятый номер. Все "
+"остальные номера будут пейджинговаться как обычно</li>\n"
+"<li> <b>\"Принудительно\"</b> не будет проверять, используется ли устройство "
+"перед его пейджингом. Это означает, что разговоры могут быть прерваны "
+"пейджингом (в зависимости от того, как устройство обрабатывает их). Это "
+"полезно для \"аварийных\" групп пейджинга.\n"
+"<li><b>\"Шепот\"</b> попытается использовать возможность ChanSpy на SIP-"
+"каналах, в результате чего пейджинг будет отправлен в наушник устройства "
+"\"шепотом\" пользователю, но не услышан удаленной стороной. Если ChanSpy не "
+"поддерживается на устройстве или иным образом выходит из строя, ни один "
+"пейджинг не пройдет. Вероятно, нет особого смысла выбирать дуплексный режим "
+"при использовании режима шепота.</li>\n"
+"</ul>"
 
 #: views/grid.php:14
 msgid "Actions"
@@ -87,10 +104,19 @@ msgid ""
 "feature codes to block/allow intercom calls to all users as well as blocking "
 "specific users or only allowing specific users."
 msgstr ""
+"Позволяет создавать группы пейджинга для объявлений с помощью динамика, "
+"встроенного в большинство SIP-телефонов. Также создается код функции "
+"интеркома, который может использоваться в качестве префикса для прямого "
+"разговора с одним человеком, а также дополнительные коды функций для "
+"блокировки/разрешения вызовов интеркома всем пользователям, а также "
+"блокировки определенных пользователей или разрешения только определенных "
+"пользователей."
 
 #: views/settings.php:68
 msgid "Annoucement to be played to remote party. Default is a beep"
 msgstr ""
+"Объявление, которое будет воспроизведено удаленной стороне. По умолчанию это "
+"звуковой сигнал"
 
 #: views/form.php:164
 msgid ""
@@ -99,6 +125,11 @@ msgid ""
 "default to beep. This Announcement file duration should not exceed Default "
 "ringtime(Advanced Settings)"
 msgstr ""
+"Объявление, которое будет воспроизведено удаленной стороне. Если установлено "
+"значение по умолчанию - будет использоваться глобальная настройка из групп "
+"пейджинга. Если группы пейджинга не определены, то по умолчанию будет "
+"подаваться сигнал. Продолжительность этого файла объявления не должна "
+"превышать время вызова по умолчанию(Расширенные настройки)"
 
 #: paging.i18n.php:6
 msgid "Applications"
@@ -114,7 +145,7 @@ msgstr "Гудок"
 
 #: views/form.php:205
 msgid "Busy Extensions"
-msgstr ""
+msgstr "Занятые расширения"
 
 #: views/form.php:44 views/grid.php:13 views/settings.php:4
 msgid "Default"
@@ -122,7 +153,7 @@ msgstr "По умолчанию"
 
 #: functions.inc.php:1058
 msgid "Default Group Inclusion"
-msgstr ""
+msgstr "Включение группы по-умолчанию"
 
 #: functions.inc.php:1061 views/form.php:268
 msgid "Default Page Group"
@@ -146,6 +177,10 @@ msgid ""
 "user). Amount of pagable devices is restricted by the advanced setting key "
 "PAGINGMAXPARTICIPANTS and is currently set to "
 msgstr ""
+"Устройства для пейджинга. Обратите внимание, что пейджинг вызывает "
+"фактическое устройство (а не пользователя). Количество доступных для "
+"просмотра устройств ограничено ключём расширенных настроек "
+"PAGINGMAXPARTICIPANTS и в настоящее время установлено на "
 
 #: functions.inc.php:1037
 msgid "Disable"
@@ -157,11 +192,11 @@ msgstr "Выключен"
 
 #: views/settings.php:80
 msgid "Drop Silence"
-msgstr ""
+msgstr "Отбрасывать тишину"
 
 #: views/form.php:238
 msgid "Duplex"
-msgstr ""
+msgstr "Дуплекс"
 
 #: functions.inc.php:1033
 msgid "Enabled"
@@ -189,10 +224,14 @@ msgid ""
 "will appear in the Extensions Module that will allow you to include or "
 "exclude that Extension in the default Page Group when editing said extension"
 msgstr ""
+"Если вы решите сделать группу пейджинга группой \"по умолчанию\", в модуле "
+"Расширения появится флажок, который позволит вам включить или исключить это "
+"расширение в группу пейджинга по умолчанию при редактировании указанного "
+"расширения"
 
 #: functions.inc.php:1030
 msgid "Include"
-msgstr ""
+msgstr "Включить"
 
 #: functions.inc.php:1038
 msgid "Intercom"
@@ -209,16 +248,16 @@ msgstr "Переопределение интеркома"
 #: functions.inc.php:329
 #, php-format
 msgid "Intercom from %s: Disabled"
-msgstr ""
+msgstr "Интерком для %s: отключен"
 
 #: functions.inc.php:267
 #, php-format
 msgid "Intercom from %s: Enabled"
-msgstr ""
+msgstr "Интерком для %s: включен"
 
 #: install.php:5 paging.i18n.php:16
 msgid "Intercom prefix"
-msgstr ""
+msgstr "Префикс интеркома"
 
 #: functions.inc.php:317
 msgid "Intercom: Disabled"
@@ -254,6 +293,8 @@ msgid ""
 "Override the speaker volume for this page. Note: This is only valid for "
 "Sangoma phones at this time"
 msgstr ""
+"Переопределить громкость динамика для этого пейджинга. Примечание: В "
+"настоящее время это действительно только для телефонов Sangoma"
 
 #: functions.inc.php:778 views/bootnav.php:13 views/formwrap.php:9
 #: views/grid.php:11
@@ -262,7 +303,7 @@ msgstr "Группа пейджинга"
 
 #: functions.inc.php:866
 msgid "Page Group: "
-msgstr "Группа пейджинга:"
+msgstr "Группа пейджинга: "
 
 #: Paging.class.php:399
 #, php-format
@@ -301,6 +342,10 @@ msgid ""
 "the paging duplex, allowing all phones in the paging group to be able to "
 "talk and be heard by all. This makes it like an \"instant conference\""
 msgstr ""
+"Пейджинг, как правило, является одним из способов только для объявлений. "
+"Проверка этого сделает пейджинг дуплексным, позволяя всем телефонам в группе "
+"пейджинга иметь возможность говорить и быть услышанными всеми. Это делает "
+"его похожим на \"мгновенную конференцию\""
 
 #: assets/js/paging.js:11
 msgid "Please enter a valid end Date."
@@ -312,11 +357,11 @@ msgstr "Пожалуйста, введите действительную дат
 
 #: views/settings.php:107
 msgid "Quiet"
-msgstr ""
+msgstr "Тихий"
 
 #: Paging.class.php:197
 msgid "Reject"
-msgstr ""
+msgstr "Отклонить"
 
 #: Paging.class.php:263
 msgid "Reset"
@@ -340,7 +385,7 @@ msgstr "Пропустить"
 
 #: views/form.php:176
 msgid "Speaker Volume Override"
-msgstr ""
+msgstr "Переопределение громкости динамика"
 
 #: Paging.class.php:268 views/settings.php:128
 msgid "Submit"
@@ -348,11 +393,11 @@ msgstr "Сохранить"
 
 #: assets/js/paging.js:16
 msgid "The end date must biger greater the start date."
-msgstr ""
+msgstr "Дата окончания должна быть раньше даты начала."
 
 #: views/form.php:85
 msgid "The number users will dial to page this group"
-msgstr ""
+msgstr "Номер, который пользователи будут набирать для пейджинга этой группы"
 
 #: views/overview.php:6
 msgid ""
@@ -367,6 +412,17 @@ msgid ""
 "set to auto-answer should also work (such as the console extension if "
 "configured)."
 msgstr ""
+"Этот модуль предназначен для конкретных телефонов, которые способны вызывать "
+"пейджинг или интерком. Этот раздел предназначен для настройки групповой "
+"пейджинговой связи, интерком настраивается через <strong>Сервисные коды</"
+"strong>. Интерком должен быть включен на телефонной трубке, прежде чем "
+"разрешать входящие звонки. Можно ограничить входящие вызовы интеркома только "
+"определенными добавочными номерами или разрешить вызовы интеркома со всех "
+"добавочных номеров, но явно запретить от определенных добавочных номеров."
+"<br /><br/>Этот модуль должен работать с Aastra, Grandstream, Linksys/"
+"Sipura, Mitel, Polycom , SNOM и, возможно, другими SIP-телефонами (не ATAs). "
+"Любой телефон, который всегда настроен на автоответ, также должен работать "
+"(например, расширение консоли, если оно настроено)."
 
 #: views/settings.php:95
 msgid ""
@@ -375,28 +431,35 @@ msgid ""
 "remove the buildup of background noise from the conference. Highly "
 "recommended for large conferences due to its performance enhancements."
 msgstr ""
+"Эта опция отбрасывает то, что Asterisk определяет как тишину от входа в "
+"мост. Включение этой опции значительно повысит производительность и поможет "
+"устранить накопление фонового шума в конференции. Настоятельно рекомендуется "
+"для больших конференций из-за повышения производительности."
 
 #: views/settings.php:122
 msgid "This option removes the beep from caller."
-msgstr ""
+msgstr "Эта опция удаляет звуковой сигнал от абонента."
 
 #: Paging.class.php:185
 msgid "Unknown Request"
-msgstr ""
+msgstr "Неизвестный запрос"
 
 #: install.php:6 paging.i18n.php:14
 msgid "User Intercom Allow"
-msgstr ""
+msgstr "Интерком пользователя разрешить"
 
 #: install.php:7 paging.i18n.php:12
 msgid "User Intercom Disallow"
-msgstr ""
+msgstr "Интерком пользователя запретить"
 
 #: functions.inc.php:1072
 msgid ""
 "When Enabled users can use *80<ext> to force intercom. When Disabled this "
 "user will reject intercom calls"
 msgstr ""
+"При включении пользователи могут использовать *80<ext> для принудительного "
+"интеркома. При отключении этот пользователь будет отклонять вызовы "
+"внутренней связи"
 
 #: functions.inc.php:1068
 msgid ""
@@ -422,10 +485,12 @@ msgid ""
 "When using Intercom to page an extension, if the extension is in use, you "
 "have three options."
 msgstr ""
+"При использовании интеркома для вызова добавочного номера, если он "
+"используется, у вас есть три варианта."
 
 #: views/form.php:214
 msgid "Whisper"
-msgstr ""
+msgstr "Шепот"
 
 #: views/form.php:243 views/form.php:273 views/settings.php:85
 #: views/settings.php:112
@@ -437,3 +502,5 @@ msgid ""
 "You can include or exclude this extension/device from being part of the "
 "default page group when creating or editing."
 msgstr ""
+"Вы можете включить или исключить этот доб.номер/устройство из группы "
+"пейджинга по умолчанию при создании или редактировании."
