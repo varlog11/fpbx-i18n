@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Framework 14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 07:16+0000\n"
-"PO-Revision-Date: 2020-11-26 09:35+0500\n"
+"PO-Revision-Date: 2020-12-09 12:41+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -9235,12 +9235,12 @@ msgstr "Секунды"
 #: ../core/functions.inc/drivers/Sip.class.php:537
 #: ../core/views/trunks/pjsip.php:68
 msgid "Secret"
-msgstr "Секрет"
+msgstr "Пароль"
 
 #: ../core/functions.inc/drivers/Sip.class.php:537
 #, php-format
 msgid "Secret [Enter \"%s\" to regenerate]"
-msgstr "Пароль(Введите \"%s\" для перегенерации)"
+msgstr "Пароль [Введите \"%s\" для перегенерации]"
 
 #: amp_conf/htdocs/admin/views/welcome.php:11
 msgid "Security"
