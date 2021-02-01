@@ -10,12 +10,12 @@ msgstr ""
 "Project-Id-Version: Voicemail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-19 10:01+0530\n"
-"PO-Revision-Date: 2020-11-02 15:18+0500\n"
+"PO-Revision-Date: 2021-02-01 17:40+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -176,7 +176,7 @@ msgstr "Учетная запись"
 
 #: views/settings.php:6 views/ssettings.php:6
 msgid "Account Advanced Settings"
-msgstr ""
+msgstr "Расширенные настройки аккаунта"
 
 #: views/settings.php:4 views/ssettings.php:4
 msgid "Account Settings"
@@ -192,7 +192,7 @@ msgstr ""
 
 #: views/usage_system.php:10
 msgid "Activated"
-msgstr ""
+msgstr "Активировано"
 
 #: functions.inc.php:986
 msgid "Advanced Settings For: "
@@ -223,19 +223,19 @@ msgstr ""
 
 #: views/ucp_config.php:91
 msgid "Allow Voicemail Download"
-msgstr ""
+msgstr "Разрешить загрузку голосовой почты"
 
 #: views/ucp_config.php:149
 msgid "Allow Voicemail Greetings"
-msgstr ""
+msgstr "Разрешить приветствие голосовой почты"
 
 #: views/ucp_config.php:62
 msgid "Allow Voicemail Playback"
-msgstr ""
+msgstr "Разрешить воспроизведение голосовой почты"
 
 #: views/ucp_config.php:120
 msgid "Allow Voicemail Settings"
-msgstr ""
+msgstr "Разрешить настройки голосовой почты"
 
 #: Voicemail.class.php:2067
 msgid ""
@@ -262,7 +262,7 @@ msgstr ""
 
 #: views/ucp_config.php:36
 msgid "Allowed Voicemail"
-msgstr ""
+msgstr "Разрешенная голосовая почта"
 
 #: ucp/assets/js/global.js:271
 msgid "Are you sure you wish to delete these voicemails?"
@@ -283,11 +283,11 @@ msgstr ""
 
 #: Voicemail.class.php:2262
 msgid "Attach Voicemail"
-msgstr ""
+msgstr "Прикреплять голосовую почту"
 
 #: views/dialplan.php:165
 msgid "Attempt(s)"
-msgstr ""
+msgstr "Попытка(и)"
 
 #: install.php:192
 msgid "Attempting to delete.."
@@ -295,7 +295,7 @@ msgstr ""
 
 #: ucp/views/vmsettings.php:47
 msgid "Auto-Refresh"
-msgstr ""
+msgstr "Автообновление"
 
 #: functions.inc.php:979
 msgid "Basic Settings For: "
@@ -316,11 +316,11 @@ msgstr "Занят"
 
 #: Voicemail.class.php:79 views/usage.php:122
 msgid "Busy Greeting"
-msgstr ""
+msgstr "Приветствие при занятости"
 
 #: views/usage_system.php:141
 msgid "Busy Greetings"
-msgstr ""
+msgstr "Приветствия при занятости"
 
 #: ucp/views/widget.php:61
 msgid "CID"
@@ -356,7 +356,7 @@ msgstr "Проверяем перенос основных настроек.."
 
 #: Voicemail.class.php:2471
 msgid "Close Timeout"
-msgstr ""
+msgstr "Тайм-аут закрытия"
 
 #: Voicemail.class.php:2582 page.voicemail.php:217
 msgid "Comma separated list of internal contexts to use caller ID."
@@ -385,7 +385,7 @@ msgstr ""
 
 #: Voicemail.class.php:2567
 msgid "Context Config"
-msgstr ""
+msgstr "Конфигурация контекста"
 
 #: Voicemail.class.php:2575 page.voicemail.php:215 page.voicemail.php:294
 msgid ""
@@ -554,7 +554,7 @@ msgstr ""
 #: Voicemail.class.php:2042 functions.inc.php:659 page.voicemail.php:523
 #: ucp/views/vmsettings.php:42
 msgid "Delete Voicemail"
-msgstr ""
+msgstr "Удалить голосовую почту"
 
 #: views/usage_system.php:160
 msgid "Delete all Busy Messages"
@@ -570,7 +570,7 @@ msgstr ""
 #: views/usage_system.php:147 views/usage_system.php:178
 #: views/usage_system.php:209
 msgid "Delete:"
-msgstr ""
+msgstr "Удалить:"
 
 #: install.php:121
 msgid "Deleting migrated settings.."
@@ -587,7 +587,7 @@ msgstr "Устройство"
 #: functions.inc.php:224 functions.inc.php:290 install.php:10
 #: voicemail.i18n.php:26
 msgid "Dial Voicemail"
-msgstr ""
+msgstr "Вызов голосовой почты"
 
 #: Voicemail.class.php:2588
 msgid "Dialout Context"
@@ -619,11 +619,11 @@ msgstr "Выключить"
 
 #: functions.inc.php:589
 msgid "Disable (*) in Voicemail Menu"
-msgstr ""
+msgstr "Отключить (*) в меню голосовой почты"
 
 #: views/dialplan.php:12
 msgid "Disable Standard Prompt"
-msgstr ""
+msgstr "Отключить стандартные подсказки"
 
 #: views/dialplan.php:213
 msgid "Disable Standard Prompt after Max Loops"
@@ -675,7 +675,7 @@ msgstr "Адрес Email"
 
 #: functions.inc.php:626 page.voicemail.php:520 ucp/views/vmsettings.php:25
 msgid "Email Attachment"
-msgstr ""
+msgstr "Вложить в e-mail"
 
 #: Voicemail.class.php:2196
 msgid "Email Body"
@@ -683,15 +683,15 @@ msgstr "Содержание письма"
 
 #: Voicemail.class.php:2181
 msgid "Email Config"
-msgstr ""
+msgstr "Настройки писем"
 
 #: Voicemail.class.php:2210
 msgid "Email Date Format"
-msgstr ""
+msgstr "Формат даты e-mail"
 
 #: Voicemail.class.php:2203
 msgid "Email From String"
-msgstr ""
+msgstr "Строка от в письме"
 
 #: Voicemail.class.php:2188
 msgid "Email Subject"
@@ -699,11 +699,11 @@ msgstr "Тема письма"
 
 #: page.voicemail.php:219
 msgid "Email body."
-msgstr ""
+msgstr "Тело письма"
 
 #: page.voicemail.php:221
 msgid "Email subject"
-msgstr ""
+msgstr "Тема письма"
 
 #: page.voicemail.php:288 page.voicemail.php:320
 msgid ""
@@ -744,11 +744,11 @@ msgstr ""
 
 #: views/quickCreate.php:5
 msgid "Enable Voicemail"
-msgstr ""
+msgstr "Включить голосовую почту"
 
 #: views/ucp_config.php:7
 msgid "Enable Voicemail Access"
-msgstr ""
+msgstr "Включить доступ к голосовой почте"
 
 #: views/ucp_config.php:26
 msgid "Enable the voicemail Access in UCP for this user"
@@ -818,7 +818,7 @@ msgstr ""
 
 #: Voicemail.class.php:2034
 msgid "Envelope Playback"
-msgstr ""
+msgstr "Воспроизводить конверт"
 
 #: functions.inc.php:649 ucp/views/vmsettings.php:37
 msgid ""
@@ -827,6 +827,10 @@ msgid ""
 "not affect the operation of the envelope option in the advanced Voicemail "
 "menu."
 msgstr ""
+"Конверт определяет, будет ли система голосовой почты воспроизводить конверт "
+"сообщения (дата/время) перед воспроизведением сообщения голосовой почты. "
+"Этот параметр не влияет на работу параметра конверт в расширенном меню "
+"голосовой почты."
 
 #: Voicemail.class.php:1414
 #, php-format
@@ -907,7 +911,7 @@ msgstr ""
 
 #: Voicemail.class.php:1941 Voicemail.class.php:1948
 msgid "File Format"
-msgstr ""
+msgstr "Формат файла"
 
 #: ucp/Voicemail.class.php:302
 msgid "File does not exist"
@@ -922,7 +926,7 @@ msgstr ""
 
 #: page.voicemail.php:234
 msgid "For IMAP storage"
-msgstr ""
+msgstr "Для IMAP-хранилища"
 
 #: page.voicemail.php:239
 msgid "For IMAP storage - TCP open timeout in seconds"
@@ -999,7 +1003,7 @@ msgstr ""
 
 #: Voicemail.class.php:73
 msgid "Friends"
-msgstr ""
+msgstr "Друзья"
 
 #: Voicemail.class.php:2204 Voicemail.class.php:2233 page.voicemail.php:233
 msgid "From: string for email"
@@ -1475,7 +1479,7 @@ msgstr ""
 
 #: functions.inc.php:172 install.php:9 voicemail.i18n.php:32
 msgid "My Voicemail"
-msgstr ""
+msgstr "Моя голосовая почта"
 
 #: page.voicemail.php:495
 msgid "Name"
@@ -1483,7 +1487,7 @@ msgstr "Название"
 
 #: Voicemail.class.php:78
 msgid "Name Greeting"
-msgstr ""
+msgstr "Название приветствия"
 
 #: page.voicemail.php:301
 msgid "Name of Voicemail account"
@@ -1495,7 +1499,7 @@ msgstr ""
 
 #: views/tz.php:37
 msgid "New Name"
-msgstr ""
+msgstr "Новое название"
 
 #: Voicemail.class.php:2512
 msgid "New Password"
@@ -1503,7 +1507,7 @@ msgstr "Новый пароль"
 
 #: views/tz.php:61
 msgid "New Timezone Definition"
-msgstr ""
+msgstr "Новое определение часового пояса"
 
 #: Voicemail.class.php:2154
 msgid "Next after command"
@@ -1526,11 +1530,11 @@ msgstr ""
 #: views/usage_system.php:120 views/usage_system.php:151
 #: views/usage_system.php:182 views/usage_system.php:213
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: page.voicemail.php:425 views/dialplan.php:48
 msgid "No Message"
-msgstr ""
+msgstr "Нет сообщения"
 
 #: page.voicemail.php:494
 msgid "No name defined; this is configured from the Extensions or Users page."
@@ -1597,11 +1601,11 @@ msgstr ""
 
 #: Voicemail.class.php:74
 msgid "Old"
-msgstr ""
+msgstr "Старое"
 
 #: ucp/assets/js/global.js:127
 msgid "On"
-msgstr ""
+msgstr "Вкл"
 
 #: Voicemail.class.php:2478
 msgid "Open Timeout"
@@ -1666,11 +1670,11 @@ msgstr "Пароль"
 
 #: Voicemail.class.php:2519
 msgid "Password Changed"
-msgstr ""
+msgstr "Пароль изменен"
 
 #: Voicemail.class.php:2505
 msgid "Password Mismatch"
-msgstr ""
+msgstr "Несоответствие пароля"
 
 #: Voicemail.class.php:1969
 msgid "Pause Keys"
@@ -1686,11 +1690,11 @@ msgstr ""
 
 #: functions.inc.php:637 page.voicemail.php:521 ucp/views/vmsettings.php:30
 msgid "Play CID"
-msgstr ""
+msgstr "Воспроизводить CID"
 
 #: functions.inc.php:648 page.voicemail.php:522 ucp/views/vmsettings.php:35
 msgid "Play Envelope"
-msgstr ""
+msgstr "Воспроизводить конверт"
 
 #: ucp/views/widget.php:63
 msgid "Playback"
@@ -1731,27 +1735,27 @@ msgstr ""
 
 #: ucp/views/vmx.php:20
 msgid "Press 0"
-msgstr ""
+msgstr "Нажмите 0"
 
 #: functions.inc.php:851
 msgid "Press 0:"
-msgstr ""
+msgstr "Нажмите 0:"
 
 #: ucp/views/vmx.php:30
 msgid "Press 1"
-msgstr ""
+msgstr "Нажмите 1"
 
 #: functions.inc.php:869 functions.inc.php:879
 msgid "Press 1:"
-msgstr ""
+msgstr "Нажмите 1:"
 
 #: ucp/views/vmx.php:40
 msgid "Press 2"
-msgstr ""
+msgstr "Нажмите 2"
 
 #: functions.inc.php:897
 msgid "Press 2:"
-msgstr ""
+msgstr "Нажмите 2:"
 
 #: functions.inc.php:852
 msgid ""
@@ -2348,7 +2352,7 @@ msgstr ""
 #: views/usage_system.php:114 views/usage_system.php:145
 #: views/usage_system.php:176 views/usage_system.php:207
 msgid "Total"
-msgstr ""
+msgstr "Всего"
 
 #: Voicemail.class.php:2035
 msgid "Turn on/off envelope playback before message playback"
@@ -2595,7 +2599,7 @@ msgstr ""
 
 #: ucp/Voicemail.class.php:163
 msgid "Voicemail Settings"
-msgstr ""
+msgstr "Настройки голосовой почты"
 
 #: functions.inc.php:323
 msgid ""
@@ -2615,7 +2619,7 @@ msgstr ""
 
 #: Voicemail.class.php:2004
 msgid "Volume Gain"
-msgstr ""
+msgstr "Усиление громкости"
 
 #: Voicemail.class.php:1403
 #, php-format
