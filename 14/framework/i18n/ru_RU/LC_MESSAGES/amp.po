@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Framework 14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 07:16+0000\n"
-"PO-Revision-Date: 2020-12-09 12:41+0500\n"
+"PO-Revision-Date: 2021-02-02 12:41+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5920,12 +5920,16 @@ msgid ""
 "If set the hint will be INUSE if the time condition is matched, and "
 "NOT_INUSE if it fails"
 msgstr ""
+"Если задано, то подсказка будет INUSE если условие времени совпадает, и "
+"NOT_INUSE - если не совпадает"
 
 #: amp.i18n.php:594
 msgid ""
 "If set this will over ride the URL settings in the CRM. This is experimental "
 "and may break things."
 msgstr ""
+"Если этот параметр установлен - он будет переопределять параметры URL-адреса "
+"в CRM. Это экспериментально и ненадёжно."
 
 #: amp.i18n.php:40
 msgid ""
@@ -5933,6 +5937,9 @@ msgid ""
 "technology set here for all websocket communication. Asterisk can not work "
 "with both drivers at the same time!"
 msgstr ""
+"Если установлено что-либо иное чем auto, Asterisk будет вынуждена "
+"использовать технологию, установленную здесь для всех соединений вебсокета. "
+"Asterisk не может работать с обоими драйверами одновременно!"
 
 #: amp.i18n.php:276
 msgid ""
@@ -6027,6 +6034,9 @@ msgid ""
 "If you want to sign your own modules to protect them from unauthorized "
 "tampering, please see the link below for more information:"
 msgstr ""
+"Если вы хотите подписать свои собственные модули для защиты их от "
+"несанкционированного вмешательства, пожалуйста, обратитесь к ссылке ниже для "
+"получения дополнительной информации:"
 
 #: ../core/functions.inc.php:5709
 msgid ""
@@ -6055,11 +6065,11 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:60
 msgid "Ignore cache"
-msgstr ""
+msgstr "Игнорировать кэш"
 
 #: amp_conf/htdocs/admin/libraries/Console/Localization.class.php:44
 msgid "Ignore last change date, process regardless"
-msgstr ""
+msgstr "Игнорировать дату последнего изменения, обрабатывать независимо"
 
 #: amp.i18n.php:606
 msgid "Image: Footer"
@@ -6187,7 +6197,7 @@ msgstr "Инициализация настроек freepbx_conf.."
 
 #: amp.i18n.php:584
 msgid "Insert the date information into the CDR database using GMT time"
-msgstr ""
+msgstr "Вставьте информацию о дате в базу данных CDR, используя время GMT"
 
 #: upgrades/2.11.0rc1/migration.php:23
 msgid "Inserted interim RTPSTART and RTPEND settings"
@@ -6200,7 +6210,7 @@ msgstr "Установить"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1320
 msgid "Install all local modules, accepts no arguments"
-msgstr ""
+msgstr "Установить все локальные модули, аргументы не принимаются"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:810
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:830
@@ -6445,7 +6455,7 @@ msgstr ""
 #: amp_conf/htdocs/admin/libraries/Console/Stop.class.php:155
 #: amp_conf/htdocs/admin/libraries/Console/Stop.class.php:181
 msgid "Killing asterisk forcefully."
-msgstr ""
+msgstr "Принудительное завершение Asterisk."
 
 #: ../core/views/routing/form.php:696 ../core/views/trunks/trunk_footer.php:24
 msgid "LOADING ROUTES"
@@ -6461,11 +6471,11 @@ msgstr "Языки"
 
 #: amp_conf/htdocs/admin/libraries/Builtin/SystemUpdates.php:540
 msgid "Last Online Check Status:"
-msgstr ""
+msgstr "Статус последней онлайн-проверки:"
 
 #: amp_conf/htdocs/admin/libraries/Builtin/SystemUpdates.php:544
 msgid "Last System Update:"
-msgstr ""
+msgstr "Последнее обновление системы:"
 
 #: ../core/views/routing/form.php:49
 #, php-format
@@ -6474,11 +6484,11 @@ msgstr "Последний после %s"
 
 #: amp_conf/htdocs/admin/libraries/Builtin/UpdateManager.php:346
 msgid "Last module update check: "
-msgstr ""
+msgstr "Последняя проверка обновления модуля: "
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-summary.php:67
 msgid "Last online check:"
-msgstr ""
+msgstr "Последняя онлайн-проверка:"
 
 #: amp.i18n.php:346
 msgid "Launch local AGIs through FastAGI Server"
@@ -6491,6 +6501,10 @@ msgid ""
 "but we were unable to start FastAGI server because: %s, As a result all AGIs "
 "will be forked inside of Asterisk until this is resolved"
 msgstr ""
+"Запуск локального AGI через сервер FastAGI был включен в Расширенных "
+"настройках, но мы не смогли запустить сервер FastAGI, по причине: %s, В "
+"результате все AGI будут разветвлены внутри Asterisk до тех пор, пока это не "
+"будет решено"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-modules.php:247
 msgid "Learn More"
@@ -6739,6 +6753,8 @@ msgid ""
 "Maximum time (in seconds) to wait for asterisk to stop gracefully. Default "
 "30 seconds"
 msgstr ""
+"Максимальное время (в секундах) ожидания мягкой остановки Asterisk. По "
+"умолчанию 30 секунд"
 
 #: ../core/functions.inc/drivers/PJSip.class.php:310
 msgid "Maximum time to keep an AoR"
@@ -6935,17 +6951,17 @@ msgstr "Модуль \"%s\" подписан недействительным к
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1042
 #, php-format
 msgid "Module %s installation completed in %s seconds"
-msgstr ""
+msgstr "Установка модуля %s выполнена за %s секунд"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:413
 #, php-format
 msgid "Module %s installation failed with errors: %s"
-msgstr ""
+msgstr "Установка модуля %s неудачна из-за ошибки: %s"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:407
 #, php-format
 msgid "Module %s installation failed, could not resolve dependencies"
-msgstr ""
+msgstr "Ошибка установки модуля %s, не удалось разрешить зависимости"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1269
 #, php-format
@@ -6960,7 +6976,7 @@ msgstr "Модуль \"%s\" успешно загружен"
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:480
 #, php-format
 msgid "Module %s successfully downloaded in %s seconds"
-msgstr ""
+msgstr "Модуль %s успешно загружен за %s секунд"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1280
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1290
@@ -7263,6 +7279,8 @@ msgstr "Замечание"
 msgid ""
 "NOTICE! This system has EDGE mode enabled. For more information visit %s"
 msgstr ""
+"ВНИМАНИЕ! В этой системе включен режим EDGE. Для получения дополнительной "
+"информации посетите %s"
 
 #: amp_conf/htdocs/admin/libraries/Console/Motd.class.php:66
 #, php-format
@@ -7639,6 +7657,13 @@ msgid ""
 "If voicemail is disabled and their is not destination specified, it will be "
 "forced into Always mode"
 msgstr ""
+"Количество секунд для звонка во время Перенаправления вызова, "
+"Перенаправления вызова по занятости или Перенаправления вызова по "
+"недоступности перед продолжением вызова голосовой почты или указанного "
+"пункта назначения. Установка на \"Всегда\" не вернет вызов - будет просто "
+"продолжать звонить. По умолчанию будут использоваться расширенные настройки "
+"Переадресации вызова Ring timer Default. Если голосовая почта отключена и ее "
+"адресат не указан - она будет принудительно переведена в режим \"Всегда\""
 
 #: ../core/functions.inc.php:5747
 msgid ""
@@ -7959,7 +7984,7 @@ msgstr "Исходящий прокси"
 
 #: ../core/Core.class.php:3830
 msgid "Outbound Route:"
-msgstr ""
+msgstr "Исходящий маршрут:"
 
 #: ../core/functions.inc.php:5330
 #, php-format
@@ -7972,7 +7997,7 @@ msgstr "Исходящая маршрутизация"
 
 #: ../core/views/routing/bootnav.php:3
 msgid "Outbound Routes List"
-msgstr ""
+msgstr "Список исходящих маршрутов"
 
 #: ../core/views/trunks/sip.php:35
 msgid "Outgoing"
@@ -8704,7 +8729,7 @@ msgstr "Резервирование"
 
 #: amp_conf/htdocs/admin/libraries/Builtin/SystemUpdates.php:537
 msgid "Refresh page"
-msgstr ""
+msgstr "Обновить страницу"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1198
 #, php-format
@@ -8713,7 +8738,7 @@ msgstr "Обновление  %s"
 
 #: install.php:334
 msgid "Refreshing GPG Keys..."
-msgstr ""
+msgstr "Обновление ключей GPG..."
 
 #: ../core/functions.inc/drivers/Sip.class.php:382
 msgid "Refuse"
@@ -8832,7 +8857,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/Builtin/BMore.php:1233
 msgid "Removing database table "
-msgstr ""
+msgstr "Удаление таблицы базы данных "
 
 #: ../core/install.php:1054
 msgid "Removing encoding on incoming routes alertinfo values..."
@@ -8952,12 +8977,12 @@ msgstr "Время звонка"
 
 #: ../core/views/did/basic_form.php:92
 msgid "Ring Tone"
-msgstr ""
+msgstr "Рингтон"
 
 #: ../core/functions.inc.php:5748 ../core/views/did/advanced_form.php:211
 #: ../core/views/did/basic_form.php:115
 msgid "Ringer Volume Override"
-msgstr ""
+msgstr "Переопределение громкости звонка"
 
 #: amp.i18n.php:366
 msgid "Ringtime Default"
@@ -9040,7 +9065,7 @@ msgstr ""
 
 #: install.php:316
 msgid "Running SQL cleanup..."
-msgstr ""
+msgstr "Выполняется очистка SQL ..."
 
 #: amp_conf/htdocs/admin/libraries/Builtin/UpdateManager.php:374
 msgid "SECURITY NOTICE:"
@@ -9284,7 +9309,7 @@ msgstr "Послать"
 #: ../core/functions.inc/drivers/Sip.class.php:352
 #: ../core/views/trunks/pjsip.php:270
 msgid "Send Connected Line"
-msgstr ""
+msgstr "Отправлять Connected Line"
 
 #: ../core/functions.inc/drivers/Sip.class.php:350
 msgid "Send Connected Line updates to this endpoint."
@@ -9295,6 +9320,8 @@ msgid ""
 "Send Connected Line updates to this endpoint. It can be bad for some "
 "providers. False by default."
 msgstr ""
+"Отправлять обновления Connected Line на эту конечную точку. Для некоторых "
+"провайдеров это может быть плохой идеей. По умолчанию - false."
 
 #: amp.i18n.php:698
 msgid "Send Dashboard Notifications to Log"
@@ -9315,7 +9342,7 @@ msgstr "Посылка RPID"
 
 #: ../core/views/trunks/pjsip.php:944
 msgid "Send RPID/PAI"
-msgstr ""
+msgstr "Отправлять RPID/PAI"
 
 #: ../core/functions.inc/drivers/Sip.class.php:364
 #: ../core/views/trunks/pjsip.php:951
@@ -9342,7 +9369,7 @@ msgstr ""
 
 #: ../core/views/trunks/pjsip.php:963
 msgid "Send the P-Asserted-Identity and/or Remote-Party-ID header"
-msgstr ""
+msgstr "Отправлять заголовок P-Asserted-Identity и/или Remote-Party-ID"
 
 #: ../core/views/trunks/pjsip.php:631
 msgid "Server URI"
@@ -9350,7 +9377,7 @@ msgstr "URI сервера"
 
 #: amp_conf/htdocs/admin/libraries/BMO/View.class.php:697
 msgid "Server time:"
-msgstr ""
+msgstr "Время сервера:"
 
 #: amp.i18n.php:68
 msgid "Session Inactivity "
@@ -11177,11 +11204,11 @@ msgstr "Временная Группа назначена"
 
 #: ../core/views/routing/timecond.php:22
 msgid "Time Group Mode"
-msgstr ""
+msgstr "Режим временной группы"
 
 #: ../core/views/routing/grid.php:33
 msgid "Time Group NOT Assigned"
-msgstr ""
+msgstr "Временная Группа НЕ назначена"
 
 #: ../core/views/routing/timecond.php:74
 msgid "Time Match Calendar"
@@ -11217,6 +11244,10 @@ msgid ""
 "of value Timezones: <a href='http://php.net/manual/en/timezones.php'>http://"
 "php.net/manual/en/timezones.php</a>"
 msgstr ""
+"Часовой пояс, который должен использоваться PHP. Пустое значение будет "
+"использовать значения PHP по-умолчанию. Список значений часовых поясов: <a "
+"href='http://php.net/manual/en/timezones.php'>http://php.net/manual/en/"
+"timezones.php</a>"
 
 #: amp_conf/htdocs/admin/views/login.php:9
 msgid "To get started, please enter your credentials:"
