@@ -5,12 +5,14 @@
 # FreePBX language template for amp
 # Copyright (C) 2008-2020 Sangoma Technologies, Inc.
 # Alexander Kozyrev <ceo@postmet.com>, Alexander Anikin <may@postmet.com>, 2006-2012.
+# Dmitriy Q <dmitry@atsip.ru>, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Framework 14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 07:16+0000\n"
-"PO-Revision-Date: 2021-02-02 12:41+0500\n"
+"PO-Revision-Date: 2021-03-10 14:32+0500\n"
 "Language-Team: TranslAster <https://github.com/translaster>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6450,7 +6452,7 @@ msgstr "Введённый ключ %s не 16-тиричном формате"
 
 #: amp_conf/htdocs/admin/libraries/BMO/GPG.class.php:375
 msgid "Key revokation/trust removal is not currently implemented."
-msgstr ""
+msgstr "Ключ отозван/удален из доверенных и в настоящее время недействителен."
 
 #: amp_conf/htdocs/admin/libraries/Console/Stop.class.php:155
 #: amp_conf/htdocs/admin/libraries/Console/Stop.class.php:181
@@ -7630,7 +7632,7 @@ msgstr ""
 #: amp_conf/htdocs/admin/libraries/BMO/Mail.class.php:31
 #, php-format
 msgid "Notification from %s"
-msgstr ""
+msgstr "Уведомление от %s"
 
 #: ../core/views/routing/form.php:274
 msgid "Notifications"
@@ -7733,7 +7735,7 @@ msgstr "Использовать только последний идентиф�
 
 #: amp_conf/htdocs/admin/libraries/Console/Mysql.class.php:31
 msgid "Only mysql is supported"
-msgstr ""
+msgstr "Поддерживается только mysql"
 
 #: amp_conf/htdocs/admin/libraries/Console/Start.class.php:25
 msgid "Only run post-start hooks"
@@ -8062,7 +8064,7 @@ msgstr ""
 
 #: amp_conf/htdocs/admin/libraries/BMO/Mail.class.php:30
 msgid "PBX Message"
-msgstr ""
+msgstr "Сообщение АТС"
 
 #: ../core/views/trunks/sip.php:77
 msgid "PEER Details"
@@ -8113,7 +8115,7 @@ msgstr "Настройки PJSIP"
 
 #: ../core/Core.class.php:4090
 msgid "PM2 Not installed"
-msgstr ""
+msgstr "PM2 не установлен"
 
 #: amp.i18n.php:162
 msgid "POST_RELOAD Debug Mode"
@@ -8129,7 +8131,7 @@ msgstr "Скрипт PRE_RELOAD"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-modules.php:192
 msgid "Packaged (Released)"
-msgstr ""
+msgstr "Упакован (выпущен)"
 
 #: amp_conf/htdocs/admin/views/obe.php:30
 #: amp_conf/htdocs/admin/views/oobe.php:44 ../core/page.ampusers.php:229
@@ -8171,7 +8173,7 @@ msgstr "Путь к Asterisk"
 
 #: amp.i18n.php:644
 msgid "Path for at"
-msgstr ""
+msgstr "Путь к at"
 
 #: amp.i18n.php:648
 msgid "Path for ffmpeg"
@@ -8183,7 +8185,7 @@ msgstr "Путь к lame"
 
 #: amp.i18n.php:656
 msgid "Path for mailq"
-msgstr ""
+msgstr "Путь к mailq"
 
 #: amp.i18n.php:660
 msgid "Path for mpg123"
@@ -8195,7 +8197,7 @@ msgstr "Путь к mysqldump"
 
 #: amp.i18n.php:668
 msgid "Path for netstat"
-msgstr ""
+msgstr "Путь к netstat"
 
 #: amp.i18n.php:672
 msgid "Path for openssl"
@@ -8338,11 +8340,11 @@ msgstr "Пожалуйста исправьте следующие ошибки:
 #: ../core/functions.inc/drivers/Iax2.class.php:111
 #: ../core/functions.inc/drivers/Sip.class.php:275
 msgid "Please enter a Secret for this device"
-msgstr "Введите пароль для этого устройства"
+msgstr "Пожалуйста, введите пароль для этого устройства"
 
 #: amp_conf/htdocs/admin/libraries/BMO/OOBE.class.php:237
 msgid "Please enter a System Indentifier"
-msgstr ""
+msgstr "Пожалуйста, введите идентификатор системы"
 
 #: ../core/functions.inc.php:6008
 msgid "Please enter a device id."
@@ -8350,7 +8352,7 @@ msgstr "Введите ИД устройства."
 
 #: amp_conf/htdocs/admin/libraries/BMO/OOBE.class.php:243
 msgid "Please enter a username"
-msgstr "Пожалуйста введите имя пользователя"
+msgstr "Пожалуйста, введите имя пользователя"
 
 #: ../core/functions.inc.php:5649
 msgid "Please enter a valid CID Num Alias (must be a valid number)."
@@ -8423,6 +8425,8 @@ msgid ""
 "Please provide the core settings that will be used to administer and update "
 "your system"
 msgstr ""
+"Пожалуйста, укажите основные настройки, которые будут использоваться для "
+"администрирования и обновления вашей системы"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1583
 msgid "Please review the output above for any errors while enabling modules"
@@ -8461,12 +8465,12 @@ msgstr "Порт"
 #: ../core/functions.inc/drivers/Sip.class.php:213
 #, php-format
 msgid "Port %s (%s - this is a <strong>NON STANDARD</strong> port)"
-msgstr ""
+msgstr "Порт %s (%s - это <strong>НЕСТАНДАРТНЫЙ</strong> порт)"
 
 #: ../core/functions.inc/drivers/Sip.class.php:211
 #, php-format
 msgid "Port %s (%s)"
-msgstr ""
+msgstr "Порт %s (%s)"
 
 #: amp.i18n.php:92
 msgid "Port for the Asterisk Manager"
@@ -8498,9 +8502,10 @@ msgid ""
 "this and the subsequent columns for a match. Upon a match, this prefix is "
 "removed from the dialed number before sending it to the trunks."
 msgstr ""
-"Префикс для удаления из набранного номера, если найдено совпадени. Набранный "
-"номер сравнивается с этой и другими последующими колонками для поиска "
-"совпадений. Если найдено, префикс удаляется перед осылкой номера в транк."
+"Префикс для удаления из набранного номера, если найдено совпадение. "
+"Набранный номер сравнивается с этой и другими последующими колонками для "
+"поиска совпадений. Если найдено, префикс удаляется перед посылкой номера в "
+"транки."
 
 #: ../core/page.astmodules.php:77
 msgid "Preloaded Modules"
@@ -8598,7 +8603,7 @@ msgstr "Издатель"
 
 #: amp_conf/htdocs/admin/libraries/Console/Validate.class.php:19
 msgid "Purge and clean system"
-msgstr ""
+msgstr "Продувка и очистка системы"
 
 #: ../core/functions.inc.php:855 ../core/functions.inc.php:4571
 msgid "Put caller on hold forever"
@@ -8631,7 +8636,7 @@ msgstr "Быстрый поиск '/'"
 
 #: amp_conf/htdocs/admin/libraries/components.class.php:1111
 msgid "Quick Select"
-msgstr ""
+msgstr "Быстрый выбор"
 
 #: ../core/functions.inc/drivers/Sip.class.php:312
 msgid "RFC 2833"
@@ -9033,7 +9038,7 @@ msgstr "Правила:"
 
 #: ../core/Console/Convert2pjsip.class.php:51
 msgid "Run 'fwconsole reload' to reload config"
-msgstr ""
+msgstr "Запустите 'fwconsole reload' чтобы перезагрузить конфигурацию"
 
 #: amp_conf/htdocs/admin/libraries/Console/Job.class.php:27
 msgid "Run all jobs, or optionally run a single job if job id is appended"
@@ -9056,12 +9061,12 @@ msgstr "Выполняется запуск %s..."
 #: amp_conf/htdocs/admin/libraries/Console/Start.class.php:139
 #, php-format
 msgid "Running Asterisk post from %s module"
-msgstr ""
+msgstr "Запуск постмодуля Asterisk %s"
 
 #: amp_conf/htdocs/admin/libraries/Console/Start.class.php:116
 #, php-format
 msgid "Running Asterisk pre from %s module"
-msgstr ""
+msgstr "Запуск премодуля Asterisk %s"
 
 #: install.php:316
 msgid "Running SQL cleanup..."
@@ -9184,7 +9189,7 @@ msgstr "CRM Sangoma"
 
 #: amp_conf/htdocs/admin/config.php:810
 msgid "Sangoma Support"
-msgstr ""
+msgstr "Поддержка Sangoma"
 
 #: amp_conf/htdocs/admin/views/module_admin/tab-scheduler.php:120
 #: amp_conf/htdocs/admin/views/oobe.php:216
@@ -9232,6 +9237,35 @@ msgid ""
 "\t\t\t\t\t\t<b>{{TZSHORT}}</b> - Short Timezone.  ex. UTC, PST, +12\n"
 "\t\t\t\t\t\t"
 msgstr ""
+"Сохранение с пустым значением восстановит значения по умолчанию.\n"
+"\t\t\t\t\t\t<br />Доступные переменные для Темы и тела письма:\n"
+"\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t<b>{{CALLUID}}</b> - Unique ID вызова<br />\n"
+"\t\t\t\t\t\t<b>{{ROUTENAME}}</b> - название Исходящего маршрута<br />\n"
+"\t\t\t\t\t\t<b>{{DIALEDNUMBER}}</b> - Номер назначения как он будет "
+"отправлен в транк<br />\n"
+"\t\t\t\t\t\t<b>{{DIALEDNUMBERRAW}}</b> - Номер назначения, как он был "
+"набран<br /> \n"
+"\t\t\t\t\t\t<b>{{CALLERNAME}}</b> - Caller's name<br />\n"
+"\t\t\t\t\t\t<b>{{CALLERNUMBER}}</b> - Caller's number<br />\n"
+"\t\t\t\t\t\t<b>{{CALLERALL}}</b> - example:  \"CALLERNAME\" &lt;"
+"CALLERNUMBER&gt;<br />\n"
+"\t\t\t\t\t\t<b>{{OUTGOINGCALLERIDNAME}}</b> - Исходящий CallerID name<br />\n"
+"\t\t\t\t\t\t<b>{{OUTGOINGCALLERIDNUMBER}}</b> - Исходящий номер CallerID<br /"
+">\n"
+"\t\t\t\t\t\t<b>{{OUTGOINGCALLERIDALL}}</b> - пример: \"OUTGOINGCALLERIDNAME"
+"\" &lt;OUTGOINGCALLERIDNUMBER&gt;<br />\n"
+"\t\t\t\t\t\t<b>{{TRUNKNAME}}</b> - Название транка<br />\n"
+"\t\t\t\t\t\t<b>{{MONTH}}</b> - 2-букв.обозначение месяца<br />\n"
+"\t\t\t\t\t\t<b>{{DAY}}</b> - 2-букв.обозначение дня<br />\n"
+"\t\t\t\t\t\t<b>{{YEAR}}</b> - 4 цифры года<br />\n"
+"\t\t\t\t\t\t<b>{{TIME}}</b> - например: 17:30:00<br />\n"
+"\t\t\t\t\t\t<b>{{TIMEAMPM}}</b> - например: 5:30:00 PM<br />\n"
+"\t\t\t\t\t\t<b>{{TZFULL}}</b> - Полный часовой пояс.  напр. America/"
+"New_York<br />\n"
+"\t\t\t\t\t\t<b>{{TZSHORT}}</b> - Короткий часовой пояс.  напр. UTC, PST, "
+"+12\n"
+"\t\t\t\t\t\t"
 
 #: amp_conf/htdocs/admin/views/module_admin/tabheader.php:14
 msgid "Scheduler and Alerts"
@@ -10740,7 +10774,7 @@ msgstr ""
 #: ../core/page.ampusers.php:71
 #, php-format
 msgid "The user name %s is already in use"
-msgstr ""
+msgstr "Имя пользователя %s уже используется"
 
 #: amp.i18n.php:812
 msgid ""
@@ -11212,23 +11246,23 @@ msgstr "Временная Группа НЕ назначена"
 
 #: ../core/views/routing/timecond.php:74
 msgid "Time Match Calendar"
-msgstr ""
+msgstr "Режим совпадения - календарь"
 
 #: ../core/views/routing/timecond.php:101
 msgid "Time Match Calendar Group"
-msgstr ""
+msgstr "Совпадение времени - группа календаря"
 
 #: ../core/views/routing/timecond.php:14
 msgid "Time Match Mode"
-msgstr ""
+msgstr "Режим совпадения времени"
 
 #: ../core/views/routing/timecond.php:130
 msgid "Time Match Time Group"
-msgstr ""
+msgstr "Совпадение времени - временная группа"
 
 #: ../core/views/routing/timecond.php:45
 msgid "Time Match Time Zone:"
-msgstr ""
+msgstr "Совпадение времени - часовой пояс:"
 
 #: amp.i18n.php:104
 msgid ""

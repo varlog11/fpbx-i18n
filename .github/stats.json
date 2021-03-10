@@ -21,7 +21,7 @@
     "Custom_Contexts": "100%",
     "Custom_Destination": "100%",
     "Endpoint_Manager": "30%",
-    "Framework": "92%",
+    "Framework": "94%",
     "Follow_Me": "100%",
     "IVR": "100%",
     "Logfiles": "34%",
@@ -36,7 +36,7 @@
     "User_Control_Panel": "43%",
     "Queues": "72%",
     "User_Management": "60%",
-    "Voicemail": "37%"
+    "Voicemail": "45%"
   },
   "FreePBX_15": {
     "Framework": "86%"
