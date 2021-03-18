@@ -1,0 +1,195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#: views/view.blacklist.php:19
+msgid "Warning: Unable to resolve this entry!"
+msgstr "Предупреждение: Не удается разрешить эту запись!"
+
+#: views/oobe.welcome.php:29
+msgid ""
+"We hope you're enjoying it! There's some additional questions you should "
+"answer. If you don't want to answer them at this time, just click Abort, and "
+"no changes will be made to your existing Firewall setup."
+msgstr ""
+"Мы надеемся что вам это понравится! Есть еще несколько вопросов, на которые "
+"вы должны ответить. Если вы не хотите отвечать на них в данный момент - "
+"просто нажмите кнопку \"Прервать\" и никакие изменения в существующую "
+"настройку брандмауэра внесены не будут."
+
+#: Services.class.php:78
+msgid "Web Management"
+msgstr "Веб-управление"
+
+#: Services.class.php:99
+msgid "Web Management (Secure)"
+msgstr "Веб-управление (безопасно)"
+
+#: Services.class.php:80
+msgid ""
+"Web management interface for your PBX. This is the http, not https (secure) "
+"interface."
+msgstr ""
+"Веб-интерфейс управления для вашей АТС. Это http, а не https (безопасный) "
+"интерфейс."
+
+#: Services.class.php:101
+msgid "Web management interface for your PBX. This is the https interface."
+msgstr "Веб-интерфейс управления для вашей АТС. Это интерфейс https."
+
+#: Services.class.php:173
+msgid "WebRTC"
+msgstr "WebRTC"
+
+#: Services.class.php:175
+msgid ""
+"WebRTC is used by UCP (and other services) to enable calls to be made via a "
+"web browser."
+msgstr ""
+"WebRTC используется UCP (и другими службами) для того, чтобы звонки могли "
+"осуществляться через веб-браузер."
+
+#: Console/Firewall.class.php:98
+msgid "When adding or deleting from a zone, one or many IDs may be provided."
+msgstr ""
+"При добавлении или удалении из зоны могут быть предоставлены один или "
+"несколько ID."
+
+#: views/view.smart.php:25
+msgid ""
+"When this is enabled, any incoming VoIP connection attempts that would be "
+"otherwise rejected are <strong>not blocked</strong>, and instead allowed a "
+"<strong>very limited</strong> amount of registration attempts."
+msgstr ""
+"Когда включено - любые входящие попытки VoIP-соединения, которые в противном "
+"случае были бы отклонены <strong>не блокируются</strong>блокируются, а "
+"вместо этого допускают <strong>очень ограниченное</strong> количество "
+"попыток регистрации."
+
+#: Services.class.php:488
+msgid "XMPP"
+msgstr "XMPP"
+
+#: views/view.networks.php:5
+msgid ""
+"You can add individual hosts and networks to override the default permission "
+"for an interface."
+msgstr ""
+"Вы можете добавить отдельные хосты и сети, чтобы переопределить разрешение "
+"по умолчанию для интерфейса."
+
+#: Firewall.class.php:403
+msgid "You can add the host automatically here."
+msgstr "Вы можете добавить хост автоматически здесь."
+
+#: views/view.about.php:21
+msgid "You can enable Responsive Firewall in the 'Responsive Firewall' tab."
+msgstr ""
+"Вы можете включить ответственный брандмауэр во вкладке «Ответственный "
+"брандмауэр»."
+
+#: views/view.interfaces.php:109
+msgid "You can enter a short description for this interface here."
+msgstr "Вы можете ввести краткое описание этого интерфейса здесь."
+
+#: views/view.networks.php:89
+msgid "You can enter a short description for this network here."
+msgstr "Вы можете ввести краткое описание для этой сети здесь."
+
+#: OOBE.class.php:236
+msgid ""
+"You can verify these settings in Sip Settings after this wizard is complete. "
+"If you have a non-static IP address, you may need to use a DDNS provider "
+"which will require manual configuration."
+msgstr ""
+"Эти настройки можно проверить в Настройках SIP после завершения работы этого "
+"мастера. Если у вас есть не статический IP-адрес, возможно, потребуется "
+"использовать DDNS-провайдера, который потребует ручной конфигурации."
+
+#: views/view.networks.php:8
+msgid ""
+"You may also enter hostnames here (including Dynamic DNS hosts), which will "
+"be automatically monitored and updated."
+msgstr ""
+"Вы также можете ввести хост-имена здесь (в том числе динамические DNS "
+"хостов), которые будут автоматически контролироваться и обновляться."
+
+#: OOBE.class.php:235
+msgid ""
+"You should say 'Yes' to this, unless you have an extremely complex network "
+"with multiple external default gateways."
+msgstr ""
+"Вы должны сказать \"Да\" на это, если у вас чрезвычайно сложная сеть с "
+"несколькими внешними шлюзами по умолчанию."
+
+#: OOBE.class.php:127
+msgid ""
+"You would normally select <strong>Yes</strong> to this question. The only "
+"time you would pick No is if you are not using the client machine you will "
+"be using in the future to manage this system."
+msgstr ""
+"Обычно на этот вопрос выбирают <strong>Да</strong>. Единственный раз, когда "
+"вы выберете \"Нет\" - это если вы не используете клиентскую машину, которую "
+"будете использовать в будущем для управления этой системой."
+
+#: views/view.shortcuts.php:11
+msgid "Your Client"
+msgstr "Ваш клиент"
+
+#: views/page.advanced.php:26
+msgid "Zone Information"
+msgstr "Информация о зоне"
+
+#: Services.class.php:218
+msgid "Zulu UC"
+msgstr "Zulu UC"
+
+#: Services.class.php:221
+msgid ""
+"Zulu UC Desktop and softphone integration unifies the most popular business "
+"communication tools & applications enhancing user productivity and mobility. "
+"Zulu uses a token-based secure authentication method and is safe to expose "
+"to the public internet, as it rate limits (and then blocks) attackers. Note "
+"that rate limits are not applied to clients in the 'Trusted' or 'Internal' "
+"zones."
+msgstr ""
+"Интеграция настольных компьютеров и софтфонов Zulu UC объединяет самые "
+"популярные инструменты и приложения бизнес-коммуникации, повышая "
+"производительность и мобильность пользователей. Zulu использует безопасный "
+"метод аутентификации на основе токенов и безопасен для доступа в "
+"общедоступный Интернет, поскольку он ограничивает скорость (а затем "
+"блокирует) атакующих. Обратите внимание, что ограничения скорости не "
+"применяются к клиентам в \"Доверенных\" или \"Внутренних\" зонах."
+
+#: Services.class.php:236
+msgid "Zulu is not not available on this machine"
+msgstr "Zulu недоступен на этой машине"
+
+#: views/view.about.php:28
+msgid "automatically granted"
+msgstr "автоматически предоставляется"
+
+#: Services.class.php:632
+msgid "iSymphony is not installed on this server."
+msgstr "iSymphony не установлен на этом сервере."
+
+#: views/view.about.php:9
+msgid ""
+"is a fully integrated and tightly coupled firewall that constantly monitors "
+"the remote clients allowed to connect to this machine, and automatically "
+"allows access from valid hosts."
+msgstr ""
+"это полностью интегрированный и тесно связанный брандмауэр, который "
+"постоянно отслеживает удаленные клиенты, разрешенные для подключения к этой "
+"машине, и автоматически разрешает доступ с действительных хостов."

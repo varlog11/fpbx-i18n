@@ -5,7 +5,8 @@
   "FreePBX_13": {
     "Announcement": "100%",
     "Bulk_Handler": "100%",
-    "Framework": "100%"
+    "Framework": "100%",
+    "Firewall": "100%"
   },
   "FreePBX_14": {
     "Asterisk_REST_Interface_Users": "100%",
