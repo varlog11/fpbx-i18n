@@ -37,7 +37,8 @@
     "User_Control_Panel": "43%",
     "Queues": "72%",
     "User_Management": "60%",
-    "Voicemail": "45%"
+    "Voicemail": "45%",
+    "Wake_Up_Calls": "100%"
   },
   "FreePBX_15": {
     "Framework": "91%"
