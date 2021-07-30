@@ -10,12 +10,12 @@ msgstr ""
 "Project-Id-Version: Queues 14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-06 11:25+0530\n"
-"PO-Revision-Date: 2020-11-11 14:50+0500\n"
+"PO-Revision-Date: 2021-07-30 16:58+0500\n"
 "Language-Team: TranslAster\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.0\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -547,6 +547,14 @@ msgid ""
 "where the caller will not be admitted to the queue unless there is a queue "
 "member immediately available to take the call."
 msgstr ""
+"Если выбрано - очередь не будет отвечать на вызов. В большинстве случаев у "
+"вас всегда должна быть очередь, отвечающая на звонки. Если нет, то вполне "
+"возможно, что записи и MoH не будут услышаны ожидающими абонентами, "
+"поскольку возможности ранних early media различаются и несовместимы. В "
+"некоторых случаях может потребоваться не отвечать на вызов при использовании "
+"строгих политик присоединения к пустой очереди, когда вызывающий абонент не "
+"будет допущен в очередь, если нет агента очереди, доступного для принятия "
+"вызова."
 
 #: views/form.php:863
 msgid ""
@@ -554,6 +562,9 @@ msgid ""
 "since it first entered the queue or reset if the call is transferred to "
 "another queue with this feature set."
 msgstr ""
+"Если вызов впоследствии будет переведён - время ожидания будет отражать "
+"время с момента его первого входа в очередь или сброшено, если вызов будет "
+"переведён в другую очередь с этим набором функций."
 
 #: functions.inc/hook_core.php:65
 msgid ""
@@ -569,6 +580,20 @@ msgid ""
 "member as busy until the original call is terminated. In most cases, this "
 "SHOULD BE set to 'Use State'."
 msgstr ""
+"Если этот добавочный номер является частью очереди, то очередь попытается "
+"использовать состояние добавочного номера пользователя или информацию о "
+"состоянии устройства при определении того, следует ли вызывать этого "
+"участника очереди. В некоторых необычных ситуациях, таких как \"Следуйте-сюда"
+"\" без физического устройства или в некоторых сценариях виртуального номера, "
+"информация о состоянии будет указывать на то, что этот участник недоступен, "
+"когда он присутствует. Установка этого параметра в \"Игнорировать состояние"
+"\" приведет к тому, что очередь будет игнорировать всю информацию о "
+"состоянии, поэтому всегда пытается связаться с этим участником. Определенные "
+"побочные эффекты могут возникнуть при выборе этого маршрута из-за характера "
+"того, как очереди обрабатывают локальные каналы, например, последующие "
+"трансферы будут продолжать показывать участника как занятого до тех пор, "
+"пока исходный вызов не будет завершен. В большинстве случаев это ДОЛЖНО БЫТЬ "
+"установлено в \"Состояние использования\"."
 
 #: views/form.php:1051
 msgid ""
@@ -577,6 +602,10 @@ msgid ""
 "it will hold all calls while it tries to find an agent for the top call in "
 "the queue making other calls wait."
 msgstr ""
+"Если это включено и доступно несколько агентов - Asterisk отправит по вызову "
+"каждому ожидающему агенту (в зависимости от стратегии вызова). В противном "
+"случае - будет удерживать все вызовы, пока пытается найти агента для первого "
+"вызова в очереди, заставляя другие вызовы ждать."
 
 #: views/form.php:1378
 msgid ""
@@ -584,6 +613,10 @@ msgid ""
 "reset if a BUSY or CONGESTION is received. This can be useful if agents are "
 "able to cancel a call with reject or similar."
 msgstr ""
+"Если для перезапуска тайм-аута установлено значение да, то тайм-аут для "
+"ответа агента сбрасывается при получении сообщения о ЗАНЯТОСТИ или "
+"ПЕРЕГРУЗКЕ. Это может быть полезно, если агенты могут отменить вызов с "
+"помощью функции \"Отклонить\" или аналогичной функции."
 
 #: views/form.php:1456
 msgid ""
@@ -591,12 +624,17 @@ msgid ""
 "before the member hears any announcement messages), set this to the number "
 "of seconds to delay."
 msgstr ""
+"Если вы хотите иметь задержку до того, как агент подключится к абоненту (или "
+"до того, как агент услышит какие-либо сообщения с объявлениями), установите "
+"это значение на количество секунд для задержки."
 
 #: views/form.php:1486
 msgid ""
 "If you wish to report the caller's hold time to the member before they are "
 "connected to the caller, set this to yes."
 msgstr ""
+"Если вы хотите сообщать агенту о времени ожидания абонента до того, как он "
+"будет подключен к абоненту, установите это в значение да."
 
 #: functions.inc/hook_core.php:37
 msgid "Ignore State"
@@ -607,6 +645,8 @@ msgid ""
 "Incoming calls to agents can be recorded. If 'never' is selected, then in-"
 "call on demand recording is blocked."
 msgstr ""
+"Входящие звонки агентам могут быть записаны. Если выбрано \"никогда\", то "
+"запись по требованию во время вызова блокируется."
 
 #: views/form.php:183
 msgid "Join Announcement"
@@ -648,26 +688,28 @@ msgstr "Режим максимального времени ожидания"
 #: views/form.php:1627
 msgid "Maximum number of people waiting in the queue (0 for unlimited)"
 msgstr ""
+"Максимальное количество людей, ожидающих в очереди (0 для неограниченного "
+"количества)"
 
 #: views/form.php:1442
 msgid "Member Delay"
-msgstr ""
+msgstr "Задержка участника"
 
 #: views/form.php:651
 msgid "Member Status Event"
-msgstr ""
+msgstr "Событие состояния участника"
 
 #: queues.i18n.php:34
 msgid "Member Status Event Default"
-msgstr ""
+msgstr "Событие состояния участника по умолчанию"
 
 #: views/form.php:481 views/form.php:485
 msgid "Menu ID "
-msgstr ""
+msgstr "ID меню "
 
 #: views/form.php:1766
 msgid "Minimum Announcement Interval"
-msgstr ""
+msgstr "Минимальный интервал между объявлениями"
 
 #: views/form.php:312
 msgid "MoH Only"
@@ -688,6 +730,15 @@ msgid ""
 "any MoH Class selected as well as any configured periodic announcements. "
 "This music is defined in the \"Music on Hold\" Menu."
 msgstr ""
+"Музыка (MoH) воспроизводится абоненту, пока он стоит в очереди за доступным "
+"агентом. Выберите \"наследовать\", если вы хотите чтобы класс MoH был выбран "
+"в данный момент, например, по входящему маршруту. MoH будет воспроизводить "
+"музыку до тех пор, пока агент не ответит. Агентский звонок будет "
+"воспроизводиться до тех пор, пока телефон агента не получит вызов и не "
+"зазвонит. Если он не ответит - вернется MoH. Звонок только заставляет "
+"абонентов слышать звуковой сигнал вместо MoH, игнорируя любой выбранный "
+"класс, а также любые настроенные периодические объявления. Эта музыка "
+"определена в меню \"Музыка на удержании\"."
 
 #: views/form.php:291
 msgid "Music on Hold Class"
@@ -701,6 +752,8 @@ msgstr "Никогда"
 msgid ""
 "Never have a caller leave the Queue until the Max Wait Time has expired."
 msgstr ""
+"Никогда не позволять вызывающему абоненту покидать очередь до тех пор, пока "
+"не истечет Максимальное время ожидания."
 
 #: views/cron.php:28 views/cron.php:57 views/form.php:19 views/form.php:118
 #: views/form.php:394 views/form.php:404 views/form.php:627 views/form.php:659
@@ -714,7 +767,7 @@ msgstr "Нет"
 
 #: views/form.php:988
 msgid "No Follow-Me or Call Forward"
-msgstr ""
+msgstr "Нет Следуйте-сюда или Перенаправление вызова"
 
 #: views/form.php:369
 msgid "No Retry"
@@ -744,7 +797,7 @@ msgstr ""
 
 #: views/form.php:1707
 msgid "Penalty Members Limit"
-msgstr ""
+msgstr "Ограничение пенальти участников"
 
 #: views/form.php:1846
 msgid "Periodic Announcements"
@@ -752,7 +805,7 @@ msgstr "Периодические уведомления"
 
 #: queues.i18n.php:12
 msgid "Persistent Members"
-msgstr ""
+msgstr "Постоянные участники"
 
 #: install.php:29 queues.i18n.php:38
 msgid "Playback Queue Caller Count"
@@ -778,12 +831,12 @@ msgstr "Очередь"
 #: functions.inc/destination_registry.php:36
 #, php-format
 msgid "Queue %s : %s"
-msgstr ""
+msgstr "Очередь %s : %s"
 
 #: functions.inc/queue_conf.php:217
 #, php-format
 msgid "Queue - %s (%s): %s<br />"
-msgstr ""
+msgstr "Очередь - %s (%s): %s<br />"
 
 #: views/form.php:699
 msgid "Queue Agents"
@@ -852,7 +905,7 @@ msgstr "Очередь: %s"
 #: functions.inc/destination_registry.php:126
 #, php-format
 msgid "Queue: %s (%s)"
-msgstr ""
+msgstr "Осередь: %s (%s)"
 
 #: page.queues.php:7 queues.i18n.php:4 queues.i18n.php:10
 msgid "Queues"
@@ -1023,6 +1076,8 @@ msgid ""
 "Some ring strategies (linear, round robin) require Asterisk to be restarted "
 "for changes to take effect."
 msgstr ""
+"Некоторые стратегии вызова (линейная, запоминающая) требуют перезапуска "
+"Asterisk для применения изменений."
 
 #: views/form.php:1210
 msgid "Static Agents"
