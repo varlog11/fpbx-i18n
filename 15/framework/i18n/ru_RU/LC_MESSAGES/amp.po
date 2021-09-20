@@ -273,7 +273,7 @@ msgstr "%s уже существует"
 #: amp_conf/htdocs/admin/libraries/Console/Reload.class.php:638
 #, php-format
 msgid "%s already exists, and is not a symlink!"
-msgstr ""
+msgstr "%s уже существует, и не яаляется ссылкой!"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:423
 #, php-format
